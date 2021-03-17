@@ -1,11 +1,13 @@
 @itau
 Feature: login
 
-    Feature Description
+
     Scenario: Verificar que no se pueda iniciar sesión con un usuario no registrado
         Given Abro la pagina "itau"
         And Leo los datos de "itau"
-        And Hago click en "Iniciar sesion"
-        And Hago click en "usuario"
-        And Hago click en "contraseña"
-        Then Verifico que el campo "contraseña" contenga el texto "bla"
+        And Hago click en "Acceder"
+        And Lleno el campo "Usuario" con "lqaautomation@gmail.com"
+        And Lleno el campo "Contraseña" con "Prueba01."
+        And Hago clink en "NosoyRobot"
+        And Hago click en "IniciarSesion"
+        Then Verifico que el campo "MensajeError" contenga el texto "Error de autenticación."

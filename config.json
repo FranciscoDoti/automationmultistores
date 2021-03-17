@@ -1,13 +1,14 @@
 {
-    "mode": "local",
-    "env" : {
+    "mode": "server",
+    "env": {
         "itau": "dev",
         "supervielle": "dev"
-        
     },
     "serverUrl": "https://zalenium.aper.cloud/wd/hub",
-    "examples":{
-        "mode": ["local","server"]
+    "examples": {
+        "mode": [
+            "local",
+            "server"
+        ]
     }
-
 }
