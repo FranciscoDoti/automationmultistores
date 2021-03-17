@@ -1,14 +1,250 @@
 {
-    "Barra Buscar": {
+    "IniciaSesion": {
         "identificador": "xpath",
-        "valor": "//input[@title='Buscar']"
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]"
     },
-    "Buscar con Google": {
+    "Usuario": {
         "identificador": "xpath",
-        "valor": "//input[@title='Buscar con Google']"
+        "valor": "//input[@id='email']"
     },
-    "Sobre Google": {
+    "Contraseña": {
         "identificador": "xpath",
-        "valor" : "//a[.='Sobre Google]"
+        "valor": "//input[@id='passwd']"
+    },
+    "IniciarSesion": {
+        "identificador": "xpath",
+        "valor": "//body[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]"
+    },
+    "MensajeError": {
+        "identificador": "xpath",
+        "valor": "//p[contains(text(),'Error 1')]"
+    },
+    "Cuenta": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]/span[1]"
+    },
+    "MisDirecciones": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'Mis direcciones')]"
+    },
+    "AñadirDireccion": {
+        "identificador": "xpath",
+        "valor": "//body[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/a[1]/span[1]"
+    },
+    "ActualizarDireccion": {
+        "identificador": "xpath",
+        "valor": "//body[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[12]/a[1]/span[1]"
+    },
+    "Empresa": {
+        "identificador": "xpath",
+        "valor": "//input[@id='company']"
+    },
+    "Calle": {
+        "identificador": "xpath",
+        "valor": "//input[@id='street']"
+    },
+    "Nro": {
+        "identificador": "xpath",
+        "valor": "//input[@id='number']"
+    },
+    "Piso": {
+        "identificador": "xpath",
+        "valor": "//input[@id='floor']"
+    },
+    "Dpto": {
+        "identificador": "xpath",
+        "valor": "//input[@id='department_number']"
+    },
+    "CodigoPostal": {
+        "identificador": "xpath",
+        "valor": "//input[@id='postcode']"
+    },
+    "Ciudad": {
+        "identificador": "xpath",
+        "valor": "//input[@id='city']"
+    },
+    "TelefonoFijo": {
+        "identificador": "xpath",
+        "valor": "//input[@id='phone']"
+    },
+    "TelefonoMovil": {
+        "identificador": "xpath",
+        "valor": "//input[@id='phone_mobile']"
+    },
+    "Dni": {
+        "identificador": "xpath",
+        "valor": "//input[@id='dni']"
+    },
+    "Guardar": {
+        "identificador": "xpath",
+        "valor": "//body[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/form[1]/p[2]/button[1]/span[1]"
+    },
+    "Alias": {
+        "identificador": "xpath",
+        "valor": "//input[@id='alias']"
+    },
+    "CartelMisDirecciones": {
+        "identificador": "xpath",
+        "valor": "//h1[contains(text(),'Mis direcciones')]"
+    },
+    "DesplegableProvincia": {
+        "identificador": "xpath",
+        "valor": "//select[@id='id_state']"
+    },
+    "Chaco": {
+        "identificador": "xpath",
+        "valor": "//option[contains(text(),'Chaco')]"
+    },
+    "Categorias": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+    },
+    "Tecno": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/ul[1]/li[1]/a[1]"
+    },
+    "ProductoTecno": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[3]/div[2]/div[1]/div[2]/ul[1]/li[2]"
+    },
+    "AgregarAlCarrito": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'Agregar al carrito')]"
+    },
+    "AceptoCondiciones": {
+        "identificador": "xpath",
+        "valor": "//body[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/form[1]/div[1]/div[4]/p[1]/div[1]/span[1]"
+    },
+    "Comprar": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/form[1]/p[1]/button[1]"
+    },
+    "Cupon": {
+        "identificador": "xpath",
+        "valor": "//input[@id='discount_name']"
+    },
+    "ValidarCupon": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'Validar voucher')]"
+    },
+    "MensajeCuponInvalido": {
+        "identificador": "xpath",
+        "valor": "//p[@id='para']"
+    },
+    "MiCarrito": {
+        "identificador": "xpath",
+        "valor": "//span[@id='my_cart_text']"
+    },
+    "CantidadProductosEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/a[1]/span[1]"
+    },
+    "EliminarProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/dl[1]/dt[1]/span[1]/a[1]"
+    },
+    "FinalizarCompra": {
+        "identificador": "xpath",
+        "valor": "//button[@id='btn-select-cards-scp']"
+    },
+    "IngresarNuevaTarjeta": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'Ingresá una nueva tarjeta')]"
+    },
+    "Continuar": {
+        "identificador": "xpath",
+        "valor": "//button[contains(text(),'Continuar')]"
+    },
+    "NroTarjeta": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]/form[1]/div[1]/div[1]/div[1]/div[1]/span[1]/input[1]"
+    },
+    "NombreApellido": {
+        "identificador": "xpath",
+        "valor": "//input[@id='CardHolderNameDesktop']"
+    },
+    "Vencimiento": {
+        "identificador": "xpath",
+        "valor": "//input[@id='CardExpirationDateDesktop']"
+    },
+    "CodSeguridad": {
+        "identificador": "xpath",
+        "valor": "//input[@id='CardSecurityCodeDesktop']"
+    },
+    "NroDocumento": {
+        "identificador": "xpath",
+        "valor": "//input[@id='CardHolderDniDesktop']"
+    },
+    "Siguiente": {
+        "identificador": "xpath",
+        "valor": "//a[contains(text(),'Siguiente')]"
+    },
+    "UnaCuota": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]"
+    },
+    "Pagar": {
+        "identificador": "xpath",
+        "valor": "//button[@id='SubmitDesktop']"
+    },
+    "PagarDebito": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]/form[1]/div[1]/div[5]/div[1]/button[1]"
+    },
+    "EstadoDeCompra": {
+        "identificador": "xpath",
+        "valor": "//p[contains(text(),'Hemos detectado un error con su pago')]"
+    },
+    "ErrorTarjetaVencida": {
+        "identificador": "xpath",
+        "valor": "//p[contains(text(),'invalid_expiry_date')]"
+    },
+    "EstadoDeCompraExitosa": {
+        "identificador": "xpath",
+        "valor": "//h1[contains(text(),'¡Listo!')]"
+    },
+    "TresCuotas": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]/form[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/span[1]"
+    },
+    "SeisCuotas": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]/form[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/span[1]"
+    },
+    "NueveCuotas": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]/form[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/span[1]"
+    },
+    "TarjetaTokenizada": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"
+    },
+    "CodSeguridadTokenizado": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/span[1]/form[1]/span[1]/input[1]"
+    },
+    "PagarTokenizado": {
+        "identificador": "xpath",
+        "valor": "//button[contains(text(),'$')]"
+    },
+    "UnaCuotaTokenizado": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]"
+    },
+    "Buscar": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/form[1]/input[4]"
+    },
+    "Lupita": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/form[1]/button[1]"
+    },
+    "TarjetaDebitoTokenizada": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]"
+    },
+    "AhoraDoce": {
+        "identificador": "xpath",
+        "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/span[1]"
     }
 }

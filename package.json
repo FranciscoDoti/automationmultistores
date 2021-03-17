@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js -f json:reports/cucumber_report.json",
-    "generarReporte" : "node reportGenerator"
+    "test": "cucumber-js -f json:reports/cucumber_report.json --retry ",
+    "generarReporte": "node reportGenerator"
   },
   "author": "",
   "license": "ISC",
