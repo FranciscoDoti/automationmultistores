@@ -136,6 +136,15 @@ async function clickElement(json, element) {
 }
 
 
+async function clickElementWithExecutor(json, element) {
+
+    var webElement = buscarElemento(json, element);
+    await driver.sleep(3500);
+    await driver.executeScript('arguments[0].click()', webElement);
+    await driver.sleep(3500);
+}
+
+
 async function llenarCampo(json, element, texto) {
 
 

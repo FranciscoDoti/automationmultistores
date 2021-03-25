@@ -4,6 +4,7 @@ const { assert } = require('chai');
 const { log } = require(`${process.cwd()}/logger`);
 const urls = require(`${process.cwd()}/urls.json`);
 require(`${process.cwd()}/features/support/functions.js`);
+const { Actions } = require('selenium-webdriver');
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
@@ -31,6 +32,17 @@ Given(/^Leo los datos de "(.*)"$/, async function (json) {
 
 When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
+});
+
+When(/^Hago click en "(.*) con Executor"$/, async function (elementKey) {
+    await clickElementWithExecutor(this.page, elementKey);
+});
+
+
+When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
+    var webElement = await buscarElemento(this.page, elementKey);
+    await this.driver.actions({ bridge: true }).move({ x: 0, y: 0, origin: webElement }).perform();
+    await this.driver.sleep(5000);
 });
 
 When(/^Lleno el campo "(.*)" con "(.*)"$/, async function (elementKey, texto) {
