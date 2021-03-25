@@ -4,7 +4,7 @@ const { assert } = require('chai');
 const { By, Key, until } = require('selenium-webdriver');
 const { ExceptionHandler, exceptions } = require('winston');
 const { log } = require(`${process.cwd()}/logger`);
-const cantReintentos = 10;
+const cantReintentos = 5;
 
 async function buscarElemento(json, element) {
     var elementoEncontrado = false;
