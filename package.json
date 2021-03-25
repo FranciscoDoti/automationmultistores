@@ -12,6 +12,7 @@
     "supervielleCupones": "cucumber-js features/tests/supervielle/cupones.feature -f json:reports/cucumber_report.json --retry 3",
     "supervielleDireccion": "cucumber-js features/tests/supervielle/direccion.feature -f json:reports/cucumber_report.json --retry 3",
     "supervielleLogin": "cucumber-js features/tests/supervielle/direccion.feature -f json:reports/cucumber_report.json --retry 3",
+    "itauComprasCredito": "cucumber-js features/tests/itau/comprasCredito.feature -f json:reports/cucumber_report.json --retry 3",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
