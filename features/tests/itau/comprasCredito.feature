@@ -10,13 +10,13 @@ Feature: comprasCredito
         #And Hago click en "NosoyRobot"
         And Hago click en "IniciarSesion"
         And Paso el mouse por encima de "Categorias"
-        And Hago click en "Tecnologia"
-        And Hago click en "AgregarAlCarrito"
-        And Hago click en "Comprar"
-        And Hago click en "Continuar"
-        And Hago click en "ContinuarMetodoEnvio"
-        And Hago click en "AceptoTerminosYCondiciones"
-        And Hago click en "SinRegistroTarjeta"
+        And Hago click en "Tecnologia" con Executor
+        And Hago click en "AgregarAlCarrito" con Executor
+        And Hago click en "Comprar" con Executor
+        And Hago click en "Continuar" con Executor
+        And Hago click en "ContinuarMetodoEnvio" con Executor
+        And Hago click en "AceptoTerminosYCondiciones" con Executor
+        And Hago click en "SinRegistroTarjeta" con Executor
         And Lleno los siguientes campos
             | NroTarjeta  | 5418630110000014 |
             | Vencimiento | 0821             |

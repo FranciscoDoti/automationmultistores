@@ -34,6 +34,11 @@ When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
 });
 
+When(/^Hago click en "(.*) con Executor"$/, async function (elementKey) {
+    await clickElementWithExecutor(this.page, elementKey);
+});
+
+
 When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
     var webElement = await buscarElemento(this.page, elementKey);
     await this.driver.actions({ bridge: true }).move({ x: 0, y: 0, origin: webElement }).perform();
