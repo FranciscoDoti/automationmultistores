@@ -1,6 +1,6 @@
 Feature: comprasCredito
 
-
+    @PRUEBA
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         Given Abro la pagina "itau"
         And Leo los datos de "itau"
@@ -14,7 +14,7 @@ Feature: comprasCredito
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Comprar"
         And Hago click en "Continuar"
-        And Hago click en "Continuar"
+        And Hago click en "ContinuarMetodoEnvio"
         And Hago click en "AceptoTerminosYCondiciones"
         And Hago click en "SinRegistroTarjeta"
         And Lleno los siguientes campos

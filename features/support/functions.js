@@ -4,7 +4,7 @@ const { assert } = require('chai');
 const { By, Key, until } = require('selenium-webdriver');
 const { ExceptionHandler, exceptions } = require('winston');
 const { log } = require(`${process.cwd()}/logger`);
-const cantReintentos = 10;
+const cantReintentos = 5;
 
 async function buscarElemento(json, element) {
     var elementoEncontrado = false;
@@ -90,47 +90,38 @@ async function obtenerTexto(json, element) {
 
 async function clickElement(json, element) {
 
-    var elementoEncontrado = false;
+    var elementoClickeado = false;
     var nroReintento = 1;
     var errorTrace;
 
-    while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
 
-        try {
-            await log.info('Localizando elemento: ' + element);
-            var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 10000, 10000, 10000);
-            await driver.sleep(4000);
-            await webElement.click();
-            await log.info('Se hizo click en el elemento ' + element);
-            elementoEncontrado = true;
+    var webElement = await buscarElemento(json, element);
+    if (webElement != 'ELEMENT_NOT_FOUND') {
 
-        } catch (error) {
-            errorTrace = error;
-            if (error.name === 'TimeoutError') {
-                await log.error('No se pudo localizar al elemento ' + element);
+        while ((!elementoClickeado) && (nroReintento <= cantReintentos)) {
+
+            try {
+                await driver.sleep(4000);
+                await webElement.click();
+                await log.info('Se hizo click en el elemento ' + element);
+                elementoClickeado = true;
+            } catch (error) {
+                await log.info('no se pudo hacer click en el elemento. Reintentando...');
                 await log.info('Número de intento ' + nroReintento);
-            } else {
-                await log.error(error);
+                nroReintento++;
             }
 
-            nroReintento++;
         }
 
-    }
-    if (!elementoEncontrado) {
-        switch (errorTrace.name) {
-            case 'TimeoutError':
-                await assert.fail(' no se pudo localizar al elemento ' + element + '. Error: ' + errorTrace +
-                    '. REVISAR EL LOCATOR'
-                );
-                break;
-
-            default:
-                await driver.executeScript('arguments[0].click();', webElement);
-                // await assert.fail('No se pudo hacer click al elemento ' + element + '. Error: ' + errorTrace);
-                break;
+        if (!elementoClickeado) {
+            try {
+                await driver.executeScript('arguments[0].click()', webElement);
+            } catch (error) {
+                await assert.fail('no se pudo hacer click en el el elemento.');
+            }
         }
-
+    } else {
+        await assert.fail('No se pudo localizar el elemento ' + element);
     }
 
 
