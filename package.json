@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js -f json:reports/cucumber_report.json --retry ",
+    "test": "cucumber-js -f json:reports/cucumber_report.json --retry 3",
+    "supervielle": "cucumber-js features/tests/supervielle -f json:reports/cucumber_report.json --retry 3",
+    "supervielleCarrito": "cucumber-js features/tests/supervielle/carrito.feature -f json:reports/cucumber_report.json --retry 3",
+    "supervielleComprasCredito": "cucumber-js features/tests/supervielle/comprasCredito.feature -f json:reports/cucumber_report.json --retry 3",
+    "supervielleComprasDebito": "cucumber-js features/tests/supervielle/comprasDebito.feature -f json:reports/cucumber_report.json --retry 3",
+    "supervielleCupones": "cucumber-js features/tests/supervielle/cupones.feature -f json:reports/cucumber_report.json --retry 3",
+    "supervielleDireccion": "cucumber-js features/tests/supervielle/direccion.feature -f json:reports/cucumber_report.json --retry 3",
+    "supervielleLogin": "cucumber-js features/tests/supervielle/direccion.feature -f json:reports/cucumber_report.json --retry 3",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
