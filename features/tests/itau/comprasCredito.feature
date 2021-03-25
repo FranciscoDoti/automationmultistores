@@ -30,21 +30,20 @@ Feature: comprasCredito
         And Hago click en "Acceder"
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "Prueba01."
-        And Hago click en "NosoyRobot"
+        #And Hago click en "NosoyRobot"
         And Hago click en "IniciarSesion"
-        And Hago click en "Categorias"
-        And Hago click en "Tecnologia"
-        And Hago click en "AgregarAlCarrito"
-        And Hago click en "Comprar"
-        And Hago click en "Continuar"
-        And Hago click en "Continuar"
-        And Hago click en "AceptoTerminosYCondiciones"
-        And Hago click en "SinRegistroTarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta  | AAAAAA |
-            | Vencimiento | 0821   |
-            | Codigo      | 258    |
-        And Hago click en "Pagar"
+        And Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia" con Executor
+        And Hago click en "AgregarAlCarrito" con Executor
+        And Hago click en "Comprar" con Executor
+        And Hago click en "Continuar" con Executor
+        And Hago click en "ContinuarMetodoEnvio" con Executor
+        And Hago click en "AceptoTerminosYCondiciones" con Executor
+        And Hago click en "SinRegistroTarjeta" con Executor
+        And Cargo la siguiente informacion de la tarjeta
+            | NroTarjeta       | FechaVencimiento | Codigo |
+            | 5418630110000014 | 0821             | 258    |
+        And Hago click en "Pagar" con Executor
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Número de tarjeta inválido"
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo tarjeta aparezca un cartel de error
@@ -53,21 +52,20 @@ Feature: comprasCredito
         And Hago click en "Acceder"
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "Prueba01."
-        And Hago click en "NosoyRobot"
+        #And Hago click en "NosoyRobot"
         And Hago click en "IniciarSesion"
-        And Hago click en "Categorias"
-        And Hago click en "Tecnologia"
-        And Hago click en "AgregarAlCarrito"
-        And Hago click en "Comprar"
-        And Hago click en "Continuar"
-        And Hago click en "Continuar"
-        And Hago click en "AceptoTerminosYCondiciones"
-        And Hago click en "SinRegistroTarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta  | #####$% |
-            | Vencimiento | 0821    |
-            | Codigo      | 258     |
-        And Hago click en "Pagar"
+        And Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia" con Executor
+        And Hago click en "AgregarAlCarrito" con Executor
+        And Hago click en "Comprar" con Executor
+        And Hago click en "Continuar" con Executor
+        And Hago click en "ContinuarMetodoEnvio" con Executor
+        And Hago click en "AceptoTerminosYCondiciones" con Executor
+        And Hago click en "SinRegistroTarjeta" con Executor
+        And Cargo la siguiente informacion de la tarjeta
+            | NroTarjeta | FechaVencimiento | Codigo |
+            | %&$!"·"    | 0821             | 258    |
+        And Hago click en "Pagar" con Executor
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Número de tarjeta inválido"
 
     Scenario: Verificar que al apretar el botón pagar habiendo dejado el campo tarjeta vacio aparezca un cartel de error
@@ -76,21 +74,20 @@ Feature: comprasCredito
         And Hago click en "Acceder"
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "Prueba01."
-        And Hago click en "NosoyRobot"
+        #And Hago click en "NosoyRobot"
         And Hago click en "IniciarSesion"
-        And Hago click en "Categorias"
-        And Hago click en "Tecnologia"
-        And Hago click en "AgregarAlCarrito"
-        And Hago click en "Comprar"
-        And Hago click en "Continuar"
-        And Hago click en "Continuar"
-        And Hago click en "AceptoTerminosYCondiciones"
-        And Hago click en "SinRegistroTarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta  |      |
-            | Vencimiento | 0821 |
-            | Codigo      | 258  |
-        And Hago click en "Pagar"
+        And Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia" con Executor
+        And Hago click en "AgregarAlCarrito" con Executor
+        And Hago click en "Comprar" con Executor
+        And Hago click en "Continuar" con Executor
+        And Hago click en "ContinuarMetodoEnvio" con Executor
+        And Hago click en "AceptoTerminosYCondiciones" con Executor
+        And Hago click en "SinRegistroTarjeta" con Executor
+        And Cargo la siguiente informacion de la tarjeta
+            | NroTarjeta | FechaVencimiento | Codigo |
+            |            | 0821             | 258    |
+        And Hago click en "Pagar" con Executor
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Número de tarjeta inválido"
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 16 números en el campo tarjeta aparezca un cartel de error
