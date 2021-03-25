@@ -1,5 +1,6 @@
 const { Given, When, Then } = require('cucumber');
-const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento } = require('../support/functions');
+const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento, clickElementWithExecutor,
+    llenarCampoConExecutor} = require('../support/functions');
 const { assert } = require('chai');
 const { log } = require(`${process.cwd()}/logger`);
 const urls = require(`${process.cwd()}/urls.json`);
@@ -12,7 +13,7 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
         await this.driver.get(urls[this.env[web]][web]);
         await log.info('Ejecutando la prueba en el ambiente: ' + this.env[web]);
         await log.info('abriendo la pagina: ' + urls[this.env[web]][web]);
-        await this.driver.sleep(10000);
+       //await this.driver.sleep(10000);
 
     } catch (error) {
         if (error.message.includes("ERR_CONNECTION_TIMED_OUT")) {
@@ -35,7 +36,7 @@ When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
 });
 
-When(/^Hago click en "(.*) con Executor"$/, async function (elementKey) {
+When(/^Hago click en "(.*)" con Executor$/, async function (elementKey) {
     await clickElementWithExecutor(this.page, elementKey);
 });
 
@@ -58,6 +59,21 @@ When('Lleno los siguientes campos', async function (datatable) {
         } else {
             var random = Math.random().toString().slice(2, 4);
             await llenarCampo(this.page, datatable.rawTable[i][0], random);
+        }
+    }
+
+
+});
+
+
+When('Lleno los siguientes campos con Executor', async function (datatable) {
+
+    for (var i = 0; i < datatable.rawTable.length; i++) {
+        if (datatable.rawTable[i][1] != 'RANDOM') {
+            await llenarCampoConExecutor(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);
+        } else {
+            var random = Math.random().toString().slice(2, 4);
+            await llenarCampoConExecutor(this.page, datatable.rawTable[i][0], random);
         }
     }
 

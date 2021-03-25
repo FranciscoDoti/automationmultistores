@@ -1,5 +1,6 @@
 Feature: carrito
 
+
     Scenario: Verificar que al seleccionar un producto se agregue al carrito
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"

@@ -145,7 +145,7 @@
     },
     "Pagar": {
         "identificador": "xpath",
-        "valor": "/html/body/div/div/div[2]/form/div[8]/div/button"
+        "valor": "//button[@class='subscribe btn btn-success btn-lg btn-block js-checkout-button js-iframe-button button-customization']"
     },
     "NroTarjeta": {
         "identificador": "xpath",
@@ -170,5 +170,9 @@
     "VencimientoInvalido": {
         "identificador": "xpath",
         "valor": ""
+    },
+    "CartelCompraExitosa": {
+        "identificador": "xpath",
+        "valor": "//div[contains(@class, 'order_confirmation_card')]/h4"
     }
 }
