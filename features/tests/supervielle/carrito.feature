@@ -1,6 +1,5 @@
 Feature: carrito
 
-
     Scenario: Verificar que al seleccionar un producto se agregue al carrito
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
@@ -15,7 +14,7 @@ Feature: carrito
         And Hago click en "MiCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
-
+    @PRUEBA
     Scenario:  Verificar que se pueda eliminar un producto del carrito
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"

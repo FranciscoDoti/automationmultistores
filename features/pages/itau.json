@@ -1,14 +1,170 @@
 {
-    "Primera": {
+    "CantidadProductosEnCarrito": {
         "identificador": "xpath",
-        "valor": "//a[.='Primera']"
+        "valor": "//header/nav[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/a[1]/span[3]"
     },
-    "Fecha 13": {
+    "Acceder": {
         "identificador": "xpath",
-        "valor": "//div[contains(text(),'13')]"
+        "valor": "//span[contains(text(),'Acceder')]"
     },
-    "Flecha adelante": {
+    "Usuario": {
         "identificador": "xpath",
-        "valor": "//div[@id='flechaad']"
+        "valor": "//input[contains (@id, 'f-email')]"
+    },
+    "Contraseña": {
+        "identificador": "xpath",
+        "valor": "//input[contains (@id, 'f-password')]"
+    },
+    "NosoyRobot": {
+        "identificador": "xpath",
+        "valor": "//div[@class='recaptcha-checkbox-border']"
+    },
+    "IniciarSesion": {
+        "identificador": "xpath",
+        "valor": "//button[contains (@id, '-login')]"
+    },
+    "Categorias": {
+        "identificador": "xpath",
+        "valor": "//span[contains(., 'categorías de productos')]"
+    },
+    "Tecnologia": {
+        "identificador": "xpath",
+        "valor": "//span[@class='vsm--title']//a[contains(., 'tecnología')]"
+    },
+    "ProductoTecno": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/button[1]"
+    },
+    "AgregarAlCarrito": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[2]/section[1]/section[1]/div[3]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/button[1]"
+    },
+    "MensajeError": {
+        "identificador": "xpath",
+        "valor": "//li[contains(text(),'Error de autenticación.')]"
+    },
+    "EliminarProducto": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/a[1]/i[1]"
+    },
+    "Direcciones": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[1]/section[1]/section[1]/div[1]/a[2]/span[1]"
+    },
+    "AñadirNuevaDireccion": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[1]/section[1]/section[1]/div[2]/a[1]"
+    },
+    "Nombre": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-firstname')]"
+    },
+    "Apellido": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-lastname')]"
+    },
+    "Calle": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-street')]"
+    },
+    "Numero": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-number')]"
+    },
+    "Piso": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id, 'f-floor')]"
+    },
+    "Departamento": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-department_number')]"
+    },
+    "Ruc": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-vat_number')]"
+    },
+    "CedulaIdentidad": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-dni')]"
+    },
+    "Telefono": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'f-phone')]"
+    },
+    "Pais": {
+        "identificador": "xpath",
+        "valor": "//select[contains(@id,'f-id_country')]"
+    },
+    "Paraguay": {
+        "identificador": "xpath",
+        "valor": "//option[contains(text(),'Paraguay')]"
+    },
+    "Ciudad": {
+        "identificador": "xpath",
+        "valor": "//select[contains(@id,'f-city')]"
+    },
+    "Cedrales": {
+        "identificador": "xpath",
+        "valor": "//option[contains(text(),'Cedrales - Alto Paraná')]"
+    },
+    "Guardar": {
+        "identificador": "xpath",
+        "valor": "//button[contains(text(),'Guardar')]"
+    },
+    "MensajeDeExitoDireccionAgregada": {
+        "identificador": "xpath",
+        "valor": "//li[contains(text(),'¡Dirección añadida correctamente!')]"
+    },
+    "ActualizarDireccion": {
+        "identificador": "xpath",
+        "valor": "//body[1]/main[1]/section[1]/div[1]/div[1]/section[1]/section[1]/div[1]/div[1]/article[1]/div[2]/a[1]/span[1]"
+    },
+    "MensajeDeExitoDireccionActualizada": {
+        "identificador": "xpath",
+        "valor": "//li[contains(text(),'¡Dirección actualizada correctamente!')]"
+    },
+    "Comprar": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/div[1]/a[1]"
+    },
+    "Continuar": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/section[2]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]"
+    },
+    "AceptoTerminosYCondiciones": {
+        "identificador": "xpath",
+        "valor": "//body/main[@id='main-vue']/section[@id='wrapper']/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/section[4]/div[2]/div[1]/form[1]/div[1]/label[1]"
+    },
+    "SinRegistroTarjeta": {
+        "identificador": "xpath",
+        "valor": "//label[contains(text(),'Sin registro de tarjeta de crédito')]"
+    },
+    "Pagar": {
+        "identificador": "xpath",
+        "valor": "/html/body/div/div/div[2]/form/div[8]/div/button"
+    },
+    "NroTarjeta": {
+        "identificador": "xpath",
+        "valor": "//input[@id='cardNumber']"
+    },
+    "Vencimiento": {
+        "identificador": "xpath",
+        "valor": "//input[@id='cardExpiry']"
+    },
+    "Codigo": {
+        "identificador": "xpath",
+        "valor": "//input[@id='cardCVC']"
+    },
+    "ErrorNumTarjeta": {
+        "identificador": "xpath",
+        "valor": "//*[@id='payment-form']/div[2]/div[1]/div/div/span[1]"
+    },
+    "TarjetaInvalida": {
+        "identificador": "xpath",
+        "valor": "//*[@id='payment-form']/div[1]/div/div/span"
+    },
+    "VencimientoInvalido": {
+        "identificador": "xpath",
+        "valor": ""
     }
 }

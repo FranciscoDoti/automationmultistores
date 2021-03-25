@@ -704,6 +704,7 @@ Feature: comprasCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
+
     Scenario: Realizar una compra con tarjeta de credito en x cuotas sin interes TOKENIZADA
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"

@@ -126,7 +126,8 @@ async function clickElement(json, element) {
                 break;
 
             default:
-                await assert.fail('No se pudo hacer click al elemento ' + element + '. Error: ' + errorTrace);
+                await driver.executeScript('arguments[0].click();', webElement);
+                // await assert.fail('No se pudo hacer click al elemento ' + element + '. Error: ' + errorTrace);
                 break;
         }
 
