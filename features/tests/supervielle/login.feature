@@ -1,7 +1,7 @@
 @supervielle
 Feature: login
 
-
+    @noLoguea
     Scenario: Verificar que no se pueda iniciar sesión con un usuario no registrado
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"

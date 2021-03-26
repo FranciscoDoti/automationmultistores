@@ -12,7 +12,7 @@ Before ( async function(scenario) {
 
 })
 
-After({tags: '@supervielle'}, async function () {
+After({tags: '@supervielle and not @noLoguea'}, async function () {
 
   await log.info('Comenzando cerrado de sesion de supervielle');
   await driver.sleep(5000);
