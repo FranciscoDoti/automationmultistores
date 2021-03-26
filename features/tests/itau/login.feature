@@ -1,5 +1,7 @@
+@itau
 Feature: login
 
+    @noLoguea
     Scenario: Verificar que no se pueda iniciar sesión con un usuario no registrado
         Given Abro la pagina "itau"
         And Leo los datos de "itau"

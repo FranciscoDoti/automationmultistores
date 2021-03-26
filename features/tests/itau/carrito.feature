@@ -1,3 +1,4 @@
+@itau
 Feature: carrito
 
     Scenario: Verificar que al seleccionar un producto se agregue al carrito

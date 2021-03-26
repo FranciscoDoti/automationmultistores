@@ -22,7 +22,19 @@ After({tags: '@supervielle and not @noLoguea'}, async function () {
   await driver.sleep(5000);
 
 })
+After({tags: '@itau and not @noLoguea'}, async function () {
 
+  await log.info('Comenzando cerrado de sesion de supervielle');
+  await driver.sleep(5000);
+  var miCuenta= await driver.findElement(By.xpath('//span[contains(text(),"Mi cuenta")]'));
+  await miCuenta.click();
+  await driver.sleep(4000);
+  var salir= await driver.findElement(By.xpath('//header/nav[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]/a[4]'));
+  await salir.click();
+  await log.info('Se ha clickeado en el elemento Cerrar sesión');
+  await driver.sleep(5000);
+
+})
 After ( async function (scenario) {
   if (scenario.result.status ==='failed'){
     await log.error ("Resultado del escenario: " + scenario.result.status)
