@@ -11,7 +11,7 @@
     "supervielleComprasDebito": "cucumber-js features/tests/supervielle/comprasDebito.feature -f json:reports/cucumber_report.json",
     "supervielleCupones": "cucumber-js features/tests/supervielle/cupones.feature -f json:reports/cucumber_report.json",
     "supervielleDireccion": "cucumber-js features/tests/supervielle/direccion.feature -f json:reports/cucumber_report.json",
-    "supervielleLogin": "cucumber-js features/tests/supervielle/direccion.feature -f json:reports/cucumber_report.json",
+    "supervielleLogin": "cucumber-js features/tests/supervielle/login.feature -f json:reports/cucumber_report.json",
     "itauComprasCredito": "cucumber-js features/tests/itau/comprasCredito.feature -f json:reports/cucumber_report.json",
     "itauCarrito": "cucumber-js features/tests/itau/carrito.feature -f json:reports/cucumber_report.json",
     "itauDireccion": "cucumber-js features/tests/itau/direccion.feature -f json:reports/cucumber_report.json",
