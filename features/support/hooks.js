@@ -2,6 +2,7 @@ const { BeforeAll, Before, After, AfterAll } = require('cucumber');
 const { log } = require(`${process.cwd()}/logger`);
 const config = require(`${process.cwd()}/config.json`);
 const { getDriver } = require(`${process.cwd()}/driver.js`);
+const { By, Key, until } = require('selenium-webdriver');
 var driver = getDriver();
 
 Before ( async function(scenario) {
@@ -11,6 +12,16 @@ Before ( async function(scenario) {
 
 })
 
+After({tags: '@supervielle'}, async function () {
+
+  await log.info('Comenzando cerrado de sesion de supervielle');
+  await driver.sleep(5000);
+  var elementCerrarSesion= await driver.findElement(By.xpath('//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[2]/a[1]'));
+  await elementCerrarSesion.click();
+  await log.info('Se ha clickeado en el elemento Cerrar sesión');
+  await driver.sleep(5000);
+
+})
 
 After ( async function (scenario) {
   if (scenario.result.status ==='failed'){
