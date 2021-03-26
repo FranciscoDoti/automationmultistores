@@ -1,6 +1,6 @@
 Feature: comprasCredito
 
-    @PRUEBA
+    
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         Given Abro la pagina "itau"
         And Leo los datos de "itau"
