@@ -6,7 +6,6 @@ Feature: login
         And Hago click en "Acceder"
         And Lleno el campo "Usuario" con "lqaautomation@gmail.com"
         And Lleno el campo "Contraseña" con "Prueba01."
-        And Hago click en "NosoyRobot"
         And Hago click en "IniciarSesion"
         Then Verifico que el campo "MensajeError" contenga el texto "Error de autenticación."
 
