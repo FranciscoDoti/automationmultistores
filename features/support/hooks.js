@@ -24,7 +24,7 @@ After({tags: '@supervielle and not @noLoguea'}, async function () {
 })
 After({tags: '@itau and not @noLoguea'}, async function () {
 
-  await log.info('Comenzando cerrado de sesion de supervielle');
+  await log.info('Comenzando cerrado de sesion de ITAU');
   await driver.sleep(5000);
   var miCuenta= await driver.findElement(By.xpath('//span[contains(text(),"Mi cuenta")]'));
   await miCuenta.click();
