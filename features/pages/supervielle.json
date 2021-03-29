@@ -246,5 +246,9 @@
     "AhoraDoce": {
         "identificador": "xpath",
         "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/div[1]/span[1]"
+    },
+    "CartelCarritoVacio": {
+        "identificador": "xpath",
+        "valor": "//p[@class='alert alert-warning']"
     }
 }

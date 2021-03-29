@@ -1,7 +1,7 @@
 {
     "CantidadProductosEnCarrito": {
         "identificador": "xpath",
-        "valor": "//header/nav[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[1]/a[1]/span[3]"
+        "valor": "//span[contains (@class,  'cart-products')]"
     },
     "Acceder": {
         "identificador": "xpath",
@@ -174,5 +174,9 @@
     "CartelCompraExitosa": {
         "identificador": "xpath",
         "valor": "//div[contains(@class, 'order_confirmation_card')]/h4"
+    },
+    "CartelCarritoVacio": {
+        "identificador": "xpath",
+        "valor": "//span[@class='no-items']"
     }
 }

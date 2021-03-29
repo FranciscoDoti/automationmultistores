@@ -16,6 +16,7 @@ Feature: carrito
         And Hago click en "MiCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
+
     Scenario:  Verificar que se pueda eliminar un producto del carrito
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
@@ -29,7 +30,7 @@ Feature: carrito
         And Hago click en "AgregarAlCarrito"
         And Hago click en "MiCarrito"
         And Hago click en "EliminarProductoCarrito"
-        Then Verifico que el elemento "CantidadProductosEnCarrito" no exista
+        Then Verifico que el campo "CartelCarritoVacio" contenga el texto "Su carrito está vacío."
 
 
 

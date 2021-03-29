@@ -1,7 +1,6 @@
 @itau
 Feature: comprasCredito
 
-
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         Given Abro la pagina "itau"
         And Leo los datos de "itau"
@@ -21,7 +20,7 @@ Feature: comprasCredito
             | NroTarjeta       | FechaVencimiento | Codigo |
             | 5418630110000014 | 0821             | 258    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "CartelCompraExitosa" contenga el texto "Hemos procesado el pago y se te ha enviado un correo"
+        Then Verifico que el campo "CartelCompraExitosa" contenga el texto "¡Felicitaciones! tu pedido está confirmado"
 
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado letras en el campo tarjeta aparezca un cartel de error
