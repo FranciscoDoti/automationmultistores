@@ -147,8 +147,12 @@ async function clickElementWithExecutor(json, element) {
 
 async function llenarCampoConExecutor(json, element,texto) {
 
-    var webElement = buscarElemento(json, element);
+    var webElement = await buscarElemento(json, element);
     await driver.sleep(3500);
+    await driver.executeScript('arguments[0].click()', webElement);
+    await driver.sleep(1000);
+    await webElement.clear();
+    await webElement.sendKeys(texto);
     await driver.executeScript("arguments[0].value='"+texto+"';",webElement);
     await log.info('Se lleno el campo '+ element +' usando la modalidad del executeScript');
     await driver.sleep(3500);
@@ -168,6 +172,7 @@ async function llenarCampo(json, element, texto) {
             await log.info('Localizando elemento: ' + element);
             var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 10000, 10000, 10000);
             await driver.sleep(4000);
+            await webElement.clear();
             await webElement.sendKeys(texto);
             await log.info('Se escribió el texto ' + texto + ' en el elemento ' + element);
             elementoEncontrado = true;
