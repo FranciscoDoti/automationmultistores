@@ -301,7 +301,7 @@ Feature: comprasCredito
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         Then Verifico que el elemento "Siguiente" este deshabilitado
-    @PRUEBA
+
     Scenario:Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso caracteres especiales
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
