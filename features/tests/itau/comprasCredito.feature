@@ -42,7 +42,7 @@ Feature: comprasCredito
             | NroTarjeta | FechaVencimiento | Codigo |
             | AAAAAAAAA  | 0821             | 258    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Número de tarjeta inválido"
+        Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo tarjeta aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -63,7 +63,7 @@ Feature: comprasCredito
             | NroTarjeta | FechaVencimiento | Codigo |
             | %&$!"·"    | 0821             | 258    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Número de tarjeta inválido"
+        Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
     Scenario: Verificar que al apretar el botón pagar habiendo dejado el campo tarjeta vacio aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -84,7 +84,7 @@ Feature: comprasCredito
             | NroTarjeta | FechaVencimiento | Codigo |
             |            | 0821             | 258    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Número de tarjeta inválido"
+        Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 16 números en el campo tarjeta aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -106,7 +106,7 @@ Feature: comprasCredito
             | NroTarjeta  | FechaVencimiento | Codigo |
             | 54186301100 | 0821             | 258    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "TarjetaInvalida" contenga el texto "La tarjeta ingresada es inválida. Favor, verificar los datos ingresados e intenta nuevamente."
+        Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 4 números en el campo venc. aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -190,7 +190,7 @@ Feature: comprasCredito
             | NroTarjeta       | FechaVencimiento | Codigo |
             | 5418630110000014 | 0821             | AAA    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "TarjetaInvalida" contenga el texto "La tarjeta ingresada es inválida. Favor, verificar los datos ingresados e intenta nuevamente."
+        Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 
     Scenario: Verificar que al ingresar menos de 3 caracteres en el campo cod seguridad aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -211,7 +211,7 @@ Feature: comprasCredito
             | NroTarjeta       | FechaVencimiento | Codigo |
             | 5418630110000014 | 0821             | 25     |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "TarjetaInvalida" contenga el texto "La tarjeta ingresada es inválida. Favor, verificar los datos ingresados e intenta nuevamente."
+        Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid."
 
     Scenario: Verificar que al dejar el campo codigo seguridad vacio me aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -232,7 +232,7 @@ Feature: comprasCredito
             | NroTarjeta       | FechaVencimiento | Codigo |
             | 5418630110000014 | 0821             |        |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "TarjetaInvalida" contenga el texto "La tarjeta ingresada es inválida. Favor, verificar los datos ingresados e intenta nuevamente."
+        Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid."
 
     Scenario: Verificar que al ingresar caracteres especiales en el campo cod seguridad aparezca un cartel de error
         Given Abro la pagina "itau"
@@ -253,5 +253,5 @@ Feature: comprasCredito
             | NroTarjeta       | FechaVencimiento | Codigo |
             | 5418630110000014 | 0821             | #$%    |
         And Hago click en "Pagar" con Executor
-        Then Verifico que el campo "TarjetaInvalida" contenga el texto "La tarjeta ingresada es inválida. Favor, verificar los datos ingresados e intenta nuevamente."
+        Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid."
 
