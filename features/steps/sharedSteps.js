@@ -36,6 +36,12 @@ When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
 });
 
+When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
+    await this.driver.get(url);
+    await log.info(' abriendo la siguiente url: '+ url);
+    await this.driver.sleep(15000);
+});
+
 When(/^Hago click en "(.*)" con Executor$/, async function (elementKey) {
     await clickElementWithExecutor(this.page, elementKey);
 });
