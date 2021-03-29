@@ -177,7 +177,7 @@
     },
     "Siguiente": {
         "identificador": "xpath",
-        "valor": "//a[contains(text(),'Siguiente')]"
+        "valor": "//div[@class='btn-container']//button[contains(text(),'Siguiente')]"
     },
     "UnaCuota": {
         "identificador": "xpath",

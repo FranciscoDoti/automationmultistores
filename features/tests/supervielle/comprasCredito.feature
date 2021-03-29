@@ -82,7 +82,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223         |
             | CodSeguridad   | 123          |
             | NroDocumento   | 39169244     |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo tarjeta ingreso letras
@@ -107,7 +107,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223         |
             | CodSeguridad   | 123          |
             | NroDocumento   | 39169244     |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo tarjeta ingreso más de 16 números
         Given Abro la pagina "supervielle"
@@ -131,7 +131,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223               |
             | CodSeguridad   | 123                |
             | NroDocumento   | 39169244           |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo tarjeta dejo el campo vacio
@@ -156,7 +156,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223         |
             | CodSeguridad   | 123          |
             | NroDocumento   | 39169244     |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón “siguiente” si en el campo tarjeta ingreso caracteres especiales
         Given Abro la pagina "supervielle"
@@ -180,7 +180,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223         |
             | CodSeguridad   | 123          |
             | NroDocumento   | 39169244     |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si ingreso un Nombre y apellido con números
         Given Abro la pagina "supervielle"
@@ -204,7 +204,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si ingreso un Nombre y apellido con caracteres especiales
         Given Abro la pagina "supervielle"
@@ -228,7 +228,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo Nombre y apellido dejo el campo vacío
         Given Abro la pagina "supervielle"
@@ -252,7 +252,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso menos de 4 números
         Given Abro la pagina "supervielle"
@@ -276,7 +276,7 @@ Feature: comprasCredito
             | Vencimiento    | 12               |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso letras
         Given Abro la pagina "supervielle"
@@ -300,8 +300,8 @@ Feature: comprasCredito
             | Vencimiento    | AAA              |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
-
+        Then Verifico que el elemento "Siguiente" este deshabilitado
+    @PRUEBA
     Scenario:Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso caracteres especiales
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
@@ -324,7 +324,7 @@ Feature: comprasCredito
             | Vencimiento    | %$!              |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón “siguiente” si en el campo cod de seguridad ingreso letras
         Given Abro la pagina "supervielle"
@@ -348,7 +348,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | AAF              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso menos de 3 números
         Given Abro la pagina "supervielle"
@@ -372,7 +372,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 12               |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso caracteres especiales
         Given Abro la pagina "supervielle"
@@ -396,7 +396,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | $%^              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo cod de seguridad dejo el campo vacio
         Given Abro la pagina "supervielle"
@@ -420,7 +420,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   |                  |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo Nro de documento ingreso letras
         Given Abro la pagina "supervielle"
@@ -444,7 +444,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | AAAAAAAA         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo Nro de documento ingreso caracteres especiales
         Given Abro la pagina "supervielle"
@@ -468,7 +468,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | ###$"!"          |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo Nro de documento dejo el campo vacio
         Given Abro la pagina "supervielle"
@@ -492,7 +492,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   |                  |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo Nro de documento ingreso menos de 7 digitos
         Given Abro la pagina "supervielle"
@@ -516,7 +516,7 @@ Feature: comprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169            |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que al apretar el botón siguiente se cargue la pagina con las opciones de cuotas
         Given Abro la pagina "supervielle"
@@ -728,6 +728,7 @@ Feature: comprasCredito
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
+
     Scenario: Realizar una compra de un producto de Fravega con tarjeta de credito en x cuotas sin interes
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
@@ -735,8 +736,7 @@ Feature: comprasCredito
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
-        And Lleno el campo "Buscar" con "Aire Acondicionado Split Frio Calor Philco Phs25h13x 25kfc Re Copado"
-        And Hago click en "Lupita"
+        And Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "AceptoCondiciones"
         And Hago click en "Comprar"
@@ -762,8 +762,7 @@ Feature: comprasCredito
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
-        And Lleno el campo "Buscar" con "Aire Acondicionado Split Frio Calor Philco Phs25h13x 25kfc Re Copado"
-        And Hago click en "Lupita"
+        And Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "AceptoCondiciones"
         And Hago click en "Comprar"
@@ -783,8 +782,7 @@ Feature: comprasCredito
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
-        And Lleno el campo "Buscar" con "Aire Acondicionado Split Frio Calor Philco Phs25h13x 25kfc Re Copado"
-        And Hago click en "Lupita"
+        And Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "AceptoCondiciones"
         And Hago click en "Comprar"
@@ -804,8 +802,7 @@ Feature: comprasCredito
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
-        And Lleno el campo "Buscar" con "Aire Acondicionado Split Frio Calor Philco Phs25h13x 25kfc Re Copado"
-        And Hago click en "Lupita"
+        And Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "AceptoCondiciones"
         And Hago click en "Comprar"
