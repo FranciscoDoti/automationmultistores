@@ -1,6 +1,7 @@
 @itau
 Feature: direccion
 
+  @PRUEBA
   Scenario: Agregar una dirección valida al usuario
     Given Abro la pagina "itau"
     And Leo los datos de "itau"
@@ -17,13 +18,13 @@ Feature: direccion
       | Numero          | 3              |
       | Piso            | 13             |
       | Departamento    | 3434           |
-      | Ruc             | Buenos Aires   |
+      | Ruc             | 0101           |
       | CedulaIdentidad | 47682222       |
       | Telefono        | 1547682222     |
     And Hago click en "Pais" con Executor
     And Hago click en "Paraguay" con Executor
-    And Hago click en "Ciudad" con Executor
-    And Hago click en "Cedrales" con Executor
+    And Hago click en "Ciudad"
+    And Hago click en "Cedrales"
     And Hago click en "Guardar" con Executor
     Then Verifico que el campo "MensajeDeExitoDireccionAgregada" contenga el texto "¡Dirección añadida correctamente!"
 
