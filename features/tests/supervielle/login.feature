@@ -11,6 +11,7 @@ Feature: login
         And Hago click en "IniciarSesion"
         Then Verifico que el campo "MensajeError" contenga el texto "Error 1"
 
+
     Scenario: Verificar que se pueda iniciar sesión con un usuario valido
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"

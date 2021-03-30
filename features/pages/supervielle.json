@@ -250,5 +250,9 @@
     "CartelCarritoVacio": {
         "identificador": "xpath",
         "valor": "//p[@class='alert alert-warning']"
+    },
+    "CerrarSesion": {
+        "identificador": "xpath",
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[2]/a[1]"
     }
 }

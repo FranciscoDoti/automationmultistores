@@ -178,5 +178,13 @@
     "CartelCarritoVacio": {
         "identificador": "xpath",
         "valor": "//span[@class='no-items']"
+    },
+    "MiCuenta": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'Mi cuenta')]"
+    },
+    "Salir": {
+        "identificador": "xpath",
+        "valor": "//i[@class='fas fa-sign-out-alt']"
     }
 }

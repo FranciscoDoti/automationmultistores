@@ -10,7 +10,6 @@ Feature: direccion
     And Hago click en "IniciarSesion"
     And Hago click en "Direcciones"
 
-  @PRUEBA
   Scenario: Agregar una dirección valida al usuario
     When Hago click en "AñadirNuevaDireccion"
     And Lleno los siguientes campos
