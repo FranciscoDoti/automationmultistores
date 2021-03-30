@@ -49,8 +49,12 @@ When(/^Hago click en "(.*)" con Executor$/, async function (elementKey) {
 
 When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
     var webElement = await buscarElemento(this.page, elementKey);
-    await this.driver.actions({ bridge: true }).move({ x: 0, y: 0, origin: webElement }).perform();
-    await this.driver.sleep(5000);
+    if (webElement != 'ELEMENT_NOT_FOUND'){
+        await this.driver.actions({ bridge: true }).move({ x: 0, y: 0, origin: webElement }).perform();
+        await this.driver.sleep(5000);
+    } else {
+        assert.fail('no se pudo localizar el elemento '+  elementKey);
+    }
 });
 
 When(/^Lleno el campo "(.*)" con "(.*)"$/, async function (elementKey, texto) {
@@ -117,7 +121,11 @@ Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (
 
 Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (elementKey) {
     var webElement = await buscarElemento(this.page, elementKey);
-    var estaHabilitado = await webElement.isEnabled();
-    await assert.isFalse(estaHabilitado);
+    if (webElement!= 'ELEMENT_NOT_FOUND'){
+        var estaHabilitado = await webElement.isEnabled();
+        await assert.isFalse(estaHabilitado);
+    } else {
+        assert.fail('No se pudo localizar el elemento '+ elementKey);
+    }
 
 });
