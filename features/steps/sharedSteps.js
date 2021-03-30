@@ -22,6 +22,7 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
         } else {
             await log.error('No se pudo abrir la página. Revisar los archivos urls y config');
         }
+        assert.fail('Falló porque no se pudo abrir la página');
         await log.error(error);
         await process.exit();
     }
