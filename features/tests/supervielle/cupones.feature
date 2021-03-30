@@ -1,7 +1,6 @@
 @supervielle
 Feature: cupones
 
-
     Scenario: Verificar que al ingresar un cupón de descuento invalido aparezca el cartel Este cupon es invalido
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"

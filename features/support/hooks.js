@@ -19,7 +19,7 @@ After({ tags: '@supervielle and not @noLoguea' }, async function () {
   var elementCerrarSesion = await driver.findElement(By.xpath('//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[2]/a[1]'));
   await elementCerrarSesion.click();
   await log.info('Se ha clickeado en el elemento Cerrar sesión');
-  await driver.sleep(5000);
+  
 
 })
 After({ tags: '@itau and not @noLoguea' }, async function () {
@@ -32,7 +32,7 @@ After({ tags: '@itau and not @noLoguea' }, async function () {
   var salir = await driver.findElement(By.xpath('//i[@class="fas fa-sign-out-alt"]'));
   await salir.click();
   await log.info('Se ha clickeado en el elemento Cerrar sesión');
-  await driver.sleep(5000);
+  
 
 })
 After(async function (scenario) {
