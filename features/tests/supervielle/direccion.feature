@@ -1,8 +1,7 @@
 @supervielle
 Feature: direccion
 
-
-    Scenario: Agregar una dirección valida al usuario
+    Background: Pasos comunes
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
@@ -10,7 +9,9 @@ Feature: direccion
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
         When Hago click en "MisDirecciones"
-        And Hago click en "AñadirDireccion"
+
+    Scenario: Agregar una dirección valida al usuario
+        When Hago click en "AñadirDireccion"
         And Hago click en "DesplegableProvincia"
         And Hago click en "Chaco"
         And Lleno los siguientes campos
@@ -28,22 +29,12 @@ Feature: direccion
         And Hago click en "Guardar"
         Then Verifico que el campo "CartelMisDirecciones" contenga el texto "MIS DIRECCIONES"
 
-
-
     Scenario:  Verificar que se pueda editar una dirección ya agregada
-        Given Abro la pagina "supervielle"
-        And Leo los datos de "supervielle"
-        And Hago click en "IniciaSesion"
-        And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
-        And Lleno el campo "Contraseña" con "prueba01"
-        And Hago click en "IniciarSesion"
-        When Hago click en "MisDirecciones"
-        And Hago click en "ActualizarDireccion"
+        When Hago click en "ActualizarDireccion"
         And Lleno los siguientes campos
             | Calle | RANDOM |
             | Nro   | 3433   |
             | Alias | RANDOM |
             | Dpto  | 14     |
-
         And Hago click en "Guardar"
         Then Verifico que el campo "CartelMisDirecciones" contenga el texto "MIS DIRECCIONES"
