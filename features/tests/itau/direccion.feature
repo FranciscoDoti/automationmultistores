@@ -1,7 +1,6 @@
 @itau
 Feature: direccion
 
-  @PRUEBA
   Scenario: Agregar una dirección valida al usuario
     Given Abro la pagina "itau"
     And Leo los datos de "itau"
