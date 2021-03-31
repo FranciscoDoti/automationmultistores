@@ -1,5 +1,5 @@
 const { Given, When, Then } = require('cucumber');
-const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento} = require('../support/functions');
+const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento } = require('../support/functions');
 const { assert } = require('chai');
 const { log } = require(`${process.cwd()}/logger`);
 const urls = require(`${process.cwd()}/urls.json`);
@@ -12,7 +12,7 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
         await this.driver.get(urls[this.env[web]][web]);
         await log.info('Ejecutando la prueba en el ambiente: ' + this.env[web]);
         await log.info('abriendo la pagina: ' + urls[this.env[web]][web]);
-       //await this.driver.sleep(10000);
+        //await this.driver.sleep(10000);
 
     } catch (error) {
         if (error.message.includes("ERR_CONNECTION_TIMED_OUT")) {
@@ -21,7 +21,7 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
         } else {
             await log.error('No se pudo abrir la página. Revisar los archivos urls y config');
         }
-        assert.fail('Falló porque no se pudo abrir la página');
+        await assert.fail('Falló porque no se pudo abrir la página');
         await log.error(error);
         await process.exit();
     }
@@ -38,7 +38,7 @@ When(/^Hago click en "(.*)"$/, async function (elementKey) {
 
 When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.get(url);
-    await log.info(' abriendo la siguiente url: '+ url);
+    await log.info(' abriendo la siguiente url: ' + url);
     await this.driver.sleep(15000);
 });
 
@@ -49,11 +49,11 @@ When(/^Hago click en "(.*)" con Executor$/, async function (elementKey) {
 
 When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
     var webElement = await buscarElemento(this.page, elementKey);
-    if (webElement != 'ELEMENT_NOT_FOUND'){
+    if (webElement != 'ELEMENT_NOT_FOUND') {
         await this.driver.actions({ bridge: true }).move({ x: 0, y: 0, origin: webElement }).perform();
         await this.driver.sleep(5000);
     } else {
-        assert.fail('no se pudo localizar el elemento '+  elementKey);
+        await assert.fail('no se pudo localizar el elemento ' + elementKey);
     }
 });
 
@@ -121,11 +121,11 @@ Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (
 
 Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (elementKey) {
     var webElement = await buscarElemento(this.page, elementKey);
-    if (webElement!= 'ELEMENT_NOT_FOUND'){
+    if (webElement != 'ELEMENT_NOT_FOUND') {
         var estaHabilitado = await webElement.isEnabled();
         await assert.isFalse(estaHabilitado);
     } else {
-        assert.fail('No se pudo localizar el elemento '+ elementKey);
+        await assert.fail('No se pudo localizar el elemento ' + elementKey);
     }
 
 });

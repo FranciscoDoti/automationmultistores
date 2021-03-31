@@ -8,7 +8,7 @@ var cantReintentos = 4;
 
 async function buscarElemento(json, element, reintentos) {
 
-    if (reintentos != undefined){
+    if (reintentos != undefined) {
         cantReintentos = reintentos;
     };
 
@@ -19,13 +19,13 @@ async function buscarElemento(json, element, reintentos) {
     while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
 
         try {
-            if (nroReintento>1){
+            if (nroReintento > 1) {
                 await driver.sleep(4000);
             }
             await log.info('Localizando elemento: ' + element);
             var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
             elementoEncontrado = true;
-            await log.info('Se localizó el elemento '+ element+' exitosamente');
+            await log.info('Se localizó el elemento ' + element + ' exitosamente');
 
         } catch (error) {
             errorTrace = error;
@@ -99,26 +99,38 @@ async function obtenerTexto(json, element) {
 async function clickElement(json, element) {
 
     var webElement = await buscarElemento(json, element);
-    if (webElement!= 'ELEMENT_NOT_FOUND'){
+    if (webElement != 'ELEMENT_NOT_FOUND') {
         try {
-            //await driver.sleep(4000);
+            await driver.sleep(1500);
             await webElement.click();
-            await log.info( 'se hizo click en el elemento ' + element);
+            await log.info('se hizo click en el elemento ' + element);
         } catch (error) {
-            await log.error( 'hubo un error al hacer click. Reintentando con el executeScript...')
-            if ( (error.name).includes('NotInteractable') ) {
-                await driver.executeScript('arguments[0].click()', webElement);
-                await log.info('busco el elemento de vuelta para ver si se le pudo hacer click o no');
-                var webElement2 =await buscarElemento(json, element, 1);
-                if (webElement2!='ELEMENT_NOT_FOUND'){
-                    await log.warn('El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar');
-                } else{
-                    await log.info('Bien! El elemento ya no se encuentra. Supongo que al haber hecho click el elemento ya desapareció')
+            try {
+                await log.info( ' error al hacer click. reintentando por segunda vez...');
+                await driver.sleep(3000);
+                await webElement.click();
+            } catch (error) {
+                try {
+                    await log.info( ' error al hacer click. reintentando por tercera vez...');
+                    await driver.sleep(3000);
+                    await webElement.click();
+                } catch (error) {
+                    await log.error('hubo un error al hacer click. Reintentando con el executeScript...');
+                    if ((error.name).includes('NotInteractable')) {
+                        await driver.executeScript('arguments[0].click()', webElement);
+                        await log.info('busco el elemento de vuelta para ver si se le pudo hacer click o no');
+                        var webElement2 = await buscarElemento(json, element, 1);
+                        if (webElement2 != 'ELEMENT_NOT_FOUND') {
+                            await log.warn('El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar');
+                        } else {
+                            await log.info('Bien! El elemento ya no se encuentra. Supongo que al haber hecho click el elemento ya desapareció')
+                        }
+                    }
                 }
             }
         }
     } else {
-       await  assert.fail('no se pudo localizar el elemento');
+        await assert.fail('no se pudo localizar el elemento');
     }
 
 
@@ -127,21 +139,21 @@ async function clickElement(json, element) {
 async function llenarCampo(json, element, texto) {
 
     var webElement = await buscarElemento(json, element);
-    if (webElement!= 'ELEMENT_NOT_FOUND'){
+    if (webElement != 'ELEMENT_NOT_FOUND') {
         try {
             //await driver.sleep(4000);
             await webElement.clear();
             await webElement.sendKeys(texto);
-            await log.info( 'se escribio el texto ' + texto+ ' en el elemento ' + element);
+            await log.info('se escribio el texto ' + texto + ' en el elemento ' + element);
         } catch (error) {
-            await log.error( 'hubo un error al escribir en el elemento '+ element+'. Reintentando con el executeScript...')
-            if ( (error.name).includes('NotInteractable') ) {
-                await driver.executeScript("arguments[0].value='"+texto+"';",webElement);
+            await log.error('hubo un error al escribir en el elemento ' + element + '. Reintentando con el executeScript...')
+            if ((error.name).includes('NotInteractable')) {
+                await driver.executeScript("arguments[0].value='" + texto + "';", webElement);
                 var textoActual = await webElement.getText();
-                if (textoActual != texto){
-                    await assert.fail('no se pudo escribir el texto ' + texto+ ' en el elemento '+ element);
+                if (textoActual != texto) {
+                    await assert.fail('no se pudo escribir el texto ' + texto + ' en el elemento ' + element);
                 } else {
-                    await log.info('Al haber reintentado, se escribió el texto '+ textoActual + ' en el elemento '+ element);
+                    await log.info('Al haber reintentado, se escribió el texto ' + textoActual + ' en el elemento ' + element);
                 }
             }
         }
@@ -153,19 +165,19 @@ async function llenarCampo(json, element, texto) {
 }
 
 
-async function assertText(json, element, texto){
-await driver.sleep(8000);
+async function assertText(json, element, texto) {
+    await driver.sleep(8000);
     var webElement = await buscarElemento(json, element);
-    if (webElement!= 'ELEMENT_NOT_FOUND'){
+    if (webElement != 'ELEMENT_NOT_FOUND') {
         try {
             await driver.sleep(4000);
             var textoExtraido = await webElement.getText();
-            await log.info('Se extrajo el texto'+ textoExtraido + ' del elemento = ' + element);
-            await assert.isTrue(textoExtraido==texto,'AssertionError. Texto extraido: '+textoExtraido+ '. Texto esperado: '+ texto);
+            await log.info('Se extrajo el texto' + textoExtraido + ' del elemento = ' + element);
+            await assert.isTrue(textoExtraido == texto, 'AssertionError. Texto extraido: ' + textoExtraido + '. Texto esperado: ' + texto);
         } catch (error) {
-            await log.error( 'hubo un error al extraer el texto del elemento '+ element+'.');
-            await assert.fail('no se pudo extraer el texto ' + texto+ ' en el elemento '+ element);               
-            }
+            await log.error('hubo un error al extraer el texto del elemento ' + element + '.');
+            await assert.fail('no se pudo extraer el texto ' + texto + ' en el elemento ' + element);
+        }
     } else {
         await assert.fail('no se pudo localizar el elemento');
     }
