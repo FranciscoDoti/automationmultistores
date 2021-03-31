@@ -169,7 +169,7 @@
     },
     "VencimientoInvalido": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//span[contains(text(), 'expiration date')]"
     },
     "CartelCompraExitosa": {
         "identificador": "xpath",
