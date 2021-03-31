@@ -4,7 +4,8 @@ const { assert } = require('chai');
 const { By, Key, until, WebElement } = require('selenium-webdriver');
 const { ExceptionHandler, exceptions } = require('winston');
 const { log } = require(`${process.cwd()}/logger`);
-var cantReintentos = 4;
+const CANT_REINTENTOS_DEFAULT = 4;
+var cantReintentos = CANT_REINTENTOS_DEFAULT;
 
 async function buscarElemento(json, element, reintentos) {
 
@@ -123,8 +124,9 @@ async function clickElement(json, element) {
                         if (webElement2 != 'ELEMENT_NOT_FOUND') {
                             await log.warn('El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar');
                         } else {
-                            await log.info('Bien! El elemento ya no se encuentra. Supongo que al haber hecho click el elemento ya desapareció')
+                            await log.info('Bien! El elemento ya no se encuentra. Supongo que al haber hecho click el elemento ya desapareció');
                         }
+                        cantReintentos = CANT_REINTENTOS_DEFAULT;
                     }
                 }
             }
