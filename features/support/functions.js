@@ -19,7 +19,9 @@ async function buscarElemento(json, element, reintentos) {
     while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
 
         try {
-            await driver.sleep(4000);
+            if (nroReintento>1){
+                await driver.sleep(4000);
+            }
             await log.info('Localizando elemento: ' + element);
             var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
             elementoEncontrado = true;
@@ -99,7 +101,7 @@ async function clickElement(json, element) {
     var webElement = await buscarElemento(json, element);
     if (webElement!= 'ELEMENT_NOT_FOUND'){
         try {
-            await driver.sleep(4000);
+            //await driver.sleep(4000);
             await webElement.click();
             await log.info( 'se hizo click en el elemento ' + element);
         } catch (error) {
@@ -127,7 +129,7 @@ async function llenarCampo(json, element, texto) {
     var webElement = await buscarElemento(json, element);
     if (webElement!= 'ELEMENT_NOT_FOUND'){
         try {
-            await driver.sleep(4000);
+            //await driver.sleep(4000);
             await webElement.clear();
             await webElement.sendKeys(texto);
             await log.info( 'se escribio el texto ' + texto+ ' en el elemento ' + element);
@@ -152,7 +154,7 @@ async function llenarCampo(json, element, texto) {
 
 
 async function assertText(json, element, texto){
-await driver.sleep(4000);
+await driver.sleep(8000);
     var webElement = await buscarElemento(json, element);
     if (webElement!= 'ELEMENT_NOT_FOUND'){
         try {
