@@ -4,19 +4,19 @@ const config = require(`${process.cwd()}/config.json`);
 const { getDriver } = require(`${process.cwd()}/driver.js`);
 const { By, Key, until } = require('selenium-webdriver');
 var driver = getDriver();
-const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento, clickElementWithExecutor,
-  llenarCampoConExecutor} = require('../support/functions');
+const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento} = require('../support/functions');
 
 Before(async function (scenario) {
-
+  
   await log.info('Empezando a ejecutar: ' + scenario.pickle.name);
-  await console.log(this.page)
+
 
 })
 
 After({ tags: '@supervielle and not @noLoguea' }, async function () {
  
   await log.info('Comenzando cerrado de sesion de supervielle');
+  await driver.actions().sendKeys(Key.HOME).perform();
   await clickElement(this.page, 'CerrarSesion');
   
 
@@ -24,7 +24,7 @@ After({ tags: '@supervielle and not @noLoguea' }, async function () {
 After({ tags: '@itau and not @noLoguea' }, async function () {
 
   await log.info('Comenzando cerrado de sesion de ITAU');
-
+  await driver.actions().sendKeys(Key.HOME).perform();
   await clickElement(this.page, 'MiCuenta');
   await clickElement(this.page, 'Salir');
 

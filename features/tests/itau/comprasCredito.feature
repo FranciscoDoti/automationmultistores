@@ -17,6 +17,7 @@ Feature: comprasCredito
         And Hago click en "AceptoTerminosYCondiciones"
         And Hago click en "SinRegistroTarjeta"
 
+    @PRUEBA
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
@@ -53,6 +54,7 @@ Feature: comprasCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 
+    
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 4 números en el campo venc. aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
@@ -60,6 +62,7 @@ Feature: comprasCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
+    
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado letras en el campo vencimiento aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
@@ -67,6 +70,7 @@ Feature: comprasCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
+    
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo vencimiento aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
