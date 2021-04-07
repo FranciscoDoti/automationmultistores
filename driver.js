@@ -30,6 +30,7 @@ async function buildDriver() {
             process.exit();
           }
     }
+    await driver.manage().deleteAllCookies();
 
 }
 
