@@ -1,0 +1,82 @@
+{
+  "NombreCuenta": {
+    "identificador": "xpath",
+    "valor": "//span[contains(text(),'Elida Herminia Biscione')]"
+  },
+  "MiCuenta": {
+    "identificador": "xpath",
+    "valor": "//a[contains(text(),'Mi Cuenta')]"
+  },
+  "MisDirecciones": {
+    "identificador": "xpath",
+    "valor": "//a[@id='addresses-link']"
+  },
+  "CrearNuevaDireccion": {
+    "identificador": "xpath",
+    "valor": "//span[contains(text(),'Crear nueva dirección')]"
+  },
+  "Alias": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'alias')]"
+  },
+  "Nombre": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'firstname')]"
+  },
+  "Apellido": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'lastname')]"
+  },
+  "DNI": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'dni')]"
+  },
+  "Calle": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'street')]"
+  },
+  "Numero": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'f-number')]"
+  },
+  "Piso": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'f-floor')]"
+  },
+  "Departamento": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'f-department')]"
+  },
+  "CodigoPostal": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'postcode')]"
+  },
+  "Ciudad": {
+    "identificador": "xpath",
+    "valor": "//input[contains(@id,'city')]"
+  },
+  "DropdownProvincia": {
+    "identificador": "xpath",
+    "valor": "//select[contains(@id,'state')]"
+  },
+  "ProvinciaBuenosAires": {
+    "identificador": "xpath",
+    "valor": "//select[contains(@id,'state')]/option[.='Buenos Aires']"
+  },
+  "Guardar": {
+    "identificador": "xpath",
+    "valor": "//button[contains(text(),'Guardar')]"
+  },
+  "DireccionAñadidaCorrectamente": {
+    "identificador": "xpath",
+    "valor": "//li[contains(text(),'¡Dirección añadida correctamente!')]"
+  },
+  "Actualizar": {
+    "identificador": "xpath",
+    "valor": "//div[@class='row']//div[1]/article//span[ text()='Actualizar']"
+  },
+  "DireccionActualizadaCorrectamente":{
+    "identificador": "xpath",
+    "valor": "//li[contains(text(),'¡Dirección actualizada correctamente!')]"
+  }
+}
