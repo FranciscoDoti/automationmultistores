@@ -17,6 +17,7 @@
     "itauCarrito": "cucumber-js features/tests/itau/carrito.feature -f json:reports/cucumber_report.json --retry 1",
     "itauDireccion": "cucumber-js features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
     "itauLogin": "cucumber-js features/tests/itau/login.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaDireccion": "cucumber-js features/tests/galicia/Direccion.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
