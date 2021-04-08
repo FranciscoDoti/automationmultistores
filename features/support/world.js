@@ -50,11 +50,15 @@ async function testRailUpload() {
     const run = `Results: UI - Automation ${suite}`;
 
     const uploader = testrail.cucumberToTestRail();
+    await console.log(user);
+    await console.log(report);
+    await console.log(suite);
     await uploader.uploadCases(user, report, suite);
     await uploader.uploadResults(user, report, suite, run);
   }
 }
 
   process.once('beforeExit', async () => {
+    await console.log('Comienza subida de reporte a TestRail')
     testRailUpload();
   });
