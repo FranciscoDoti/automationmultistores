@@ -1,5 +1,5 @@
 @supervielle
-Feature: login
+Feature: supervielleLogin
 
     @noLoguea
     Scenario: Verificar que no se pueda iniciar sesión con un usuario no registrado
