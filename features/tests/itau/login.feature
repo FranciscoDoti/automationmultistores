@@ -1,5 +1,5 @@
 @itau
-Feature: login
+Feature: itauLogin
 
     @noLoguea
     Scenario: Verificar que no se pueda iniciar sesión con un usuario no registrado

@@ -1,5 +1,5 @@
 @itau
-Feature: comprasCredito
+Feature: itauComprasCredito
 
     Background: Pasos comunes
         Given Abro la pagina "itau"
@@ -17,7 +17,7 @@ Feature: comprasCredito
         And Hago click en "AceptoTerminosYCondiciones"
         And Hago click en "SinRegistroTarjeta"
 
-    @PRUEBA
+    
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |

@@ -1,5 +1,5 @@
 @itau
-Feature: carrito
+Feature: itauCarrito
 
     Background: Pasos comunes
         Given Abro la pagina "itau"

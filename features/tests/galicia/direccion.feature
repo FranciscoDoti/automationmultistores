@@ -23,7 +23,6 @@ Feature: direccion
         And Hago click en "Guardar"
         Then  Verifico que el campo "DireccionAñadidaCorrectamente" contenga el texto "¡Dirección añadida correctamente!"
 
-    @PRUEBA
     Scenario: Verificar que se pueda editar una dirección ya agregada
         When Hago click en "Actualizar"
         And Lleno los siguientes campos

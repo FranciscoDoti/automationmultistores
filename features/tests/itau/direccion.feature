@@ -1,5 +1,5 @@
 @itau
-Feature: direccion
+Feature: itauDireccion
 
   Background: Pasos comunes
     Given Abro la pagina "itau"
