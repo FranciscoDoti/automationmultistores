@@ -7,7 +7,7 @@ const argv = require('minimist')(process.argv.slice(2));
 const config = require(`${process.cwd()}/config.json`);
 const { log } = require(`${process.cwd()}/logger`);
 const jsonfile = require('jsonfile');
-const testrail = require('test-automation-pack/testrailuploader');
+const testrail = require(`${process.cwd()}/test-automation-pack/testrailuploader`);
 const rc = jsonfile.readFileSync(`${process.cwd()}/test-automation-packrc.json`);
 
 
