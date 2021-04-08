@@ -6,13 +6,17 @@ const { getDriver } = require(`${process.cwd()}/driver`);
 const argv = require('minimist')(process.argv.slice(2));
 const config = require(`${process.cwd()}/config.json`);
 const { log } = require(`${process.cwd()}/logger`);
+const jsonfile = require('jsonfile');
+const testrail = require('test-automation-pack/testrailuploader');
+const rc = jsonfile.readFileSync(`${process.cwd()}/test-automation-packrc.json`);
+
 
 function ThisWorld({ attach }) {
- 
+  
   this.page = '';
   this.argv = argv;
   setDefaultTimeout('90000');
-  this.driver= getDriver();
+  this.driver = getDriver();
   this.env = config.env;
   this.data = new Map();
   this.screenshots = 'onFail';
@@ -33,3 +37,24 @@ setDefinitionFunctionWrapper((fn) => {
     }
   };
 });
+
+
+async function testRailUpload() {
+  if (rc.testrail.upload_results === true) {
+    const user = rc.testrail.user;
+    const report = `${process.cwd()}/reports/cucumber_report.json`;
+    //const suite = rc.testrail.suite_name;
+    //const suite = 'supervielleCarrito';
+    const cucumberReport= jsonfile.readFileSync(`${process.cwd()}/reports/cucumber_report.json`);
+    const suite = cucumberReport[0].name; 
+    const run = `Results: UI - Automation ${suite}`;
+
+    const uploader = testrail.cucumberToTestRail();
+    await uploader.uploadCases(user, report, suite);
+    await uploader.uploadResults(user, report, suite, run);
+  }
+}
+
+  process.once('beforeExit', async () => {
+    testRailUpload();
+  });
