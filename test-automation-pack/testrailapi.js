@@ -1,4 +1,5 @@
 const TestRailAPI = require('testrail-api');
+//= require(`${process.cwd()}/test-automation-pack/testrailapi`);
 
 const that = {};
 
