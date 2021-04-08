@@ -1,6 +1,6 @@
 /* eslint-disable */
 const jsonfile = require("jsonfile");
-const testrailapi = require("./testrailapi");
+const testrailapi = require(`${process.cwd()}/test-automation-pack/testrailapi`);
 
 const that = {};
 
