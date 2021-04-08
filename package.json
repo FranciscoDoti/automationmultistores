@@ -32,7 +32,7 @@
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "selenium-webdriver": "^4.0.0-beta.1",
-    "test-automation-pack": "file:test-automation-pack",
+    "test-automation-pack": "0.0.36",
     "testrail-js-api": "^0.2.0",
     "winston": "^3.3.3"
   }
