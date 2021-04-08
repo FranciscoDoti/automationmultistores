@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cucumber-js -f json:reports/cucumber_report.json",
     "supervielle": "cucumber-js features/tests/supervielle -f json:reports/cucumber_report.json",
-    "supervielleCarrito": "cucumber-js features/tests/supervielle/carrito.feature -f json:reports/cucumber_report.json --retry 1",
+    "supervielleCarrito": "cucumber-js features/tests/supervielle/carrito.feature -f json:reports/cucumber_report.json",
     "supervielleComprasCredito": "cucumber-js features/tests/supervielle/comprasCredito.feature -f json:reports/cucumber_report.json --retry 1",
     "supervielleValidacionesCredito": "cucumber-js features/tests/supervielle/validacionesCredito.feature -f json:reports/cucumber_report.json --retry 1",
     "supervielleComprasDebito": "cucumber-js features/tests/supervielle/comprasDebito.feature -f json:reports/cucumber_report.json --retry 1",
@@ -23,13 +23,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "chai": "^4.3.0",
     "chromedriver": "^88.0.0",
     "cucumber": "^6.0.3",
     "cucumber-html-reporter": "^5.3.0",
+    "jsonfile": "^6.1.0",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "selenium-webdriver": "^4.0.0-beta.1",
+    "test-automation-pack": "0.0.36",
+    "testrail-js-api": "^0.2.0",
     "winston": "^3.3.3"
   }
 }
