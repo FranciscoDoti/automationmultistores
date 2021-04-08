@@ -1,5 +1,5 @@
 @supervielle
-Feature: direccion
+Feature: supervielleDireccion
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"

@@ -1,5 +1,5 @@
 @supervielle
-Feature: carrito
+Feature: supervielleCarrito
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"

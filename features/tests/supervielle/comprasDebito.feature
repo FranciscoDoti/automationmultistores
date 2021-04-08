@@ -1,5 +1,5 @@
 @supervielle
-Feature: comprasDebito
+Feature: supervielleComprasDebito
 
     Scenario: Realizar una compra con tarjeta de debito
         Given Abro la pagina "supervielle"

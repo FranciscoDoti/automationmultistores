@@ -1,5 +1,5 @@
 @supervielle
-Feature: comprasCredito
+Feature: supervielleComprasCredito
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"

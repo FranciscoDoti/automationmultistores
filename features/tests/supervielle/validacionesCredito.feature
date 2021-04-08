@@ -1,5 +1,5 @@
 @supervielle
-Feature: Validaciones de comprasCredito
+Feature: supervielleValidacionesComprasCredito
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"
