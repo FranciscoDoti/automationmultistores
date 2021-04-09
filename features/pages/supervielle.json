@@ -105,7 +105,7 @@
     },
     "ProductoTecno": {
         "identificador": "xpath",
-        "valor": "//body/div[@id='page']/div[3]/div[2]/div[1]/div[2]/ul[1]/li[2]"
+        "valor": "//ul//li[1]//div[@class='CardBody']"
     },
     "AgregarAlCarrito": {
         "identificador": "xpath",
