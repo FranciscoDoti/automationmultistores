@@ -5,8 +5,8 @@ Feature: supervielleDireccion
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
-        And Lleno el campo "Usuario" con "jhernandez@aper.com"
-        And Lleno el campo "Contraseña" con "11112222"
+        And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
+        And Lleno el campo "Contraseña" con "/MXPIce1"
         And Hago click en "IniciarSesion"
         When Hago click en "MisDirecciones"
 
