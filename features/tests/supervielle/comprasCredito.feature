@@ -5,11 +5,11 @@ Feature: supervielleComprasCredito
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
-        And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
-        And Lleno el campo "Contraseña" con "prueba01"
+        And Lleno el campo "Usuario" con "jhernandez@aper.com"
+        And Lleno el campo "Contraseña" con "11112222"
         And Hago click en "IniciarSesion"
 
-
+    @PRUEBA
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         When Hago click en "Categorias"
         And Hago click en "Tecno"
@@ -35,7 +35,6 @@ Feature: supervielleComprasCredito
     Scenario: Realizar una compra con tarjeta de crédito y cupón de descuento
         When Hago click en "Categorias"
         And Hago click en "Tecno"
-        And Hago click en un producto con precio mayor a ""
         And Hago click en "AgregarAlCarrito"
         And Hago click en "AceptoCondiciones"
         And Hago click en "Comprar"
