@@ -175,7 +175,7 @@ async function assertText(json, element, texto) {
             await driver.sleep(4000);
             var textoExtraido = await webElement.getText();
             await log.info('Se extrajo el texto' + textoExtraido + ' del elemento = ' + element);
-            await assert.isTrue(textoExtraido == texto, 'AssertionError. Texto extraido: ' + textoExtraido + '. Texto esperado: ' + texto);
+            await assert.isTrue(textoExtraido.includes(texto), 'AssertionError. Texto extraido: ' + textoExtraido + '. Texto esperado: ' + texto);
         } catch (error) {
             await log.error('hubo un error al extraer el texto del elemento ' + element + '.');
             await assert.fail('no se pudo extraer el texto ' + texto + ' en el elemento ' + element);

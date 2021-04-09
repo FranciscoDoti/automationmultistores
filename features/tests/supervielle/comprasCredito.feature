@@ -9,7 +9,6 @@ Feature: supervielleComprasCredito
         And Lleno el campo "Contraseña" con "/MXPIce1""
         And Hago click en "IniciarSesion"
 
-    @PRUEBA
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         When Hago click en "Categorias"
         And Hago click en "Tecno"
