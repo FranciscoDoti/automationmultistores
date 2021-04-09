@@ -52,9 +52,9 @@ Feature: itauComprasCredito
             | NroTarjeta  | FechaVencimiento | Codigo |
             | 54186301100 | 0821             | 258    |
         And Hago click en "Pagar"
-        Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
+        Then Verifico que el campo "TarjetaInvalida" contenga el texto "Invalid card number"
 
-    
+    @PRUEBA
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 4 números en el campo venc. aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
