@@ -118,7 +118,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si ingreso un Nombre y apellido con caracteres especiales
         When Hago click en "Categorias"
@@ -136,7 +136,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo Nombre y apellido dejo el campo vacío
         When Hago click en "Categorias"
@@ -154,7 +154,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso menos de 4 números
         When Hago click en "Categorias"
@@ -172,7 +172,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 12               |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso letras
         When Hago click en "Categorias"
@@ -190,7 +190,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | AAA              |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo vencimiento ingreso caracteres especiales
         When Hago click en "Categorias"
@@ -208,7 +208,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | %$!              |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón “siguiente” si en el campo cod de seguridad ingreso letras
         When Hago click en "Categorias"
@@ -226,7 +226,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | AAF              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso menos de 3 números
         When Hago click en "Categorias"
@@ -244,7 +244,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 12               |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso caracteres especiales
         When Hago click en "Categorias"
@@ -262,7 +262,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | $%^              |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo cod de seguridad dejo el campo vacio
         When Hago click en "Categorias"
@@ -280,7 +280,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   |                  |
             | NroDocumento   | 39169244         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo Nro de documento ingreso letras
         When Hago click en "Categorias"
@@ -298,7 +298,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | AAAAAAAA         |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo Nro de documento ingreso caracteres especiales
         When Hago click en "Categorias"
@@ -316,7 +316,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | ###$"!"          |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Verificar que no se habilite el botón siguiente si en el campo Nro de documento dejo el campo vacio
         When Hago click en "Categorias"
@@ -334,7 +334,7 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   |                  |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón siguiente si en el campo Nro de documento ingreso menos de 7 digitos
         When Hago click en "Categorias"
@@ -352,4 +352,4 @@ Feature: supervielleValidacionesComprasCredito
             | Vencimiento    | 1223             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169            |
-        Then Verifico que el elemento "Siguiente" no exista
+        Then Verifico que el elemento "Siguiente" este deshabilitado
