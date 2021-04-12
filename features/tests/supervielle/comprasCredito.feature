@@ -6,7 +6,7 @@ Feature: supervielleComprasCredito
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
-        And Lleno el campo "Contraseña" con "/MXPIce1""
+        And Lleno el campo "Contraseña" con "/MXPIce1"
         And Hago click en "IniciarSesion"
 
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
