@@ -15,18 +15,18 @@ Before(async function (scenario) {
 
 After({ tags: '@supervielle and not @noLoguea' }, async function () {
  
-  await log.info('Comenzando cerrado de sesion de supervielle');
-  await driver.actions().sendKeys(Key.HOME).perform();
-  await clickElement(this.page, 'CerrarSesion');
+  //await log.info('Comenzando cerrado de sesion de supervielle');
+  //await driver.actions().sendKeys(Key.HOME).perform();
+ // await clickElement(this.page, 'CerrarSesion');
   
 
 })
 After({ tags: '@itau and not @noLoguea' }, async function () {
 
-  await log.info('Comenzando cerrado de sesion de ITAU');
-  await driver.actions().sendKeys(Key.HOME).perform();
-  await clickElement(this.page, 'MiCuenta');
-  await clickElement(this.page, 'Salir');
+  //await log.info('Comenzando cerrado de sesion de ITAU');
+  //await driver.actions().sendKeys(Key.HOME).perform();
+  //await clickElement(this.page, 'MiCuenta');
+  //await clickElement(this.page, 'Salir');
 
   
 
@@ -37,6 +37,8 @@ After(async function (scenario) {
   } else {
     await log.info("Resultado del escenario: " + scenario.result.status)
   }
+  await driver.executeScript('window.sessionStorage.clear();window.localStorage.clear();');
+  await this.driver.manage().deleteAllCookies();
 })
 
 AfterAll(async function () {

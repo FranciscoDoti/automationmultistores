@@ -143,7 +143,7 @@ async function llenarCampo(json, element, texto) {
     var webElement = await buscarElemento(json, element);
     if (webElement != 'ELEMENT_NOT_FOUND') {
         try {
-            //await driver.sleep(4000);
+            await driver.sleep(1500);
             await webElement.clear();
             await webElement.sendKeys(texto);
             await log.info('se escribio el texto ' + texto + ' en el elemento ' + element);
