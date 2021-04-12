@@ -101,11 +101,11 @@
     },
     "Tecno": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/ul[1]/li[1]/a[1]"
+        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/ul[1]/li[2]/a[1]"
     },
     "ProductoTecno": {
         "identificador": "xpath",
-        "valor": "//ul//li[1]//div[@class='CardBody']"
+        "valor": "//body/div[@id='page']/div[3]/div[2]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/a[1]"
     },
     "AgregarAlCarrito": {
         "identificador": "xpath",
