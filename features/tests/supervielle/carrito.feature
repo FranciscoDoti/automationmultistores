@@ -12,13 +12,13 @@ Feature: supervielleCarrito
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
 
-    Scenario: Verificar que al seleccionar un producto se agregue al carrito
+    Scenario: Validar que al seleccionar un producto se agregue al carrito
         When Hago click en "AgregarAlCarrito"
         And Hago click en "MiCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
 
-    Scenario:  Verificar que se pueda eliminar un producto del carrito
+    Scenario:  Validar que se pueda eliminar un producto del carrito
         When Hago click en "AgregarAlCarrito"
         And Hago click en "MiCarrito"
         And Hago click en "EliminarProductoCarrito"

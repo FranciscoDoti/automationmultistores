@@ -3,12 +3,12 @@ Feature: direccion
     Background: Pasos comunes
         Given Abro la pagina "galicia"
         And Leo los datos de "galicia"
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
 
 
     Scenario: Agregar una dirección valida al usuario
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
         When Hago click en "CrearNuevaDireccion"
         And Lleno los siguientes campos
             | Alias        | RANDOM          |
@@ -23,9 +23,63 @@ Feature: direccion
         And Hago click en "Guardar"
         Then  Verifico que el campo "DireccionAñadidaCorrectamente" contenga el texto "¡Dirección añadida correctamente!"
 
+
     Scenario: Verificar que se pueda editar una dirección ya agregada
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
         When Hago click en "Actualizar"
         And Lleno los siguientes campos
-            | Alias | RANDOM |
+            | Numero | RANDOM |
         And Hago click en "Guardar"
-         Then  Verifico que el campo "DireccionActualizadaCorrectamente" contenga el texto "¡Dirección actualizada correctamente!"
+        Then  Verifico que el campo "DireccionActualizadaCorrectamente" contenga el texto "¡Dirección actualizada correctamente!"
+
+
+    Scenario: Verificar que se pueda eliminar una direccion ya agregada
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "EliminarDireccion"
+        And Hago click en "SiEliminarDireccion"
+        Then Verifico que el campo "DireccionEliminadaCorrectamente" contenga el texto "¡Dirección eliminada correctamente!"
+
+    Scenario: Verificar que antes de finalizar una compra me permita agregar una nueva direccion
+        When Hago click en "Categorias"
+        And Hago click en "Tecno"
+        And Hago click en "Producto"
+        And Hago click en "25Puntos"
+        And Hago click en "Canjear"
+        And Hago click en "AñadirNuevaDireccionDeCompra"
+        And Lleno los siguientes campos
+            | DNI          | 3999999         |
+            | Calle        | Blanco Encalada |
+            | Numero       | 2311            |
+            | Departamento | A               |
+            | CodigoPostal | 1428            |
+            | Ciudad       | CABA            |
+        And Hago click en "DropdownProvincia"
+        And Hago click en "ProvinciaBuenosAires"
+        And Hago click en "ContinuarYGuardarDireccion"
+        Then Verifico que el elemento "DNI" no exista
+
+
+    Scenario: Verificar que antes de finalizar una compra me permita editar una direccion
+        When Hago click en "Categorias"
+        And Hago click en "Tecno"
+        And Hago click en "Producto"
+        And Hago click en "25Puntos"
+        And Hago click en "Canjear"
+        And Hago click en "EditarDireccionDesdeCompra"
+        And Lleno los siguientes campos
+            | Numero | RANDOM |
+        And Hago click en "ContinuarYGuardarDireccion"
+
+
+    Scenario: Verificar que antes de finalizar una compra me permita borrar una direccion
+        When Hago click en "Categorias"
+        And Hago click en "Tecno"
+        And Hago click en "Producto"
+        And Hago click en "25Puntos"
+        And Hago click en "Canjear"
+        And Hago click en "EliminarDireccionDesdeCompra"
+        Then Verifico que el campo "DireccionEliminadaCorrectamente" contenga el texto "¡Dirección eliminada correctamente!"

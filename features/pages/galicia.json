@@ -17,7 +17,7 @@
   },
   "Alias": {
     "identificador": "xpath",
-    "valor": "//input[contains(@id,'alias')]"
+    "valor": "//input[@name='alias']"
   },
   "Nombre": {
     "identificador": "xpath",
@@ -75,8 +75,216 @@
     "identificador": "xpath",
     "valor": "//div[@class='row']//div[1]/article//span[ text()='Actualizar']"
   },
-  "DireccionActualizadaCorrectamente":{
+  "DireccionActualizadaCorrectamente": {
     "identificador": "xpath",
     "valor": "//li[contains(text(),'¡Dirección actualizada correctamente!')]"
+  },
+  "Categorias": {
+    "identificador": "xpath",
+    "valor": "//header/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/span[2]"
+  },
+  "Tecno": {
+    "identificador": "xpath",
+    "valor": "//header/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+  },
+  "Producto": {
+    "identificador": "xpath",
+    "valor": "//div[@class='ProductList-grid']//article[1]"
+  },
+  "25Puntos": {
+    "identificador": "xpath",
+    "valor": "//label[@for='1']//span[@class='label']"
+  },
+  "50Puntos": {
+    "identificador": "xpath",
+    "valor": "//label[@for='2']//span[@class='label']"
+  },
+  "SoloCredito": {
+    "identificador": "xpath",
+    "valor": "//label[@for='0']//span[@class='label']"
+  },
+  "SoloPuntos": {
+    "identificador": "xpath",
+    "valor": "//label[@for='3']//span[@class='label']"
+  },
+  "Canjear": {
+    "identificador": "xpath",
+    "valor": "//button[@data-button-action='add-to-cart']"
+  },
+  "Continuar": {
+    "identificador": "xpath",
+    "valor": "//button[@class='btn btn-primary continue']"
+  },
+  "ContinuarAlPago": {
+    "identificador": "xpath",
+    "valor": "//button[@class='continue btn btn-primary mt-3']"
+  },
+  "AgregarTarjeta": {
+    "identificador": "xpath",
+    "valor": "//label[@class='new-card']"
+  },
+  "ContinuarATarjeta": {
+    "identificador": "xpath",
+    "valor": "//span[@data-v-aadc83c8]"
+  },
+  "NroTarjeta": {
+    "identificador": "xpath",
+    "valor": "//input[@id='CardNumberDesktop']"
+  },
+  "NombreApellido": {
+    "identificador": "xpath",
+    "valor": "//input[@id='CardHolderNameDesktop']"
+  },
+  "Vencimiento": {
+    "identificador": "xpath",
+    "valor": "//input[@id='CardExpirationDateDesktop']"
+  },
+  "CodSeguridad": {
+    "identificador": "xpath",
+    "valor": "//input[@id='CardSecurityCodeDesktop']"
+  },
+  "NroDocumento": {
+    "identificador": "xpath",
+    "valor": "//input[@id='CardHolderDniDesktop']"
+  },
+  "ChekCuota": {
+    "identificador": "xpath",
+    "valor": "//select[@class='form-control form-control-sm w-auto']"
+  },
+  "Cuota1": {
+    "identificador": "xpath",
+    "valor": "//option[@value='0']"
+  },
+  "AceptoTerminos": {
+    "identificador": "xpath",
+    "valor": "//a[@id='cta-terms-and-conditions-0']"
+  },
+  "CanjearYFinalizar": {
+    "identificador": "xpath",
+    "valor": "//button[@id='SubmitDesktop']"
+  },
+  "CartelExitoEnvio": {
+    "identificador": "xpath",
+    "valor": ""
+  },
+  "EliminarDireccion": {
+    "identificador": "xpath",
+    "valor": "//div[@class='col-lg-4 col-md-6 col-sm-6 mb-3'][1]//a[@data-link-action='delete-address']"
+  },
+  "SiEliminarDireccion": {
+    "identificador": "xpath",
+    "valor": "//button[@class='btn btn-outline-primary confirm']"
+  },
+  "DireccionEliminadaCorrectamente": {
+    "identificador": "xpath",
+    "valor": "//article[@role='alert']//ul/li"
+  },
+  "ContinuarYGuardarDireccion": {
+    "identificador": "xpath",
+    "valor": "//button[@name='confirm-addresses']"
+  },
+  "AñadirNuevaDireccionDeCompra": {
+    "identificador": "xpath",
+    "valor": "//span[contains(text(),'Añadir nueva dirección')]"
+  },
+  "EliminarDireccionDesdeCompra": {
+    "identificador": "xpath",
+    "valor": "//div//article[1]//i[@class='material-icons delete']"
+  },
+  "EditarDireccionDesdeCompra": {
+    "identificador": "xpath",
+    "valor": "//div//article[1]//i[@class='material-icons edit']"
+  },
+  "Sugerencias": {
+    "identificador": "xpath",
+    "valor": "//div[@class='_hj-1uQd9__MinimizedWidgetMiddle__text']"
+  },
+  "MeEnoja": {
+    "identificador": "xpath",
+    "valor": "//button[@aria-label='Me enoja']"
+  },
+  "TuExperiencia": {
+    "identificador": "xpath",
+    "valor": "//textarea[@placeholder='Cuéntanos tu experiencia...']"
+  },
+  "EnviarSugerencia": {
+    "identificador": "xpath",
+    "valor": "//button[contains(text(),'Enviar')]"
+  },
+  "CartelExitoSugerencia": {
+    "identificador": "xpath",
+    "valor": "//span[contains(@class,'messageText')]"
+  },
+  "NoMeGusta": {
+    "identificador": "xpath",
+    "valor": "//button[@aria-label='No me gusta']"
+  },
+  "Neutral": {
+    "identificador": "xpath",
+    "valor": "//button[@aria-label='Neutral']"
+  },
+  "MeGusta": {
+    "identificador": "xpath",
+    "valor": "//button[@aria-label='Me gusta']"
+  },
+  "MeEncanta": {
+    "identificador": "xpath",
+    "valor": "//button[@aria-label='Me encanta']"
+  },
+  "SeleccionarRecuadro": {
+    "identificador": "xpath",
+    "valor": "//button[@class='hj-oY2OlEmotionComment_selectButton']"
+  },
+  "CartelSeleccionarRecuadro": {
+    "identificador": "xpath",
+    "valor": "//span[@class='hj-G-pT7EmotionComment_selectorTootlip']"
+  },
+  "MisDatos": {
+    "identificador": "xpath",
+    "valor": "//a[@id='identity-link']"
+  },
+  "Email": {
+    "identificador": "xpath",
+    "valor": "//input[@autocomplete='email']"
+  },
+  "GuardarDatos": {
+    "identificador": "xpath",
+    "valor": "//button[@class='btn btn-primary form-control-submit']"
+  },
+  "RecibirOfertas": {
+    "identificador": "xpath",
+    "valor": "//div[@class='custom-control custom-checkbox']"
+  },
+  "PronombreSr": {
+    "identificador": "xpath",
+    "valor": "//div[@class='custom-control custom-radio custom-control-inline']//input[@value='1']"
+  },
+  "ContinuarYFinalizar": {
+    "identificador": "xpath",
+    "valor": "//div[@class='Transition']//button[contains(text(),'Continuar')][@class='continue btn btn-primary']"
+  },
+  "Destacado": {
+    "identificador": "xpath",
+    "valor": ""
+  },
+  "DesdeAHastaZ": {
+    "identificador": "xpath",
+    "valor": ""
+  },
+  "DesdeZHastaA": {
+    "identificador": "xpath",
+    "valor": ""
+  },
+  "PrecioProducto": {
+    "identificador": "xpath",
+    "valor": "//div[@id='cart-subtotal-products-cash']/span[2]"
+  },
+  "CostoEnvio": {
+    "identificador": "xpath",
+    "valor": "//div[@id='cart-subtotal-shipping-cash']/span[2]/span"
+  },
+  "TotalAPagar": {
+    "identificador": "xpath",
+    "valor": "//div[@class='cart-summary-line cart-total']/span[@class='value']"
   }
 }

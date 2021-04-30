@@ -2,7 +2,7 @@
 Feature: supervielleLogin
 
     @noLoguea
-    Scenario: Verificar que no se pueda iniciar sesión con un usuario no registrado
+    Scenario: Validar que no se pueda iniciar sesión con un usuario no registrado
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
@@ -12,7 +12,7 @@ Feature: supervielleLogin
         Then Verifico que el campo "MensajeError" contenga el texto "Error 1"
 
 
-    Scenario: Verificar que se pueda iniciar sesión con un usuario valido
+    Scenario: Validar que se pueda iniciar sesión con un usuario valido
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
