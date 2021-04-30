@@ -12,7 +12,7 @@ const rc = jsonfile.readFileSync(`${process.cwd()}/test-automation-packrc.json`)
 
 
 function ThisWorld({ attach }) {
-  
+
   this.page = '';
   this.argv = argv;
   setDefaultTimeout('90000');
@@ -45,8 +45,8 @@ async function testRailUpload() {
     const report = `${process.cwd()}/reports/cucumber_report.json`;
     //const suite = rc.testrail.suite_name;
     //const suite = 'supervielleCarrito';
-    const cucumberReport= jsonfile.readFileSync(`${process.cwd()}/reports/cucumber_report.json`);
-    const suite = cucumberReport[0].name; 
+    const cucumberReport = jsonfile.readFileSync(`${process.cwd()}/reports/cucumber_report.json`);
+    const suite = cucumberReport[0].name;
     const run = `Results: UI - Automation ${suite}`;
 
     const uploader = testrail.cucumberToTestRail();
@@ -58,7 +58,7 @@ async function testRailUpload() {
   }
 }
 
-  process.once('beforeExit', async () => {
-    await console.log('Comienza subida de reporte a TestRail')
-    testRailUpload();
-  });
+process.once('beforeExit', async () => {
+  // await console.log('Comienza subida de reporte a TestRail')
+  // testRailUpload();
+});

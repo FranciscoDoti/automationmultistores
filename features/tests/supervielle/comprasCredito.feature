@@ -54,7 +54,7 @@ Feature: supervielleComprasCredito
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
 
-    Scenario: Verificar que al apretar el botón siguiente se cargue la pagina con las opciones de cuotas
+    Scenario: Validar que al apretar el botón siguiente se cargue la pagina con las opciones de cuotas
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -73,7 +73,7 @@ Feature: supervielleComprasCredito
         And Hago click en "Siguiente"
         Then Verifico que el campo "UnaCuota" contenga el texto " 1 Cuota sin interés "
 
-    Scenario: Verificar que no se habilite el botón Continuar si no se seleccionó ninguna cuota
+    Scenario: Validar que no se habilite el botón Continuar si no se seleccionó ninguna cuota
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -92,7 +92,7 @@ Feature: supervielleComprasCredito
         And Hago click en "Siguiente"
         Then Verifico que el elemento "Pagar" este deshabilitado
 
-    Scenario:Verificar que al intentar realizar una compra con una tarjeta vencida aparezca un cartel de error
+    Scenario:Validar que al intentar realizar una compra con una tarjeta vencida aparezca un cartel de error
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"

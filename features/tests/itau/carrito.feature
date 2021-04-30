@@ -11,13 +11,13 @@ Feature: itauCarrito
         And Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
 
-    Scenario: Verificar que al seleccionar un producto se agregue al carrito
+    Scenario: Validar que al seleccionar un producto se agregue al carrito
         When Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
 
 
-    Scenario: Verificar que se pueda eliminar un producto del carrito
+    Scenario: Validar que se pueda eliminar un producto del carrito
         When Hago click en "AgregarAlCarrito"
         And Hago click en "EliminarProducto"
         Then Verifico que el campo "CartelCarritoVacio" contenga el texto "No hay más artículos en tu carrito"

@@ -18,6 +18,11 @@
     "itauDireccion": "cucumber-js features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
     "itauLogin": "cucumber-js features/tests/itau/login.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaDireccion": "cucumber-js features/tests/galicia/direccion.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaCanjes": "cucumber-js features/tests/galicia/canjes.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaFiltros": "cucumber-js features/tests/galicia/filtros.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaMisDatos": "cucumber-js features/tests/galicia/misDatos.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaSugerencias": "cucumber-js features/tests/galicia/sugerencias.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaValidacionesTarjeta": "cucumber-js features/tests/galicia/validacionesTarjeta.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
@@ -25,7 +30,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "chai": "^4.3.0",
-    "chromedriver": "^88.0.0",
+    "chromedriver": "^90.0.0",
     "cucumber": "^6.0.3",
     "cucumber-html-reporter": "^5.3.0",
     "jsonfile": "^6.1.0",

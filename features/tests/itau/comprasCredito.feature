@@ -17,7 +17,7 @@ Feature: itauComprasCredito
         And Hago click en "AceptoTerminosYCondiciones"
         And Hago click en "SinRegistroTarjeta"
 
-    
+
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
@@ -26,43 +26,43 @@ Feature: itauComprasCredito
         Then Verifico que el campo "CartelCompraExitosa" contenga el texto "¡Felicitaciones! tu pedido está confirmado"
 
 
-    Scenario: Verificar que al apretar el botón pagar habiendo ingresado letras en el campo tarjeta aparezca un cartel de error
+    Scenario: Validar que al apretar el botón pagar habiendo ingresado letras en el campo tarjeta aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta | FechaVencimiento | Codigo |
             | AAAAAAAAA  | 0821             | 258    |
         And Hago click en "Pagar"
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
-    Scenario: Verificar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo tarjeta aparezca un cartel de error
+    Scenario: Validar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo tarjeta aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta | FechaVencimiento | Codigo |
             | %&$!"·"    | 0821             | 258    |
         And Hago click en "Pagar"
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
-    Scenario: Verificar que al apretar el botón pagar habiendo dejado el campo tarjeta vacio aparezca un cartel de error
+    Scenario: Validar que al apretar el botón pagar habiendo dejado el campo tarjeta vacio aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta | FechaVencimiento | Codigo |
             |            | 0821             | 258    |
         And Hago click en "Pagar"
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
-    Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 16 números en el campo tarjeta aparezca un cartel de error
+    Scenario: Validar que al apretar el botón pagar habiendo ingresado menos de 16 números en el campo tarjeta aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta  | FechaVencimiento | Codigo |
             | 54186301100 | 0821             | 258    |
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "Invalid card number"
 
-    @PRUEBA
-    Scenario: Verificar que al apretar el botón pagar habiendo ingresado menos de 4 números en el campo venc. aparezca un cartel de error
+
+    Scenario: Validar que al apretar el botón pagar habiendo ingresado menos de 4 números en el campo venc. aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
             | 5418630110000014 | 082              | 258    |
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
-    
+
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado letras en el campo vencimiento aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
@@ -70,7 +70,7 @@ Feature: itauComprasCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
-    
+
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo vencimiento aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
             | NroTarjeta       | FechaVencimiento | Codigo |
