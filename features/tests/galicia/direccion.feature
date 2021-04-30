@@ -83,3 +83,59 @@ Feature: direccion
         And Hago click en "Canjear"
         And Hago click en "EliminarDireccionDesdeCompra"
         Then Verifico que el campo "DireccionEliminadaCorrectamente" contenga el texto "¡Dirección eliminada correctamente!"
+
+
+
+    Scenario: Validar propiedades del campo Alias
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo Alias
+
+    Scenario: Validar propiedades del campo Nombre
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo Nombre
+
+    Scenario: Validar propiedades del campo Apellido
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo Apellido
+
+
+
+    Scenario: Validar propiedades del campo DNI
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo DNI
+
+
+    Scenario: Validar propiedades del campo Calle
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo Calle
+
+    @PRUEBA
+    Scenario: Validar propiedades del campo Piso
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo Piso
+
+    @PRUEBA
+    Scenario: Validar propiedades del campo Departamento
+        When Hago click en "NombreCuenta"
+        And Hago click en "MiCuenta"
+        And Hago click en "MisDirecciones"
+        When Hago click en "CrearNuevaDireccion"
+        And Valido propiedades del campo Departamento
