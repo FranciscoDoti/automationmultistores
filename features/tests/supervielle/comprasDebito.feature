@@ -67,6 +67,7 @@ Feature: supervielleComprasDebito
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
+
     Scenario: Realizar una compra con tarjeta de debito TOKENIZADA
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
