@@ -59,6 +59,6 @@ async function testRailUpload() {
 }
 
 process.once('beforeExit', async () => {
-  // await console.log('Comienza subida de reporte a TestRail')
-  // testRailUpload();
+   await console.log('Comienza subida de reporte a TestRail')
+  testRailUpload();
 });
