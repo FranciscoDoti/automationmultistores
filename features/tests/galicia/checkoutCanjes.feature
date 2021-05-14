@@ -28,6 +28,7 @@ Feature: canjes
         And Hago click en "CanjearYFinalizar"
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
+
     Scenario: Realizar una compra con 50% puntos y tarjeta de credito
         Given Hago click en "50Puntos"
         And Hago click en "Canjear"
