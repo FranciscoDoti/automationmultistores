@@ -23,6 +23,7 @@
     "galiciaMisDatos": "cucumber-js features/tests/galicia/misDatos.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaSugerencias": "cucumber-js features/tests/galicia/sugerencias.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaValidacionesTarjeta": "cucumber-js features/tests/galicia/validacionesTarjeta.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcLogin": "cucumber-js features/tests/icbc/login.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
