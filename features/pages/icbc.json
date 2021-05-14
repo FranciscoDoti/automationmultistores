@@ -1,0 +1,170 @@
+{
+    "Ingresar": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Iniciar Sesion']"
+    },
+    "Usuario": {
+        "identificador": "xpath",
+        "valor": "//input[@id='username']"
+    },
+    "Contraseña": {
+        "identificador": "xpath",
+        "valor": "//input[@id='password']"
+    },
+    "IniciarSesion": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn-ingresar']"
+    },
+    "NombreUsuario": {
+        "identificador": "xpath",
+        "valor": "//a[@class='user_name']"
+    },
+    "ErrorInicioSesion": {
+        "identificador": "xpath",
+        "valor": "//p[@class='alert-mensaje']"
+    },
+    "UsuarioInvalido": {
+        "identificador": "xpath",
+        "valor": "//label[@id='username-error']"
+    },
+    "ContraseñaInvalida": {
+        "identificador": "xpath",
+        "valor": "//label[@id='password-error']"
+    },
+    "CerrarSesion": {
+        "identificador": "xpath",
+        "valor": "//li[@class='logout']"
+    },
+    "VerificoCierreSesion": {
+        "identificador": "xpath",
+        "valor": "//i[@class='login-grey']"
+    },
+    "Categorias": {
+        "identificador": "xpath",
+        "valor": "//a[@title='CATEGORÍAS']"
+    },
+    "Hogar": {
+        "identificador": "xpath",
+        "valor": "//a[@title='HOGAR']"
+    },
+    "Colchones": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Colchones']"
+    },
+    "PrimerProducto": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='product_list grid row']//li[1]"
+    },
+    "SoloPesos": {
+        "identificador": "xpath",
+        "valor": "//input[@class='rb-solopesos']"
+    },
+    "SoloPuntos": {
+        "identificador": "xpath",
+        "valor": "//input[@class='rb-solopuntos']"
+    },
+    "50puntos50pesos": {
+        "identificador": "xpath",
+        "valor": "//input[@class='rb-cincuenta']"
+    },
+    "25puntos75pesos": {
+        "identificador": "xpath",
+        "valor": "//input[@class='rb-vcinco']"
+    },
+    "Comprar": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn btn-comprar']"
+    },
+    "AceptoCondiciones": {
+        "identificador": "xpath",
+        "valor": "//label[@for='cgv']"
+    },
+    "IrACaja": {
+        "identificador": "xpath",
+        "valor": "//button[@name='processCarrier']"
+    },
+    "TarjetaDebito": {
+        "identificador": "xpath",
+        "valor": "//input[@value='Tarjeta de débito']"
+    },
+    "TarjetaCredito": {
+        "identificador": "xpath",
+        "valor": "//input[@value='Tarjeta de crédito']"
+    },
+    "NroTarjeta": {
+        "identificador": "xpath",
+        "valor": "//input[@name='CardNumber']"
+    },
+    "FechaVencimiento": {
+        "identificador": "xpath",
+        "valor": "//input[@name='CardExpirationDate']"
+    },
+    "Codigo": {
+        "identificador": "xpath",
+        "valor": "//input[@id='CardSecurityCode']"
+    },
+    "Nombre": {
+        "identificador": "xpath",
+        "valor": "//input[@name='CardHolderName']"
+    },
+    "NroDocumento": {
+        "identificador": "xpath",
+        "valor": "//input[@name='CardHolderDni']"
+    },
+    "Pagar": {
+        "identificador": "xpath",
+        "valor": "//button[@id='Submit']"
+    },
+    "ExitoCompra": {
+        "identificador": "xpath",
+        "valor": ""
+    },
+    "Buscador": {
+        "identificador": "xpath",
+        "valor": "//input[@id='search_query_top']"
+    },
+    "Adornos": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Adornos']"
+    },
+    "Cuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']"
+    },
+    "UnaCuota": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='1']"
+    },
+    "DosCuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='2']"
+    },
+    "TresCuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='3']"
+    },
+    "CuatroCuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='4']"
+    },
+    "CincoCuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='5']"
+    },
+    "SeisCuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='6']"
+    },
+    "NueveCuotas": {
+        "identificador": "xpath",
+        "valor": "//select[@name='cuotas_visa']//option[@value='9']"
+    },
+    "AhoraX": {
+        "identificador": "xpath",
+        "valor": ""
+    },
+    "PagarConPuntos": {
+        "identificador": "xpath",
+        "valor": "//button[@title='Pagar con Puntos']"
+    }
+}
