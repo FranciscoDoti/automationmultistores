@@ -185,7 +185,7 @@
     },
     "CartelSeleccionarCuotas": {
         "identificador": "xpath",
-        "valor": "//div[@class='InstallmentList-title col-xs-12 col-md-6 col-lg-6']//h4"
+        "valor": "//form[@id='desktop-form']//h4[contains(.,'Seleccioná las cuotas')]"
     },
     "Pagar": {
         "identificador": "xpath",

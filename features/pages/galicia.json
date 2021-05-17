@@ -159,6 +159,10 @@
     "identificador": "xpath",
     "valor": "//input[@id='conditions_to_approve[terms-and-conditions]']"
   },
+  "CartelMetodoEnvio": {
+    "identificador": "xpath",
+    "valor": "//section[@id='checkout-delivery-step']//h1[@class='step-title h3']//span"
+  },
   "CanjearYFinalizar": {
     "identificador": "xpath",
     "valor": "//button[@id='SubmitDesktop']"

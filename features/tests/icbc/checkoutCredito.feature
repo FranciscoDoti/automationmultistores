@@ -92,7 +92,7 @@ Feature: icbcCheckoutCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "ExitoCompra" contenga el texto ""
 
-    @PRUEBA
+
     Scenario: Realizar una compra de un producto de Fravega con Tarjeta de crédito en x cuotas con interés.
         And Lleno el campo "Buscador" con "Fravega"
         And Hago click en "Buscar"

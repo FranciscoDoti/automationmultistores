@@ -18,7 +18,7 @@ Feature: canjes
         And Lleno los siguientes campos
             | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
+            | Vencimiento    | 1222             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
@@ -39,7 +39,7 @@ Feature: canjes
         And Lleno los siguientes campos
             | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
+            | Vencimiento    | 1222             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
@@ -59,7 +59,7 @@ Feature: canjes
         And Lleno los siguientes campos
             | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
+            | Vencimiento    | 1222             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
@@ -79,7 +79,7 @@ Feature: canjes
         And Lleno los siguientes campos
             | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
+            | Vencimiento    | 1222             |
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"

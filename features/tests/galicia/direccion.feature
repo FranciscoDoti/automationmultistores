@@ -73,6 +73,7 @@ Feature: direccion
         And Lleno los siguientes campos
             | Numero | RANDOM |
         And Hago click en "ContinuarYGuardarDireccion"
+        Then Verifico que el campo "CartelMetodoEnvio" contenga el texto "3."
 
 
     Scenario: Verificar que antes de finalizar una compra me permita borrar una direccion
@@ -86,56 +87,56 @@ Feature: direccion
 
 
 
-    Scenario: Validar propiedades del campo Alias
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo Alias
+# Scenario: Validar propiedades del campo Alias
+#    When Hago click en "NombreCuenta"
+#   And Hago click en "MiCuenta"
+#  And Hago click en "MisDirecciones"
+# When Hago click en "CrearNuevaDireccion"
+#And Valido propiedades del campo Alias
 
-    Scenario: Validar propiedades del campo Nombre
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo Nombre
+#Scenario: Validar propiedades del campo Nombre
+#   When Hago click en "NombreCuenta"
+#  And Hago click en "MiCuenta"
+# And Hago click en "MisDirecciones"
+# When Hago click en "CrearNuevaDireccion"
+# And Valido propiedades del campo Nombre
 
-    Scenario: Validar propiedades del campo Apellido
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo Apellido
-
-
-
-    Scenario: Validar propiedades del campo DNI
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo DNI
+#Scenario: Validar propiedades del campo Apellido
+#   When Hago click en "NombreCuenta"
+#  And Hago click en "MiCuenta"
+# And Hago click en "MisDirecciones"
+# When Hago click en "CrearNuevaDireccion"
+#And Valido propiedades del campo Apellido
 
 
-    Scenario: Validar propiedades del campo Calle
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo Calle
+
+# Scenario: Validar propiedades del campo DNI
+#    When Hago click en "NombreCuenta"
+#  And Hago click en "MiCuenta"
+#    And Hago click en "MisDirecciones"
+#   When Hago click en "CrearNuevaDireccion"
+#  And Valido propiedades del campo DNI
 
 
-    Scenario: Validar propiedades del campo Piso
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo Piso
+#  Scenario: Validar propiedades del campo Calle
+#     When Hago click en "NombreCuenta"
+#    And Hago click en "MiCuenta"
+#   And Hago click en "MisDirecciones"
+#  When Hago click en "CrearNuevaDireccion"
+# And Valido propiedades del campo Calle
 
 
-    Scenario: Validar propiedades del campo Departamento
-        When Hago click en "NombreCuenta"
-        And Hago click en "MiCuenta"
-        And Hago click en "MisDirecciones"
-        When Hago click en "CrearNuevaDireccion"
-        And Valido propiedades del campo Departamento
+#Scenario: Validar propiedades del campo Piso
+#   When Hago click en "NombreCuenta"
+#  And Hago click en "MiCuenta"
+# And Hago click en "MisDirecciones"
+# When Hago click en "CrearNuevaDireccion"
+#And Valido propiedades del campo Piso
+
+
+#Scenario: Validar propiedades del campo Departamento
+#   When Hago click en "NombreCuenta"
+#  And Hago click en "MiCuenta"
+# And Hago click en "MisDirecciones"
+#When Hago click en "CrearNuevaDireccion"
+#And Valido propiedades del campo Departamento
