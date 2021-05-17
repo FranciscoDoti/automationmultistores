@@ -72,7 +72,7 @@ Feature: supervielleComprasCredito
             | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
-        Then Verifico que el campo "UnaCuota" contenga el texto " 1 Cuota sin interés "
+        Then Verifico que el campo "CartelSeleccionarCuotas" contenga el texto "Seleccioná las cuotas"
 
     Scenario: Validar que no se habilite el botón Continuar si no se seleccionó ninguna cuota
         When Hago click en "Categorias"

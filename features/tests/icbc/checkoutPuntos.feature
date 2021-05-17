@@ -10,7 +10,7 @@ Feature: icbcCheckoutPuntos
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
-    @PRUEBA
+
     Scenario: Realizar una compra de un producto Fravega con Puntos.
         And Lleno el campo "Buscador" con "Fravega"
         And Hago click en "PrimerProducto"

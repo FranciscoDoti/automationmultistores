@@ -14,6 +14,7 @@ Feature: icbcCheckoutCredito
 
     Scenario: Realizar una compra con Tarjeta de crédito en x cuotas sin interés.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
@@ -33,6 +34,7 @@ Feature: icbcCheckoutCredito
 
     Scenario:  Realizar una compra con Tarjeta de crédito en x cuotas con interés.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
@@ -52,6 +54,7 @@ Feature: icbcCheckoutCredito
 
     Scenario: Realizar una compra con Tarjeta de crédito con xxAhora.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
@@ -71,6 +74,7 @@ Feature: icbcCheckoutCredito
 
     Scenario: Realizar una compra de un producto de Fravega con Tarjeta de crédito en x cuotas sin interés.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
@@ -88,8 +92,10 @@ Feature: icbcCheckoutCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "ExitoCompra" contenga el texto ""
 
+    @PRUEBA
     Scenario: Realizar una compra de un producto de Fravega con Tarjeta de crédito en x cuotas con interés.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
@@ -109,6 +115,7 @@ Feature: icbcCheckoutCredito
 
     Scenario: Realizar una compra de un producto de Fravega con Tarjeta de crédito con xxAhora.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
@@ -128,6 +135,7 @@ Feature: icbcCheckoutCredito
 
     Scenario: Intentar realizar una compra con Tarjeta de crédito con fecha de vencimiento expirada.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"

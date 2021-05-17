@@ -1,7 +1,7 @@
 {
   "NombreCuenta": {
     "identificador": "xpath",
-    "valor": "//span[contains(text(),'Elida Herminia Biscione')]"
+    "valor": "//span[contains(text(),'Silvia Gabriela Becerra')]"
   },
   "MiCuenta": {
     "identificador": "xpath",
@@ -153,11 +153,11 @@
   },
   "Cuota1": {
     "identificador": "xpath",
-    "valor": "//option[@value='0']"
+    "valor": "//div[@class='installments']//select[@class='form-control form-control-sm w-auto']//option[@value='0']"
   },
   "AceptoTerminos": {
     "identificador": "xpath",
-    "valor": "//a[@id='cta-terms-and-conditions-0']"
+    "valor": "//input[@id='conditions_to_approve[terms-and-conditions]']"
   },
   "CanjearYFinalizar": {
     "identificador": "xpath",
@@ -233,11 +233,11 @@
   },
   "SeleccionarRecuadro": {
     "identificador": "xpath",
-    "valor": "//button[@class='hj-oY2OlEmotionComment_selectButton']"
+    "valor": "//span[@class='_hj-1PeBw__EmotionComment__iconSelectElement _hj-2cKCe__styles__iconSelectElement _hj-3e6MN__styles__icon']"
   },
   "CartelSeleccionarRecuadro": {
     "identificador": "xpath",
-    "valor": "//span[@class='hj-G-pT7EmotionComment_selectorTootlip']"
+    "valor": "//div[@class='_hj-hbIG7__ElementHighlighter__title']"
   },
   "MisDatos": {
     "identificador": "xpath",

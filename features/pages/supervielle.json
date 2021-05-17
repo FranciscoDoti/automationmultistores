@@ -183,6 +183,10 @@
         "identificador": "xpath",
         "valor": "//div[@class='item']//span[contains(text(),' 1 Cuota sin interés ')]"
     },
+    "CartelSeleccionarCuotas": {
+        "identificador": "xpath",
+        "valor": "//div[@class='InstallmentList-title col-xs-12 col-md-6 col-lg-6']//h4"
+    },
     "Pagar": {
         "identificador": "xpath",
         "valor": "//button[@id='SubmitDesktop']"

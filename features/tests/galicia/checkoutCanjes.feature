@@ -16,10 +16,10 @@ Feature: canjes
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4907860500000016 |
+            | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 0821             |
-            | CodSeguridad   | 599              |
+            | Vencimiento    | 1219             |
+            | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
@@ -37,10 +37,10 @@ Feature: canjes
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4907860500000016 |
+            | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 0821             |
-            | CodSeguridad   | 599              |
+            | Vencimiento    | 1219             |
+            | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
@@ -57,10 +57,10 @@ Feature: canjes
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4907860500000016 |
+            | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 0821             |
-            | CodSeguridad   | 599              |
+            | Vencimiento    | 1219             |
+            | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
@@ -77,10 +77,10 @@ Feature: canjes
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4907860500000016 |
+            | NroTarjeta     | 4507990000004905 |
             | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 0821             |
-            | CodSeguridad   | 599              |
+            | Vencimiento    | 1219             |
+            | CodSeguridad   | 123              |
             | NroDocumento   | 39169244         |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"

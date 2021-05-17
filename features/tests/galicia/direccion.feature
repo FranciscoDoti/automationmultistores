@@ -124,7 +124,7 @@ Feature: direccion
         When Hago click en "CrearNuevaDireccion"
         And Valido propiedades del campo Calle
 
-    @PRUEBA
+
     Scenario: Validar propiedades del campo Piso
         When Hago click en "NombreCuenta"
         And Hago click en "MiCuenta"
@@ -132,7 +132,7 @@ Feature: direccion
         When Hago click en "CrearNuevaDireccion"
         And Valido propiedades del campo Piso
 
-    @PRUEBA
+
     Scenario: Validar propiedades del campo Departamento
         When Hago click en "NombreCuenta"
         And Hago click en "MiCuenta"
