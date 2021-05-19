@@ -54,7 +54,7 @@ Feature: supervielleComprasCredito
         And Hago click en "Pagar"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
-    @PRUEBA
+
     Scenario: Validar que al apretar el botón siguiente se cargue la pagina con las opciones de cuotas
         When Hago click en "Categorias"
         And Hago click en "Tecno"

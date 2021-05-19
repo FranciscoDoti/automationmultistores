@@ -69,21 +69,13 @@ Feature: canjes
         And Hago click en "CanjearYFinalizar"
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
+    @PRUEBA
     Scenario: Realizar una compra solo con puntos
         Given Hago click en "SoloPuntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
-        And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1222             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
-        And Hago click en "ChekCuota"
-        And Hago click en "Cuota1"
         And Hago click en "ContinuarYFinalizar"
         And Hago click en "AceptoTerminos"
         And Hago click en "CanjearYFinalizar"

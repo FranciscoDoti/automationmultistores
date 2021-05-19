@@ -153,7 +153,7 @@
   },
   "Cuota1": {
     "identificador": "xpath",
-    "valor": "//div[@class='installments']//select[@class='form-control form-control-sm w-auto']//option[@value='0']"
+    "valor": "//option[@value='0'][contains(text(),'1')]"
   },
   "AceptoTerminos": {
     "identificador": "xpath",
