@@ -64,8 +64,3 @@ Scenario: Verificar link registrate
     And Hago click en "Registrarme"
     And Verifico que el campo "Datos personales" contenga el texto "DATOS PERSONALE"
 
-Scenario: Verificar cierre de sesion
-
-@PRUEBA
-Scenario: Verificar vuelta atras en inicio de sesion
-    And Hago click en "IniciaSesion" con Executor

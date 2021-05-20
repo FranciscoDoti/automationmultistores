@@ -1,10 +1,11 @@
 {
-    "mode": "server",
+    "mode": "local",
     "env": {
         "itau": "dev",
         "supervielle": "dev",
         "galicia": "dev",
-        "icbc": "dev"
+        "icbc": "dev",
+        "tiendaclic": "dev"
     },
     "serverUrl": "https://zalenium.aper.cloud/wd/hub",
     "examples": {
