@@ -1,0 +1,152 @@
+{
+
+    "IniciaSesion": {
+        "identificador": "xpath",
+        "valor": "//a[@class='login']"
+    },
+    "Email": {
+        "identificador": "xpath",
+        "valor": "//input[@id='email']"
+    },
+    "Clave": {
+        "identificador": "xpath",
+        "valor": "//input[@id='passwd']"
+    },
+    "Inicio sesion": {
+        "identificador": "xpath",
+        "valor": "//button[@id='SubmitLogin']"
+    },
+    "Mi cuenta": {
+        "identificador": "xpath",
+        "valor": "//h1[@class='page-heading']"
+    },
+    "Error inicio de sesion": {
+        "identificador": "xpath",
+        "valor": "//div[@class='alert alert-danger']//li"
+    },
+      "Olvide clave": { 
+    "identificador": "xpath",  
+    "valor": "//a[contains(text(),'¿Olvidó su contraseña?')]" 
+      },
+        "Nueva cuenta correo": { 
+      "identificador": "xpath",  
+      "valor": "//input[@id='email_create']" 
+        }
+    ,
+      "Registrarme": { 
+    "identificador": "xpath",  
+    "valor": "//button[@id='SubmitCreate']" 
+      },
+    "Datos personales": { 
+      "identificador": "xpath",  
+      "valor": "//h3[contains(text(),'Datos personales')]" 
+        }
+    ,
+      "olvidoClaveValidacion": { 
+    "identificador": "xpath",  
+    "valor": "//h1[contains(text(),'¿Olvidó su contraseña?')]" 
+      }
+,
+  "busqueda": { 
+"identificador": "xpath",  
+"valor": "//input[@id='search_query_top']" 
+  }
+  ,
+  "confirmar compra": { 
+"identificador": "xpath",  
+"valor": "//button[contains(.,'Comprar')]" 
+  }
+  ,
+    "lupaBusqueda": { 
+  "identificador": "xpath",  
+  "valor": "//header/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/form[1]/button[1]" 
+    }
+    ,
+      "objeto compra": { 
+    "identificador": "xpath",  
+    "valor": "//body/div[@id='app-view']/div[@id='page']/div[2]/div[2]/div[2]/div[2]/div[4]/div[1]/article[1]/div[1]/div[1]/a[1]/div[1]/div[3]/div[4]/a[1]" 
+      }
+      ,
+        "Comprar": { 
+      "identificador": "xpath",  
+      "valor": "//div[@id='app-view']//button[contains(.,'Comprar')]" 
+        }
+    ,
+      "condiciones": { 
+    "identificador": "xpath",  
+    "valor": "//input[@id='cgv']" 
+      }
+      ,
+        "Tarjeta de credito": { 
+      "identificador": "xpath",  
+      "valor": "//a[contains(text(),'Tarjeta de crédito')]" 
+        }
+    ,
+      "Tarjeta de debito": { 
+    "identificador": "xpath",  
+    "valor": "//a[contains(text(),'Tarjeta de débito')]" 
+      }
+      ,
+        "Numero de tarjeta": { 
+      "identificador": "xpath",  
+      "valor": "//input[@id='CardNumber']" 
+        }
+      ,
+        "Nombre": { 
+      "identificador": "xpath",  
+      "valor": "//input[@id='CardHolderName']" 
+        }
+      ,
+        "Cantidad de cuotas": { 
+      "identificador": "xpath",  
+      "valor": "//select[@id='cuotas_visa']" 
+        }
+      ,
+        "Vencimiento": { 
+      "identificador": "xpath",  
+      "valor": "//input[@id='CardExpirationDate']" 
+        }
+        ,
+          "Codigo": { 
+        "identificador": "xpath",  
+        "valor": "//input[@id='CardSecurityCode']" 
+          }
+      ,
+        "DNI": { 
+      "identificador": "xpath",  
+      "valor": "//input[@id='CardHolderDni']" 
+        },
+      
+        "pagar": { 
+      "identificador": "xpath",  
+      "valor": "//button[@id='Submit']" 
+        }
+      ,
+        "compraExitosa": { 
+      "identificador": "xpath",  
+      "valor": "//p[contains(., ' compra se completó con éxito')]" 
+        }
+      ,
+        "compraError": { 
+      "identificador": "xpath",  
+      "valor": " INSERTAR_LOCATOR " 
+        },
+          "envio": { 
+        "identificador": "xpath",  
+        "valor": " INSERTAR_LOCATOR " 
+          },
+        "horario": { 
+      "identificador": "xpath",  
+      "valor": " INSERTAR_LOCATOR " 
+        }
+    ,
+      "aceptar condiciones": { 
+    "identificador": "xpath",  
+    "valor": "//p[contains(text(),'Por favor acepte las condiciones generales antes d')]" 
+      }
+    ,
+      "tarjetaExpirada": { 
+    "identificador": "xpath",  
+    "valor": "//label[@id='CardExpirationDate-error']" 
+      }
+}
