@@ -124,7 +124,7 @@
       ,
         "compraExitosa": { 
       "identificador": "xpath",  
-      "valor": " INSERTAR_LOCATOR " 
+      "valor": "//p[contains(., ' compra se completó con éxito')]" 
         }
       ,
         "compraError": { 
@@ -143,5 +143,10 @@
       "aceptar condiciones": { 
     "identificador": "xpath",  
     "valor": "//p[contains(text(),'Por favor acepte las condiciones generales antes d')]" 
+      }
+    ,
+      "tarjetaExpirada": { 
+    "identificador": "xpath",  
+    "valor": "//label[@id='CardExpirationDate-error']" 
       }
 }

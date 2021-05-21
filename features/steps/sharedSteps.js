@@ -45,23 +45,29 @@ When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.sleep(15000);
 });
 
-When(/^Hago click en "(.*)" con Executor$/, async function (elementKey) {
+When(/^Scrolleo hasta el elemento "(.*)" y hago click$/, async function (elementKey) {
     //await clickElementWithExecutor(this.page, elementKey);
     var element = await buscarElemento(this.page, elementKey);
-    try{
+    if(element == 'ELEMENT_NOT_FOUND'){
+        await assert.fail('no se pudo localizar el elemento')
+    }else{
 
-        await this.driver.executeScript("arguments[0].scrollIntoView(false);", element);
-        log.info('se scrolleo hasta el elemento: '+elementKey)
-    }catch{
-        log.error('no se pudo scrollear hasta el elemento: '+elementKey);
-    }
-    await this.driver.sleep(3000);
-    try{
-
-        await element.click();
-        log.info('se hizo click sobre elemento: '+elementKey);
-    }catch{
-        log.error('hubo un error al hacer click en el elemento: '+elementKey)
+        try{
+            
+            await this.driver.executeScript("arguments[0].scrollIntoView(false);", element);
+            log.info('se scrolleo hasta el elemento: '+elementKey)
+        }catch{
+            log.error('no se pudo scrollear hasta el elemento: '+elementKey);
+        }
+        await this.driver.sleep(3000);
+        try{
+            
+            await element.click();
+            log.info('se hizo click sobre elemento: '+elementKey);
+        }catch{
+            await assert.fail('hubo un error al hacer click en el elemento: '+elementKey);
+            
+        }
     }
 });
 
