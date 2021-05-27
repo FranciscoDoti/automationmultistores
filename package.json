@@ -28,6 +28,8 @@
     "icbcCheckoutCredito": "cucumber-js features/tests/icbc/checkoutCredito.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCheckoutDebito": "cucumber-js features/tests/icbc/checkoutDebito.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCheckoutPuntos": "cucumber-js features/tests/icbc/checkoutPuntos.feature -f json:reports/cucumber_report.json --retry 1",
+    "tiendaclicLogin": "cucumber-js features/tests/tiendaclic/login.feature -f json:reports/cucumber_report.json --retry 1",
+    "tiendaclicCheckout": "cucumber-js features/tests/tiendaclic/checkout.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",

@@ -149,4 +149,14 @@
     "identificador": "xpath",  
     "valor": "//label[@id='CardExpirationDate-error']" 
       }
+    ,
+      "comprar": { 
+    "identificador": "xpath",  
+    "valor": "//button[@name='processCarrier']" 
+      }
+   ,
+     "campo requerido": { 
+   "identificador": "xpath",  
+   "valor": "//label[contains(.,'Campo requerido')]" 
+     }
 }
