@@ -1,5 +1,6 @@
 const { Given, When, Then } = require('cucumber');
 const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento } = require('../support/functions');
+const { getDriver } = require(`${process.cwd()}/driver.js`);
 const { assert } = require('chai');
 const { log } = require(`${process.cwd()}/logger`);
 const urls = require(`${process.cwd()}/urls.json`);
@@ -44,8 +45,30 @@ When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.sleep(15000);
 });
 
-When(/^Hago click en "(.*)" con Executor$/, async function (elementKey) {
-    await clickElementWithExecutor(this.page, elementKey);
+When(/^Scrolleo hasta el elemento "(.*)" y hago click$/, async function (elementKey) {
+    //await clickElementWithExecutor(this.page, elementKey);
+    var element = await buscarElemento(this.page, elementKey);
+    if(element == 'ELEMENT_NOT_FOUND'){
+        await assert.fail('no se pudo localizar el elemento')
+    }else{
+
+        try{
+            
+            await this.driver.executeScript("arguments[0].scrollIntoView(false);", element);
+            log.info('se scrolleo hasta el elemento: '+elementKey)
+        }catch{
+            log.error('no se pudo scrollear hasta el elemento: '+elementKey);
+        }
+        await this.driver.sleep(3000);
+        try{
+            
+            await element.click();
+            log.info('se hizo click sobre elemento: '+elementKey);
+        }catch{
+            await assert.fail('hubo un error al hacer click en el elemento: '+elementKey);
+            
+        }
+    }
 });
 
 
@@ -100,6 +123,22 @@ When(/^Obtengo el texto del elemento "(.)" y lo guardo en la variable "(.)"$/
         var textoEnVariable = await this.data.get(nombreVariable);
         await log.info(' se guardó el texto ' + textoEnVariable + ' en la variable ' + nombreVariable);
     });
+
+When(/^Scrolleo hasta el elemento "(.*)"$/, async function(elementKey){
+
+    var element = await buscarElemento(this.page, elementKey);
+    if(element == 'ELEMENT_NOT_FOUND'){
+        await assert.fail('no se pudo localizar el elemento')
+    }else{
+
+            await this.driver.executeScript("arguments[0].scrollIntoView(true);", element);
+            log.info('se scrolleo hasta el elemento: '+elementKey)
+        
+            log.error('no se pudo scrollear hasta el elemento: '+elementKey);
+        
+    }
+        await this.driver.sleep(3000);
+});
 
 
 Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
