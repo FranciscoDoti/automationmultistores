@@ -81,7 +81,7 @@
     },
     "AceptoCondiciones": {
         "identificador": "xpath",
-        "valor": "//p[@class='checkbox']//div[@class='checker'"
+        "valor": "//p[@class='checkbox']//div[@class='checker']"
     },
     "IrACaja": {
         "identificador": "xpath",

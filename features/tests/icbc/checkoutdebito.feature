@@ -13,10 +13,7 @@ Feature: icbcCheckoutDebito
 
 
     Scenario: Realizar una compra con Tarjeta de débito.
-        And Paso el mouse por encima de "Categorias"
-        And Hago click en "Hogar"
-        And Hago click en "Adornos"
-        And Hago click en "PrimerProducto"
+        When Abro la siguiente Url "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
         And Hago click en "AceptoCondiciones"
@@ -34,6 +31,7 @@ Feature: icbcCheckoutDebito
 
     Scenario: Realizar una compra de un producto de Fravega con Tarjeta de débito.
         And Lleno el campo "Buscador" con "Fravega"
+        And Hago click en "Buscar"
         And Hago click en "PrimerProducto"
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
