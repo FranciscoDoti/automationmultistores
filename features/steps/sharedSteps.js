@@ -124,6 +124,22 @@ When(/^Obtengo el texto del elemento "(.)" y lo guardo en la variable "(.)"$/
         await log.info(' se guardó el texto ' + textoEnVariable + ' en la variable ' + nombreVariable);
     });
 
+When(/^Scrolleo hasta el elemento "(.*)"$/, async function(elementKey){
+
+    var element = await buscarElemento(this.page, elementKey);
+    if(element == 'ELEMENT_NOT_FOUND'){
+        await assert.fail('no se pudo localizar el elemento')
+    }else{
+
+            await this.driver.executeScript("arguments[0].scrollIntoView(true);", element);
+            log.info('se scrolleo hasta el elemento: '+elementKey)
+        
+            log.error('no se pudo scrollear hasta el elemento: '+elementKey);
+        
+    }
+        await this.driver.sleep(3000);
+});
+
 
 Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
     var textoElemento = await obtenerTexto(this.page, elementKey);
