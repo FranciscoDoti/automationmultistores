@@ -14,7 +14,7 @@ Feature: icbcLogin
     #Scenario: Validar propiedades del campo contraseña.
 
     Scenario: Validar inicio de sesión con datos correctos de usuario registrado.
-        And Lleno el campo "Usuario" con "icbcclub06"
+        And Lleno el campo "Usuario" con "pruebamall11"
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
@@ -22,12 +22,12 @@ Feature: icbcLogin
 
     Scenario: Intentar realizar ingreso con e-mail correcto y contraseña incorrecta.
         And Lleno el campo "Usuario" con "icbcclub06"
-        And Lleno el campo "Contraseña" con "prueba03"
+        And Lleno el campo "Contraseña" con "jojojba03"
         And Hago click en "IniciarSesion"
         Then Verifico que el campo "ErrorInicioSesion" contenga el texto "No reconocemos esa combinacion de usuario y clave. Por favor revisalos e intenta nuevamente."
 
     Scenario: Intentar realizar ingreso con e-mail incorrecto y contraseña correcta.
-        And Lleno el campo "Usuario" con "icbcclub10"
+        And Lleno el campo "Usuario" con "hihiih4"
         And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
         Then Verifico que el campo "ErrorInicioSesion" contenga el texto "No reconocemos esa combinacion de usuario y clave. Por favor revisalos e intenta nuevamente."

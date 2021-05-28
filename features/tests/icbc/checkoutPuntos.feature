@@ -6,8 +6,8 @@ Feature: icbcCheckoutPuntos
         And Leo los datos de "icbc"
         And Hago click en "Ingresar"
         And Me muevo a la ventana de Login
-        And Lleno el campo "Usuario" con "icbcclub16"
-        And Lleno el campo "Contraseña" con "prueba02"
+        And Lleno el campo "Usuario" con "pruebamall11"
+        And Lleno el campo "Contraseña" con "prueba01"
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
 
