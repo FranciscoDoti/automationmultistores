@@ -6,12 +6,12 @@ Feature: icbcCheckoutPuntos
         And Leo los datos de "icbc"
         And Hago click en "Ingresar"
         And Me muevo a la ventana de Login
-        And Lleno el campo "Usuario" con "icbcclub06"
-        And Lleno el campo "Contraseña" con "prueba01"
+        And Lleno el campo "Usuario" con "icbcclub16"
+        And Lleno el campo "Contraseña" con "prueba02"
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
 
-
+    @PRUEBA
     Scenario: Realizar una compra de un producto Fravega con Puntos.
         And Lleno el campo "Buscador" con "Fravega"
         And Hago click en "PrimerProducto"
@@ -31,7 +31,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "IrACaja"
         And Hago click en "PagarConPuntos"
         #Aceptar alerta desea pagar con puntos
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra abonando con 50% Puntos y Tarjeta de crédito en x cuotas sin interés.
         When Abro la siguiente Url "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html"
@@ -49,7 +49,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra abonando con 50% Puntos y Tarjeta de crédito en x cuotas con intereses.
         When Abro la siguiente Url "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html"
@@ -67,7 +67,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "CuatroCuotas"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     # Scenario: Realizar una compra abonando con 50% Puntos y Tarjeta de crédito en xxAhora.
     #    And Paso el mouse por encima de "Categorias"
@@ -104,7 +104,7 @@ Feature: icbcCheckoutPuntos
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
 
     Scenario: Realizar una compra de un producto Fravega abonando con 50% Puntos y Tarjeta de débito.
@@ -122,7 +122,7 @@ Feature: icbcCheckoutPuntos
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra de un producto Fravega abonando con 50% Puntos y Tarjeta de crédito en x cuotas sin interés.
         And Lleno el campo "Buscador" con "Fravega"
@@ -141,7 +141,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     # Scenario: Realizar una compra de un producto Fravega abonando con 50% Puntos y Tarjeta de crédito en x cuotas con intereses.
     #    And Lleno el campo "Buscador" con "Fravega"
@@ -197,8 +197,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
-
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
     # Scenario: Realizar una compra abonando con 25% Puntos y Tarjeta de crédito en x cuotas con intereses.
     #    And Paso el mouse por encima de "Categorias"
     #   And Hago click en "Hogar"
@@ -255,7 +254,7 @@ Feature: icbcCheckoutPuntos
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra de un producto Fravega abonando con 25% Puntos y Tarjeta de débito.
         And Lleno el campo "Buscador" con "Fravega"
@@ -272,7 +271,7 @@ Feature: icbcCheckoutPuntos
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra de un producto Fravega abonando con 25% Puntos y Tarjeta de crédito en x cuotas sin interés.
         And Lleno el campo "Buscador" con "Fravega"
@@ -291,7 +290,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra de un producto Fravega abonando con 25% Puntos y Tarjeta de crédito en x cuotas con intereses.
         And Lleno el campo "Buscador" con "Fravega"
@@ -310,7 +309,7 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "CuatroCuotas"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     Scenario: Realizar una compra de un producto Fravega abonando con 25% Puntos y Tarjeta de crédito en xxAhora.
         And Lleno el campo "Buscador" con "Fravega"
@@ -329,4 +328,4 @@ Feature: icbcCheckoutPuntos
         And Hago click en "Cuotas"
         And Hago click en "AhoraX"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"

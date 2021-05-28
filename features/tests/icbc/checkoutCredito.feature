@@ -6,10 +6,11 @@ Feature: icbcCheckoutCredito
         And Leo los datos de "icbc"
         And Hago click en "Ingresar"
         And Me muevo a la ventana de Login
-        And Lleno el campo "Usuario" con "icbcclub06"
-        And Lleno el campo "Contraseña" con "prueba01"
+        And Lleno el campo "Usuario" con "icbcclub16"
+        And Lleno el campo "Contraseña" con "prueba02"
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+
 
 
     Scenario: Realizar una compra con Tarjeta de crédito en x cuotas sin interés.
@@ -28,7 +29,7 @@ Feature: icbcCheckoutCredito
         And Hago click en "Cuotas"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
 
     Scenario:  Realizar una compra con Tarjeta de crédito en x cuotas con interés.
@@ -47,7 +48,7 @@ Feature: icbcCheckoutCredito
         And Hago click en "Cuotas"
         And Hago click en "CuatroCuotas"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
     # Scenario: Realizar una compra con Tarjeta de crédito con xxAhora.
     #When Abro la siguiente Url "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html"
@@ -85,7 +86,7 @@ Feature: icbcCheckoutCredito
         And Hago click en "Cuotas"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
 
     #Scenario: Realizar una compra de un producto de Fravega con Tarjeta de crédito en x cuotas con interés.
@@ -127,7 +128,7 @@ Feature: icbcCheckoutCredito
     #   And Hago click en "AhoraX"
     #   And Hago click en "Pagar"
     #   Then Verifico que el campo "ExitoCompra" contenga el texto ""
-    @PRUEBA
+
     Scenario: Intentar realizar una compra con Tarjeta de crédito con fecha de vencimiento expirada.
         When Abro la siguiente Url "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html"
         And Hago click en "SoloPesos"
@@ -142,4 +143,4 @@ Feature: icbcCheckoutCredito
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"

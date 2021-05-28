@@ -170,5 +170,9 @@
     "PagarConPuntos": {
         "identificador": "xpath",
         "valor": "//button[@title='Pagar con Puntos']"
+    },
+    "ExitoCompra": {
+        "identificador": "xpath",
+        "valor": "//div[@class='row heading-approved-block']/h1"
     }
 }

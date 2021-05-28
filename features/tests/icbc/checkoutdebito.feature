@@ -6,8 +6,8 @@ Feature: icbcCheckoutDebito
         And Leo los datos de "icbc"
         And Hago click en "Ingresar"
         And Me muevo a la ventana de Login
-        And Lleno el campo "Usuario" con "icbcclub06"
-        And Lleno el campo "Contraseña" con "prueba01"
+        And Lleno el campo "Usuario" con "icbcclub16"
+        And Lleno el campo "Contraseña" con "prueba02"
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
 
@@ -26,7 +26,7 @@ Feature: icbcCheckoutDebito
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
 
     Scenario: Realizar una compra de un producto de Fravega con Tarjeta de débito.
@@ -45,5 +45,5 @@ Feature: icbcCheckoutDebito
             | Nombre           | Jose Ignacio     |
             | NroDocumento     | 39169244         |
         And Hago click en "Pagar"
-        Then Verifico que el campo "ExitoCompra" contenga el texto ""
+        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
