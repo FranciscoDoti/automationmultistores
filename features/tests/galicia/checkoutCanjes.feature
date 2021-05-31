@@ -69,7 +69,7 @@ Feature: canjes
         And Hago click en "CanjearYFinalizar"
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
-    @PRUEBA
+
     Scenario: Realizar una compra solo con puntos
         Given Hago click en "SoloPuntos"
         And Hago click en "Canjear"
