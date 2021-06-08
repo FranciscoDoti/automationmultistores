@@ -14,6 +14,7 @@ const rc = jsonfile.readFileSync(`${process.cwd()}/test-automation-packrc.json`)
 function ThisWorld({ attach }) {
 
   this.page = '';
+  this.config= '';
   this.argv = argv;
   setDefaultTimeout('90000');
   this.driver = getDriver();

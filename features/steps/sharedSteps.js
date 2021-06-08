@@ -33,7 +33,10 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
 Given(/^Leo los datos de "(.*)"$/, async function (json) {
     this.page = require(`${process.cwd()}/features/pages/${json}.json`);
+    this.config = require(`${process.cwd()}/features/configurationData/${json}Data.json`)
+    await console.log(this.config)
 });
+
 
 When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
@@ -85,6 +88,13 @@ When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
 When(/^Lleno el campo "(.*)" con "(.*)"$/, async function (elementKey, texto) {
     await llenarCampo(this.page, elementKey, texto);
 });
+
+
+When(/^Lleno el campo "(.*)" con "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
+    var textoQueVamosAMandar  = this.config[datoJson];
+    await llenarCampo(this.page, elementKey, textoQueVamosAMandar   );
+});
+
 
 When('Lleno los siguientes campos', async function (datatable) {
 
