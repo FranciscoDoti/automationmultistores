@@ -5,8 +5,8 @@
         "valor": "//a[@class='login']"
     },
     "Email": {
-        "identificador": "xpath",
-        "valor": "//input[@id='email']"
+        "identificador": "id",
+        "valor": "email"
     },
     "Clave": {
         "identificador": "xpath",
