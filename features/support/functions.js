@@ -19,28 +19,59 @@ async function buscarElemento(json, element, reintentos) {
 
     while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
 
-        try {
-            if (nroReintento > 1) {
-                await driver.sleep(4000);
+        
+        switch(json[element].identificador){
+            case "xpath":
+                try {
+                    if (nroReintento > 1) {
+                        await driver.sleep(4000);
+                }
+                await log.info('Localizando elemento: ' + element);
+                var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
+                elementoEncontrado = true;
+                await log.info('Se localizó el elemento ' + element + ' exitosamente');
+                break;
+    
+            } catch (error) {
+                errorTrace = error;
+                if (error.name === 'TimeoutError') {
+                    await log.error('No se pudo localizar al elemento ' + element);
+                    await log.info('Número de intento ' + nroReintento);
+    
+                } else {
+                    await log.error(error);
+                }
+    
+                nroReintento++;
             }
-            await log.info('Localizando elemento: ' + element);
-            var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
-            elementoEncontrado = true;
-            await log.info('Se localizó el elemento ' + element + ' exitosamente');
-
-        } catch (error) {
-            errorTrace = error;
-            if (error.name === 'TimeoutError') {
-                await log.error('No se pudo localizar al elemento ' + element);
-                await log.info('Número de intento ' + nroReintento);
-
-            } else {
-                await log.error(error);
+            
+            case "id":
+                try {
+                    if (nroReintento > 1) {
+                        await driver.sleep(4000);
+                }
+                await log.info('Localizando elemento: ' + element);
+                var webElement = await driver.wait(until.elementLocated(By.id(json[element].valor)), 5000, 5000, 5000);
+                elementoEncontrado = true;
+                await log.info('Se localizó el elemento ' + element + ' exitosamente');
+                break;     
+    
+            } catch (error) {
+                errorTrace = error;
+                if (error.name === 'TimeoutError') {
+                    await log.error('No se pudo localizar al elemento ' + element);
+                    await log.info('Número de intento ' + nroReintento);
+    
+                } else {
+                    await log.error(error);
+                }
+    
+                nroReintento++;
             }
-
-            nroReintento++;
+                
+            }
         }
-    }
+           
 
     if (!elementoEncontrado) {
         return "ELEMENT_NOT_FOUND";
