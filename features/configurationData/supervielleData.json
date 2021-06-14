@@ -1,5 +1,6 @@
 {
-  "usuario1": "lqaautomation2021@gmail.com",
-  "usuario2": "blablabla2@gmail.com"
+  "usuarioValido": "lqaautomation2021@gmail.com",
+  "usuarioInvalido": "blablabla2@gmail.com",
+  "example": "dato parametrizado"
 
 }
