@@ -6,8 +6,10 @@ const { ExceptionHandler, exceptions } = require('winston');
 const { log } = require(`${process.cwd()}/logger`);
 const CANT_REINTENTOS_DEFAULT = 4;
 var cantReintentos = CANT_REINTENTOS_DEFAULT;
+const regex = new RegExp(`<elementText>`);
 
-async function buscarElemento(json, element, reintentos) {
+async function buscarElemento(json, element, text, reintentos) {
+
 
     if (reintentos != undefined) {
         cantReintentos = reintentos;
@@ -16,66 +18,78 @@ async function buscarElemento(json, element, reintentos) {
     var elementoEncontrado = false;
     var nroReintento = 1;
     var errorTrace;
+    if(text == undefined){
 
-    while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
-        
-        try {
-            if (nroReintento > 1) {
-                await driver.sleep(4000);
-            }
-            await log.info('Localizando elemento: ' + element);
-            switch(json[element].identificador){
-                case "xpath":
-                    try{
-                        var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
-                        var elementoEncontrado = true;
-                        await log.info('Se localizó el elemento ' + element + ' exitosamente');
-                        break;
-                    }catch{
-                        log.error(`no se pudo localizar el elemento ${element}`);
-                    }
-                case "id":
-                    try{
-                        var webElement = await driver.wait(until.elementLocated(By.id(json[element].valor)), 5000, 5000, 5000);
-                        var elementoEncontrado = true;
-                        await log.info('Se localizó el elemento ' + element + ' exitosamente');
-                        break;
-                    }catch{
-                        log.error(`no se pudo localizar el elemento ${element}`);
-                    }
-                    break; 
-                default:
-                    log.error(`El identificador ${json[element].identificador} es invalido o esta incompleto. Revisar json de locators`);
-                    var error = true;
-                    nroReintento++;
-                }
-                
-            } catch (error) {
-                errorTrace = error;
-                if (error.name === 'TimeoutError') {
-                    await log.error('No se pudo localizar al elemento ' + element);
-                    await log.info('Número de intento ' + nroReintento);
-                    
-                } else {
-                    await log.error(error);
-                }
-                
-                nroReintento++;
-            }    
+        while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
             
-        }
-    if(error == true){
-        await assert.fail(`Revisar el valor 'identificador' del locator en el json`);
-    }
+            try {
+                if (nroReintento > 1) {
+                    await driver.sleep(4000);
+                }
+                await log.info('Localizando elemento: ' + element);
+                switch(json[element].identificador){
+                    case "xpath":
+                        try{
+                            var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
+                            var elementoEncontrado = true;
+                            await log.info('Se localizó el elemento ' + element + ' exitosamente');
+                            break;
+                        }catch{
+                            log.error(`no se pudo localizar el elemento ${element}`);
+                        }
+                        case "id":
+                            try{
+                                var webElement = await driver.wait(until.elementLocated(By.id(json[element].valor)), 5000, 5000, 5000);
+                                var elementoEncontrado = true;
+                                await log.info('Se localizó el elemento ' + element + ' exitosamente');
+                                break;
+                            }catch{
+                                log.error(`no se pudo localizar el elemento ${element}`);
+                            }
+                            break; 
+                            default:
+                                log.error(`El identificador ${json[element].identificador} es invalido o esta incompleto. Revisar json de locators`);
+                                var error = true;
+                                nroReintento++;
+                            }
+                            
+                        } catch (error) {
+                            errorTrace = error;
+                            if (error.name === 'TimeoutError') {
+                                await log.error('No se pudo localizar al elemento ' + element);
+                                await log.info('Número de intento ' + nroReintento);
+                                
+                            } else {
+                                await log.error(error);
+                            }
+                            
+                            nroReintento++;
+                        }    
+                        
+                    }
+                }else{
 
-    if (!elementoEncontrado) {
-        return "ELEMENT_NOT_FOUND";
-    } else {
-        return webElement;
-    }
-}
-
-async function obtenerTexto(json, element) {
+                    await driver.sleep(1000);
+                    var newPath = json[element].valor.replace(regex, text);
+                    try{
+                        var webElement = await driver.wait(until.elementLocated(By.xpath(newPath)), 5000);
+                        var elementoEncontrado = true;
+                    }catch{
+                        log.error(`No se pudo localizar el elemento ${element} que contenga el texto ${text}`);
+                    }
+                }
+                    if(error == true){
+                        await assert.fail(`Revisar el valor 'identificador' del locator en el json`);
+                    }
+                    
+                    if (!elementoEncontrado) {
+                        return "ELEMENT_NOT_FOUND";
+                    } else {
+                        return webElement;
+                    }
+                }
+                
+                async function obtenerTexto(json, element) {
 
     var elementoEncontrado = false;
     var nroReintento = 1;

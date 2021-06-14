@@ -26,7 +26,7 @@
     },
       "Olvide clave": { 
     "identificador": "xpath",  
-    "valor": "//a[contains(text(),'¿Olvidó su contraseña?')]" 
+    "valor": "//a[contains(.,'contraseña')]" 
       },
         "Nueva cuenta correo": { 
       "identificador": "xpath",  
