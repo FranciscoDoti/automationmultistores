@@ -106,8 +106,19 @@ When('Lleno los siguientes campos', async function (datatable) {
             await llenarCampo(this.page, datatable.rawTable[i][0], random);
         }
     }
+});
 
 
+When('Lleno los siguientes campos leyendo la config', async function (datatable) {
+
+    for (var i = 0; i < datatable.rawTable.length; i++) {
+        if (datatable.rawTable[i][1] != 'RANDOM') {
+            await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
+        } else {
+            var random = Math.random().toString().slice(2, 4);
+            await llenarCampo(this.page, datatable.rawTable[i][0], random);
+        }
+    }
 });
 
 

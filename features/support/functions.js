@@ -33,6 +33,7 @@ async function buscarElemento(json, element, reintentos) {
                         break;
                     }catch{
                         log.error(`no se pudo localizar el elemento ${element}`);
+                        nroReintento++;
                     }
                 case "id":
                     try{
@@ -42,6 +43,7 @@ async function buscarElemento(json, element, reintentos) {
                         break;
                     }catch{
                         log.error(`no se pudo localizar el elemento ${element}`);
+                        nroReintento++;
                     }
                     break; 
                 default:
