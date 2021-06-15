@@ -1,6 +1,7 @@
 {
   "usuario1": "lqaautomation2021@gmail.com",
   "passwordUsuario1": "/MXPIce1",
+  "usuarioInvalido": "blablabla2@gmail.com",
   "passwordFalsa": "contraseñaFalsa",
 
   "nroTarjetaDebito1": "4066520617031158",
@@ -57,5 +58,4 @@
   "direccion.DptoAgregado": "14",
 
   "estadoExitoso1": "¡Listo!"
-
 }
