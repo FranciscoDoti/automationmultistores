@@ -1,12 +1,13 @@
 @supervielle
+
 Feature: supervielleValidacionesComprasCredito
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
-        And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
-        And Lleno el campo "Contraseña" con "/MXPIce1"
+        And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config
+        And Lleno el campo "Contraseña" con "passwordUsuario1" yendo a buscar la config
         And Hago click en "IniciarSesion"
 
 
@@ -20,12 +21,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | AAAAAAAAA    |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1223         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaLetras              |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" no exista
 
 
@@ -39,12 +40,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | AAAAAAAAA    |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1223         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaLetras              |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" no exista
 
     Scenario: Validar que no se habilite el botón siguiente si en el campo tarjeta ingreso más de 16 números
@@ -57,12 +58,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 222222222222222222 |
-            | NombreApellido | JUANA SUAREZ       |
-            | Vencimiento    | 1223               |
-            | CodSeguridad   | 123                |
-            | NroDocumento   | 39169244           |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjeta+16numeros          |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" no exista
 
 
@@ -76,12 +77,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     |              |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1223         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     |  nroTarjetaVacio              |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" no exista
 
     Scenario: Validar que no se habilite el botón “siguiente” si en el campo tarjeta ingreso caracteres especiales
@@ -94,12 +95,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | &/$/#$!      |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1223         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCaracteresEspeciales |
+            | NombreApellido | nombreApellidoTarjetaCredito1  |
+            | Vencimiento    | vencimientoTarjetaCredito1     |
+            | CodSeguridad   | codSeguridadTarjetaCredito1    |
+            | NroDocumento   | nroDocumentoTarjetaCredito1    |
         Then Verifico que el elemento "Siguiente" no exista
 
     Scenario: Validar que no se habilite el botón siguiente si ingreso un Nombre y apellido con números
@@ -112,12 +113,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | 4444444          |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1          |
+            | NombreApellido | NombreTarjetaNumeros        |
+            | Vencimiento    | vencimientoTarjetaCredito1  |
+            | CodSeguridad   | codSeguridadTarjetaCredito1 |
+            | NroDocumento   | nroDocumentoTarjetaCredito1 |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón siguiente si ingreso un Nombre y apellido con caracteres especiales
@@ -130,12 +131,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | #%&$!#!#         |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1                |
+            | NombreApellido | NombreTarjetaCaracteresEspeciales |
+            | Vencimiento    | vencimientoTarjetaCredito1        |
+            | CodSeguridad   | codSeguridadTarjetaCredito1       |
+            | NroDocumento   | nroDocumentoTarjetaCredito1       |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón siguiente si en el campo Nombre y apellido dejo el campo vacío
@@ -148,12 +149,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido |                  |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1          |
+            | NombreApellido | NombreTarjetaVacio          |
+            | Vencimiento    | vencimientoTarjetaCredito1  |
+            | CodSeguridad   | codSeguridadTarjetaCredito1 |
+            | NroDocumento   | nroDocumentoTarjetaCredito1 |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón siguiente si en el campo vencimiento ingreso menos de 4 números
@@ -166,14 +167,15 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 12               |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | VencimientoTarjeta-4numeros   |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
+    
     Scenario: Validar que no se habilite el botón siguiente si en el campo vencimiento ingreso letras
         When Hago click en "Categorias"
         And Hago click en "Tecno"
@@ -184,12 +186,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | AAA              |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | VencimientoTarjetaLetras      |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Validar que no se habilite el botón siguiente si en el campo vencimiento ingreso caracteres especiales
@@ -202,12 +204,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | %$!              |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1                     |
+            | NombreApellido | nombreApellidoTarjetaCredito1          |
+            | Vencimiento    | VencimientoTarjetaCaracteresEspeciales |
+            | CodSeguridad   | codSeguridadTarjetaCredito1            |
+            | NroDocumento   | nroDocumentoTarjetaCredito1            |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón “siguiente” si en el campo cod de seguridad ingreso letras
@@ -220,12 +222,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | AAF              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | CodSeguridadTarjetaLetras     |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso menos de 3 números
@@ -238,13 +240,14 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 12               |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | CodSeguridadTarjeta-3Numeros  |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
+
 
     Scenario:Validar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso caracteres especiales
         When Hago click en "Categorias"
@@ -256,12 +259,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | $%^              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1                      |
+            | NombreApellido | nombreApellidoTarjetaCredito1           |
+            | Vencimiento    | vencimientoTarjetaCredito1              |
+            | CodSeguridad   | CodSeguridadTarjetaCaracteresEspeciales |
+            | NroDocumento   | nroDocumentoTarjetaCredito1             |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón siguiente si en el campo cod de seguridad dejo el campo vacio
@@ -274,12 +277,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   |                  |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | CodSeguridadTarjetaVacio      |
+            | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Validar que no se habilite el botón siguiente si en el campo Nro de documento ingreso letras
@@ -292,12 +295,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | AAAAAAAA         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | NroDocTarjetaLetras           |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Validar que no se habilite el botón siguiente si en el campo Nro de documento ingreso caracteres especiales
@@ -310,12 +313,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | ###$"!"          |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1                |
+            | NombreApellido | nombreApellidoTarjetaCredito1     |
+            | Vencimiento    | vencimientoTarjetaCredito1        |
+            | CodSeguridad   | codSeguridadTarjetaCredito1       |
+            | NroDocumento   | NroDocTarjetaCaracteresEspeciales |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario:Validar que no se habilite el botón siguiente si en el campo Nro de documento dejo el campo vacio
@@ -328,12 +331,12 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   |                  |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   |  NroDocTarjetaVacio           |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
     Scenario: Validar que no se habilite el botón siguiente si en el campo Nro de documento ingreso menos de 7 digitos
@@ -346,10 +349,10 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1223             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169            |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | nroTarjetaCredito1            |
+            | NombreApellido | nombreApellidoTarjetaCredito1 |
+            | Vencimiento    | vencimientoTarjetaCredito1    |
+            | CodSeguridad   | codSeguridadTarjetaCredito1   |
+            | NroDocumento   | NroDocTarjeta-9Digitos        |
         Then Verifico que el elemento "Siguiente" este deshabilitado

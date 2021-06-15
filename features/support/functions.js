@@ -36,6 +36,7 @@ async function buscarElemento(json, element, text, reintentos) {
                             break;
                         }catch{
                             log.error(`no se pudo localizar el elemento ${element}`);
+                            nroReintento++;
                         }
                         case "id":
                             try{
@@ -45,6 +46,7 @@ async function buscarElemento(json, element, text, reintentos) {
                                 break;
                             }catch{
                                 log.error(`no se pudo localizar el elemento ${element}`);
+                                nroReintento++;
                             }
                             break; 
                             default:
@@ -75,7 +77,8 @@ async function buscarElemento(json, element, text, reintentos) {
                         var webElement = await driver.wait(until.elementLocated(By.xpath(newPath)), 5000);
                         var elementoEncontrado = true;
                     }catch{
-                        log.error(`No se pudo localizar el elemento ${element} que contenga el texto ${text}`);
+                        log.error(`no se pudo localizar el elemento ${element} que contenga el texto ${text}`);
+                        nroReintento++;
                     }
                 }
                     if(error == true){
