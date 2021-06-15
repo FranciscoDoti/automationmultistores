@@ -15,7 +15,7 @@ Feature: canjes
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -36,7 +36,7 @@ Feature: canjes
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -56,7 +56,7 @@ Feature: canjes
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |

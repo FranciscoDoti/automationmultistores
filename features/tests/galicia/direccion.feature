@@ -10,7 +10,7 @@ Feature: direccion
         And Hago click en "MiCuenta"
         And Hago click en "MisDirecciones"
         When Hago click en "CrearNuevaDireccion"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | Alias        | RANDOM                |
             | DNI          | DniValido             |
             | Calle        | DireccionValida       |
@@ -29,7 +29,7 @@ Feature: direccion
         And Hago click en "MiCuenta"
         And Hago click en "MisDirecciones"
         When Hago click en "Actualizar"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | Numero | RANDOM |
         And Hago click en "Guardar"
         Then  Verifico que el campo "DireccionActualizadaCorrectamente" contenga el texto "¡Dirección actualizada correctamente!"
@@ -50,7 +50,7 @@ Feature: direccion
         And Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "AñadirNuevaDireccionDeCompra"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | DNI          | DniValido             |
             | Calle        | DireccionValida       |
             | Numero       | AlturaDireccionValida |
@@ -70,7 +70,7 @@ Feature: direccion
         And Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "EditarDireccionDesdeCompra"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | Numero | RANDOM |
         And Hago click en "ContinuarYGuardarDireccion"
         Then Verifico que el campo "CartelMetodoEnvio" contenga el texto "3."

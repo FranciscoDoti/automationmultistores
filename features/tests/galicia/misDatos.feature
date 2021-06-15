@@ -8,7 +8,7 @@ Feature: misDatos
         And Hago click en "MisDatos"
 
     Scenario: Verificar que al editar el correo electronico en MisDatos se actualice correctamente
-        When Lleno los siguientes campos
+        When Lleno los siguientes campos leyendo la config
             | Email | EmailEditadoValido |
         And Hago click en "GuardarDatos"
 

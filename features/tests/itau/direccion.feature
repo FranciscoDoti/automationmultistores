@@ -12,7 +12,7 @@ Feature: itauDireccion
 
   Scenario: Agregar una dirección valida al usuario
     When Hago click en "AñadirNuevaDireccion"
-    And Lleno los siguientes campos
+    And Lleno los siguientes campos leyendo la config
       | Nombre          | NombreDireccion          |
       | Apellido        | ApellidoDireccion        |
       | Calle           | CalleDireccion           |

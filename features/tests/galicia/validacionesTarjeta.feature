@@ -14,7 +14,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | SeisNumeros           |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -29,7 +29,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     |                       |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -45,7 +45,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | CaracteresEspeciales  |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -60,7 +60,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | SeisNumeros           |
             | Vencimiento    | VencimientoValido     |
@@ -78,7 +78,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | CaracteresEspeciales  |
             | Vencimiento    | VencimientoValido     |
@@ -95,7 +95,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido |                       |
             | Vencimiento    | VencimientoValido     |
@@ -112,7 +112,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | DosNumeros            |
@@ -129,7 +129,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | CuatroLetras          |
@@ -146,7 +146,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | CaracteresEspeciales  |
@@ -163,7 +163,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido    |
             | NombreApellido | NombreTarjetaValido |
             | Vencimiento    | VencimientoValido   |
@@ -180,7 +180,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido    |
             | NombreApellido | NombreTarjetaValido |
             | Vencimiento    | VencimientoValido   |
@@ -197,7 +197,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido     |
             | NombreApellido | NombreTarjetaValido  |
             | Vencimiento    | VencimientoValido    |
@@ -214,7 +214,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido    |
             | NombreApellido | NombreTarjetaValido |
             | Vencimiento    | VencimientoValido   |
@@ -231,7 +231,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -248,7 +248,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -265,7 +265,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
@@ -283,7 +283,7 @@ Feature: validacionesTarjeta
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
+        And Lleno los siguientes campos leyendo la config
             | NroTarjeta     | NroTarjetaValido      |
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
