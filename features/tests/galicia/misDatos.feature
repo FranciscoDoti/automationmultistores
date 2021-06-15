@@ -9,7 +9,7 @@ Feature: misDatos
 
     Scenario: Verificar que al editar el correo electronico en MisDatos se actualice correctamente
         When Lleno los siguientes campos
-            | Email | juanasuarez@gmail.com |
+            | Email | EmailEditadoValido |
         And Hago click en "GuardarDatos"
 
 

@@ -11,13 +11,13 @@ Feature: direccion
         And Hago click en "MisDirecciones"
         When Hago click en "CrearNuevaDireccion"
         And Lleno los siguientes campos
-            | Alias        | RANDOM          |
-            | DNI          | 3999999         |
-            | Calle        | Blanco Encalada |
-            | Numero       | 2311            |
-            | Departamento | A               |
-            | CodigoPostal | 1428            |
-            | Ciudad       | CABA            |
+            | Alias        | RANDOM                |
+            | DNI          | DniValido             |
+            | Calle        | DireccionValida       |
+            | Numero       | AlturaDireccionValida |
+            | Departamento | DepartamentoValido    |
+            | CodigoPostal | CodigoPostalValido    |
+            | Ciudad       | CiudadValida          |
         And Hago click en "DropdownProvincia"
         And Hago click en "ProvinciaBuenosAires"
         And Hago click en "Guardar"
@@ -51,12 +51,12 @@ Feature: direccion
         And Hago click en "Canjear"
         And Hago click en "AñadirNuevaDireccionDeCompra"
         And Lleno los siguientes campos
-            | DNI          | 3999999         |
-            | Calle        | Blanco Encalada |
-            | Numero       | 2311            |
-            | Departamento | A               |
-            | CodigoPostal | 1428            |
-            | Ciudad       | CABA            |
+            | DNI          | DniValido             |
+            | Calle        | DireccionValida       |
+            | Numero       | AlturaDireccionValida |
+            | Departamento | DepartamentoValido    |
+            | CodigoPostal | CodigoPostalValido    |
+            | Ciudad       | CiudadValida          |
         And Hago click en "DropdownProvincia"
         And Hago click en "ProvinciaBuenosAires"
         And Hago click en "ContinuarYGuardarDireccion"

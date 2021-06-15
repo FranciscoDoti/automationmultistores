@@ -20,89 +20,89 @@ Feature: itauComprasCredito
 
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | 0821             | 258    |
+            | NroTarjeta       | FechaVencimiento       | Codigo              |
+            | NroTarjetaValido | FechaVencimientoValida | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "CartelCompraExitosa" contenga el texto "¡Felicitaciones! tu pedido está confirmado"
 
 
     Scenario: Validar que al apretar el botón pagar habiendo ingresado letras en el campo tarjeta aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta | FechaVencimiento | Codigo |
-            | AAAAAAAAA  | 0821             | 258    |
+            | NroTarjeta | FechaVencimiento       | Codigo              |
+            | TresLetras | FechaVencimientoValida | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
     Scenario: Validar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo tarjeta aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta | FechaVencimiento | Codigo |
-            | %&$!"·"    | 0821             | 258    |
+            | NroTarjeta           | FechaVencimiento       | Codigo              |
+            | CaracteresEspeciales | FechaVencimientoValida | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
     Scenario: Validar que al apretar el botón pagar habiendo dejado el campo tarjeta vacio aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta | FechaVencimiento | Codigo |
-            |            | 0821             | 258    |
+            | NroTarjeta | FechaVencimiento       | Codigo              |
+            |            | FechaVencimientoValida | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "ErrorNumTarjeta" contenga el texto "Invalid card number"
 
     Scenario: Validar que al apretar el botón pagar habiendo ingresado menos de 16 números en el campo tarjeta aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta  | FechaVencimiento | Codigo |
-            | 54186301100 | 0821             | 258    |
+            | NroTarjeta      | FechaVencimiento       | Codigo              |
+            | TarjetaInvalida | FechaVencimientoValida | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "Invalid card number"
 
 
     Scenario: Validar que al apretar el botón pagar habiendo ingresado menos de 4 números en el campo venc. aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | 082              | 258    |
+            | NroTarjeta       | FechaVencimiento | Codigo              |
+            | NroTarjetaValido | TresNumeros      | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado letras en el campo vencimiento aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | AAAA             | 258    |
+            | NroTarjeta       | FechaVencimiento | Codigo              |
+            | NroTarjetaValido | TresLetras       | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
 
     Scenario: Verificar que al apretar el botón pagar habiendo ingresado caract. especiales en el campo vencimiento aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | $%#&             | 258    |
+            | NroTarjeta       | FechaVencimiento     | Codigo              |
+            | NroTarjetaValido | CaracteresEspeciales | CodigoTarjetaValido |
         And Hago click en "Pagar"
         Then Verifico que el campo "VencimientoInvalido" contenga el texto "Invalid expiration date"
 
     Scenario: Verificar que al apretar el boton pagar habiendo ingresado letras en el campo cod de seguridad aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | 0821             | AAA    |
+            | NroTarjeta       | FechaVencimiento       | Codigo     |
+            | NroTarjetaValido | FechaVencimientoValida | TresLetras |
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 
     Scenario: Verificar que al ingresar menos de 3 caracteres en el campo cod seguridad aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | 0821             | 25     |
+            | NroTarjeta       | FechaVencimiento       | Codigo     |
+            | NroTarjetaValido | FechaVencimientoValida | DosNumeros |
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 
     Scenario: Verificar que al dejar el campo codigo seguridad vacio me aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | 0821             |        |
+            | NroTarjeta       | FechaVencimiento       | Codigo |
+            | NroTarjetaValido | FechaVencimientoValida |        |
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 
     Scenario: Verificar que al ingresar caracteres especiales en el campo cod seguridad aparezca un cartel de error
         When Cargo la siguiente informacion de la tarjeta
-            | NroTarjeta       | FechaVencimiento | Codigo |
-            | 5418630110000014 | 0821             | #$%    |
+            | NroTarjeta       | FechaVencimiento       | Codigo               |
+            | NroTarjetaValido | FechaVencimientoValida | CaracteresEspeciales |
         And Hago click en "Pagar"
         Then Verifico que el campo "TarjetaInvalida" contenga el texto "The entered card is invalid. Please, verify your card information and try again."
 

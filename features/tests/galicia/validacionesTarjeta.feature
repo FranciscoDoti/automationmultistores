@@ -15,11 +15,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990      |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1219         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+            | NroTarjeta     | SeisNumeros           |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón “continuar” si en el campo tarjeta dejo el campo vacío
@@ -30,11 +30,12 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     |              |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1219         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+            | NroTarjeta     |                       |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
+
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón “continuar” si en el campo tarjeta ingreso caracteres especiales
@@ -45,11 +46,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | %&$#         |
-            | NombreApellido | JUANA SUAREZ |
-            | Vencimiento    | 1219         |
-            | CodSeguridad   | 123          |
-            | NroDocumento   | 39169244     |
+            | NroTarjeta     | CaracteresEspeciales  |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
     Scenario: Verificar que no se habilite el botón “continuar” si ingreso un Nombre y apellido con números
@@ -60,11 +61,12 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | 111111111111     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | SeisNumeros           |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
+
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -77,11 +79,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | &%##!$%          |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | CaracteresEspeciales  |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -94,11 +96,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido |                  |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido |                       |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -111,11 +113,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 121              |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | DosNumeros            |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -128,11 +130,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | AAAA             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | CuatroLetras          |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -145,11 +147,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | %%%%             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | CaracteresEspeciales  |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -162,11 +164,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | AAAA             |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido    |
+            | NombreApellido | NombreTarjetaValido |
+            | Vencimiento    | VencimientoValido   |
+            | CodSeguridad   | CuatroLetras        |
+            | NroDocumento   | NroDocumentoValido  |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -179,11 +181,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 12               |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido    |
+            | NombreApellido | NombreTarjetaValido |
+            | Vencimiento    | VencimientoValido   |
+            | CodSeguridad   | DosNumeros          |
+            | NroDocumento   | NroDocumentoValido  |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -196,11 +198,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | $#&              |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido     |
+            | NombreApellido | NombreTarjetaValido  |
+            | Vencimiento    | VencimientoValido    |
+            | CodSeguridad   | CaracteresEspeciales |
+            | NroDocumento   | NroDocumentoValido   |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -213,11 +215,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   |                  |
-            | NroDocumento   | 39169244         |
+            | NroTarjeta     | NroTarjetaValido    |
+            | NombreApellido | NombreTarjetaValido |
+            | Vencimiento    | VencimientoValido   |
+            | CodSeguridad   |                     |
+            | NroDocumento   | NroDocumentoValido  |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -230,11 +232,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | AAAAA            |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | CuatroLetras          |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -247,11 +249,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | $#%&             |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | CaracteresEspeciales  |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -264,11 +266,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   |                  |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   |                       |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
@@ -282,11 +284,11 @@ Feature: validacionesTarjeta
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
         And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1219             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169            |
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | SeisNumeros           |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
