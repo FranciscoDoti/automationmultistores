@@ -5,29 +5,29 @@ Background: Ingreso a tiendaclic
     Given Abro la pagina "tiendaclic"
     And Leo los datos de "tiendaclic"
     And Hago click en "IniciaSesion"
-    And Lleno el campo "Email" con "lqaautomation2021@gmail.com"
-    And Lleno el campo "Clave" con "prueba01"
+    And Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
+    And Lleno el campo "Clave" con "claveValida" yendo a buscar la config
     And Hago click en "Inicio sesion"
     And Navego al producto qa automation
 
     #* Lleno el campo "busqueda" con "computadora"
     #* Hago click en "lupaBusqueda"
     #* Hago click en "objeto compra"
-
 Scenario: Realizar una compra con Tarjeta de débito  
     * Hago click en "Comprar"
     * Scrolleo hasta el elemento "condiciones" y hago click
     * Hago click en "confirmar compra"
     * Hago click en "Tarjeta de debito"
     * Lleno los siguientes campos
-        | Numero de tarjeta| 4507990000004905 |
-        | Nombre| Alejandro Aper|
-        | Vencimiento | 12/22 |
-        | Codigo | 123 |
-        | DNI | 123456789 |
+        | Numero de tarjeta| tarjetaValida |
+        | Nombre| nombre|
+        | Vencimiento | vencimiento |
+        | Codigo | codigo |
+        | DNI | dni |
     * Hago click en "pagar"
     * Verifico que el campo "compraExitosa" contenga el texto "Tu compra se completó con éxito"
 
+@PRUEBA
 Scenario Outline: Realizar una compra con Tarjeta de crédito en XX cuotas sin interés.
     * Hago click en "Comprar"
     * Hago click en "confirmar compra"
