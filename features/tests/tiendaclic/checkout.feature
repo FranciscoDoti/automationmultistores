@@ -5,26 +5,25 @@ Background: Ingreso a tiendaclic
     Given Abro la pagina "tiendaclic"
     And Leo los datos de "tiendaclic"
     And Hago click en "IniciaSesion"
-    And Lleno el campo "Email" con "lqaautomation2021@gmail.com"
-    And Lleno el campo "Clave" con "prueba01"
+    And Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
+    And Lleno el campo "Clave" con "claveValida" yendo a buscar la config
     And Hago click en "Inicio sesion"
     And Navego al producto qa automation
 
     #* Lleno el campo "busqueda" con "computadora"
     #* Hago click en "lupaBusqueda"
     #* Hago click en "objeto compra"
-
 Scenario: Realizar una compra con Tarjeta de débito  
     * Hago click en "Comprar"
     * Scrolleo hasta el elemento "condiciones" y hago click
     * Hago click en "confirmar compra"
     * Hago click en "Tarjeta de debito"
-    * Lleno los siguientes campos
-        | Numero de tarjeta| 4507990000004905 |
-        | Nombre| Alejandro Aper|
-        | Vencimiento | 12/22 |
-        | Codigo | 123 |
-        | DNI | 123456789 |
+    * Lleno los siguientes campos leyendo la config
+        | Numero de tarjeta| tarjetaValida |
+        | Nombre| nombre|
+        | Vencimiento | vencimiento |
+        | Codigo | codigo |
+        | DNI | dni |
     * Hago click en "pagar"
     * Verifico que el campo "compraExitosa" contenga el texto "Tu compra se completó con éxito"
 
@@ -57,13 +56,12 @@ Scenario: Intentar realizar una compra con Tarjeta de crédito con fecha de venc
     * Scrolleo hasta el elemento "condiciones" y hago click
     * Hago click en "confirmar compra"
     * Hago click en "Tarjeta de credito"
-    * Lleno los siguientes campos
-        | Numero de tarjeta| 4507990000004905 |
-        | Cantidad de cuotas | 3 Cuotas |
-        | Nombre| Alejandro Aper|
-        | Vencimiento | 12/20 |
-        | Codigo | 123 |
-        | DNI | 123456789 |
+    * Lleno los siguientes campos leyendo la config
+        | Numero de tarjeta| tarjetaValida |
+        | Nombre| nombre|
+        | Vencimiento | vencimientoInvalido |
+        | Codigo | codigo |
+        | DNI | dni |
     * Verifico que el campo "tarjetaExpirada" contenga el texto "Revisá este dat"
 
 
@@ -73,12 +71,12 @@ Scenario: Intentar realizar una compra con Tarjeta de debito con fecha de vencim
     * Scrolleo hasta el elemento "condiciones" y hago click
     * Hago click en "confirmar compra"
     * Hago click en "Tarjeta de debito"
-    * Lleno los siguientes campos
-        | Numero de tarjeta| 4507990000004905 |
-        | Nombre| Alejandro Aper|
-        | Vencimiento | 12/20 |
-        | Codigo | 123 |
-        | DNI | 123456789 |
+    * Lleno los siguientes campos leyendo la config
+        | Numero de tarjeta| tarjetaValida |
+        | Nombre| nombre|
+        | Vencimiento | vencimientoInvalido |
+        | Codigo | codigo |
+        | DNI | dni |
     * Verifico que el campo "tarjetaExpirada" contenga el texto "Revisá este dat"
 
 Scenario: Verifico que sea obligatorio aceptar las condiciones de venta

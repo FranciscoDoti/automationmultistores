@@ -113,8 +113,8 @@ When('Lleno los siguientes campos', async function (datatable) {
 
     for (var i = 0; i < datatable.rawTable.length; i++) {
         if (datatable.rawTable[i][1] != 'RANDOM') {
-            //await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);   funcion original sin parametro de DataJson
-            await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
+            await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);  // funcion original sin parametro de DataJson
+            //await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
         } else {
             var random = Math.random().toString().slice(2, 4);
             await llenarCampo(this.page, datatable.rawTable[i][0], random);
