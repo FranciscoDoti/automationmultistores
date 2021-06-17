@@ -1,3 +1,4 @@
+@PRUEBA
 Feature: canjes
 
     Background: Pasos comunes
@@ -15,12 +16,12 @@ Feature: canjes
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1222             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         And Hago click en "ContinuarYFinalizar"
@@ -36,12 +37,12 @@ Feature: canjes
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1222             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         And Hago click en "ContinuarYFinalizar"
@@ -56,12 +57,12 @@ Feature: canjes
         And Hago click en "ContinuarAlPago"
         And Hago click en "AgregarTarjeta"
         And Hago click en "ContinuarATarjeta"
-        And Lleno los siguientes campos
-            | NroTarjeta     | 4507990000004905 |
-            | NombreApellido | JUANA SUAREZ     |
-            | Vencimiento    | 1222             |
-            | CodSeguridad   | 123              |
-            | NroDocumento   | 39169244         |
+        And Lleno los siguientes campos leyendo la config
+            | NroTarjeta     | NroTarjetaValido      |
+            | NombreApellido | NombreTarjetaValido   |
+            | Vencimiento    | VencimientoValido     |
+            | CodSeguridad   | CodigoSeguridadValido |
+            | NroDocumento   | NroDocumentoValido    |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         And Hago click en "ContinuarYFinalizar"

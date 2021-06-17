@@ -12,16 +12,16 @@ Feature: itauDireccion
 
   Scenario: Agregar una dirección valida al usuario
     When Hago click en "AñadirNuevaDireccion"
-    And Lleno los siguientes campos
-      | Nombre          | Mundo      |
-      | Apellido        | Doti       |
-      | Calle           | 3434       |
-      | Numero          | 3          |
-      | Piso            | 13         |
-      | Departamento    | 3434       |
-      | Ruc             | 0101       |
-      | CedulaIdentidad | 47682222   |
-      | Telefono        | 1547682222 |
+    And Lleno los siguientes campos leyendo la config
+      | Nombre          | NombreDireccion          |
+      | Apellido        | ApellidoDireccion        |
+      | Calle           | CalleDireccion           |
+      | Numero          | NumeroDireccion          |
+      | Piso            | PisoDireccion            |
+      | Departamento    | DepartamentoDireccion    |
+      | Ruc             | RucDireccion             |
+      | CedulaIdentidad | CedulaIdentidadDireccion |
+      | Telefono        | TelefonoDireccion        |
     And Hago click en "Pais"
     And Hago click en "Paraguay"
     And Hago click en "Ciudad"

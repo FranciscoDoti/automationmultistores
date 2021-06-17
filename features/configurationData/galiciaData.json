@@ -1,0 +1,18 @@
+{
+    "NroTarjetaValido": "4507990000004905",
+    "NombreTarjetaValido": "JUANA SUAREZ",
+    "VencimientoValido": "1222",
+    "CodigoSeguridadValido": "123",
+    "NroDocumentoValido": "39169244",
+    "DniValido": "3999999",
+    "DireccionValida": "Blanco Encalada",
+    "AlturaDireccionValida": "2311",
+    "DepartamentoValido": "A",
+    "CodigoPostalValido": "1428",
+    "CiudadValida": "CABA",
+    "EmailEditadoValido": "juanasuarez@gmail.com",
+    "SeisNumeros": "4507990",
+    "CaracteresEspeciales": "%&$$",
+    "DosNumeros": "13",
+    "CuatroLetras": "ahah"
+}

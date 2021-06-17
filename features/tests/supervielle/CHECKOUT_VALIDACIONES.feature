@@ -11,7 +11,7 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "IniciarSesion"
 
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo tarjeta ingreso letras
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton siguiente deshabilitado ingresando letras
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -30,7 +30,7 @@ Feature: supervielleValidacionesComprasCredito
         Then Verifico que el elemento "Siguiente" no exista
 
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo tarjeta ingreso letras
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton siguiente deshabilitado ingresando letras
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -48,7 +48,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" no exista
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo tarjeta ingreso más de 16 números
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton siguiente deshabilitado ingresando más de 16 números
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -67,7 +67,7 @@ Feature: supervielleValidacionesComprasCredito
         Then Verifico que el elemento "Siguiente" no exista
 
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo tarjeta dejo el campo vacio
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton siguiente deshabilitado dejando el campo vacio
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -78,14 +78,14 @@ Feature: supervielleValidacionesComprasCredito
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
         And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     |  nroTarjetaVacio              |
+            | NroTarjeta     | nroTarjetaVacio               |
             | NombreApellido | nombreApellidoTarjetaCredito1 |
             | Vencimiento    | vencimientoTarjetaCredito1    |
             | CodSeguridad   | codSeguridadTarjetaCredito1   |
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" no exista
 
-    Scenario: Validar que no se habilite el botón “siguiente” si en el campo tarjeta ingreso caracteres especiales
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton siguiente deshabilitado ingresando caracteres especiales
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -103,7 +103,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1    |
         Then Verifico que el elemento "Siguiente" no exista
 
-    Scenario: Validar que no se habilite el botón siguiente si ingreso un Nombre y apellido con números
+    Scenario: Validar propiedades de campo Nombre y apellidos: Boton siguiente deshabilitado ingresando numeros
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -121,7 +121,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1 |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón siguiente si ingreso un Nombre y apellido con caracteres especiales
+    Scenario: Validar propiedades de campo Nombre y apellidos: Boton siguiente deshabilitado ingresando caracteres especiales
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -139,7 +139,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1       |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo Nombre y apellido dejo el campo vacío
+    Scenario:Validar propiedades de campo Nombre y apellidos: Boton siguiente deshabilitado dejando el campo vacio
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -157,7 +157,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1 |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo vencimiento ingreso menos de 4 números
+    Scenario: Validar propiedades de campo Vencimiento: Boton siguiente deshabilitado ingresando menos de 4 números
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -175,8 +175,8 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    
-    Scenario: Validar que no se habilite el botón siguiente si en el campo vencimiento ingreso letras
+
+    Scenario: Validar propiedades de campo Vencimiento: Boton siguiente deshabilitado ingresando letras
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -194,7 +194,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario:Validar que no se habilite el botón siguiente si en el campo vencimiento ingreso caracteres especiales
+    Scenario:Validar propiedades de campo Vencimiento: Boton siguiente deshabilitado ingresando caracteres especiales
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -212,7 +212,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1            |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón “siguiente” si en el campo cod de seguridad ingreso letras
+    Scenario: Validar propiedades de campo Código de seguridad: Boton siguiente deshabilitado ingresando letras
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -230,7 +230,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso menos de 3 números
+    Scenario: Validar propiedades de campo Código de seguridad: Boton siguiente deshabilitado ingresando menos de 3 números
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -249,7 +249,7 @@ Feature: supervielleValidacionesComprasCredito
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
 
-    Scenario:Validar que no se habilite el botón siguiente si en el campo cod de seguridad ingreso caracteres especiales
+    Scenario: Validar propiedades de campo Código de seguridad: Boton siguiente deshabilitado ingresando caracteres especiales
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -267,7 +267,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1             |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo cod de seguridad dejo el campo vacio
+    Scenario:  Validar propiedades de campo Código de seguridad: Boton siguiente deshabilitado dejando el campo vacio
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -285,7 +285,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario:Validar que no se habilite el botón siguiente si en el campo Nro de documento ingreso letras
+    Scenario:Validar propiedades de campo Número de documento: Boton siguiente deshabilitado ingresando letras
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -303,7 +303,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | NroDocTarjetaLetras           |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario:Validar que no se habilite el botón siguiente si en el campo Nro de documento ingreso caracteres especiales
+    Scenario:Validar propiedades de campo Número de documento: Boton siguiente deshabilitado ingresando caracteres especiales
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -321,7 +321,7 @@ Feature: supervielleValidacionesComprasCredito
             | NroDocumento   | NroDocTarjetaCaracteresEspeciales |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario:Validar que no se habilite el botón siguiente si en el campo Nro de documento dejo el campo vacio
+    Scenario:Validar propiedades de campo Número de documento: Boton siguiente deshabilitado dejando el campo vacio
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
@@ -336,10 +336,10 @@ Feature: supervielleValidacionesComprasCredito
             | NombreApellido | nombreApellidoTarjetaCredito1 |
             | Vencimiento    | vencimientoTarjetaCredito1    |
             | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   |  NroDocTarjetaVacio           |
+            | NroDocumento   | NroDocTarjetaVacio            |
         Then Verifico que el elemento "Siguiente" este deshabilitado
 
-    Scenario: Validar que no se habilite el botón siguiente si en el campo Nro de documento ingreso menos de 7 digitos
+    Scenario:Validar propiedades de campo Número de documento: Boton siguiente deshabilitado ingresando menos de 7 digitos
         When Hago click en "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
