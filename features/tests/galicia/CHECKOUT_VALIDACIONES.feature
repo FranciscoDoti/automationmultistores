@@ -1,4 +1,4 @@
-Feature: validacionesTarjeta
+Feature: CHECKOUT_VALIDACIONES
 
     Background: Pasos comunes
         Given Abro la pagina "galicia"
@@ -7,7 +7,7 @@ Feature: validacionesTarjeta
         And Hago click en "Tecno"
         And Hago click en "Producto"
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo tarjeta ingreso menos de 16 números
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton continuar deshabilitado ingresando menos de 16 números
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -22,7 +22,7 @@ Feature: validacionesTarjeta
             | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo tarjeta dejo el campo vacío
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -38,7 +38,7 @@ Feature: validacionesTarjeta
 
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo tarjeta ingreso caracteres especiales
+    Scenario: Validar propiedades de campo Número de tarjeta: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -53,7 +53,7 @@ Feature: validacionesTarjeta
             | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si ingreso un Nombre y apellido con números
+    Scenario: Validar propiedades de campo Nombre y apellidos: Boton continuar deshabilitado ingresando números
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -71,7 +71,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si ingreso un Nombre y apellido con caracteres especiales
+    Scenario: Validar propiedades de campo Nombre y apellidos: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -88,7 +88,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo Nombre y apellido dejo el campo vacío
+    Scenario: Validar propiedades de campo Nombre y apellidos: Boton continuar deshabilitado dejando el campo vacío
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -105,7 +105,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo vencimiento ingreso menos de 4 números
+    Scenario: Validar propiedades de campo Vencimiento: Boton continuar deshabilitado ingresando menos de 4 números
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -122,7 +122,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo vencimiento ingreso letras
+    Scenario: Validar propiedades de campo Vencimiento: Boton continuar deshabilitado ingresando letras
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -139,7 +139,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo vencimiento ingreso caracteres especiales
+    Scenario: Validar propiedades de campo Vencimiento: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -156,7 +156,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo cod de seguridad ingreso letras
+    Scenario: Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado ingresando letras
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -173,7 +173,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo cod de seguridad ingreso menos de 3 números
+    Scenario: Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado ingresando menos de 3 números
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -190,7 +190,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo cod de seguridad ingreso caracteres especiales
+    Scenario: Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -207,7 +207,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo cod de seguridad dejo el campo vacio
+    Scenario: Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -224,7 +224,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo Nro de documento ingreso letras
+    Scenario: Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando letras
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -241,7 +241,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo Nro de documento ingreso caracteres especiales
+    Scenario: Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -258,7 +258,7 @@ Feature: validacionesTarjeta
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo Nro de documento dejo el campo vacio
+    Scenario: Validar propiedades de campo Número de documento: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -276,7 +276,7 @@ Feature: validacionesTarjeta
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
 
-    Scenario: Verificar que no se habilite el botón “continuar” si en el campo Nro de documento ingreso menos de 7 digitos
+    Scenario: Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando menos de 7 digitos
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"

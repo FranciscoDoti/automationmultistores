@@ -1,3 +1,4 @@
+@PRUEBA
 Feature: canjes
 
     Background: Pasos comunes

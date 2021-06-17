@@ -104,11 +104,11 @@ Feature: supervielleComprasCredito
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
         And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1               |
-            | NombreApellido | nombreApellidoTarjetaCredito1    |
-            | Vencimiento    | vencimientoVencidoTarjetaCredito1|
-            | CodSeguridad   | codSeguridadTarjetaCredito1      |
-            | NroDocumento   | nroDocumentoTarjetaCredito1      |
+            | NroTarjeta     | nroTarjetaCredito1                |
+            | NombreApellido | nombreApellidoTarjetaCredito1     |
+            | Vencimiento    | vencimientoVencidoTarjetaCredito1 |
+            | CodSeguridad   | codSeguridadTarjetaCredito1       |
+            | NroDocumento   | nroDocumentoTarjetaCredito1       |
         And Hago click en "Siguiente"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
@@ -217,7 +217,7 @@ Feature: supervielleComprasCredito
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
-    @PRUEBA
+
     Scenario: Realizar una compra de un producto de Fravega con tarjeta de credito en x cuotas sin interes
         When Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
@@ -252,7 +252,7 @@ Feature: supervielleComprasCredito
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
- 
+
     Scenario:  Realizar una compra de un producto de Fravega con tarjeta de credito con xxAhora TOKENIZADA
         When Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
