@@ -1,5 +1,5 @@
-@PRUEBA
-Feature: canjes
+
+Feature: CHECKOUT_PUNTOSCREDITO
 
     Background: Pasos comunes
         Given Abro la pagina "galicia"
@@ -9,7 +9,7 @@ Feature: canjes
         And Hago click en "Producto"
 
 
-    Scenario: Realizar una compra con 25% puntos y tarjeta de credito
+    Scenario: TC_CHECKOUT_154 Realizar una compra con 25% puntos y tarjeta de credito
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -30,7 +30,7 @@ Feature: canjes
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
 
-    Scenario: Realizar una compra con 50% puntos y tarjeta de credito
+    Scenario: TC_CHECKOUT_155 Realizar una compra con 50% puntos y tarjeta de credito
         Given Hago click en "50Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -50,7 +50,7 @@ Feature: canjes
         And Hago click en "CanjearYFinalizar"
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
-    Scenario: Realizar una compra solo con tarjeta de credito
+    Scenario: TC_CHECKOUT_156 Realizar una compra solo con tarjeta de credito
         Given Hago click en "SoloCredito"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -71,7 +71,7 @@ Feature: canjes
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
 
-    Scenario: Realizar una compra solo con puntos
+    Scenario:TC_CHECKOUT_157 Realizar una compra solo con puntos
         Given Hago click en "SoloPuntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
