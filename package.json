@@ -18,24 +18,20 @@
     "itauDireccion": "cucumber-js features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
     "itauLogin": "cucumber-js features/tests/itau/login.feature -f json:reports/cucumber_report.json --retry 1",
     "itauCheckoutValidaciones": "cucumber-js features/tests/itau/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaDireccion": "cucumber-js features/tests/galicia/direccion.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaCheckoutCanjes": "cucumber-js features/tests/galicia/checkoutCanjes.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaFiltros": "cucumber-js features/tests/galicia/filtros.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaMisDatos": "cucumber-js features/tests/galicia/misDatos.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaSugerencias": "cucumber-js features/tests/galicia/sugerencias.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaCheckoutValidaciones": "cucumber-js features/tests/galicia/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaCHECKOUT_PUNTOSCREDITO": "cucumber-js features/tests/galicia/CHECKOUT/CHECKOUT_PUNTOSCREDITO.feature -f json:reports/cucumber_report.json --retry ",
+    "galiciaCHECKOUT_EXPERIENCIA": "cucumber-js features/tests/galicia/CHECKOUT/CHECKOUT_EXPERIENCIA.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaCHECKOUT_VALIDACIONES": "cucumber-js features/tests/galicia/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaMYACCOUNT_DIRECCION": "cucumber-js features/tests/galicia/MYACCOUNT/MYACCOUNT_DIRECCION.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaMYACCOUNT_DATOS": "cucumber-js features/tests/galicia/MYACCOUNT/MYACCOUNT_DATOS.feature -f json:reports/cucumber_report.json --retry 1",
     
-
     "icbcCHECKOUT_CREDITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS_CREDITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_VALIDACIONES": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
-    "icbcCHECKOUT_VALIDACIONES_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     
     "icbcLOGIN": "cucumber-js features/tests/icbc/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
-    
     
     "tiendaclicLogin": "cucumber-js features/tests/tiendaclic/login.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCheckout": "cucumber-js features/tests/tiendaclic/checkout.feature -f json:reports/cucumber_report.json --retry 1",
