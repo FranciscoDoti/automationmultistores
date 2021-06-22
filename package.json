@@ -24,11 +24,19 @@
     "galiciaMisDatos": "cucumber-js features/tests/galicia/misDatos.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaSugerencias": "cucumber-js features/tests/galicia/sugerencias.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaCheckoutValidaciones": "cucumber-js features/tests/galicia/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
-    "icbcLogin": "cucumber-js features/tests/icbc/login.feature -f json:reports/cucumber_report.json --retry 1",
-    "icbc": "cucumber-js features/tests/icbc -f json:reports/cucumber_report.json",
-    "icbcCheckoutCredito": "cucumber-js features/tests/icbc/checkoutCredito.feature -f json:reports/cucumber_report.json --retry 1",
-    "icbcCheckoutDebito": "cucumber-js features/tests/icbc/checkoutdebito.feature -f json:reports/cucumber_report.json --retry 1",
-    "icbcCheckoutPuntos": "cucumber-js features/tests/icbc/checkoutPuntos.feature -f json:reports/cucumber_report.json --retry 1",
+    
+
+    "icbcCHECKOUT_CREDITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcCHECKOUT_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcCHECKOUT_PUNTOS_CREDITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcCHECKOUT_PUNTOS_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcCHECKOUT_PUNTOS": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcCHECKOUT_VALIDACIONES": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcCHECKOUT_VALIDACIONES_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
+    
+    "icbcLOGIN": "cucumber-js features/tests/icbc/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
+    
+    
     "tiendaclicLogin": "cucumber-js features/tests/tiendaclic/login.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCheckout": "cucumber-js features/tests/tiendaclic/checkout.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
