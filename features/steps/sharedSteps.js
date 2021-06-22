@@ -51,6 +51,13 @@ When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.sleep(15000);
 });
 
+When(/^Abro la siguiente Url "(.*)" yendo a buscar la config$/, async function (datoJson) {
+    var textoQueVamosAMandar  = this.config[datoJson];
+    await this.driver.get(textoQueVamosAMandar);
+    await log.info(' abriendo la siguiente url: ' + textoQueVamosAMandar);
+    await this.driver.sleep(15000);
+});
+
 When(/^Scrolleo hasta el elemento "(.*)" y hago click$/, async function (elementKey) {
     //await clickElementWithExecutor(this.page, elementKey);
     var element = await buscarElemento(this.page, elementKey);

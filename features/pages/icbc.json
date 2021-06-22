@@ -33,11 +33,11 @@
     },
     "CerrarSesion": {
         "identificador": "xpath",
-        "valor": "//li[@class='logout']"
+        "valor": "//li[@class='logout']//a[@title='Log me out']"
     },
     "VerificoCierreSesion": {
         "identificador": "xpath",
-        "valor": "//i[@class='login-grey']"
+        "valor": "//a[@title='Iniciar Sesion']"
     },
     "Categorias": {
         "identificador": "xpath",
@@ -119,10 +119,6 @@
         "identificador": "xpath",
         "valor": "//button[@id='Submit']"
     },
-    "ExitoCompra": {
-        "identificador": "xpath",
-        "valor": ""
-    },
     "Buscador": {
         "identificador": "xpath",
         "valor": "//input[@id='search_query_top']"
@@ -174,5 +170,37 @@
     "ExitoCompra": {
         "identificador": "xpath",
         "valor": "//div[@class='row heading-approved-block']/h1"
+    },
+    "ErrorFechaExpiracion": {
+        "identificador": "xpath",
+        "valor": "//label[@id='CardExpirationDate-error']"
+    },
+    "Carrito": {
+        "identificador": "xpath",
+        "valor": "//li//div//span[@class='ajax_cart_quantity ajax_cart-qties-span center-block']"
+    },
+    "EliminarProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "//a[@title='eliminar este producto de mi carrito']"
+    },
+    "ErrorNumeroTarjeta": {
+        "identificador": "xpath",
+        "valor": "//label[@id='CardNumber-error']"
+    },
+    "ErrorNombreApellido": {
+        "identificador": "xpath",
+        "valor": "//label[@id='CardHolderName-error']"
+    },
+    "ErrorFecha": {
+        "identificador": "xpath",
+        "valor": "//label[@id='CardExpirationDate-error']"
+    },
+    "ErrorCodigo": {
+        "identificador": "xpath",
+        "valor": "//label[@id='CardSecurityCode-error']"
+    },
+    "ErrorNroDocumento": {
+        "identificador": "xpath",
+        "valor": "//label[@id='CardHolderDni-error']"
     }
 }
