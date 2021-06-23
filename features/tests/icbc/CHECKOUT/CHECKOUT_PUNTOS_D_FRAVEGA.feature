@@ -12,7 +12,7 @@ Feature: CHECKOUT_PUNTOS_D_FRAVEGA
         And Me muevo a la pagina principal
         When Validar que el "Carrito" no tenga productos agregados
 
-#    Scenario: TC_CHECKOUT_074_Realizar una compra de un artículo Frávega abonando con puntos y tarjeta de débito: Abonando con 50% Puntos y Tarjeta de débito.
+#    Scenario: TC_CHECKOUT_090_Realizar una compra de un artículo Frávega abonando con puntos y tarjeta de débito: Abonando con 50% Puntos y Tarjeta de débito.
 #        And Lleno el campo "Buscador" con "Fravega"
 #        And Hago click en "Buscar"
 #        And Hago click en "PrimerProducto"
@@ -30,7 +30,7 @@ Feature: CHECKOUT_PUNTOS_D_FRAVEGA
 #        And Hago click en "Pagar"
 #        Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
-#    Scenario: TC_CHECKOUT_074_Realizar una compra de un artículo Frávega abonando con puntos y tarjeta de débito: Abonando con 25% Puntos y Tarjeta de débito.
+#    Scenario: TC_CHECKOUT_082_Realizar una compra de un artículo Frávega abonando con puntos y tarjeta de débito: Abonando con 25% Puntos y Tarjeta de débito.
 #        And Lleno el campo "Buscador" con "Fravega"
 #        And Hago click en "Buscar"
 #        And Hago click en "PrimerProducto"

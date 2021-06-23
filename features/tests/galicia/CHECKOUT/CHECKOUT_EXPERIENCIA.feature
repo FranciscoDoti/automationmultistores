@@ -1,4 +1,4 @@
-@PRUEBA
+
 Feature: CHECKOUT_EXPERIENCIA
 
     Background: Pasos comunes
