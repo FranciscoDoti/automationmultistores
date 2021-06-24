@@ -1,6 +1,8 @@
 @supervielle
+@CHECKOUT
+@CHECKOUT_VALIDACIONES
 
-Feature: supervielleValidacionesComprasCredito
+Feature: CHECKOUT_VALIDACIONES
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"

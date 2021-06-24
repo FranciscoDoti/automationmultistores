@@ -1,3 +1,7 @@
+@TIENDACLIC
+@CHECKOUT
+@CHECKOUT_VALIDACIONES
+
 Feature: CHECKOUT_VALIDACIONES
 
 Background: Ingreso a tiendaclic

@@ -2,7 +2,7 @@
 @CHECKOUT
 @CHECKOUT_DEBITO_FRAVEGA
 
-Feature: supervielleComprasDebito
+Feature: CHECKOUT_DEBITO_FRAVEGA
 
 
     Scenario: TC_CHECKOUT_009 Realizar una compra de un producto de Fravega con tarjeta de debito

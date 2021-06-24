@@ -46,6 +46,6 @@ Feature: CHECKOUT_DEBITO
         And Hago click en "FinalizarCompra"
         And Hago click en "TarjetaDebitoTokenizada"
         And Hago click en "Continuar"
-        And Lleno el campo "CodSeguridadTokenizado" con "codigoSeguridadToken"  yendo a buscar la config
+        And Lleno el campo "CodSeguridadTokenizado" con "codigoSeguridadToken" yendo a buscar la config
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
