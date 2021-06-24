@@ -11,8 +11,8 @@ Feature: CHECKOUT_PUNTOS_DEBITO
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
         When Validar que el "Carrito" no tenga productos agregados
-
-    Scenario: TC_CHECKOUT_049_TC_CHECKOUT_065_Realizar una compra abonando con puntos y tarjeta de débito: Abonando con 50% Puntos y Tarjeta de débito.
+@PRUEBA
+    Scenario: TC_CHECKOUT_065_Realizar una compra abonando con puntos y tarjeta de débito: Abonando con 50% Puntos y Tarjeta de débito.
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "50puntos50pesos"
         And Hago click en "Comprar"
@@ -28,7 +28,7 @@ Feature: CHECKOUT_PUNTOS_DEBITO
         And Hago click en "Pagar"
         Then Verifico que el campo "ExitoCompra" contenga el texto "Transacción aceptada"
 
-    Scenario: TC_CHECKOUT_049_TC_CHECKOUT_057_Realizar una compra abonando con puntos y tarjeta de débito: Abonando con 25% Puntos y Tarjeta de débito.
+    Scenario: TC_CHECKOUT_057_Realizar una compra abonando con puntos y tarjeta de débito: Abonando con 25% Puntos y Tarjeta de débito.
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "25puntos75pesos"
         And Hago click en "Comprar"
