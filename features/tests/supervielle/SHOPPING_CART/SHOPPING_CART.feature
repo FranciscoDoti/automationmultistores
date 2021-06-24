@@ -1,5 +1,7 @@
 @supervielle
-Feature: supervielleCarrito
+@SHOPPING_CART
+
+Feature: SHOPPING_CART
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"
@@ -12,13 +14,13 @@ Feature: supervielleCarrito
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
 
-    Scenario: Validar que al seleccionar un producto se agregue al carrito
+    Scenario: TC_SHOPPING_CART_003 Validar que al seleccionar un producto se agregue al carrito
         When Hago click en "AgregarAlCarrito"
         And Hago click en "MiCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
 
-    Scenario:  Validar que se pueda eliminar un producto del carrito
+    Scenario: TC_SHOPPING_CART_009 Validar que se pueda eliminar un producto del carrito
         When Hago click en "AgregarAlCarrito"
         And Hago click en "MiCarrito"
         And Hago click en "EliminarProductoCarrito"

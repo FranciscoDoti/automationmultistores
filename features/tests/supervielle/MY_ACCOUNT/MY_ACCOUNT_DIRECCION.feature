@@ -1,5 +1,8 @@
 @supervielle
-Feature: supervielleDireccion
+@MY_ACCOUNT
+@MY_ACCOUNT_DIRECCION
+
+Feature: @MY_ACCOUNT_DIRECCION
 
     Background: Pasos comunes
         Given Abro la pagina "supervielle"
@@ -10,7 +13,7 @@ Feature: supervielleDireccion
         And Hago click en "IniciarSesion"
         When Hago click en "MisDirecciones"
 
-    Scenario: Agregar una dirección valida al usuario
+    Scenario: TC_MY_ACCOUNT_035 Agregar una dirección valida al usuario
         When Hago click en "AñadirDireccion"
         And Hago click en "DesplegableProvincia"
         And Hago click en "Chaco"
@@ -29,7 +32,7 @@ Feature: supervielleDireccion
         And Hago click en "Guardar"
         Then Verifico que el campo "CartelMisDirecciones" contenga el texto "MIS DIRECCIONES"
 
-    Scenario:  Verificar que se pueda editar una dirección ya agregada
+    Scenario: TC_MY_ACCOUNT_036 Verificar que se pueda editar una dirección ya agregada
         When Hago click en "ActualizarDireccion"
         And Lleno los siguientes campos leyendo la config
             | Calle | RANDOM                 |

@@ -1,8 +1,10 @@
 @supervielle
+@LOGIN
+
 Feature: supervielleLogin
 
     @noLoguea
-    Scenario: Validar que no se pueda iniciar sesión con un usuario no registrado
+    Scenario: TC_LOGIN_007 Validar que no se pueda iniciar sesión con un usuario no registrado
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
@@ -12,7 +14,7 @@ Feature: supervielleLogin
         Then Verifico que el campo "MensajeError" contenga el texto "Error 1"
 
 
-    Scenario: Validar que se pueda iniciar sesión con un usuario valido
+    Scenario: TC_LOGIN_002 Validar que se pueda iniciar sesión con un usuario valido
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
