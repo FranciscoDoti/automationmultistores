@@ -1,4 +1,7 @@
-Feature: Login tiendaclick
+@TIENDACLIC
+@LOGIN
+
+Feature: LOGIN
 
 Background: Pasos comunes
     Given Abro la pagina "tiendaclic"
