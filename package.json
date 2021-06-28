@@ -33,8 +33,11 @@
     
     "icbcLOGIN": "cucumber-js features/tests/icbc/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     
-    "tiendaclicLogin": "cucumber-js features/tests/tiendaclic/login.feature -f json:reports/cucumber_report.json --retry 1",
-    "tiendaclicCheckout": "cucumber-js features/tests/tiendaclic/checkout.feature -f json:reports/cucumber_report.json --retry 1",
+
+    "tiendaclicLogin": "cucumber-js features/tests/tiendaclic/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
+    "tiendaclicCHECKOUT_CREDITO": "cucumber-js features/tests/tiendaclic/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "tiendaclicCHECKOUT_DEBITO": "cucumber-js features/tests/tiendaclic/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "tiendaclicCHECKOUT_VALIDACIONES": "cucumber-js features/tests/tiendaclic/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
