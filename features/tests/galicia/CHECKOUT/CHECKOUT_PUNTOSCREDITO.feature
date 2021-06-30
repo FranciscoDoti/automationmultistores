@@ -50,6 +50,7 @@ Feature: CHECKOUT_PUNTOSCREDITO
         And Hago click en "CanjearYFinalizar"
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
 
+
     Scenario: TC_CHECKOUT_156 Realizar una compra solo con tarjeta de credito
         Given Hago click en "SoloCredito"
         And Hago click en "Canjear"
@@ -69,7 +70,6 @@ Feature: CHECKOUT_PUNTOSCREDITO
         And Hago click en "AceptoTerminos"
         And Hago click en "CanjearYFinalizar"
         Then Verifico que el campo "CartelExitoEnvio" contenga el texto ""
-
 
     Scenario:TC_CHECKOUT_157 Realizar una compra solo con puntos
         Given Hago click en "SoloPuntos"

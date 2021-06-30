@@ -18,9 +18,9 @@
     "itauDireccion": "cucumber-js features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
     "itauLogin": "cucumber-js features/tests/itau/login.feature -f json:reports/cucumber_report.json --retry 1",
     "itauCheckoutValidaciones": "cucumber-js features/tests/itau/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaCHECKOUT_PUNTOSCREDITO": "cucumber-js features/tests/galicia/CHECKOUT/CHECKOUT_PUNTOSCREDITO.feature -f json:reports/cucumber_report.json --retry ",
+    "galiciaCHECKOUT_PUNTOSCREDITO": "cucumber-js features/tests/galicia/CHECKOUT/CHECKOUT_PUNTOSCREDITO.feature -f json:reports/cucumber_report.json --retry 1 ",
     "galiciaCHECKOUT_EXPERIENCIA": "cucumber-js features/tests/galicia/CHECKOUT/CHECKOUT_EXPERIENCIA.feature -f json:reports/cucumber_report.json --retry 1",
-    "galiciaCHECKOUT_VALIDACIONES": "cucumber-js features/tests/galicia/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaCHECKOUT_VALIDACIONES": "cucumber-js features/tests/galicia/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaMYACCOUNT_DIRECCION": "cucumber-js features/tests/galicia/MYACCOUNT/MYACCOUNT_DIRECCION.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaMYACCOUNT_DATOS": "cucumber-js features/tests/galicia/MYACCOUNT/MYACCOUNT_DATOS.feature -f json:reports/cucumber_report.json --retry 1",
     
