@@ -4076,3 +4076,47 @@
 {"message":"Localizando elemento: Inicio sesion","level":"info","timestamp":"2021-06-28"}
 {"message":"Se localizó el elemento Inicio sesion exitosamente","level":"info","timestamp":"2021-06-28"}
 {"message":"se hizo click en el elemento Inicio sesion","level":"info","timestamp":"2021-06-28"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-06-30"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-06-30"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-06-30"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"se escribio el texto pruebamall13 en el elemento Usuario","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-06-30"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":"El carrito posee 1 productos, se procede a eliminarlos.","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: EliminarProductoCarrito","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento EliminarProductoCarrito exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-06-30"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: SoloPesos","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento SoloPesos exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-06-30"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-06-30"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento AceptoCondiciones exitosamente","level":"info","timestamp":"2021-06-30"}
+{"message":"se hizo click en el elemento AceptoCondiciones","level":"info","timestamp":"2021-06-30"}
+{"message":"Localizando elemento: IrACaja","level":"info","timestamp":"2021-06-30"}
+{"message":"Se localizó el elemento IrACaja exitosamente","level":"info","timestamp":"2021-06-30"}
