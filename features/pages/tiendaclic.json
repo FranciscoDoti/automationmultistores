@@ -2,7 +2,7 @@
 
     "IniciaSesion": {
         "identificador": "xpath",
-        "valor": "//a[@class='login']"
+        "valor": "//div[@class='header_user_info hidden-xs']/a"
     },
     "Email": {
         "identificador": "id",

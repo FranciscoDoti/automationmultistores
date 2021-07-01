@@ -157,8 +157,7 @@ When('Lleno los siguientes campos con Executor', async function (datatable) {
 
 });
 
-When(/^Obtengo el texto del elemento "(.)" y lo guardo en la variable "(.)"$/
-    , async function (elementKey, nombreVariable) {
+When(/^Obtengo el texto del elemento "(.*)" y lo guardo en la variable "(.*)"$/, async function (elementKey, nombreVariable){
         var textoExtraido = await obtenerTexto(this.page, elementKey);
         await this.data.set(nombreVariable, textoExtraido);
 

@@ -100,7 +100,7 @@ async function buscarElemento(json, element, text, reintentos) {
     while ((!elementoEncontrado) && (nroReintento <= cantReintentos)) {
         try {
             await log.info('Localizando elemento: ' + element);
-            var webElement = await driver.wait(until.elementLocated(By.xpath(json[element].valor)), 5000, 5000, 5000);
+            var webElement = await buscarElemento(json, element);
             await driver.sleep(4500);
             var textoExtraido = await webElement.getText();
             await log.info('Se extrajo el texto' + textoExtraido + ' del elemento ' + element);
