@@ -6,6 +6,9 @@ const { log } = require(`${process.cwd()}/logger`);
 const urls = require(`${process.cwd()}/urls.json`);
 require(`${process.cwd()}/features/support/functions.js`);
 const { Actions } = require('selenium-webdriver');
+const { By, Key, until, WebElement } = require('selenium-webdriver');
+var driver = getDriver();
+
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
@@ -48,6 +51,13 @@ When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.sleep(15000);
 });
 
+When(/^Abro la siguiente Url "(.*)" yendo a buscar la config$/, async function (datoJson) {
+    var textoQueVamosAMandar  = this.config[datoJson];
+    await this.driver.get(textoQueVamosAMandar);
+    await log.info(' abriendo la siguiente url: ' + textoQueVamosAMandar);
+    await this.driver.sleep(15000);
+});
+
 When(/^Scrolleo hasta el elemento "(.*)" y hago click$/, async function (elementKey) {
     //await clickElementWithExecutor(this.page, elementKey);
     var element = await buscarElemento(this.page, elementKey);
@@ -74,6 +84,16 @@ When(/^Scrolleo hasta el elemento "(.*)" y hago click$/, async function (element
     }
 });
 
+When(/^Hago click que contenga "(.*)" "(.*)"$/, async function (elementKey, contains){
+
+    var element = await buscarElemento(this.page, elementKey, contains);
+    try{
+        await element.click();
+    }catch{
+        log.error(`no se pudo hacer click en el elemento ${elementKey}`);
+        await assert.fail('error al clickear sobre el elemento, por favor, revisar locators');
+    }
+})
 
 When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
     var webElement = await buscarElemento(this.page, elementKey);
@@ -100,14 +120,26 @@ When('Lleno los siguientes campos', async function (datatable) {
 
     for (var i = 0; i < datatable.rawTable.length; i++) {
         if (datatable.rawTable[i][1] != 'RANDOM') {
-            await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);
+            await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);  // funcion original sin parametro de DataJson
+            //await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
         } else {
             var random = Math.random().toString().slice(2, 4);
             await llenarCampo(this.page, datatable.rawTable[i][0], random);
         }
     }
+});
 
 
+When('Lleno los siguientes campos leyendo la config', async function (datatable) {
+
+    for (var i = 0; i < datatable.rawTable.length; i++) {
+        if (datatable.rawTable[i][1] != 'RANDOM') {
+            await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
+        } else {
+            var random = Math.random().toString().slice(2, 4);
+            await llenarCampo(this.page, datatable.rawTable[i][0], random);
+        }
+    }
 });
 
 

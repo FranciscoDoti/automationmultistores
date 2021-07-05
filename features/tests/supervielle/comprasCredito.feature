@@ -217,7 +217,7 @@ Feature: supervielleComprasCredito
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
-    @PRUEBA
+    
     Scenario: Realizar una compra de un producto de Fravega con tarjeta de credito en x cuotas sin interes
         When Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"

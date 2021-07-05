@@ -1,0 +1,27 @@
+{
+  "usuarioValido": "pruebamall13",
+  "usuarioValido2": "pruebamall12",
+  "passwordValido": "prueba01",
+
+  "NroTarjeta": "4507990000004905",
+  "Codigo": "123",
+  "FechaVencimiento": "0821",
+  "Nombre": "Jose Ignacio ",
+  "NroDocumento": "39169244",
+  "NroTarjetaDebito": "4066520617031158",
+
+  "ProductoAutomation": "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html",
+
+  "usuarioInvalido": "555555555555555",
+  "usuarioIncorrecto": "hihiih41",
+  "passwordInvalido": "888",
+  "passwordIncorrecto": "jojojba03",
+  "FechaVencimientoExpirada": "0818",
+  "FechaVencimientoInvalida": "1322",
+  "NroTarjetaIncorrecta": "4507990000004906",
+  "NroTarjetaInvalido": "450799000000490",
+  "NombreInvalido": "RAMON AVELINO LAFUENTE SANTAMARIA",
+  "CodigoInvalido": "1234",
+  "NroDocumentoInvalido": "876549"
+  
+}

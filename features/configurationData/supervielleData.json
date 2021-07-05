@@ -1,5 +1,61 @@
 {
   "usuario1": "lqaautomation2021@gmail.com",
-  "usuario2": "blablabla2@gmail.com"
+  "passwordUsuario1": "/MXPIce1",
+  "usuarioInvalido": "blablabla2@gmail.com",
+  "passwordFalsa": "contraseñaFalsa",
 
+  "nroTarjetaDebito1": "4066520617031158",
+  "nombreApellidoTarjetaDebito1": "JUANA SUAREZ",
+  "vencimientoTarjetaDebito1": "0822",
+  "codSeguridadTarjetaDebito1": "123",
+  "nroDocumentoTarjetaDebito1": "39169244",
+
+  "nroTarjetaCredito1": "4507990000004905",
+  "nombreApellidoTarjetaCredito1": "JUANA SUAREZ",
+  "vencimientoTarjetaCredito1": "1223",
+  "codSeguridadTarjetaCredito1": "123",
+  "nroDocumentoTarjetaCredito1": "39169244",
+
+  "codigoSeguridadToken": "123",
+  
+  "vencimientoVencidoTarjetaCredito1": "1219",
+
+  "nroTarjetaLetras": "AAAAAAAAA",
+  "nroTarjeta+16numeros": "222222222222222222",
+  "nroTarjetaVacio": "",
+  "nroTarjetaCaracteresEspeciales": "&/$/#$!",
+  "NombreTarjetaNumeros":"4444444",
+  "NombreTarjetaCaracteresEspeciales": "#%&$!#!#",
+  "NombreTarjetaVacio": "",
+  "VencimientoTarjeta-4numeros": "12",
+  "VencimientoTarjetaLetras": "AAA",
+  "VencimientoTarjetaCaracteresEspeciales": "%$!",
+  "CodSeguridadTarjetaLetras": "AAF",
+  "CodSeguridadTarjeta-3Numeros": "12",
+  "CodSeguridadTarjetaCaracteresEspeciales": "$%^",
+  "CodSeguridadTarjetaVacio": "",
+  "NroDocTarjetaLetras": "AAAAAAAA",
+  "NroDocTarjetaCaracteresEspeciales": "###$\"!\"",
+  "NroDocTarjetaVacio": "",
+  "NroDocTarjeta-9Digitos": "39169",
+
+  "codigoCupon1": "NMWZ5EIF",
+  "codigoCuponInvalido1": "456666h",
+
+  "direccion.Empresa": "Mundo",
+  "direccion.Calle": "Av. Corrientes",
+  "direccion.Nro": "3434",
+  "direccion.Piso": "3",
+  "direccion.Dpto": "13",
+  "direccion.CodigoPostal": "3434",
+  "direccion.Ciudad": "Buenos Aires",
+  "direccion.TelefonoFijo": "47682222",
+  "direccion.TelefonoMovil": "1547682222",
+  "direccion.Dni": "39169777",
+  "direccion.Alias": "",
+
+  "direccion.NroAgregado": "3433",
+  "direccion.DptoAgregado": "14",
+
+  "estadoExitoso1": "¡Listo!"
 }

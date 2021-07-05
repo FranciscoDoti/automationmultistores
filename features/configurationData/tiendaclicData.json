@@ -1,0 +1,10 @@
+{
+    "usuarioValido": "lqaautomation2021@gmail.com",
+    "claveValida": "prueba01",
+    "tarjetaValida": "4507990000004905",
+    "nombre": "Alejandro Aper",
+    "vencimiento": "12/22",
+    "vencimientoInvalido": "11/20",
+    "codigo": "123",
+    "dni": "123456789"
+}

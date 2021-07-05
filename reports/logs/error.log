@@ -104,3 +104,251 @@
 {"message":"No se pudo localizar al elemento AceptoCondiciones","level":"error","timestamp":"2021-05-27"}
 {"message":"No se pudo localizar al elemento AceptoCondiciones","level":"error","timestamp":"2021-05-27"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-05-27"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-15"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al escribir en el elemento NombreApellido. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al escribir en el elemento CodSeguridad. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-16"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-06-16"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-06-16"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-16"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al escribir en el elemento Email. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al escribir en el elemento Clave. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento compraExitosa","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-28"}
+<<<<<<< HEAD
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+=======
+{"message":"no se pudo localizar el elemento Sugerencias","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Sugerencias","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Sugerencias","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Sugerencias","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NombreApellido. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento 25Puntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento 25Puntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento 25Puntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento 25Puntos","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarAlPago","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento CodSeguridad. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NombreApellido. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento CodSeguridad. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NombreApellido. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento CodSeguridad. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NombreApellido. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento CodSeguridad. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarATarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento SoloPuntos","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Producto","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento DNI","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento DNI","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento DNI","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento DNI","level":"error","timestamp":"2021-06-30"}
+>>>>>>> d82a4faa2b79c94b0c4926358eff3a0f30eb000f
