@@ -147,3 +147,416 @@
 {"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-06-16"}
 {"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-06-16"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-16"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-06-18"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-18"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-18"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento Comprar","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento Comprar","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento Comprar","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento Comprar","level":"error","timestamp":"2021-06-18"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-18"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-21"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-21"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-21"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al extraer el texto del elemento ErrorNumeroTarjeta.","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento Nombre. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento FechaVencimiento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento Codigo. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento NroTarjeta. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento Nombre. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"name":"StaleElementReferenceError","remoteStacktrace":"Backtrace:\n\tOrdinal0 [0x00B1C013+2474003]\n\tOrdinal0 [0x00AB29C1+2042305]\n\tOrdinal0 [0x009C2F68+1060712]\n\tOrdinal0 [0x009C542E+1070126]\n\tOrdinal0 [0x009C55D0+1070544]\n\tOrdinal0 [0x009E96C0+1218240]\n\tOrdinal0 [0x00A06813+1337363]\n\tOrdinal0 [0x009E46A6+1197734]\n\tOrdinal0 [0x00A068FA+1337594]\n\tOrdinal0 [0x00A155CB+1398219]\n\tOrdinal0 [0x00A066DB+1337051]\n\tOrdinal0 [0x009E3427+1192999]\n\tOrdinal0 [0x009E42EE+1196782]\n\tOrdinal0 [0x009E4279+1196665]\n\tGetHandleVerifier [0x00CA96FC+1590332]\n\tGetHandleVerifier [0x00D58614+2306900]\n\tGetHandleVerifier [0x00BA9E93+543699]\n\tGetHandleVerifier [0x00BA92CE+540686]\n\tOrdinal0 [0x00AB86BA+2066106]\n\tOrdinal0 [0x00ABD1C8+2085320]\n\tOrdinal0 [0x00ABD308+2085640]\n\tOrdinal0 [0x00AC67F3+2123763]\n\tBaseThreadInitThunk [0x7680FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x772B7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x772B7A6E+238]\n","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento FechaVencimiento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento Codigo. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al escribir en el elemento NroDocumento. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-22"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-22"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento Ingresar","level":"error","timestamp":"2021-06-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-06-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-23"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-23"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-28"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-28"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-28"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento Captcha","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"level":"error","timestamp":"2021-06-29"}
+{"level":"error","timestamp":"2021-06-29"}
+{"level":"error","timestamp":"2021-06-29"}
+{"level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ErrorAutenticacion","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ErrorAutenticacion","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ErrorAutenticacion","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento ErrorAutenticacion","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento FormatoInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento FormatoInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento FormatoInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento FormatoInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento FormatoInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento FormatoInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento EmailInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento EmailInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"no se pudo localizar el elemento EmailInvalido","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al extraer el texto del elemento UsuarioLogueado.","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al extraer el texto del elemento UsuarioLogueado.","level":"error","timestamp":"2021-06-29"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-29"}
+{"message":"hubo un error al extraer el texto del elemento HeaderIndexPage.","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al extraer el texto del elemento UsuarioLogueado.","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento NombreTarjetahabiente. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjetaCredito","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjetaCredito","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjetaCredito","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjetaCredito","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento NroTarjeta","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento Codigo. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al escribir en el elemento Codigo. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento ContinuarCompra","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento MesVencimiento","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento IniciarSesion","level":"error","timestamp":"2021-06-30"}
+{"message":"no se pudo localizar el elemento IniciarSesion","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-06-30"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-01"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento TyC","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento TyC","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento TyC","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento TyC","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"hubo un error al extraer el texto del elemento PantallaRechazoPago.","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"level":"error","timestamp":"2021-07-01"}
+{"level":"error","timestamp":"2021-07-01"}
+{"level":"error","timestamp":"2021-07-01"}
+{"level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-01"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-01"}
+{"message":"hubo un error al escribir en el elemento NombreTarjetahabiente. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-01"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-05"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-05"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-05"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-05"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-05"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-05"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-05"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-05"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-05"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento CartelAlertaMedioPago","level":"error","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-06"}

@@ -4,6 +4,8 @@
         "supervielle": "https://supervielle-uat.aper.com/",
         "galicia": "https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html",
         "icbc": "https://icbcmall-uat.aper.cloud/",
-        "tiendaclic": "https://tiendaclic-uat.aper.cloud/"
+        "tiendaclic": "https://tiendaclic-uat.aper.cloud/",
+        "invex": "https://invex-dev.aper.cloud/"
+        
     }
 }

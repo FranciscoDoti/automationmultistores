@@ -30,8 +30,12 @@
     "icbcCHECKOUT_PUNTOS_DEBITO": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_VALIDACIONES": "cucumber-js features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
-    
     "icbcLOGIN": "cucumber-js features/tests/icbc/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
+
+    "invexLOGIN": "cucumber-js features/tests/invex/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
+    "invexCHECKOUT_CREDITO": "cucumber-js features/tests/invex/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "invexCHECKOUT_DEBITO": "cucumber-js features/tests/invex/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
+    "invexCHECKOUT_VALIDACIONES": "cucumber-js features/tests/invex/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     
     "tiendaclicLogin": "cucumber-js features/tests/tiendaclic/login.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCheckout": "cucumber-js features/tests/tiendaclic/checkout.feature -f json:reports/cucumber_report.json --retry 1",
