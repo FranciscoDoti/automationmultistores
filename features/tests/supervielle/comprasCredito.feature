@@ -5,8 +5,8 @@ Feature: supervielleComprasCredito
         Given Abro la pagina "supervielle"
         And Leo los datos de "supervielle"
         And Hago click en "IniciaSesion"
-        And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config
-        And Lleno el campo "Contraseña" con "passwordUsuario1" yendo a buscar la config
+        And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
+        And Lleno el campo "Contraseña" con "/MXPIce1"
         And Hago click en "IniciarSesion"
 
     Scenario: Realizar una compra con tarjeta de crédito sin cupón de descuento
@@ -19,12 +19,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
@@ -38,17 +38,17 @@ Feature: supervielleComprasCredito
         And Hago click en "AgregarAlCarrito"
         And Hago click en "AceptoCondiciones"
         And Hago click en "Comprar"
-        And Lleno el campo "Cupon" con "codigoCupon1" yendo a buscar la config
+        And Lleno el campo "Cupon" con "NMWZ5EIF"
         And Hago click en "ValidarCupon"
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
@@ -65,12 +65,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         Then Verifico que el campo "CartelSeleccionarCuotas" contenga el texto "Seleccioná las cuotas"
 
@@ -84,12 +84,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         Then Verifico que el elemento "Pagar" este deshabilitado
 
@@ -103,12 +103,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1                |
-            | NombreApellido | nombreApellidoTarjetaCredito1     |
-            | Vencimiento    | vencimientoVencidoTarjetaCredito1 |
-            | CodSeguridad   | codSeguridadTarjetaCredito1       |
-            | NroDocumento   | nroDocumentoTarjetaCredito1       |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1219             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
@@ -125,12 +125,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "TresCuotas"
         And Hago click en "Pagar"
@@ -147,12 +147,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "SeisCuotas"
         And Hago click en "Pagar"
@@ -168,12 +168,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "NueveCuotas"
         And Hago click en "Pagar"
@@ -189,12 +189,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
@@ -213,11 +213,11 @@ Feature: supervielleComprasCredito
         And Hago click en "Continuar"
         And Hago click en "UnaCuotaTokenizado"
         And Hago click en "Continuar"
-        And Lleno el campo "CodSeguridadTokenizado" con "codigoSeguridadToken" yendo a buscar la config
+        And Lleno el campo "CodSeguridadTokenizado" con "123"
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 
-
+    
     Scenario: Realizar una compra de un producto de Fravega con tarjeta de credito en x cuotas sin interes
         When Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
         And Hago click en "AgregarAlCarrito"
@@ -226,12 +226,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "UnaCuota"
         And Hago click en "Pagar"
@@ -248,10 +248,9 @@ Feature: supervielleComprasCredito
         And Hago click en "Continuar"
         And Hago click en "UnaCuotaTokenizado"
         And Hago click en "Continuar"
-        And Lleno el campo "CodSeguridadTokenizado" con "codigoSeguridadToken" yendo a buscar la config
+        And Lleno el campo "CodSeguridadTokenizado" con "123"
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
-
 
     Scenario:  Realizar una compra de un producto de Fravega con tarjeta de credito con xxAhora TOKENIZADA
         When Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
@@ -263,10 +262,9 @@ Feature: supervielleComprasCredito
         And Hago click en "Continuar"
         And Hago click en "AhoraDoce"
         And Hago click en "Continuar"
-        And Lleno el campo "CodSeguridadTokenizado" con "codigoSeguridadToken" yendo a buscar la config
+        And Lleno el campo "CodSeguridadTokenizado" con "123"
         And Hago click en "PagarTokenizado"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
-
 
     Scenario: Realizar una compra de un producto de Fravega con tarjeta de credito con xxAhora
         When Abro la siguiente Url "https://supervielle-uat.aper.com/fravega/24434-aire-acondicionado-split-frio-calor-philco-phs25h13x-25kfc-re-copado.html"
@@ -276,12 +274,12 @@ Feature: supervielleComprasCredito
         And Hago click en "FinalizarCompra"
         And Hago click en "IngresarNuevaTarjeta"
         And Hago click en "Continuar"
-        And Lleno los siguientes campos leyendo la config
-            | NroTarjeta     | nroTarjetaCredito1            |
-            | NombreApellido | nombreApellidoTarjetaCredito1 |
-            | Vencimiento    | vencimientoTarjetaCredito1    |
-            | CodSeguridad   | codSeguridadTarjetaCredito1   |
-            | NroDocumento   | nroDocumentoTarjetaCredito1   |
+        And Lleno los siguientes campos
+            | NroTarjeta     | 4507990000004905 |
+            | NombreApellido | JUANA SUAREZ     |
+            | Vencimiento    | 1223             |
+            | CodSeguridad   | 123              |
+            | NroDocumento   | 39169244         |
         And Hago click en "Siguiente"
         And Hago click en "AhoraDoce"
         And Hago click en "Pagar"
