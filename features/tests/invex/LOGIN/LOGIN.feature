@@ -9,7 +9,6 @@ Feature: LOGIN
     Scenario: TC_LOGIN_002_Validar inicio de sesión con datos correctos de usuario registrado.
         When Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
-       #Given Espera
         And Hago click en "Login"
         Then Verifico que el campo "UsuarioLogueado" contenga el texto "Nombre" yendo a buscar la config
 
@@ -38,7 +37,6 @@ Feature: LOGIN
     Scenario: TC_LOGIN_023_Verificar cierre de sesión.
         When Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
-        Given Espera
         And Hago click en "Login"
         Then Verifico que el campo "UsuarioLogueado" contenga el texto "Nombre" yendo a buscar la config
         And Hago click en "UsuarioLogueado"
