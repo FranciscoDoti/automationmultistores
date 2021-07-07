@@ -43,6 +43,7 @@ Feature: MYACCOUNT_DIRECCION
         And Hago click en "SiEliminarDireccion"
         Then Verifico que el campo "DireccionEliminadaCorrectamente" contenga el texto "¡Dirección eliminada correctamente!"
 
+
     Scenario: TC_MY_ACCOUNT_038 Validar que antes de finalizar una compra me permita agregar una nueva direccion
         When Hago click en "Categorias"
         And Hago click en "Tecno"
@@ -62,7 +63,6 @@ Feature: MYACCOUNT_DIRECCION
         And Hago click en "ContinuarYGuardarDireccion"
         Then Verifico que el elemento "DNI" no exista
 
-
     Scenario: TC_MY_ACCOUNT_039 Validar que antes de finalizar una compra me permita editar una direccion
         When Hago click en "Categorias"
         And Hago click en "Tecno"
@@ -76,6 +76,7 @@ Feature: MYACCOUNT_DIRECCION
         Then Verifico que el campo "CartelMetodoEnvio" contenga el texto "3."
 
 
+@PRUEBA
     Scenario: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion
         When Hago click en "Categorias"
         And Hago click en "Tecno"

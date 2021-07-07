@@ -7,6 +7,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "Tecno"
         And Hago click en "Producto"
 
+
     Scenario: TC_CHECKOUT_142 Validar propiedades de campo Número de tarjeta: Boton continuar deshabilitado ingresando menos de 16 números
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
@@ -22,6 +23,7 @@ Feature: CHECKOUT_VALIDACIONES
             | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
+ 
     Scenario: TC_CHECKOUT_142 Validar propiedades de campo Número de tarjeta: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
@@ -52,6 +54,8 @@ Feature: CHECKOUT_VALIDACIONES
             | CodSeguridad   | CodigoSeguridadValido |
             | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
+
+
 
     Scenario:TC_CHECKOUT_143  Validar propiedades de campo Nombre y apellidos: Boton continuar deshabilitado ingresando números
         Given Hago click en "25Puntos"
@@ -87,6 +91,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
+
 
     Scenario: TC_CHECKOUT_143 Validar propiedades de campo Nombre y apellidos: Boton continuar deshabilitado dejando el campo vacío
         Given Hago click en "25Puntos"
@@ -173,6 +178,8 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
+
+
     Scenario: TC_CHECKOUT_145 Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado ingresando menos de 3 números
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
@@ -189,6 +196,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
+
 
     Scenario: TC_CHECKOUT_145 Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
@@ -207,6 +215,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
+
     Scenario: TC_CHECKOUT_145 Validar propiedades de campo Código de seguridad: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
@@ -223,6 +232,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
+
 
     Scenario: TC_CHECKOUT_146 Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando letras
         Given Hago click en "25Puntos"
@@ -241,6 +251,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
+
     Scenario: TC_CHECKOUT_146 Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando caracteres especiales
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
@@ -257,6 +268,7 @@ Feature: CHECKOUT_VALIDACIONES
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
+
 
     Scenario: TC_CHECKOUT_146 Validar propiedades de campo Número de documento: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
