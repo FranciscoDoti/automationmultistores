@@ -138,6 +138,10 @@
     "RetiroTienda": {
         "identificador": "xpath",
         "valor": "(//div//div[label[contains(.,'Retiro en Tienda')]]//label)[2]"
+    },
+    "OcultarContraseña": {
+        "identificador": "xpath",
+        "valor": "//button[@data-action='show-password']"
     }
 
 

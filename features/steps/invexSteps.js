@@ -48,21 +48,43 @@ Given(/^Lleno el campo CVC con "(.*)" yendo a buscar la config$/, async function
 
 })
 
+Given('Retroceder en la página', async function () {
+    await this.driver.navigate().back();
+    console.log('Se presiona botón de retroceder en el navegador.');
+})
+
 Then(/^Valido propiedades del campo "(.*)"$/, async function (nombreCampo) {
     if (nombreCampo == 'Codigo') {
+
         await this.driver.switchTo().frame(1);
         await this.driver.sleep(5000)
         var elementoCvc = await buscarElemento(this.page, nombreCampo);
         var textoElementoCvc = await elementoCvc.getAttribute('maxlength');
         await assert.isTrue(textoElementoCvc == 4,
-            'Error. El campo CVC debería tener un maximo de 4 caracteres. Se encontraron: ' + textoElementoCvc.length);
-    } else if (nombreCampo == 'NombreTarjetahabiente') {
+            'Error. El campo' + nombreCampo + ' debería tener un maximo de 4 caracteres. Se encontraron: ' + textoElementoCvc.length);
+    }
+    else if (nombreCampo == 'NombreTarjetahabiente') {
+
         var webElement = await buscarElemento(this.page, nombreCampo);
         var textoWebElement = await webElement.getAttribute('maxlength');
         await assert.isTrue(textoWebElement == 25,
-            'Error. El campo NombreTarjetahabiente debería tener un maximo de 25 caracteres. Se encontraron: ' + textoWebElement.length);
+            'Error. El campo ' + nombreCampo + ' debería tener un maximo de 25 caracteres. Se encontraron: ' + textoWebElement.length);
+    }
+    else if (nombreCampo == 'Contraseña') {
+        //Se valida type del elemento
+        var webElement = await buscarElemento(this.page, nombreCampo);
+        var textoWebElement = await webElement.getAttribute('type');
+        await assert.isTrue(textoWebElement == 'password',
+            'Error. El campo ' + nombreCampo + ' debería ser de tipo password. Sin embargo es: ' + textoWebElement);
+        //Se presiona btn de ocultar password y se valida elemento nuevamente
+        var btnOcultarPassword = await buscarElemento(this.page, 'OcultarContraseña');
+        await btnOcultarPassword.click();
+        await this.driver.sleep(5000)
+        var textoWebElement = await webElement.getAttribute('type');
+        await assert.isTrue(textoWebElement == 'text',
+            'Error. El campo ' + nombreCampo + ' debería ser de tipo text. Sin embargo es: ' + textoWebElement);
     } else {
-        await assert.fail('No está contemplada la longitud del elemento: ' + nombreCampo);
+        await assert.fail('No está contemplado validar las propiedades del elemento: ' + nombreCampo);
     }
 
 })
