@@ -16,7 +16,6 @@
     "supervielleMY_ACCOUNT_DIRECCION": "cucumber-js features/tests/supervielle/MY_ACCOUNT/MY_ACCOUNT_DIRECCION.feature -f json:reports/cucumber_report.json",
     "supervielleSHOPPING_CART": "cucumber-js features/tests/supervielle/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json",
 
-    "supervielleLogin": "cucumber-js features/tests/supervielle/login.feature -f json:reports/cucumber_report.json --retry 1",
     "itauComprasCredito": "cucumber-js features/tests/itau/comprasCredito.feature -f json:reports/cucumber_report.json --retry 1",
     "itauCarrito": "cucumber-js features/tests/itau/carrito.feature -f json:reports/cucumber_report.json --retry 1",
     "itauDireccion": "cucumber-js features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
