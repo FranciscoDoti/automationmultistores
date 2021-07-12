@@ -9,16 +9,17 @@ const { log } = require(`${process.cwd()}/logger`);
 const jsonfile = require('jsonfile');
 const testrail = require(`${process.cwd()}/test-automation-pack/testrailuploader`);
 const rc = jsonfile.readFileSync(`${process.cwd()}/test-automation-packrc.json`);
+const urls = require(`${process.cwd()}/urls.json`);
 
-
-function ThisWorld({ attach }) {
-
+function ThisWorld({ attach, parameters }) {
+  this.envir = parameters.ambiente;
   this.page = '';
   this.config= '';
   this.argv = argv;
   setDefaultTimeout('90000');
   this.driver = getDriver();
   this.env = config.env;
+  console.log(`El ambiente en el que se correran las pruebas es: ${this.env}`);
   this.data = new Map();
   this.screenshots = 'onFail';
   this.attach = attach;

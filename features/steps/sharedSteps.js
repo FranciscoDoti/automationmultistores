@@ -15,9 +15,10 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
     await this.driver.manage().deleteAllCookies();
 
     try {
-        await this.driver.get(urls[this.env[web]][web]);
+        await this.driver.get(urls[this.envir][web]);
+        /*
         await log.info('Ejecutando la prueba en el ambiente: ' + this.env[web]);
-        await log.info('abriendo la pagina: ' + urls[this.env[web]][web]);
+        await log.info('abriendo la pagina: ' + urls[this.env[web]][web]);*/
         //await this.driver.sleep(10000);
 
     } catch (error) {
