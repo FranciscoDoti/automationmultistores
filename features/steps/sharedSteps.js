@@ -37,8 +37,8 @@ Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
 Given(/^Leo los datos de "(.*)"$/, async function (json) {
     this.page = require(`${process.cwd()}/features/pages/${json}.json`);
-    this.config = require(`${process.cwd()}/features/configurationData/${json}Data.json`)
-    await console.log(this.config)
+    this.config = require(`${process.cwd()}/features/configurationData/${json}Data.json`);
+
 });
 
 
@@ -120,12 +120,22 @@ When(/^Lleno el campo "(.*)" con "(.*)" yendo a buscar la config$/, async functi
 When('Lleno los siguientes campos', async function (datatable) {
 
     for (var i = 0; i < datatable.rawTable.length; i++) {
-        if (datatable.rawTable[i][1] != 'RANDOM') {
-            await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);  // funcion original sin parametro de DataJson
-            //await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
-        } else {
-            var random = Math.random().toString().slice(2, 4);
-            await llenarCampo(this.page, datatable.rawTable[i][0], random);
+        if(this.config[datatable.rawTable[i][1]] == undefined){
+
+            if (datatable.rawTable[i][1] != 'RANDOM') {
+                await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);  // funcion original sin parametro de DataJson
+                //await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
+            } else {
+                var random = Math.random().toString().slice(2, 4);
+                await llenarCampo(this.page, datatable.rawTable[i][0], random);
+            }
+        }else{
+            if (datatable.rawTable[i][1] != 'RANDOM') {
+                await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
+            } else {
+                var random = Math.random().toString().slice(2, 4);
+                await llenarCampo(this.page, datatable.rawTable[i][0], random);
+            }
         }
     }
 });

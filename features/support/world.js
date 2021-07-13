@@ -13,6 +13,7 @@ const urls = require(`${process.cwd()}/urls.json`);
 
 function ThisWorld({ attach, parameters }) {
   this.envir = parameters.ambiente;
+  console.log(`Ejecutando las pruebas en el ambiente: ${parameters.ambiente}`);
   this.page = '';
   this.config= '';
   this.argv = argv;
