@@ -5523,3 +5523,215 @@
 {"message":"no se pudo localizar el elemento WebPayInputNroTarjeta","level":"error","timestamp":"2021-07-01"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-01"}
 {"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-01"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_147 Validar que al calificar con el emoji me enoja me aparezca un cartel de exito","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Sugerencias","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_147 Validar que al calificar con el emoji me enoja me aparezca un cartel de exito","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://tiendaclic-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento IniciaSesion","level":"error","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://tiendaclic-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento IniciaSesion","level":"error","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://tiendaclic-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciaSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://tiendaclic-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://tiendaclic-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://tiendaclic-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciaSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-07-12"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}

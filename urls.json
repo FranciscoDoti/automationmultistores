@@ -1,10 +1,21 @@
 {
     "dev": {
+        "itau": "https://itaupy-dev.aper.cloud",
+        "supervielle": "https://supervielle-dev.aper.com/",
+        "galicia": "https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-dev.aper.cloud/login.html",
+        "icbc": "https://icbcmall-dev.aper.cloud/",
+        "tiendaclic": "https://tiendaclic-dev.aper.cloud/",
+        "bice": "https://bice-dev.aper.cloud/"
+    },
+    "UAT": {
         "itau": "https://itaupy-uat.aper.cloud",
         "supervielle": "https://supervielle-uat.aper.com/",
         "galicia": "https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html",
         "icbc": "https://icbcmall-uat.aper.cloud/",
         "tiendaclic": "https://tiendaclic-uat.aper.cloud/",
         "bice": "https://bice-uat.aper.cloud/"
+    },
+    "produccion": {
+        
     }
 }
