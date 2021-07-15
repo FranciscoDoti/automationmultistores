@@ -113,7 +113,7 @@ When(/^Lleno el campo "(.*)" con "(.*)"$/, async function (elementKey, texto) {
 
 When(/^Lleno el campo "(.*)" con "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
     var textoQueVamosAMandar  = this.config[datoJson];
-    await llenarCampo(this.page, elementKey, textoQueVamosAMandar   );
+    await llenarCampo(this.page, elementKey, textoQueVamosAMandar);
 });
 
 
@@ -168,7 +168,7 @@ When('Lleno los siguientes campos con Executor', async function (datatable) {
 
 });
 
-When(/^Obtengo el texto del elemento "(.)" y lo guardo en la variable "(.)"$/
+When(/^Obtengo el texto del elemento "(.*)" y lo guardo en la variable "(.*)"$/
     , async function (elementKey, nombreVariable) {
         var textoExtraido = await obtenerTexto(this.page, elementKey);
         await this.data.set(nombreVariable, textoExtraido);
@@ -218,6 +218,23 @@ Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (ele
     if (webElement != 'ELEMENT_NOT_FOUND') {
         var estaHabilitado = await webElement.isEnabled();
         await assert.isFalse(estaHabilitado);
+    } else {
+        await assert.fail('No se pudo localizar el elemento ' + elementKey);
+    }
+
+});
+
+Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
+    var textoQueVamosAMandar  = this.config[datoJson];
+    await assertText(this.page, elementKey, textoQueVamosAMandar);
+
+});
+
+Then(/^Verifico que el elemento "(.*)" este habilitado$/, async function (elementKey) {
+    var webElement = await buscarElemento(this.page, elementKey);
+    if (webElement != 'ELEMENT_NOT_FOUND') {
+        var estaHabilitado = await webElement.isEnabled();
+        await assert.isTrue(estaHabilitado);
     } else {
         await assert.fail('No se pudo localizar el elemento ' + elementKey);
     }

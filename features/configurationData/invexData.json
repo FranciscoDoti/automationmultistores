@@ -1,0 +1,27 @@
+{
+  "usuarioValido": "apersqatesting@gmail.com",
+  "passwordValido": "Prueba01",
+  "Nombre": "JOHN DOE",
+
+  "NroTarjetaCredito": "4242424242424242",
+  "Codigo": "123",
+  "NombreTarjetahabiente": "JOHN DOE",
+  "NroDocumento": "39169244",
+  "NroTarjetaDebito": "4915669353237603",
+
+  "ProductoAutomation": "https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html",
+  
+  "usuarioInvalido": "hihiih41",
+  "usuarioIncorrecto": "aperinvalido@gmail.com",
+  "passwordInvalido": "888",
+  "passwordIncorrecto": "jojojba03",
+  "MesVencimiento": "05",
+  "AñoVencimiento": "2025",
+  "CvcInvalido": "#123",
+
+  "MesVencimientoExpirado": "05",
+  "NroTarjetaCreditoRechazada": "4000000000000002",
+  "NroTarjetaCreditoFondoInsuficiente": "4000000000000127",
+  "NroTarjetaIncorrecta": "4915669353237604"
+  
+}
