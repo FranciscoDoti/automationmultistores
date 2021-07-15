@@ -1,0 +1,1012 @@
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: 25Puntos","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento 25Puntos exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento 25Puntos","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: EliminarDireccionDesdeCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento EliminarDireccionDesdeCompra exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento EliminarDireccionDesdeCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: DireccionEliminadaCorrectamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento DireccionEliminadaCorrectamente exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el texto¡Dirección eliminada correctamente! del elemento = DireccionEliminadaCorrectamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":" abriendo la siguiente url: https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: AñadirAlCarrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento AñadirAlCarrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento AñadirAlCarrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ContinuarCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ContinuarCompra exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ContinuarCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ConfirmarDireccion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ConfirmarDireccion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ConfirmarDireccion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ConfirmarMetodoEnvio exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: MetodoPagoConekta","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento MetodoPagoConekta exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento MetodoPagoConekta","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: NombreTarjetahabiente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento NombreTarjetahabiente exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto JOHN DOE en el elemento NombreTarjetahabiente","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 4242424242424242 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ListaMesVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ListaMesVencimiento exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 05 en el elemento ListaMesVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ListaAñoVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ListaAñoVencimiento exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 2025 en el elemento ListaAñoVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ConfirmarPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ConfirmarPedido exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ConfirmarPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: CartelConfirmacionPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento CartelConfirmacionPedido exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoSU PEDIDO ESTÁ CONFIRMADO\nSe ha enviado un email a su dirección de correo electrónico apersqatesting@gmail.com. del elemento = CartelConfirmacionPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ReferenciaPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ReferenciaPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ReferenciaPedido exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoDOYADNPDY del elemento ReferenciaPedido","level":"info","timestamp":"2021-07-06"}
+{"message":" se guardó el texto DOYADNPDY en la variable Pedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_LOGIN_023_Verificar cierre de sesión.","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Salir","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Salir exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Salir","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoTU CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-06"}
+{"message":"hubo un error al extraer el texto del elemento HeaderPage.","level":"error","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-06"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-06"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: 25Puntos","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento 25Puntos exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento 25Puntos","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: EliminarDireccionDesdeCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_LOGIN_023_Verificar cierre de sesión.","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Salir","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Salir exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Salir","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoINICIA SESIÓN CON TU CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-06"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-06"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_LOGIN_023_Verificar cierre de sesión.","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Salir","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Salir exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Salir","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoINICIA SESIÓN CON TU CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-06"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-06"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-06"}
+{"message":" abriendo la siguiente url: https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: AñadirAlCarrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento AñadirAlCarrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento AñadirAlCarrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ContinuarCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ContinuarCompra exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ContinuarCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ConfirmarDireccion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ConfirmarDireccion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ConfirmarDireccion","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ConfirmarMetodoEnvio exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: MetodoPagoConekta","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento MetodoPagoConekta exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento MetodoPagoConekta","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: NombreTarjetahabiente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento NombreTarjetahabiente exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto JOHN DOE en el elemento NombreTarjetahabiente","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 4242424242424242 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ListaMesVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ListaMesVencimiento exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 05 en el elemento ListaMesVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ListaAñoVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ListaAñoVencimiento exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 2025 en el elemento ListaAñoVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ConfirmarPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ConfirmarPedido exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento ConfirmarPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: CartelConfirmacionPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento CartelConfirmacionPedido exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoSU PEDIDO ESTÁ CONFIRMADO\nSe ha enviado un email a su dirección de correo electrónico apersqatesting@gmail.com. del elemento = CartelConfirmacionPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ReferenciaPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ReferenciaPedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento ReferenciaPedido exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el textoYSEXUJLGK del elemento ReferenciaPedido","level":"info","timestamp":"2021-07-06"}
+{"message":" se guardó el texto YSEXUJLGK en la variable Pedido","level":"info","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-06"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-06"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_001_Realizar una compra con Tarjeta de débito.","level":"info","timestamp":"2021-07-06"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto pruebamall13 en el elemento Usuario","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-06"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"El carrito posee 1 productos, se procede a eliminarlos.","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: EliminarProductoCarrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento EliminarProductoCarrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-07-06"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: SoloPesos","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento SoloPesos exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-06"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-06"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-06"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-06"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento AceptoCondiciones exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento AceptoCondiciones","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: IrACaja","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento IrACaja exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento IrACaja","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: TarjetaDebito","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento TarjetaDebito exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se hizo click en el elemento TarjetaDebito","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 4066520617031158 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: FechaVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento FechaVencimiento exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 0821 en el elemento FechaVencimiento","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Nombre","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Nombre exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto Jose Ignacio  en el elemento Nombre","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: Pagar","level":"info","timestamp":"2021-07-06"}
+{"message":"Se localizó el elemento Pagar exitosamente","level":"info","timestamp":"2021-07-06"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-06"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-06"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-06"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-06"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ExitoCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-07-06"}
+{"message":"Localizando elemento: ExitoCompra","level":"info","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-07-06"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-07-06"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-06"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-06"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_147 Validar que al calificar con el emoji me enoja me aparezca un cartel de exito","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Sugerencias","level":"info","timestamp":"2021-07-07"}
+{"message":"no se pudo localizar el elemento Sugerencias","level":"error","timestamp":"2021-07-07"}
+{"message":"no se pudo localizar el elemento Sugerencias","level":"error","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Sugerencias","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Sugerencias exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento Sugerencias","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: MeEnoja","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento MeEnoja exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento MeEnoja","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: TuExperiencia","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento TuExperiencia exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se escribio el texto 78 en el elemento TuExperiencia","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: EnviarSugerencia","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento EnviarSugerencia exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento EnviarSugerencia","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_147 Validar que al calificar con el emoji me enoja me aparezca un cartel de exito","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Sugerencias","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_007_Validar que no me permita iniciar sesión si ingreso con e-mail/usuario incorrecto y contraseña incorrecta.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se escribio el texto aperinvalido@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se escribio el texto jojojba03 en el elemento Contraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: ErrorAutenticacion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento ErrorAutenticacion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Se extrajo el textoError de autenticación. del elemento = ErrorAutenticacion","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_017_Validar que el botón de revelar contraseña muestre los caracteres ocultos.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-07"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-07"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-07"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-07"}
+{"message":"no se pudo localizar el elemento Codigo","level":"error","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_017_Validar que el botón de revelar contraseña muestre los caracteres ocultos.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_017_Validar que el botón de revelar contraseña muestre los caracteres ocultos.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: OcultarContraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento OcultarContraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_017_Validar que el botón de revelar contraseña muestre los caracteres ocultos.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: OcultarContraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento OcultarContraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_017_Validar que el botón de revelar contraseña muestre los caracteres ocultos.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: OcultarContraseña","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento OcultarContraseña exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_022_Verificar vuelta atrás de página al iniciar sesión.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento CrearCuenta exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Se extrajo el textoCREAR UNA CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: FormularioRegistro","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento FormularioRegistro exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_022_Verificar vuelta atrás de página al iniciar sesión.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento CrearCuenta exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Se extrajo el textoCREAR UNA CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: FormularioRegistro","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento FormularioRegistro exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_022_Verificar vuelta atrás de página al iniciar sesión.","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento CrearCuenta exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Se extrajo el textoCREAR UNA CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: FormularioRegistro","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento FormularioRegistro exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Se extrajo el textoINICIA SESIÓN CON TU CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-07"}
+{"message":"Empezando a ejecutar: TC_LOGIN_021_Verificar ingreso al formulario de registro al presionar el botón Registrate","level":"info","timestamp":"2021-07-07"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-07"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento CrearCuenta exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"se hizo click en el elemento CrearCuenta","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento HeaderPage exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Se extrajo el textoCREAR UNA CUENTA del elemento = HeaderPage","level":"info","timestamp":"2021-07-07"}
+{"message":"Localizando elemento: FormularioRegistro","level":"info","timestamp":"2021-07-07"}
+{"message":"Se localizó el elemento FormularioRegistro exitosamente","level":"info","timestamp":"2021-07-07"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-07"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-07"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall13 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"El carrito posee 1 productos, se procede a eliminarlos.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: EliminarProductoCarrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento EliminarProductoCarrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: SoloPesos","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento SoloPesos exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-12"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento AceptoCondiciones exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IrACaja exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: TarjetaCredito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento TarjetaCredito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento TarjetaCredito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: FechaVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento FechaVencimiento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 0821 en el elemento FechaVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Nombre","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Nombre exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto Jose Ignacio  en el elemento Nombre","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Cuotas","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Cuotas exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: UnaCuota","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento UnaCuota exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento UnaCuota","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Pagar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Pagar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Pagar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ExitoCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ExitoCompra exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el textoTransacción aceptada del elemento = ExitoCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall13 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se validó que el carrito posee 0 productos.","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: SoloPesos","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento SoloPesos exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-12"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento AceptoCondiciones exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IrACaja exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: TarjetaCredito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento TarjetaCredito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento TarjetaCredito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: FechaVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento FechaVencimiento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 0821 en el elemento FechaVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Nombre","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Nombre exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto Jose Ignacio  en el elemento Nombre","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Cuotas","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Cuotas exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: UnaCuota","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento UnaCuota exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento UnaCuota","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Pagar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Pagar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Pagar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ExitoCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ExitoCompra exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el textoTransacción aceptada del elemento = ExitoCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_048_Realizar una compra con Puntos.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall12 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se validó que el carrito posee 0 productos.","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: SoloPuntos","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento SoloPuntos exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-12"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento AceptoCondiciones exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IrACaja exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: PagarConPuntos","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento PagarConPuntos exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento PagarConPuntos","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ExitoCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento ExitoCompra","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ExitoCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_LOGIN_005_Intentar realizar ingreso con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall13 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto jojojba03 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ErrorInicioSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ErrorInicioSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el textoNo reconocemos esa combinacion de usuario y clave. Por favor revisalos e intenta nuevamente. del elemento = ErrorInicioSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_LOGIN_023_Verificar cierre de sesión.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall13 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NombreUsuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NombreUsuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento NombreUsuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: CerrarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento CerrarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento CerrarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: VerificoCierreSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento VerificoCierreSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el textoIngresar del elemento = VerificoCierreSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_058_Realizar una compra abonando con puntos y tarjeta de crédito en x cuotas sin interés: Abonando con 25% Puntos y Tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall12 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se validó que el carrito posee 0 productos.","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: 25puntos75pesos","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento 25puntos75pesos exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-12"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento AceptoCondiciones exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IrACaja exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IrACaja","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: TarjetaCredito","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: TarjetaCredito","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento TarjetaCredito","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_058_Realizar una compra abonando con puntos y tarjeta de crédito en x cuotas sin interés: Abonando con 25% Puntos y Tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://icbcmall-uat.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Ingresar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Ingresar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto pruebamall12 en el elemento Usuario","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se valida productos del carrito.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"El carrito posee 1 productos, se procede a eliminarlos.","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto1 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: EliminarProductoCarrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento EliminarProductoCarrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el texto0 del elemento Carrito","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: 25puntos75pesos","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento 25puntos75pesos exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-07-12"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AceptoCondiciones","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento AceptoCondiciones","level":"error","timestamp":"2021-07-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-12"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AñadirAlCarrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento AñadirAlCarrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento AñadirAlCarrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ContinuarCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ContinuarCompra exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ContinuarCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ConfirmarDireccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ConfirmarDireccion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ConfirmarDireccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ConfirmarMetodoEnvio exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: MetodoPagoConekta","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento MetodoPagoConekta exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento MetodoPagoConekta","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NombreTarjetahabiente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NombreTarjetahabiente exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto JOHN DOE en el elemento NombreTarjetahabiente","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 4242424242424242 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ListaMesVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ListaMesVencimiento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 05 en el elemento ListaMesVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ListaAñoVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ListaAñoVencimiento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 2025 en el elemento ListaAñoVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-12"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_003_Realizar una compra con tarjeta de crédito en x cuotas sin interés.","level":"info","timestamp":"2021-07-12"}
+{"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-12"}
+{"message":"abriendo la pagina: https://invex-dev.aper.cloud/","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Email","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Email exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto apersqatesting@gmail.com en el elemento Email","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto Prueba01 en el elemento Contraseña","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Login","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Login exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento Login","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: UsuarioLogueado","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento UsuarioLogueado exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se extrajo el textoJOHN DOE del elemento = UsuarioLogueado","level":"info","timestamp":"2021-07-12"}
+{"message":" abriendo la siguiente url: https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: AñadirAlCarrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento AñadirAlCarrito exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento AñadirAlCarrito","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ContinuarCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ContinuarCompra exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ContinuarCompra","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ConfirmarDireccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ConfirmarDireccion exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ConfirmarDireccion","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ConfirmarMetodoEnvio exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ConfirmarMetodoEnvio","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: MetodoPagoConekta","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento MetodoPagoConekta exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento MetodoPagoConekta","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NombreTarjetahabiente","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NombreTarjetahabiente exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto JOHN DOE en el elemento NombreTarjetahabiente","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 4242424242424242 en el elemento NroTarjeta","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Codigo exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 123 en el elemento Codigo","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ListaMesVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ListaMesVencimiento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 05 en el elemento ListaMesVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ListaAñoVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ListaAñoVencimiento exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"No se borro el campo de texto","level":"info","timestamp":"2021-07-12"}
+{"message":"se escribio el texto 2025 en el elemento ListaAñoVencimiento","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: Prueba","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento Prueba exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-07-12"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-07-12"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: ConfirmarPedido","level":"info","timestamp":"2021-07-12"}
+{"message":"Se localizó el elemento ConfirmarPedido exitosamente","level":"info","timestamp":"2021-07-12"}
+{"message":"se hizo click en el elemento ConfirmarPedido","level":"info","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: CartelConfirmacionPedido","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento CartelConfirmacionPedido","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: CartelConfirmacionPedido","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento CartelConfirmacionPedido","level":"error","timestamp":"2021-07-12"}
+{"message":"Localizando elemento: CartelConfirmacionPedido","level":"info","timestamp":"2021-07-12"}
+{"message":"no se pudo localizar el elemento CartelConfirmacionPedido","level":"error","timestamp":"2021-07-12"}
