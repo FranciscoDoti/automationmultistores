@@ -23,8 +23,8 @@ Feature: CHECKOUT_VALIDACIONES
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelAlertaMedioPago" contenga el texto "La tarjeta ingresada es invalida"
 
@@ -34,8 +34,8 @@ Feature: CHECKOUT_VALIDACIONES
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelAlertaMedioPago" contenga el texto "Informacion incompleta"
 
@@ -47,8 +47,8 @@ Feature: CHECKOUT_VALIDACIONES
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelAlertaMedioPago" contenga el texto "Informacion incompleta"
 
@@ -62,8 +62,8 @@ Feature: CHECKOUT_VALIDACIONES
         Given Lleno el campo CVC con "CvcInvalido" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelAlertaMedioPago" contenga el texto "El campo CVC es invalido"
 
@@ -73,7 +73,7 @@ Feature: CHECKOUT_VALIDACIONES
         Given Lleno el campo Numero de Tarjeta con "NroTarjetaCredito" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelAlertaMedioPago" contenga el texto "Informacion incompleta"

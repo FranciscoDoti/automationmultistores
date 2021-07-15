@@ -23,8 +23,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "SU PEDIDO ESTÁ CONFIRMADO"
         When Obtengo el texto del elemento "ReferenciaPedido" y lo guardo en la variable "Pedido"
@@ -37,8 +37,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo Numero de Tarjeta con "NroTarjetaCredito" yendo a buscar la config
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimientoExpirado" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelAlertaMedioPago" contenga el texto "Completar fecha de Vencimiento"
 
@@ -51,8 +51,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "LO SENTIMOS, TU PEDIDO NO PUDO SER CONFIRMADO"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "La tarjeta ingresada ha sido declinada. Por favor intenta con otro método de pago."
@@ -66,8 +66,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "LO SENTIMOS, TU PEDIDO NO PUDO SER CONFIRMADO"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "Esta tarjeta no tiene suficientes fondos para completar la compra."
@@ -82,8 +82,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "SU PEDIDO ESTÁ CONFIRMADO"
         When Obtengo el texto del elemento "ReferenciaPedido" y lo guardo en la variable "Pedido"
@@ -98,8 +98,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "SU PEDIDO ESTÁ CONFIRMADO"
         When Obtengo el texto del elemento "ReferenciaPedido" y lo guardo en la variable "Pedido"
@@ -114,8 +114,8 @@ Feature: CHECKOUT_CREDITO
         Given Lleno el campo CVC con "Codigo" yendo a buscar la config
         When Lleno el campo "ListaMesVencimiento" con "MesVencimiento" yendo a buscar la config
         When Lleno el campo "ListaAñoVencimiento" con "AñoVencimiento" yendo a buscar la config
-        Given Espera
-        #  And Hago click en "TyC"
+        #Given Espera
+        And Hago click en "TyC"
         And Hago click en "ConfirmarPedido"
         Then Verifico que el campo "CartelConfirmacionPedido" contenga el texto "SU PEDIDO ESTÁ CONFIRMADO"
         When Obtengo el texto del elemento "ReferenciaPedido" y lo guardo en la variable "Pedido"
