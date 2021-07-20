@@ -7,6 +7,7 @@ Feature: itauCarrito
         And Hago click en "Acceder"
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "Prueba01."
+        And Hago click en "NoSoyRobot"
         And Hago click en "IniciarSesion"
         And Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
