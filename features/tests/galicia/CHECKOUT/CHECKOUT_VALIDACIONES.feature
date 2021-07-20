@@ -23,7 +23,7 @@ Feature: CHECKOUT_VALIDACIONES
             | NroDocumento   | NroDocumentoValido    |
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
- 
+
     Scenario: TC_CHECKOUT_142 Validar propiedades de campo Número de tarjeta: Boton continuar deshabilitado dejando el campo vacio
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
@@ -288,7 +288,7 @@ Feature: CHECKOUT_VALIDACIONES
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
 
 
-    Scenario: TC_CHECKOUT_146 Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando menos de 7 digitos
+    Scenario: TC_CHECKOUT_146 Validar propiedades de campo Número de documento: Boton continuar deshabilitado ingresando menos de 4 digitos
         Given Hago click en "25Puntos"
         And Hago click en "Canjear"
         And Hago click en "Continuar"
@@ -300,7 +300,7 @@ Feature: CHECKOUT_VALIDACIONES
             | NombreApellido | NombreTarjetaValido   |
             | Vencimiento    | VencimientoValido     |
             | CodSeguridad   | CodigoSeguridadValido |
-            | NroDocumento   | SeisNumeros           |
+            | NroDocumento   | TresNumeros           |
         And Hago click en "ChekCuota"
         And Hago click en "Cuota1"
         Then Verifico que el elemento "ContinuarYFinalizar" este deshabilitado
