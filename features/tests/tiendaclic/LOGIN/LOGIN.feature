@@ -7,7 +7,7 @@ Background: Pasos comunes
     Given Abro la pagina "tiendaclic"
     And Leo los datos de "tiendaclic"
      And Hago click en "IniciaSesion"
-@PRUEBA
+
 Scenario: Logueo con credenciales correctas de tiendaclick
     And Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
     And Lleno el campo "Clave" con "claveValida" yendo a buscar la config
