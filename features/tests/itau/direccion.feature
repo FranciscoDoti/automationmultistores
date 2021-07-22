@@ -8,6 +8,7 @@ Feature: itauDireccion
     And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
     And Lleno el campo "Contraseña" con "Prueba01."
     And Hago click en "IniciarSesion"
+    And Hago click en "NoSoyRobot"
     And Hago click en "Direcciones"
 
   Scenario: Agregar una dirección valida al usuario
