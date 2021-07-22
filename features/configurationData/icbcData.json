@@ -11,6 +11,9 @@
   "NroTarjetaDebito": "4066520617031158",
 
   "ProductoAutomation": "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html",
+  "ProductoBusqueda": "TERMO COLEMAN 3,8LT",
+  "ProductoAleatorio": "TERMO",
+  "KeywordInvalida": "TE",
 
   "usuarioInvalido": "555555555555555",
   "usuarioIncorrecto": "hihiih41",
@@ -22,6 +25,8 @@
   "NroTarjetaInvalido": "450799000000490",
   "NombreInvalido": "RAMON AVELINO LAFUENTE SANTAMARIA",
   "CodigoInvalido": "1234",
-  "NroDocumentoInvalido": "876549"
+  "NroDocumentoInvalido": "876549",
+
+  "CaracteresEspeciales":"$#%"
   
 }
