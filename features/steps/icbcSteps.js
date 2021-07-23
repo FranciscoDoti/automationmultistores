@@ -31,9 +31,8 @@ Given('Aceptar alerta desea pagar con puntos', async function () {
     //Press the OK button
     await alert.accept();
     await this.driver.sleep(2000);
-    
-})
 
+})
 
 When(/^Validar que el "(.*)" no tenga productos agregados$/, async function (elementCarrito) {
 
@@ -65,5 +64,38 @@ When(/^Validar que el "(.*)" no tenga productos agregados$/, async function (ele
         }
     } else {
         log.info('Se validó que el carrito posee ' + tareasCarrito + ' productos.');
+    }
+});
+
+Then(/^Verificar y obtener elementos de lista "(.*)"$/, async function (element) {
+    await this.driver.sleep(4000)
+    let listaSugerida = [];
+
+    try {
+        await buscarElemento(this.page, element);
+        // Obtiene los elementos de la lista
+        let elements = await this.driver.findElements(By.xpath(this.page.ListaBusquedaSugerida.valor));
+        log.info('se obtiene valores de ' + element + ' y se almacenan.');
+
+        for (let e of elements) {
+            var textoWebElement = await e.getText();
+            listaSugerida.push(textoWebElement);
+        }
+        log.info('se despliega lista de búsqueda de productos sugeridos, se muestran: ' + listaSugerida.length + ' productos sugeridos.');
+    } catch {
+        await assert.fail('hubo un error al obtener y almacenar valores del elemento: ' + element);
+    }
+})
+
+Then(/^Verifico que el elemento "(.*)" no esté presente$/, async function (elementKey) {
+    var estaHabilitado = true;
+
+    var webElement = await buscarElemento(this.page, elementKey);
+    if (webElement == 'ELEMENT_NOT_FOUND') {
+        log.info('No se visualiza elemento: ' + elementKey);
+        estaHabilitado = false;
+        await assert.isFalse(estaHabilitado);
+    } else {
+        await assert.fail('El elemento ' + elementKey + ' está presente, no debería estarlo.');
     }
 });

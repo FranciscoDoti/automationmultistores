@@ -53,7 +53,7 @@ When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
 });
 
 When(/^Abro la siguiente Url "(.*)" yendo a buscar la config$/, async function (datoJson) {
-    var textoQueVamosAMandar  = this.config[datoJson];
+    var textoQueVamosAMandar = this.config[datoJson];
     await this.driver.get(textoQueVamosAMandar);
     await log.info(' abriendo la siguiente url: ' + textoQueVamosAMandar);
     await this.driver.sleep(15000);
@@ -62,35 +62,46 @@ When(/^Abro la siguiente Url "(.*)" yendo a buscar la config$/, async function (
 When(/^Scrolleo hasta el elemento "(.*)" y hago click$/, async function (elementKey) {
     //await clickElementWithExecutor(this.page, elementKey);
     var element = await buscarElemento(this.page, elementKey);
-    if(element == 'ELEMENT_NOT_FOUND'){
+    if (element == 'ELEMENT_NOT_FOUND') {
         await assert.fail('no se pudo localizar el elemento')
-    }else{
+    } else {
 
-        try{
-            
+        try {
+
             await this.driver.executeScript("arguments[0].scrollIntoView(false);", element);
-            log.info('se scrolleo hasta el elemento: '+elementKey)
-        }catch{
-            log.error('no se pudo scrollear hasta el elemento: '+elementKey);
+            log.info('se scrolleo hasta el elemento: ' + elementKey)
+        } catch {
+            log.error('no se pudo scrollear hasta el elemento: ' + elementKey);
         }
         await this.driver.sleep(3000);
-        try{
-            
+        try {
+
             await element.click();
-            log.info('se hizo click sobre elemento: '+elementKey);
-        }catch{
-            await assert.fail('hubo un error al hacer click en el elemento: '+elementKey);
-            
+            log.info('se hizo click sobre elemento: ' + elementKey);
+        } catch {
+            await assert.fail('hubo un error al hacer click en el elemento: ' + elementKey);
+
         }
     }
 });
 
-When(/^Hago click que contenga "(.*)" "(.*)"$/, async function (elementKey, contains){
+When(/^Hago click que contenga "(.*)" "(.*)"$/, async function (elementKey, contains) {
 
     var element = await buscarElemento(this.page, elementKey, contains);
-    try{
+    try {
         await element.click();
-    }catch{
+    } catch {
+        log.error(`no se pudo hacer click en el elemento ${elementKey}`);
+        await assert.fail('error al clickear sobre el elemento, por favor, revisar locators');
+    }
+})
+
+When(/^Hago click que contenga "(.*)" "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
+    var textoQueVamosAMandar = this.config[datoJson];
+    var element = await buscarElemento(this.page, elementKey, textoQueVamosAMandar);
+    try {
+        await element.click();
+    } catch {
         log.error(`no se pudo hacer click en el elemento ${elementKey}`);
         await assert.fail('error al clickear sobre el elemento, por favor, revisar locators');
     }
@@ -112,15 +123,15 @@ When(/^Lleno el campo "(.*)" con "(.*)"$/, async function (elementKey, texto) {
 
 
 When(/^Lleno el campo "(.*)" con "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
-    var textoQueVamosAMandar  = this.config[datoJson];
-    await llenarCampo(this.page, elementKey, textoQueVamosAMandar   );
+    var textoQueVamosAMandar = this.config[datoJson];
+    await llenarCampo(this.page, elementKey, textoQueVamosAMandar);
 });
 
 
 When('Lleno los siguientes campos', async function (datatable) {
 
     for (var i = 0; i < datatable.rawTable.length; i++) {
-        if(this.config[datatable.rawTable[i][1]] == undefined){
+        if (this.config[datatable.rawTable[i][1]] == undefined) {
 
             if (datatable.rawTable[i][1] != 'RANDOM') {
                 await llenarCampo(this.page, datatable.rawTable[i][0], datatable.rawTable[i][1]);  // funcion original sin parametro de DataJson
@@ -129,7 +140,7 @@ When('Lleno los siguientes campos', async function (datatable) {
                 var random = Math.random().toString().slice(2, 4);
                 await llenarCampo(this.page, datatable.rawTable[i][0], random);
             }
-        }else{
+        } else {
             if (datatable.rawTable[i][1] != 'RANDOM') {
                 await llenarCampo(this.page, datatable.rawTable[i][0], this.config[datatable.rawTable[i][1]]);
             } else {
@@ -168,7 +179,7 @@ When('Lleno los siguientes campos con Executor', async function (datatable) {
 
 });
 
-When(/^Obtengo el texto del elemento "(.)" y lo guardo en la variable "(.)"$/
+When(/^Obtengo el texto del elemento "(.*)" y lo guardo en la variable "(.*)"$/
     , async function (elementKey, nombreVariable) {
         var textoExtraido = await obtenerTexto(this.page, elementKey);
         await this.data.set(nombreVariable, textoExtraido);
@@ -177,20 +188,32 @@ When(/^Obtengo el texto del elemento "(.)" y lo guardo en la variable "(.)"$/
         await log.info(' se guardó el texto ' + textoEnVariable + ' en la variable ' + nombreVariable);
     });
 
-When(/^Scrolleo hasta el elemento "(.*)"$/, async function(elementKey){
+When(/^Scrolleo hasta el elemento "(.*)"$/, async function (elementKey) {
 
     var element = await buscarElemento(this.page, elementKey);
-    if(element == 'ELEMENT_NOT_FOUND'){
+    if (element == 'ELEMENT_NOT_FOUND') {
         await assert.fail('no se pudo localizar el elemento')
-    }else{
+    } else {
 
-            await this.driver.executeScript("arguments[0].scrollIntoView(true);", element);
-            log.info('se scrolleo hasta el elemento: '+elementKey)
-        
-            log.error('no se pudo scrollear hasta el elemento: '+elementKey);
-        
+        await this.driver.executeScript("arguments[0].scrollIntoView(true);", element);
+        log.info('se scrolleo hasta el elemento: ' + elementKey)
+
+        log.error('no se pudo scrollear hasta el elemento: ' + elementKey);
+
     }
-        await this.driver.sleep(3000);
+    await this.driver.sleep(3000);
+});
+
+When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
+
+    var element = await buscarElemento(this.page, elementKey);
+    if (element == 'ELEMENT_NOT_FOUND') {
+        await assert.fail('no se pudo localizar el elemento')
+    } else {
+        await llenarCampo(this.page, elementKey, Key.ENTER)
+        log.info('se presiona ENTER en el elemento: ' + elementKey)
+    }
+
 });
 
 
@@ -218,6 +241,23 @@ Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (ele
     if (webElement != 'ELEMENT_NOT_FOUND') {
         var estaHabilitado = await webElement.isEnabled();
         await assert.isFalse(estaHabilitado);
+    } else {
+        await assert.fail('No se pudo localizar el elemento ' + elementKey);
+    }
+
+});
+
+Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
+    var textoQueVamosAMandar = this.config[datoJson];
+    await assertText(this.page, elementKey, textoQueVamosAMandar);
+
+});
+
+Then(/^Verifico que el elemento "(.*)" este habilitado$/, async function (elementKey) {
+    var webElement = await buscarElemento(this.page, elementKey);
+    if (webElement != 'ELEMENT_NOT_FOUND') {
+        var estaHabilitado = await webElement.isEnabled();
+        await assert.isTrue(estaHabilitado);
     } else {
         await assert.fail('No se pudo localizar el elemento ' + elementKey);
     }

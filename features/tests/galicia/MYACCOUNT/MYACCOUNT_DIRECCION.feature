@@ -76,7 +76,6 @@ Feature: MYACCOUNT_DIRECCION
         Then Verifico que el campo "CartelMetodoEnvio" contenga el texto "3."
 
 
-@PRUEBA
     Scenario: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion
         When Hago click en "Categorias"
         And Hago click en "Tecno"

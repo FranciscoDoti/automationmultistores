@@ -1,0 +1,150 @@
+{
+    "IniciarSesion": {
+        "identificador": "xpath",
+        "valor": "//div//a[@title='Acceda a su cuenta de cliente']"
+    },
+    "Email": {
+        "identificador": "xpath",
+        "valor": "//section[@class='form-fields']//input[@name='email' and @type='email']"
+    },
+    "Contraseña": {
+        "identificador": "xpath",
+        "valor": "//section[@class='form-fields']//input[@name='password' and @type='password']"
+    },
+    "Captcha": {
+        "identificador": "xpath",
+        "valor": "//span[@id='recaptcha-anchor']//div[@role='presentation']"
+    },
+    "Login": {
+        "identificador": "xpath",
+        "valor": "//button[@id='submit-login']"
+    },
+    "Frame": {
+        "identificador": "xpath",
+        "valor": "//div//iframe"
+    },
+    "ErrorAutenticacion": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='ps-alert-error alert alert-danger']"
+    },
+    "FormatoInvalido": {
+        "identificador": "xpath",
+        "valor": "//div[@class='invalid-feedback']"
+    },
+    "EmailInvalido": {
+        "identificador": "xpath",
+        "valor": "//div[contains(.,'Dirección de correo electrónico')]/div/ul"
+    },
+    "ContraseñaInvalida": {
+        "identificador": "xpath",
+        "valor": "//div[contains(.,'Contraseña')]/div/div/ul"
+    },
+    "UsuarioLogueado": {
+        "identificador": "xpath",
+        "valor": "//div[@class='Login']//span"
+    },
+    "Salir": {
+        "identificador": "xpath",
+        "valor": "//div//a[contains(.,'Salir')]"
+    },
+    "HeaderPage": {
+        "identificador": "xpath",
+        "valor": "//section[@id='main']//header//h1"
+    },
+    "CrearCuenta": {
+        "identificador": "xpath",
+        "valor": "//div//a[@data-link-action='display-register-form']"
+    },
+    "FormularioRegistro": {
+        "identificador": "xpath",
+        "valor": "//form[@id='customer-form']//section[@class='form-fields']"
+    },
+    "AñadirAlCarrito": {
+        "identificador": "xpath",
+        "valor": "//button[@data-button-action='add-to-cart']"
+    },
+    "ContinuarCompra": {
+        "identificador": "xpath",
+        "valor": "//div//a[contains(.,'Continuar compra')]"
+    },
+    "ConfirmarDireccion": {
+        "identificador": "xpath",
+        "valor": "//div[@class='clearfix button-continue--container']//button[@type='submit' and contains (.,'Continuar')]"
+    },
+    "ConfirmarMetodoEnvio": {
+        "identificador": "xpath",
+        "valor": "//button[@name='confirmDeliveryOption']"
+    },
+    "MetodoPagoConekta": {
+        "identificador": "xpath",
+        "valor": "//label[@for='payment-option-2']"
+    },
+    "TyC": {
+        "identificador": "xpath",
+        "valor": "//label[@for='conditions_to_approve[terms-and-conditions]']/ancestor::div/input"
+    },
+    "ListaMesVencimiento": {
+        "identificador": "xpath",
+        "valor": "//select[@id='conekta-card-expiry-month']"
+    },
+    "ListaAñoVencimiento": {
+        "identificador": "xpath",
+        "valor": "//select[@id='conekta-card-expiry-year']"
+    },
+    "NombreTarjetahabiente": {
+        "identificador": "xpath",
+        "valor": "//input[@id='name']"
+    },
+    "NroTarjeta": {
+        "identificador": "xpath",
+        "valor": "//div//input[@id='card']"
+    },
+    "Codigo": {
+        "identificador": "xpath",
+        "valor": "//input[@id='cvc']"
+    },
+    "ConfirmarPedido": {
+        "identificador": "id",
+        "valor": "payment-confirmation"
+    },
+    "CerrarTyC": {
+        "identificador": "xpath",
+        "valor": "//button[contains(.,'Cerrar')]"
+    },
+    "CartelConfirmacionPedido": {
+        "identificador": "id",
+        "valor": "content-hook_order_confirmation"
+    },
+    "ReferenciaPedido": {
+        "identificador": "xpath",
+        "valor": "//section[@id='content-hook_payment_return']//div//b"
+    },
+    "CartelAlertaMedioPago": {
+        "identificador": "xpath",
+        "valor": "//form[@id='conekta-payment-form']//div[@class='alert alert-danger']"
+    },
+    "PantallaRechazoPago": {
+        "identificador": "xpath",
+        "valor": "//html//body"
+    },
+    "EnvioCONTACTNEXT": {
+        "identificador": "xpath",
+        "valor": "(//div//div[label[contains(.,'CONTACTNEXT - Envío a Domicilio planilla')]]//label)[2]"
+    },
+    "EnvioBASEONE": {
+        "identificador": "xpath",
+        "valor": "(//div//div[label[contains(.,'BASEONE')]]//label)[2]"
+    },
+    "RetiroTienda": {
+        "identificador": "xpath",
+        "valor": "(//div//div[label[contains(.,'Retiro en Tienda')]]//label)[2]"
+    },
+    "OcultarContraseña": {
+        "identificador": "xpath",
+        "valor": "//button[@data-action='show-password']"
+    }
+
+
+    
+
+}
