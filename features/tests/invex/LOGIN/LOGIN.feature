@@ -4,7 +4,7 @@ Feature: LOGIN
     Background: Pasos comunes
         Given Abro la pagina "invex"
         And Leo los datos de "invex"
-        Then Verifico que el elemento "IniciarSesion" este habilitado
+        When Paso el mouse por encima de "IniciarSesion"
         And Hago click en "IniciarSesion"
         Then Verifico que el campo "HeaderPage" contenga el texto "INICIA SESIÓN CON TU CUENTA"
 
