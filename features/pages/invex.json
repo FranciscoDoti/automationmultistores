@@ -1,7 +1,7 @@
 {
     "IniciarSesion": {
         "identificador": "xpath",
-        "valor": "//div//a[@title='Acceda a su cuenta de cliente']"
+        "valor": "//a[@href='https://invex-dev.aper.cloud/mi-cuenta']"
     },
     "Email": {
         "identificador": "xpath",
