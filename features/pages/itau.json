@@ -186,5 +186,10 @@
     "Salir": {
         "identificador": "xpath",
         "valor": "//i[@class='fas fa-sign-out-alt']"
+    },
+    "NoSoyRobot": {
+        "identificador": "xpath",
+        "valor": "//div[@class='recaptcha-checkbox-border']"
     }
+    
 }
