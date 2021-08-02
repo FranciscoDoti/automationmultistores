@@ -269,11 +269,11 @@ Then('Valido que el campo {string} sea de propiedad {string}', async function(el
     const atributo = await element.getAttribute('type');
     switch(type){
         case "texto":
-            await assert(atributo == '', `Se buscó que el elemento fuera de tipo texto, pero se encontró ${atributo}`);
+            await assert(atributo == 'text', `Se buscó que el elemento fuera de tipo texto, pero se encontró ${atributo}`);
             break;
         case "numero":
-            await assert(atributo == '', `Se buscó que el elemento fuera de tipo numero, pero se encontró ${atributo}`);
+            await assert(atributo == 'tel', `Se buscó que el elemento fuera de tipo numero, pero se encontró ${atributo}`);
         case "password":
-            await assert(atributo == '', `Se buscó que el elemento fuera de tipo password, pero se encontró ${atributo}`);
+            await assert(atributo == 'password', `Se buscó que el elemento fuera de tipo password, pero se encontró ${atributo}`);
     }
 });

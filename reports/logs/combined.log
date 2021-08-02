@@ -1010,3 +1010,11 @@
 {"message":"no se pudo localizar el elemento CartelConfirmacionPedido","level":"error","timestamp":"2021-07-12"}
 {"message":"Localizando elemento: CartelConfirmacionPedido","level":"info","timestamp":"2021-07-12"}
 {"message":"no se pudo localizar el elemento CartelConfirmacionPedido","level":"error","timestamp":"2021-07-12"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-02"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-02"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-02"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-02"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-02"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-02"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-02"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-02"}
