@@ -1018,3 +1018,829 @@
 {"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-02"}
 {"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-02"}
 {"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-02"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"no se pudo localizar el elemento busqueda","level":"error","timestamp":"2021-08-03"}
+{"message":"no se pudo localizar el elemento busqueda","level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"no se pudo localizar el elemento busqueda","level":"error","timestamp":"2021-08-03"}
+{"message":"no se pudo localizar el elemento busqueda","level":"error","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda error","level":"info","timestamp":"2021-08-03"}
+{"level":"error","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que los resultados de la busqueda coincidan con la palabra clave ingresada","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: AGREGAR LISTA\tValidar que al ingresar caracteres especiales no se encuentren resultados de busqueda validos","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002 Validar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_012 Validar que la keyword buscada se visualiza en el resultado de búsqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001\tValidar una búsqueda exitosa","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002 Validar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto .,/*?? en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento error busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se extrajo el textoNo se han encontrado resultados para su búsqueda \".,/*??\" del elemento = error busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"Empezando a ejecutar: TC_SEARCH_012 Validar que la keyword buscada se visualiza en el resultado de búsqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto tostadora en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-03"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-03"}
+{"message":"se escribio el texto  en el elemento busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}

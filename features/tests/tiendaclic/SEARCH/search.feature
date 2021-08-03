@@ -3,26 +3,31 @@ Feature: search
     Background: Search
     Given Abro la pagina "tiendaclic"
     And Leo los datos de "tiendaclic"
-@PRUEBA
+
 Scenario: TC_SEARCH_001	Validar una búsqueda exitosa
+    When Lleno el campo "busqueda" con "notebook"
+    * Hago click en "lupa"
+    Then Verifico que los elementos "busqueda exitosa" contengan el texto "notebook"
+
+Scenario: TC_SEARCH_002 Validar propiedades del campo de búsquedas al ingresar caracteres especiales
+    When Lleno el campo "busqueda" con ".,/*??"
+    * Presiona tecla ENTER en elemento "busqueda"
+    Then Verifico que el campo "error busqueda" contenga el texto "No se han encontrado resultados"
 
 Scenario: TC_SEARCH_002	Validar propiedades del campo de búsquedas al ingresar caracteres especiales
     When Valido que el campo "busqueda" sea de propiedad "texto"
 
-Scenario: TC_SEARCH_003	Validar propiedades del campo de búsquedas al dejar el campo vacío
-
 Scenario: TC_SEARCH_004	Validar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente
+    When Lleno el campo "busqueda" con "notebook"
+    * Hago click en "lupa"
+    Then Verifico que se haya redirigido a la pagina que contenga "/buscar?submit_search"
 
 Scenario: TC_SEARCH_005	Validar que al presionar la tecla Enter se realice la búsqueda correspondiente
+    When Lleno el campo "busqueda" con "notebook"
+    * Presiona tecla ENTER en elemento "busqueda"
+    Then Verifico que se haya redirigido a la pagina que contenga "/buscar?submit_search"
 
-Scenario: TC_SEARCH_006	Validar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas
-
-Scenario: TC_SEARCH_007	Validar que se despliegue el listado de búsquedas sugeridas al escribir en el campo de búsquedas
-
-Scenario: TC_SEARCH_008	Validar que se pueda navegar (scroll) por el listado de búsquedas sugeridas
-
-Scenario: TC_SEARCH_009	Validar que se pueda seleccionar un artículo aleatorio del listado de búsquedas sugeridas
-
-Scenario: TC_SEARCH_010	Validar que se pueda navegar con el teclado por el listado de búsquedas sugeridas
-
-Scenario: TC_SEARCH_011	Validar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas
+Scenario: TC_SEARCH_012 Validar que la keyword buscada se visualiza en el resultado de búsqueda
+    When Lleno el campo "busqueda" con "tostadora"
+    * Presiona tecla ENTER en elemento "busqueda"
+    Then Verifico que los elementos "busqueda exitosa" contengan el texto "tostadora"
