@@ -4,6 +4,7 @@ Feature: CHECKOUT_DEBITO
     Background: Pasos comunes
         Given Abro la pagina "invex"
         And Leo los datos de "invex"
+        When Paso el mouse por encima de "IniciarSesion"
         And Hago click en "IniciarSesion"
         Then Verifico que el campo "HeaderPage" contenga el texto "INICIA SESIÓN CON TU CUENTA"
         When Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
