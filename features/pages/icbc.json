@@ -230,5 +230,13 @@
     "ListaBusquedaSugerida": {
         "identificador": "xpath",
         "valor": "//div[@class='ac_results']//li"
+    },
+    "PasosDeCompra": {
+        "identificador": "id",
+        "valor": "order_step"
+    },
+    "PrimerProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "//dl[@class='products']//dt[@class='first_item']/a"
     }
 }

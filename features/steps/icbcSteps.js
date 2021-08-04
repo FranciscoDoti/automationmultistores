@@ -99,3 +99,18 @@ Then(/^Verifico que el elemento "(.*)" no esté presente$/, async function (elem
         await assert.fail('El elemento ' + elementKey + ' está presente, no debería estarlo.');
     }
 });
+
+When(/^Verificar que el elemento del carrito "(.*)" contenga el producto "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
+
+    var textoAValidar = this.config[datoJson];
+    var element = await buscarElemento(this.page, elementKey);
+    var atributo = await element.getAttribute('href');
+    await assert(atributo == textoAValidar, 'No se encontró el producto en el carrito');
+
+})
+
+When('valido las propiedades de campo clave', async function () {
+    var element = await this.driver.wait(until.elementLocated(By.xpath("//input[@id='passwd']")), 7000);
+    var atributo = await element.getAttribute('type');
+    await assert(atributo == 'password', 'Se busco que el atributo del input sea password pero se encontro: ' + atributo);
+});
