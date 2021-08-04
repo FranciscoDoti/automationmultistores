@@ -233,7 +233,6 @@ Then(/^Verifico que el elemento "(.*)" no exista$/, async function (elementKey) 
 
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
     await assertText(this.page, elementKey, texto);
-
 });
 
 Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (elementKey) {

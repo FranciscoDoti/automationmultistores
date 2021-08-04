@@ -3,19 +3,17 @@ Feature: SHOPPING CART
     Background: tiendaclic
         Given Abro la pagina "tiendaclic"
         And Leo los datos de "tiendaclic"
-
-    
-
-Scenario: TC_SHOPPING_CART_002	Validar que no se pueda ingresar al carrito sin artículos añadidos como usuario invitado
-Scenario: TC_SHOPPING_CART_003	Validar que se pueda agregar un artículo al carrito como usuario invitado
-Scenario: TC_SHOPPING_CART_004	Validar que se pueda eliminar un artículo del carrito como usuario invitado
-Scenario: TC_SHOPPING_CART_005	Validar que se puedan agregar dos unidades del mismo artículo al carrito como usuario invitado
-Scenario: TC_SHOPPING_CART_006	Validar que se puedan eliminar todos los artículos del carrito como usuario invitado
-Scenario: TC_SHOPPING_CART_007	Validar que se abra un modal de alerta al intentar agregar artículos de diferentes proveedores al carrito como invitado
-Scenario: TC_SHOPPING_CART_008	Validar que el usuario invitado al loguearse mantenga los artículos en el carrito
-Scenario: TC_SHOPPING_CART_009	Validar que al ingresar al carrito sin artículos añadidos aparezca un mensaje de alerta
+@PRUEBA
 Scenario: TC_SHOPPING_CART_010	Validar que se pueda agregar un artículo al carrito desde la página de inicio
+    * Lleno el campo "busqueda" con "notebook"
+    * Hago click en "lupa"
+    * Hago click en "carritoCompra"
+    * Hago click en "Comprar"
+    Then Verifico que el campo "cantidadCarrito" contenga el texto "1"
+
 Scenario: TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
+
+
 Scenario: TC_SHOPPING_CART_012	Validar que se pueda agregar un artículo al carrito desde una subcategoría aleatoria
 Scenario: TC_SHOPPING_CART_013	Validar que se pueda agregar un artículo al carrito desde una subsubcategoría aleatoria
 Scenario: TC_SHOPPING_CART_014	Validar que se pueda agregar un artículo al carrito desde la ficha de un artículo aleatorio
@@ -62,3 +60,13 @@ Scenario: TC_SHOPPING_CART_063	Validar que los artículos permanezcan en el carr
 Scenario: TC_SHOPPING_CART_064	Validar que los artículos añadidos permanezcan en el carrito al abrir la tienda desde una ventana diferente
 Scenario: TC_SHOPPING_CART_065	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
 Scenario: TC_SHOPPING_CART_066	Intentar agregar artículos al carrito, cerrar sesión, agregar artículos como usuario invitado, e iniciar sesión nuevamente
+
+
+
+Scenario: TC_SHOPPING_CART_002	Validar que no se pueda ingresar al carrito sin artículos añadidos como usuario invitado
+Scenario: TC_SHOPPING_CART_003	Validar que se pueda agregar un artículo al carrito como usuario invitado
+Scenario: TC_SHOPPING_CART_004	Validar que se pueda eliminar un artículo del carrito como usuario invitado
+Scenario: TC_SHOPPING_CART_005	Validar que se puedan agregar dos unidades del mismo artículo al carrito como usuario invitado
+Scenario: TC_SHOPPING_CART_006	Validar que se puedan eliminar todos los artículos del carrito como usuario invitado
+Scenario: TC_SHOPPING_CART_007	Validar que se abra un modal de alerta al intentar agregar artículos de diferentes proveedores al carrito como invitado
+Scenario: TC_SHOPPING_CART_008	Validar que el usuario invitado al loguearse mantenga los artículos en el carrito

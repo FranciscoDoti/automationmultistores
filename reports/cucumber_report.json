@@ -1,18 +1,23 @@
 [
   {
     "keyword": "Feature",
-    "name": "search",
+    "name": "SHOPPING CART",
     "line": 1,
-    "id": "search",
+    "id": "shopping-cart",
     "tags": [],
-    "uri": "features\\tests\\tiendaclic\\SEARCH\\search.feature",
+    "uri": "features\\tests\\tiendaclic\\SHOPPING_CART\\SHOPPING_CART.feature",
     "elements": [
       {
-        "id": "search;tc_search_001\tvalidar-una-búsqueda-exitosa",
+        "id": "shopping-cart;tc_shopping_cart_010\tvalidar-que-se-pueda-agregar-un-artículo-al-carrito-desde-la-página-de-inicio",
         "keyword": "Scenario",
         "line": 7,
-        "name": "TC_SEARCH_001\tValidar una búsqueda exitosa",
-        "tags": [],
+        "name": "TC_SHOPPING_CART_010\tValidar que se pueda agregar un artículo al carrito desde la página de inicio",
+        "tags": [
+          {
+            "name": "@PRUEBA",
+            "line": 6
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -36,7 +41,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4098000000000000
+              "duration": 4334000000000000
             }
           },
           {
@@ -49,12 +54,12 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000000000
+              "duration": 6000000000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "* ",
             "line": 8,
             "name": "Lleno el campo \"busqueda\" con \"notebook\"",
             "match": {
@@ -62,7 +67,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3123000000000000
+              "duration": 1642000000000000
             }
           },
           {
@@ -75,318 +80,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3952000000000000
+              "duration": 3366000000000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "* ",
             "line": 10,
-            "name": "Verifico que los elementos \"busqueda exitosa\" contengan el texto \"notebook\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:281"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4217000000000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1089000000000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "search;tc_search_002-validar-propiedades-del-campo-de-búsquedas-al-ingresar-caracteres-especiales",
-        "keyword": "Scenario",
-        "line": 12,
-        "name": "TC_SEARCH_002 Validar propiedades del campo de búsquedas al ingresar caracteres especiales",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Abro la pagina \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2317000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "Leo los datos de \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 13,
-            "name": "Lleno el campo \"busqueda\" con \".,/*??\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:120"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3100000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "* ",
-            "line": 14,
-            "name": "Presiona tecla ENTER en elemento \"busqueda\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:207"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3787000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "Verifico que el campo \"error busqueda\" contenga el texto \"No se han encontrado resultados\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:234"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13107000000000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1137000000000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "search;tc_search_002\tvalidar-propiedades-del-campo-de-búsquedas-al-ingresar-caracteres-especiales",
-        "keyword": "Scenario",
-        "line": 17,
-        "name": "TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Abro la pagina \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2221000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "Leo los datos de \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "Valido que el campo \"busqueda\" sea de propiedad \"texto\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:267"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1469000000000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1119000000000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "search;tc_search_004\tvalidar-que-al-presionar-el-botón-buscar-(ícono-lupa)-se-realice-la-búsqueda-correspondiente",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Abro la pagina \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2259000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "Leo los datos de \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "Lleno el campo \"busqueda\" con \"notebook\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:120"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3164000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "* ",
-            "line": 22,
-            "name": "Hago click en \"lupa\"",
+            "name": "Hago click en \"carritoCompra\"",
             "match": {
               "location": "features\\steps\\sharedSteps.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 3968000000000000
+              "duration": 3415000000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "* ",
+            "line": 11,
+            "name": "Hago click en \"Comprar\"",
+            "match": {
+              "location": "features\\steps\\sharedSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1589000000000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 23,
-            "name": "Verifico que se haya redirigido a la pagina que contenga \"/buscar?submit_search\"",
+            "line": 12,
+            "name": "Verifico que el campo \"cantidadCarrito\" contenga el texto \"1\"",
             "match": {
-              "location": "features\\steps\\sharedSteps.js:301"
+              "location": "features\\steps\\sharedSteps.js:234"
             },
             "result": {
               "status": "passed",
-              "duration": 2521000000000000
+              "duration": 20626000000000000
             }
           },
           {
@@ -408,223 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1179000000000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "search;tc_search_005\tvalidar-que-al-presionar-la-tecla-enter-se-realice-la-búsqueda-correspondiente",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "TC_SEARCH_005\tValidar que al presionar la tecla Enter se realice la búsqueda correspondiente",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Abro la pagina \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2271000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "Leo los datos de \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 26,
-            "name": "Lleno el campo \"busqueda\" con \"notebook\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:120"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3331000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "* ",
-            "line": 27,
-            "name": "Presiona tecla ENTER en elemento \"busqueda\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:207"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4537000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 28,
-            "name": "Verifico que se haya redirigido a la pagina que contenga \"/buscar?submit_search\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:301"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2557000000000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1126000000000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "search;tc_search_012-validar-que-la-keyword-buscada-se-visualiza-en-el-resultado-de-búsqueda",
-        "keyword": "Scenario",
-        "line": 30,
-        "name": "TC_SEARCH_012 Validar que la keyword buscada se visualiza en el resultado de búsqueda",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "Abro la pagina \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2297000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "Leo los datos de \"tiendaclic\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 31,
-            "name": "Lleno el campo \"busqueda\" con \"tostadora\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:120"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3182000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "* ",
-            "line": 32,
-            "name": "Presiona tecla ENTER en elemento \"busqueda\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:207"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4453000000000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 33,
-            "name": "Verifico que los elementos \"busqueda exitosa\" contengan el texto \"tostadora\"",
-            "match": {
-              "location": "features\\steps\\sharedSteps.js:281"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4211000000000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\support\\hooks.js:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1147000000000000
+              "duration": 67000000000000
             }
           }
         ]

@@ -1905,3 +1905,62 @@
 {"message":"se presiona ENTER en el elemento: busqueda","level":"info","timestamp":"2021-08-03"}
 {"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-03"}
 {"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_010\tValidar que se pueda agregar un artículo al carrito desde la página de inicio","level":"info","timestamp":"2021-08-04"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_010\tValidar que se pueda agregar un artículo al carrito desde la página de inicio","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: carritoCompra","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento carritoCompra exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento carritoCompra","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: cantidadCarrito","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento cantidadCarrito exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_010\tValidar que se pueda agregar un artículo al carrito desde la página de inicio","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: carritoCompra","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento carritoCompra exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento carritoCompra","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: cantidadCarrito","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento cantidadCarrito exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"Se extrajo el texto1 del elemento = cantidadCarrito","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-04"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_010\tValidar que se pueda agregar un artículo al carrito desde la página de inicio","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: busqueda","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento busqueda exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se escribio el texto notebook en el elemento busqueda","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: lupa","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento lupa exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento lupa","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: carritoCompra","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento carritoCompra exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento carritoCompra","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: Comprar","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento Comprar exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"se hizo click en el elemento Comprar","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: cantidadCarrito","level":"info","timestamp":"2021-08-04"}
+{"message":"Se localizó el elemento cantidadCarrito exitosamente","level":"info","timestamp":"2021-08-04"}
+{"message":"Se extrajo el texto1 del elemento = cantidadCarrito","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-04"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-04"}

@@ -170,5 +170,13 @@
     "busqueda exitosa": { 
       "identificador": "xpath",  
       "valor": "//div[@class='CardBody']" 
-     }
+     },
+       "carritoCompra": { 
+     "identificador": "xpath",  
+     "valor": "//a[text()='Comprar']" 
+       },
+         "cantidadCarrito": { 
+       "identificador": "xpath",  
+       "valor": "//a[@title='Ver mi carrito de compra']/span/span" 
+         }
 }
