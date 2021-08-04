@@ -190,6 +190,26 @@
     "NoSoyRobot": {
         "identificador": "xpath",
         "valor": "//div[@class='recaptcha-checkbox-border']"
+    },
+    "BarraBuscadora": {
+        "identificador": "xpath",
+        "valor": "//input[@class='form-control'][@name='s']"
+    },
+    "Buscar": {
+        "identificador": "xpath",
+        "valor": "//div[@class='input-group-append']//button[@class='btn btn-primary']"
+    },
+    "CartelErrorBusqueda": {
+        "identificador": "xpath",
+        "valor": "//section[@id='content']//h4"
+    },
+    "ProductoEncontradoCorrecto": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ProductList-grid']//article//a[contains(text(),'Licuadora')]"
+    },
+    "UltimaOpcionDesplegable": {
+        "identificador": "xpath",
+        "valor": ""
     }
     
 }
