@@ -1,0 +1,40 @@
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-08-04"}
