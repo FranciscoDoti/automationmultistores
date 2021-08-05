@@ -272,8 +272,12 @@ Then('Valido que el campo {string} sea de propiedad {string}', async function(el
             break;
         case "numero":
             await assert(atributo == 'tel', `Se buscó que el elemento fuera de tipo numero, pero se encontró ${atributo}`);
+            break;
         case "password":
             await assert(atributo == 'password', `Se buscó que el elemento fuera de tipo password, pero se encontró ${atributo}`);
+            break;
+        default:
+            log.error(`no se encontro ninguna opcion de validacion para la propiedad ${type}, por favor revisar el parametro enviado`);
     }
 });
 
@@ -282,7 +286,7 @@ Then('Verifico que los elementos {string} contengan el texto {string}', async fu
     const element = await this.driver.wait(until.elementsLocated(By.xpath(this.page[elementKey].valor)), 5000);
     await this.driver.sleep(1000);
     let error = 0;
-    for(let i=0; i<=4; i++){
+    for(let i=0; i<=element.length; i++){
         const text = await element[i].getText();
         const verificacion = await text.toLowerCase();
         try{
