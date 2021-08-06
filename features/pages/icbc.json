@@ -202,5 +202,33 @@
     "ErrorNroDocumento": {
         "identificador": "xpath",
         "valor": "//label[@id='CardHolderDni-error']"
+    },
+    "BarraBusqueda": {
+        "identificador": "id",
+        "valor": "search_query_top"
+    },
+    "EncabezadoBusqueda": {
+        "identificador": "xpath",
+        "valor": "//h1[@class='page-heading product-listing']"
+    },
+    "LupaBusqueda": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn-search']"
+    },
+    "MensajeAlertaBusqueda": {
+        "identificador": "xpath",
+        "valor": "//p[@class='alert alert-warning']"
+    },
+    "ItemBuscado": {
+        "identificador": "xpath",
+        "valor": "//a[@itemprop='url']"
+    },
+    "Breadcumb": {
+        "identificador": "xpath",
+        "valor": "//div[@class='breadcrumb clearfix']"
+    },
+    "ListaBusquedaSugerida": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ac_results']//li"
     }
 }

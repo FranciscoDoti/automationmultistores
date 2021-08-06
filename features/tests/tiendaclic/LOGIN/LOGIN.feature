@@ -6,7 +6,7 @@ Feature: LOGIN
 Background: Pasos comunes
     Given Abro la pagina "tiendaclic"
     And Leo los datos de "tiendaclic"
-     And Hago click en "IniciaSesion"
+    And Hago click en "IniciaSesion"
 
 Scenario: Logueo con credenciales correctas de tiendaclick
     And Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
