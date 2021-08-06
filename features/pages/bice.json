@@ -1,0 +1,222 @@
+{
+    "IniciarSesion": {
+      "identificador": "xpath",
+      "valor": "//span[@class='visible--desktop signInLabel']"
+    },
+    "Usuario": {
+        "identificador": "xpath",
+        "valor": "//section[@class='login-form']//input[@name='email']"
+    },
+    "Contraseña": {
+    "identificador": "xpath",
+    "valor": "//section[@class='login-form']//input[@name='password']"
+    },
+    "ContraseñaVisible": {
+        "identificador": "xpath",
+        "valor": "//input[@name='password'][@type='text']"
+        },
+
+    "MostrarContraseña": {
+        "identificador": "xpath",
+        "valor": "//button[@data-action='show-password']"
+        },
+    "CaptchaFrame": {
+        "identificador": "xpath",
+        "valor": "//iframe[@title='reCAPTCHA']"
+    },
+    "LoginAcceder": {
+        "identificador": "id",
+        "valor": "submit-login"
+    },
+
+    
+    "SpanCuenta": {
+        "identificador": "xpath",
+        "valor": "//a[@class='account']/span[@class='visible--desktop signInLabel']"
+        },
+
+    "AlertErrorLogin": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='ps-alert-error alert alert-danger']/li[not(@class='js-invalid-feedback-browser')]"
+        },
+
+    "AlertEmailRequeridoLogin": {
+        "identificador": "xpath",
+        "valor": "//input[@name='email']/parent::div/div[@class='invalid-feedback']/ul/li[not(@class='js-invalid-feedback-browser')]"
+        },
+    "AlertPasswordRequeridoLogin": {
+        "identificador": "xpath",
+        "valor": "//input[@name='password']/parent::div/div[@class='invalid-feedback']/ul/li[not(@class='js-invalid-feedback-browser')]"
+        },
+    "CerrarSesion": {
+        "identificador": "xpath",
+        "valor": "//a[contains(.,'Cerrar sesión')]"
+        },
+
+
+
+
+    "InputBuscarProducto": {
+        "identificador": "xpath",
+        "valor": "//input[@aria-label='Buscar']"
+    },
+    "ButtonBuscarProducto": {
+        "identificador": "xpath",
+        "valor": "//button[contains(.,'Buscar')]"
+    },
+    "AñadirProductoAlCarrito": {
+        "identificador": "xpath",
+        "valor": "//div[@class='product-add-to-cart']//button[@data-button-action='add-to-cart']"
+    },
+    "PasarPorCaja": {
+        "identificador": "xpath",
+        "valor": "//a[.='Pasar por caja']"
+    },
+    "DifiereDireccionEntrega": {
+        "identificador": "xpath",
+        "valor": "//a[@data-link-action='different-invoice-address']"
+    },
+    "DireccionEntrega1": {
+        "identificador": "xpath",
+        "valor": "//div[@id='delivery-addresses']//span[contains(.,'Direccion 1')]"
+    },
+    "DireccionFacturacion2": {
+        "identificador": "xpath",
+        "valor": "//div[@id='invoice-addresses']//span[contains(.,'Direccion 2')]"
+    },
+    "ConfirmarDireccionEntrega": {
+        "identificador": "xpath",
+        "valor": "//button[@name='confirm-addresses']"
+    },
+    "ConfirmarOpcionDeEnvio": {
+        "identificador": "xpath",
+        "valor": "//button[@name='confirmDeliveryOption']"
+    },
+    "OpcionPagoTarjetaCreditoBice": {
+        "identificador": "xpath",
+        "valor": "//*[@for='payment-option-1']"
+    },
+    "OpcionPagoDolaresBice": {
+        "identificador": "xpath",
+        "valor": "//label[@for='dolares_bice']"
+    },
+    "OpcionDolares100Bice": {
+        "identificador": "xpath",
+        "valor": "//label[@for='aplicarDolaresBice100']"
+    },
+    "OpcionDolares50Bice": {
+        "identificador": "xpath",
+        "valor": "//label[@for='aplicarDolaresBice50']"
+    },
+    "AceptarTerminosYCondiciones": {
+        "identificador": "id",
+        "valor":"conditions_to_approve[terms-and-conditions]",
+        "valorcss": "#cta-terms-and-conditions-0",
+        "valor2": "//form[@id='conditions-to-approve']/div[@class='custom-control custom-radio']/input"
+    },
+    "GenerarPedido": {
+        "identificador": "xpath",
+        "valor": "//div[@id='payment-confirmation']/div"
+    },
+
+    "CardPedidoConfirmado": {
+        "identificador": "id",
+        "valor": "content-hook_order_confirmation"
+    },
+    "TextBoxPedidoConfirmado": {
+        "identificador": "xpath",
+        "valor": "//section[@id='content-hook_order_confirmation']//h3"
+    },
+
+    "TextBoxErrorEnPago": {
+        "identificador": "xpath",
+        "valor": "//p[@class='alert alert-danger']"
+    },
+
+
+
+    "OpcionCreditoWebPay": {
+        "identificador": "id",
+        "valor": "credito"
+    },
+    "OpcionDebitoWebPay": {
+        "identificador": "id",
+        "valor": "debito"
+    },
+    "OpcionPrepagoWebPay": {
+        "identificador": "id",
+        "valor": "prepago"
+    },
+    "SelectBancoDebitoWebPay": {
+        "identificador": "xpath",
+        "valor": "//button[@class='combobox-button']"
+    },
+
+    "SelectBancoDebitoOptionWebPay": {
+        "identificador": "xpath",
+        "valor": "//span[.='TEST COMMERCE BANK']//ancestor::button"
+    },
+    "SelectBancoPrepagoOptionWebPay": {
+        "identificador": "xpath",
+        "valor": "//span[.='TEST COMMERCE BANK PRE']//ancestor::button"
+    },
+    "WebPayInputNroTarjetaDebito": {
+        "identificador": "id",
+        "valor": "pan"
+    },
+
+    "WebPayInputNroTarjetaPrepago": {
+        "identificador": "id",
+        "valor": "visa-card-show"
+    },
+    "WebPayInpuRUT": {
+        "identificador": "id",
+        "valor": "customerRut"
+    },
+
+    "WebPayInputNroTarjeta": {
+        "identificador": "id",
+        "valor": "card-number"
+    },
+    "WebPayInputFechaVencimiento": {
+        "identificador": "id",
+        "valor": "card-exp"
+    },
+    "WebPayInputCVV": {
+        "identificador": "id",
+        "valor": "card-cvv"
+    },
+    "WebPay3CuotasButton": {
+        "identificador": "xpath",
+        "valor": "//button[@type='button'][@value=3]"
+    },
+    "WebPay24CuotasButton": {
+        "identificador": "xpath",
+        "valor": "//button[@type='button'][@value=24]"
+    },
+    "WebPayBotonPagar": {
+        "identificador": "xpath",
+        "valor": "//button[@class='submit' and contains(.,'Pagar')]"
+    },
+
+
+    "TransbankInputRut": {
+        "identificador": "id",
+        "valor": "rutClient"
+    },
+    "TransbankInputClave": {
+        "identificador": "id",
+        "valor": "passwordClient"
+    },
+    "TransbankAceptar": {
+        "identificador": "xpath",
+        "valor": "//input[@value='Aceptar']"
+    },
+    "TransbankContinuar": {
+        "identificador": "xpath",
+        "valor": "//input[@value='Continuar']"
+    }
+
+    
+
+}

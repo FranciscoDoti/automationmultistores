@@ -1,5 +1,5 @@
 {
-    "mode": "server",
+    "mode": "local",
     "env": {
         "itau": "dev",
         "supervielle": "dev",
