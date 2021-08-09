@@ -4,22 +4,34 @@ Feature: SHOPPING CART
         Given Abro la pagina "tiendaclic"
         And Leo los datos de "tiendaclic"
 @PRUEBA
-Scenario: TC_SHOPPING_CART_010	Validar que se pueda agregar un artículo al carrito desde la página de inicio
+Scenario: TC_SHOPPING_CART_015	Validar que se pueda agregar un artículo aleatorio al carrito
     * Lleno el campo "busqueda" con "notebook"
     * Hago click en "lupa"
     * Hago click en "carritoCompra"
     * Hago click en "Comprar"
     Then Verifico que el campo "cantidadCarrito" contenga el texto "1"
 
-Scenario: TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
-
-
-Scenario: TC_SHOPPING_CART_012	Validar que se pueda agregar un artículo al carrito desde una subcategoría aleatoria
-Scenario: TC_SHOPPING_CART_013	Validar que se pueda agregar un artículo al carrito desde una subsubcategoría aleatoria
-Scenario: TC_SHOPPING_CART_014	Validar que se pueda agregar un artículo al carrito desde la ficha de un artículo aleatorio
-Scenario: TC_SHOPPING_CART_015	Validar que se pueda agregar un artículo aleatorio al carrito
 Scenario: TC_SHOPPING_CART_016	Validar que el ícono de carrito (núm) se actualice al agregar un artículo aleatorio
+    * Lleno el campo "busqueda" con "notebook"
+    * Hago click en "lupa"
+    * Hago click en "carritoCompra"
+    * Hago click en "Comprar"
+    Then Verifico que el campo "cantidadCarrito" contenga el texto "1"
+    * Lleno el campo "busqueda" con "afeitadora"
+    * Hago click en "lupa"
+    * Hago click en "carritoCompra"
+    * Hago click en "Comprar"
+    Then Verifico que el campo "cantidadCarrito" contenga el texto "2" 
+    #####VALIDAR QUE SE PUEDA HACER
+
 Scenario: TC_SHOPPING_CART_017	Validar que al pasar el puntero por el botón de carrito se despliegue una lista con el artículo añadido
+    * Lleno el campo "busqueda" con "notebook"
+    * Hago click en "lupa"
+    * Hago click en "carritoCompra"
+    * Hago click en "Comprar"
+    * Paso el mouse por encima de "cantidadCarrito"
+    Then 
+
 Scenario: TC_SHOPPING_CART_019	Validar propiedades de lista desplegable al añadir un artículo aleatorio al carrito (+Contiene sub casos)
 Scenario: TC_SHOPPING_CART_020	Validar que se pueda eliminar el artículo aleatorio añadido al carrito desde lista desplegable
 Scenario: TC_SHOPPING_CART_022	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo aleatorio
@@ -70,3 +82,8 @@ Scenario: TC_SHOPPING_CART_005	Validar que se puedan agregar dos unidades del mi
 Scenario: TC_SHOPPING_CART_006	Validar que se puedan eliminar todos los artículos del carrito como usuario invitado
 Scenario: TC_SHOPPING_CART_007	Validar que se abra un modal de alerta al intentar agregar artículos de diferentes proveedores al carrito como invitado
 Scenario: TC_SHOPPING_CART_008	Validar que el usuario invitado al loguearse mantenga los artículos en el carrito
+Scenario: TC_SHOPPING_CART_010	Validar que se pueda agregar un artículo al carrito desde la página de inicio
+Scenario: TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
+Scenario: TC_SHOPPING_CART_012	Validar que se pueda agregar un artículo al carrito desde una subcategoría aleatoria
+Scenario: TC_SHOPPING_CART_013	Validar que se pueda agregar un artículo al carrito desde una subsubcategoría aleatoria
+Scenario: TC_SHOPPING_CART_014	Validar que se pueda agregar un artículo al carrito desde la ficha de un artículo aleatorio
