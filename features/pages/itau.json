@@ -207,9 +207,9 @@
         "identificador": "xpath",
         "valor": "//div[@class='ProductList-grid']//article//a[contains(text(),'Licuadora')]"
     },
-    "UltimaOpcionDesplegable": {
+    "ListaAutocomplete": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//div[@class='autocomplete-suggestions ']"
     }
     
 }

@@ -8,7 +8,7 @@ require(`${process.cwd()}/features/support/functions.js`);
 const { Actions } = require('selenium-webdriver');
 const { By, Key, until, WebElement } = require('selenium-webdriver');
 var driver = getDriver();
-
+const regex = new RegExp(`<elementContains>`);
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
@@ -261,5 +261,46 @@ Then(/^Verifico que el elemento "(.*)" este habilitado$/, async function (elemen
     } else {
         await assert.fail('No se pudo localizar el elemento ' + elementKey);
     }
+
+});
+
+Then('Valido que el campo {string} sea de propiedad {string}', async function(elementKey, type){
+    const element = await buscarElemento(this.page, elementKey);
+    const atributo = await element.getAttribute('type');
+    switch(type){
+        case "texto":
+            await assert(atributo == 'text', `Se buscó que el elemento fuera de tipo texto, pero se encontró ${atributo}`);
+            break;
+        case "numero":
+            await assert(atributo == 'tel', `Se buscó que el elemento fuera de tipo numero, pero se encontró ${atributo}`);
+        case "password":
+            await assert(atributo == 'password', `Se buscó que el elemento fuera de tipo password, pero se encontró ${atributo}`);
+    }
+});
+
+Then('Verifico que los elementos {string} contengan el texto {string}', async function(elementKey, contains){
+
+    const element = await this.driver.wait(until.elementsLocated(By.xpath(this.page[elementKey].valor)), 5000);
+    await this.driver.sleep(1000);
+    let error = 0;
+    for(let i=0; i<=4; i++){
+        const text = await element[i].getText();
+        const verificacion = await text.toLowerCase();
+        try{
+            await assert(verificacion.includes(contains), `error`);
+        }catch{
+            error++;
+        }
+        if(error>=3){
+            await assert.fail(`Se encontro que el texto capturado en mas de 3 ocasiones no contenia el texto ${contains}`);
+        }
+    
+    }
+});
+
+Then('Verifico que se haya redirigido a la pagina que contenga {string}', async function(web){
+    await this.driver.sleep(2000);
+    const url = await this.driver.getCurrentUrl();
+    await assert(url.includes(web), `error`);
 
 });

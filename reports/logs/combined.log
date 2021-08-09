@@ -1055,3 +1055,101 @@
 {"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-03"}
 {"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-03"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesión con datos correctos de usuario registrado.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicion de sesion con e-mail correcto y contraseña incorrecta.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Validar inicio de sesion con e-mail inválido y contraseña inválida.","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-04"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-04"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-04"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-05"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-05"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-05"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-05"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-05"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-09"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-09"}
+{"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
