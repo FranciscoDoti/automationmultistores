@@ -3,9 +3,12 @@ Feature: SHOPPING CART
     Background: tiendaclic
         Given Abro la pagina "tiendaclic"
         And Leo los datos de "tiendaclic"
-    @PRUEBA
+        And Hago click en "IniciaSesion"
+        And Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
+        And Lleno el campo "Clave" con "claveValida" yendo a buscar la config
+        And Hago click en "Inicio sesion"
+
     Scenario: TC_SHOPPING_CART_015	Validar que se pueda agregar un artículo aleatorio al carrito
-        And Cierro y vuelvo a abrir el navegador
         * Lleno el campo "busqueda" con "notebook"
         * Hago click en "lupa"
         * Hago click en "carritoCompra"
@@ -31,13 +34,31 @@ Feature: SHOPPING CART
 
     #CUENTAS
     Scenario: TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
-    Scenario: TC_SHOPPING_CART_027	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
-    Scenario: TC_SHOPPING_CART_028	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
-    Scenario: TC_SHOPPING_CART_030	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
-    Scenario: TC_SHOPPING_CART_031	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
-    Scenario: TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
-    Scenario: TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
+        * Navego al producto qa automation
+        * Hago click en "Comprar"
+        * Navego al carrito
+        * Obtengo el texto del elemento "Precio total" y lo guardo en la variable "Monto"
+        * Hago click en "Agregar unidad"
+        * Verifico que el valor de "Monto" se haya multiplicado
 
+    Scenario: TC_SHOPPING_CART_028	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
+        * Navego al producto qa automation
+        * Hago click en "Comprar"
+        * Navego al carrito
+        * Obtengo el texto del elemento "Precio total" y lo guardo en la variable "Monto"
+        * Hago click en "Agregar unidad"
+        * Hago click en "Agregar unidad"
+        * Verifico que el valor de "Monto" se haya triplicado
+
+    @PRUEBA
+    Scenario: TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
+        * Navego al producto qa automation
+        * Lleno el campo "Agregar cantidad" con "2"
+        * Hago click en "Comprar"
+        * Navego al carrito
+        * Obtengo el texto del elemento "Precio total" y lo guardo en la variable "Monto"
+        * Hago click en "Restar unidad"
+        Then Verifico que el valor de "Monto" se haya dividido
 
     #SUMAR PRODUCTOS AL CARRITO O ELIMINAR
     Scenario: TC_SHOPPING_CART_023	Validar propiedades de la página de carrito al añadir un artículo aleatorio (+Contiene sub casos)
