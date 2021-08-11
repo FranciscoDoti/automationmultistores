@@ -11,7 +11,7 @@ Feature: SEARCH
 
 
     Scenario: TC_SEARCH_002	Validar propiedades del campo de búsquedas al ingresar caracteres especiales
-        When Lleno el campo "BarraBuscadora" con "CaracteresEspeciales"
+        When Lleno el campo "BarraBuscadora" con "$#%"
         And Hago click en "Buscar"
         Then Verifico que el campo "CartelErrorBusqueda" contenga el texto "Oops, no encontramos lo que buscabas :("
  
@@ -22,15 +22,15 @@ Feature: SEARCH
 
 
     Scenario: TC_SEARCH_004	Validar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente
-        When Lleno el campo "BarraBuscadora" con "ProductoCorrecto"
+        When Lleno el campo "BarraBuscadora" con "Licuadora"
         And Hago click en "Buscar"
-        Then Verifico que el campo "ProductoEncontradoCorrecto" contenga el texto "ProductoCorrecto"
+        Then Verifico que el campo "ProductoEncontradoCorrecto" contenga el texto "Licuadora"
 
     Scenario: TC_SEARCH_005	Validar que al presionar la tecla Enter se realice la búsqueda correspondiente
       
-@PRUEBA
+
     Scenario: TC_SEARCH_006	Validar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas
-        When Lleno el campo "BarraBuscadora" con "ProductoEscritoIncompleto"
+        When Lleno el campo "BarraBuscadora" con "cafe"
         Then Verifico que los elementos "ListaAutocomplete" contengan el texto "cafe"
 
     Scenario: TC_SEARCH_007	Validar que se despliegue el listado de búsquedas sugeridas al escribir en el campo de búsquedas

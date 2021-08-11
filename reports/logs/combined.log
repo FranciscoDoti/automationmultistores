@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-07-06"}
 {"message":"Empezando a ejecutar: TC_MY_ACCOUNT_040 Validar que antes de finalizar una compra me permita borrar una direccion","level":"info","timestamp":"2021-07-06"}
 {"message":"Ejecutando la prueba en el ambiente: dev","level":"info","timestamp":"2021-07-06"}
@@ -1153,3 +1154,378 @@
 {"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-09"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
 {"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+=======
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con usuario incorrecto de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con clave incorrecta de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo sin ingresar campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link de restablecer contraseña","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Verificar link registrate","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo clave","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: validar propiedades campo email","level":"info","timestamp":"2021-08-04"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-04"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-04"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-08-04"}
+>>>>>>> 7d120cc0f81ad06165cede3fd2dc3c518a62e3c7
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: Logueo con credenciales correctas de tiendaclick","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento IniciaSesion","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento IniciaSesion","level":"error","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_LOGIN_007 Validar que no se pueda iniciar sesión con un usuario no registrado","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciaSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciaSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto ProductoEscritoIncompleto en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto ProductoEscritoIncompleto en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto ProductoEscritoIncompleto en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto ProductoCorrecto en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Buscar","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto ProductoCorrecto en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Buscar","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-09"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004\tValidar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se escribio el texto Licuadora en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"se hizo click en el elemento Buscar","level":"info","timestamp":"2021-08-09"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-09"}
+{"message":"Se localizó el elemento ProductoEncontradoCorrecto exitosamente","level":"info","timestamp":"2021-08-09"}
+{"message":"Se extrajo el textoLicuadora Ufesa BS4799 Delux del elemento = ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-09"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-09"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto CaracteresEspeciales en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento Buscar","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: CartelErrorBusqueda","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento CartelErrorBusqueda exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"Se extrajo el textoOops, no encontramos lo que buscabas :( del elemento = CartelErrorBusqueda","level":"info","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-10"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002\tValidar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto CaracteresEspeciales en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento Buscar","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: CartelErrorBusqueda","level":"info","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: CartelErrorBusqueda","level":"info","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_020\tValidar que al presionar el botón de carrito se despliegue una lista con el artículo añadido","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Tecnologia","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Tecnologia exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-10"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Tecnologia","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Tecnologia exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-10"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: undefined","level":"info","timestamp":"2021-08-10"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_020\tValidar que al presionar el botón de carrito se despliegue una lista con el artículo añadido","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Tecnologia","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Tecnologia exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-10"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: Tecnologia","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento Tecnologia exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-10"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-10"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-10"}
+{"message":"Localizando elemento: ProductoTecno","level":"info","timestamp":"2021-08-10"}
+{"message":"Se localizó el elemento ProductoTecno exitosamente","level":"info","timestamp":"2021-08-10"}
+{"message":"se hizo click en el elemento ProductoTecno","level":"info","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: undefined","level":"info","timestamp":"2021-08-10"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-10"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-11"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-11"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-11"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-11"}
+{"message":"Abriendo un chrome de forma local","level":"info","timestamp":"2021-08-11"}
+{"message":"Empezando a ejecutar: TC_SHOPPING_CART_030\tValidar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Tecnologia","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Tecnologia exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-11"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-11"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-11"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-11"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Tecnologia","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Tecnologia exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-11"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-11"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-11"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-11"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: AgregarAlCarrito","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento AgregarAlCarrito exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se hizo click en el elemento AgregarAlCarrito","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: Carrito","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento Carrito exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se hizo click en el elemento Carrito","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: SumarUnArticulo","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento SumarUnArticulo exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"se hizo click en el elemento SumarUnArticulo","level":"info","timestamp":"2021-08-11"}
+{"message":"Localizando elemento: CantidadProductosEnCarrito","level":"info","timestamp":"2021-08-11"}
+{"message":"Se localizó el elemento CantidadProductosEnCarrito exitosamente","level":"info","timestamp":"2021-08-11"}
+{"message":"Se extrajo el texto1 del elemento = CantidadProductosEnCarrito","level":"info","timestamp":"2021-08-11"}
+{"message":"hubo un error al extraer el texto del elemento CantidadProductosEnCarrito.","level":"error","timestamp":"2021-08-11"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-11"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-11"}

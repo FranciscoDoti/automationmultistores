@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"message":"hubo un error al extraer el texto del elemento HeaderPage.","level":"error","timestamp":"2021-07-06"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-06"}
 {"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-07-06"}
@@ -63,6 +64,8 @@
 {"message":"no se pudo localizar el elemento NoSoyRobot","level":"error","timestamp":"2021-07-20"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-07-20"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-03"}
+=======
+>>>>>>> 7d120cc0f81ad06165cede3fd2dc3c518a62e3c7
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
@@ -81,6 +84,7 @@
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
+<<<<<<< HEAD
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-04"}
@@ -107,3 +111,35 @@
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
 {"message":"No se pudo abrir la página. Revisar los archivos urls y config","level":"error","timestamp":"2021-08-09"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+=======
+>>>>>>> 7d120cc0f81ad06165cede3fd2dc3c518a62e3c7
+{"message":"no se pudo localizar el elemento IniciaSesion","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento IniciaSesion","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento ProductoEncontradoCorrecto","level":"error","timestamp":"2021-08-09"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento Acceder","level":"error","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"no se pudo localizar el elemento CartelErrorBusqueda","level":"error","timestamp":"2021-08-10"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-10"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-11"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-11"}
+{"message":"hubo un error al extraer el texto del elemento CantidadProductosEnCarrito.","level":"error","timestamp":"2021-08-11"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-11"}

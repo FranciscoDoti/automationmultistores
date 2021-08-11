@@ -12,7 +12,7 @@ const rc = jsonfile.readFileSync(`${process.cwd()}/test-automation-packrc.json`)
 const urls = require(`${process.cwd()}/urls.json`);
 
 function ThisWorld({ attach, parameters }) {
-  this.envir = parameters.ambiente;
+  this.envir = 'UAT';//parameters.ambiente;
   console.log(`Ejecutando las pruebas en el ambiente: ${this.envir}`);
   this.page = '';
   this.config= '';
