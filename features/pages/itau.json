@@ -262,7 +262,13 @@
     "": {
         "identificador": "xpath",
         "valor": ""
+    },
+    "subtotal": {
+        "identificador": "xpath",
+        "valor": "//div[@id='cart-subtotal-products']/span[@class='value']"
+    },
+    "total": {
+        "identificador": "xpath",
+        "valor": "//div[@class='cart-summary-totals']//span[@class='value']"
     }
-    
-    
 }
