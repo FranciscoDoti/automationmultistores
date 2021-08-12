@@ -25,7 +25,6 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
-@PRUEBA
     Scenario:TC_SHOPPING_CART_014	Validar que se pueda agregar un artículo al carrito desde una subcategoría aleatoria
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
@@ -117,9 +116,22 @@ Feature: itauCarrito
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "3"
 
     #Scenario:TC_SHOPPING_CART_032	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
-
+     # When Paso el mouse por encima de "Categorias"
+       #And Hago click en "Tecnologia"
+       # And Hago click en "ProductoTecno"
+       # And Hago click en "AgregarAlCarrito"
+       # And Hago click en "Carrito"
+       # And Hago click en "SumarUnArticulo" 
+       # And Hago click en "SumarUnArticulo" 
 
     #Scenario:TC_SHOPPING_CART_033	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
+     # When Paso el mouse por encima de "Categorias"
+       #And Hago click en "Tecnologia"
+       # And Hago click en "ProductoTecno"
+       # And Hago click en "AgregarAlCarrito"
+       # And Hago click en "Carrito"
+       # And Hago click en "SumarUnArticulo" 
+       # And Hago click en "SumarUnArticulo" 
 
     Scenario:TC_SHOPPING_CART_034	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
         When Paso el mouse por encima de "Categorias"
@@ -138,7 +150,22 @@ Feature: itauCarrito
         Then Verifico que el el elemento "CantidadProductosEnCarrito" no exista
 
     #Scenario:TC_SHOPPING_CART_036	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
+         # When Paso el mouse por encima de "Categorias"
+       #And Hago click en "Tecnologia"
+       # And Hago click en "ProductoTecno"
+       # And Hago click en "AgregarAlCarrito"
+       # And Hago click en "Carrito"
+       # And Hago click en "SumarUnArticulo" 
+       # And Hago click en "RestarUnArticulo"
+
     #Scenario:TC_SHOPPING_CART_037	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
+  # When Paso el mouse por encima de "Categorias"
+       #And Hago click en "Tecnologia"
+       # And Hago click en "ProductoTecno"
+       # And Hago click en "AgregarAlCarrito"
+       # And Hago click en "Carrito"
+       # And Hago click en "SumarUnArticulo" 
+       # And Hago click en "RestarUnArticulo"
 
 
     Scenario:TC_SHOPPING_CART_040	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la página de carrito
@@ -191,13 +218,12 @@ Feature: itauCarrito
         And Hago click en "EliminarProducto"
         Then Verifico que el campo "CartelCarritoVacio" contenga el texto "No hay más artículos en tu carrito"
 
-
-
-    Scenario:TC_SHOPPING_CART_054	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
+  Scenario:TC_SHOPPING_CART_054	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
         When Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
+        And Hago click en "BarraBuscadora"
+        And Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoDosMismoProvedor"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
@@ -205,10 +231,11 @@ Feature: itauCarrito
 
 
     Scenario:TC_SHOPPING_CART_055	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
+     When Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
+        And Hago click en "BarraBuscadora"
+        And Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoDosMismoProvedor"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
