@@ -33,13 +33,14 @@ Then('Verifico que el valor de {string} se haya multiplicado', async function (n
     var textoEnVariable = await this.data.get(nombreVariable);
     let a = textoEnVariable.replace(/\$ /g, '');
     let b = a.replace(/\,/g, '.');
-    let initialValue = parseFloat(b);
+    let initialValue = parseInt(b);
     let result = initialValue * 2;
+    await this.driver.sleep(5000);
     const verification = await this.driver.wait(until.elementLocated(By.xpath("//span[@id='total_price']")), 7000);
     const textVarification = await verification.getText();
     let c = textVarification.replace(/\$/g, '');
     let d = c.replace(/\,/g, '.');
-    let validacion = parseFloat(d);
+    let validacion = parseInt(d);
     await assert(result == validacion, `El valor inicial de compra era ${textoEnVariable}, y al agregar otro se esperaba que fuera ${result}, pero se encontro ${validacion}`);
 });
 
@@ -47,15 +48,15 @@ Then('Verifico que el valor de {string} se haya triplicado', async function (nom
     var textoEnVariable = await this.data.get(nombreVariable);
     let a = textoEnVariable.replace(/\$ /g, '');
     let b = a.replace(/\,/g, '.');
-    let initialValue = parseFloat(b);
+    let initialValue = parseInt(b);
     let result = initialValue * 3;
-    await this.driver.sleep(500);
+    await this.driver.sleep(5000);
     const verification = await this.driver.wait(until.elementLocated(By.xpath("//span[@id='total_price']")), 7000);
     await this.driver.sleep(500);
     const textVarification = await verification.getText();
     let c = textVarification.replace(/\$/g, '');
     let d = c.replace(/\,/g, '.');
-    let validacion = parseFloat(d);
+    let validacion = parseInt(d);
     await assert(result == validacion, `El valor inicial de compra era ${textoEnVariable}, y al agregar otros dos se esperaba que fuera ${result}, pero se encontro ${validacion}`);
 });
 
@@ -63,15 +64,15 @@ Then('Verifico que el valor de {string} se haya dividido', async function (amoun
     var textoEnVariable = await this.data.get(amount);
     let a = textoEnVariable.replace(/\$ /g, '');
     let b = a.replace(/\,/g, '.');
-    let initialValue = parseFloat(b);
+    let initialValue = parseInt(b);
     let result = (initialValue / 2).toString();
-    await this.driver.sleep(900);
+    await this.driver.sleep(5000);
     const verification = await this.driver.wait(until.elementLocated(By.xpath("//span[@id='total_price']")), 7000);
     await this.driver.sleep(500);
     const textVarification = await verification.getText();
     let c = textVarification.replace(/\$ /g, '');
-    let validacion = c.replace(/\,/g, '.');
-    //   let validacion = parseFloat(d);
-    await assert(result.includes(validacion), `El valor inicial de compra era ${textoEnVariable}, y al restar uno se esperaba que fuera ${result}, pero se encontro ${validacion}`);
+    let d = c.replace(/\,/g, '.');
+    let validacion = parseInt(d);
+    await assert(result == validacion, `El valor inicial de compra era ${textoEnVariable}, y al restar uno se esperaba que fuera ${result}, pero se encontro ${validacion}`);
 
-})
+});
