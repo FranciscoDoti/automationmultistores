@@ -9,18 +9,8 @@ Feature: itauPrueba
         And Lleno el campo "Contraseña" con "Prueba01."
         And Hago click en "IniciarSesion"
 
-   Scenario:TC_SHOPPING_CART_068	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
-        And Hago click en "ProductoUnoMismoProvedor"
-        And Hago click en "BarraBuscadora"
-        And Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
-        And Hago click en "ProductoDosMismoProvedor"
-        And Hago click en "MiCuenta"
-        And Hago click en "Salir"
-        And Hago click en "Acceder"
-        And Lleno el campo "Usuario" con "lqaautomation@gmail.com"
-        And Lleno el campo "Contraseña" con "Prueba01."
-        And Hago click en "IniciarSesion"
-        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
+   Scenario:TC_SEARCH_011	Validar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas
+        When Lleno el campo "BarraBuscadora" con "Caf"
+        And Scrolleo hasta el elemento "UltimaOpcionDesplegable"
+        And Presiona tecla ENTER en elemento "UltimaOpcionDesplegable"
+        Then Verifico que el elemento "UltimaOpcionDesplegable" este habilitado

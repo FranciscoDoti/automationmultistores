@@ -1943,3 +1943,176 @@
 {"message":"se hizo click en el elemento Restar unidad","level":"info","timestamp":"2021-08-12"}
 {"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-12"}
 {"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-12"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto cafe en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto cafe en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-13"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto cafe en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006\tValidar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-13"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_007\tValidar que se despliegue el listado de búsquedas sugeridas al escribir en el campo de búsquedas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto ProductoEscritoIncompleto en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: ListaAutocomplete","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento ListaAutocomplete exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-13"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-13"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_011\tValidar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Cafet en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_011\tValidar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Cafet en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_011\tValidar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Caf en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento UltimaOpcionDesplegable exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se scrolleo hasta el elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"no se pudo scrollear hasta el elemento: UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento UltimaOpcionDesplegable exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento UltimaOpcionDesplegable exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-13"}
+{"message":"hubo un error al escribir en el elemento UltimaOpcionDesplegable. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"Empezando a ejecutar: TC_SEARCH_011\tValidar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Acceder exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento Acceder","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Usuario exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto lqaautomation2021@gmail.com en el elemento Usuario","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento Contraseña exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Prueba01. en el elemento Contraseña","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento IniciarSesion exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se hizo click en el elemento IniciarSesion","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se escribio el texto Caf en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento UltimaOpcionDesplegable exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"se scrolleo hasta el elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"no se pudo scrollear hasta el elemento: UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento UltimaOpcionDesplegable exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"Localizando elemento: UltimaOpcionDesplegable","level":"info","timestamp":"2021-08-13"}
+{"message":"Se localizó el elemento UltimaOpcionDesplegable exitosamente","level":"info","timestamp":"2021-08-13"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-13"}
+{"message":"hubo un error al escribir en el elemento UltimaOpcionDesplegable. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-13"}
