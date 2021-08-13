@@ -1,4 +1,4 @@
-const { Given, When, Then } = require('cucumber');
+giconst { Given, When, Then } = require('cucumber');
 const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento } = require('../support/functions');
 const { getDriver } = require(`${process.cwd()}/driver.js`);
 const { assert } = require('chai');
@@ -224,7 +224,8 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
 
 });
 
-Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
+
+Then(/^Verifico que el elemento "(.*)" contiene el texto alojado en la variable "(.*)"$/, async function (elementKey, nombreVariable) {
     var textoElemento = await obtenerTexto(this.page, elementKey);
     var textoEnVariable = await this.data.get(nombreVariable);
     await assert(textoElemento == textoEnVariable, `Texto del elemento: ${textoElemento}

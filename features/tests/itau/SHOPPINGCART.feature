@@ -58,7 +58,7 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
-   Scenario:TC_SHOPPING_CART_024	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo aleatorio
+    Scenario:TC_SHOPPING_CART_024	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo aleatorio
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
         And Hago click en "AgregarAlCarrito"
@@ -84,24 +84,27 @@ Feature: itauCarrito
         And Hago click en "SumarUnArticulo"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
 
-    #Scenario:TC_SHOPPING_CART_028	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
-    # When Paso el mouse por encima de "Categorias"
-    #And Hago click en "Tecnologia"
-    # And Hago click en "ProductoTecno"
-    # And Hago click en "AgregarAlCarrito"
-    # And Hago click en "Carrito"
-    # And Hago click en "SumarUnArticulo"
+    Scenario:TC_SHOPPING_CART_028	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
+        And Hago click en "SumarUnArticulo"
+        Then Verifico que el valor de "Submonto" sea el doble
 
-    #Scenario:TC_SHOPPING_CART_029	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
-    # When Paso el mouse por encima de "Categorias"
-    #And Hago click en "Tecnologia"
-    #And Hago click en "ProductoTecno"
-    #And Hago click en "AgregarAlCarrito"
-    #And Hago click en "Carrito"
-    # And Hago click en "SumarUnArticulo"
+    Scenario:TC_SHOPPING_CART_029	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Obtengo el texto del elemento "total" y lo guardo en la variable "Monto"
+        And Hago click en "SumarUnArticulo"
+        Then Verifico que el valor de "Monto" sea el doble
 
-
-     Scenario:TC_SHOPPING_CART_030	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
+    Scenario:TC_SHOPPING_CART_030	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
         And Hago click en "AgregarAlCarrito"
@@ -119,23 +122,25 @@ Feature: itauCarrito
         And Hago click en "SumarUnArticulo"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "3"
 
-    #Scenario:TC_SHOPPING_CART_032	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
-    # When Paso el mouse por encima de "Categorias"
-    #And Hago click en "Tecnologia"
-    # And Hago click en "ProductoTecno"
-    # And Hago click en "AgregarAlCarrito"
-    # And Hago click en "Carrito"
-    # And Hago click en "SumarUnArticulo"
-    # And Hago click en "SumarUnArticulo"
+    Scenario:TC_SHOPPING_CART_032	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
+        And Hago doble click en "SumarUnArticulo"
+        Then Verifico que el valor de "Submonto" sea el triple
 
-    #Scenario:TC_SHOPPING_CART_033	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
-    # When Paso el mouse por encima de "Categorias"
-    #And Hago click en "Tecnologia"
-    # And Hago click en "ProductoTecno"
-    # And Hago click en "AgregarAlCarrito"
-    # And Hago click en "Carrito"
-    # And Hago click en "SumarUnArticulo"
-    # And Hago click en "SumarUnArticulo"
+    Scenario:TC_SHOPPING_CART_033	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Obtengo el texto del elemento "total" y lo guardo en la variable "Monto"
+        And Hago doble click en "SumarUnArticulo"
+        Then Verifico que el valor de "Monto" sea el triple
 
     Scenario:TC_SHOPPING_CART_034	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
         When Paso el mouse por encima de "Categorias"
@@ -153,24 +158,29 @@ Feature: itauCarrito
         And Hago click en "EliminarProducto"
         Then Verifico que el el elemento "CantidadProductosEnCarrito" no exista
 
-    #Scenario:TC_SHOPPING_CART_036	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
-    # When Paso el mouse por encima de "Categorias"
-    #And Hago click en "Tecnologia"
-    # And Hago click en "ProductoTecno"
-    # And Hago click en "AgregarAlCarrito"
-    # And Hago click en "Carrito"
-    # And Hago click en "SumarUnArticulo"
-    # And Hago click en "RestarUnArticulo"
 
-    #Scenario:TC_SHOPPING_CART_037	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
-    # When Paso el mouse por encima de "Categorias"
-    #And Hago click en "Tecnologia"
-    # And Hago click en "ProductoTecno"
-    # And Hago click en "AgregarAlCarrito"
-    # And Hago click en "Carrito"
-    # And Hago click en "SumarUnArticulo"
-    # And Hago click en "RestarUnArticulo"
+    Scenario:TC_SHOPPING_CART_036	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Hago click en "SumarUnArticulo"
+        And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
+        And Hago click en "RestarUnArticulo"
+        Then Verifico que el valor de "Submonto" sea la mitad
 
+
+    Scenario:TC_SHOPPING_CART_037	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Hago click en "SumarUnArticulo"
+        And Obtengo el texto del elemento "total" y lo guardo en la variable "Total"
+        And Hago click en "RestarUnArticulo"
+        Then Verifico que el valor de "Total" sea la mitad
 
     Scenario:TC_SHOPPING_CART_040	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la página de carrito
         When Paso el mouse por encima de "Categorias"
