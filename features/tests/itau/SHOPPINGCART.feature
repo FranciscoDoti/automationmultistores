@@ -153,6 +153,7 @@ Feature: itauCarrito
         And Hago click en "EliminarProducto"
         Then Verifico que el el elemento "CantidadProductosEnCarrito" no exista
 
+<<<<<<< HEAD
     #Scenario:TC_SHOPPING_CART_036	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
     # When Paso el mouse por encima de "Categorias"
     #And Hago click en "Tecnologia"
@@ -171,6 +172,31 @@ Feature: itauCarrito
     # And Hago click en "SumarUnArticulo"
     # And Hago click en "RestarUnArticulo"
 
+=======
+
+    Scenario:TC_SHOPPING_CART_036	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Hago click en "SumarUnArticulo"
+        And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
+        And Hago click en "RestarUnArticulo"
+        Then Verifico que el valor de "Submonto" sea la mitad
+
+
+    Scenario:TC_SHOPPING_CART_037	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Hago click en "SumarUnArticulo"
+        And Obtengo el texto del elemento "total" y lo guardo en la variable "Total"
+        And Hago click en "RestarUnArticulo"
+        Then Verifico que el valor de "Total" sea la mitad
+>>>>>>> 88ee571adcc90adbcbda1b1d3fae41f2fb11dc09
 
     Scenario:TC_SHOPPING_CART_040	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la página de carrito
         When Paso el mouse por encima de "Categorias"
