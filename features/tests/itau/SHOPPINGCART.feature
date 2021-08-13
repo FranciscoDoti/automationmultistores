@@ -25,7 +25,6 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
-
     Scenario:TC_SHOPPING_CART_014	Validar que se pueda agregar un artículo al carrito desde una subcategoría aleatoria
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
@@ -42,16 +41,19 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
+
     Scenario:TC_SHOPPING_CART_017	Validar que se pueda agregar un artículo aleatorio al carrito
         When Paso el mouse por encima de "Categorias"
-        And Hago click en "Tecnologia"
+        And Hago click en "Electrodomesticos"
         And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
+
+
     Scenario:TC_SHOPPING_CART_018	Validar que el ícono de carrito (núm) se actualice al agregar un artículo aleatorio
         When Paso el mouse por encima de "Categorias"
-        And Hago click en "Tecnologia"
+        And Hago click en "Hogar"
         And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
@@ -61,7 +63,7 @@ Feature: itauCarrito
         And Hago click en "Tecnologia"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "EliminarProducto"
-        Then Verifico que el el elemento "CantidadProductosEnCarrito" no exista
+        Then Verifico que el campo "CarritoVacio" contenga el texto "No hay más artículos en tu carrito"
 
 
     Scenario:TC_SHOPPING_CART_026	Validar que se pueda sumar (+) 1 ud. al artículo añadido en la página de carrito
@@ -71,7 +73,7 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Hago click en "SumarUnArticulo"
-        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
+        Then Verifico que el campo "VerificaciónDosProductosEnCarrito" contenga el texto "2 artículos"
 
     Scenario:TC_SHOPPING_CART_027	Validar que el ícono de carrito (núm) se actualice al agregar 1ud. al artículo añadido en la página de carrito
         When Paso el mouse por encima de "Categorias"
@@ -108,7 +110,8 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Hago click en "SumarUnArticulo"
-        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
+        And Hago click en "SumarUnArticulo"
+        Then Verifico que el campo "VerificaciónTresProductosEnCarrito" contenga el texto "3 artículos"
 
     Scenario:TC_SHOPPING_CART_031	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido en la página de carrito
         When Paso el mouse por encima de "Categorias"
@@ -185,6 +188,8 @@ Feature: itauCarrito
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Hago click en "RestarUnArticulo"
+        And Hago click en "RestarUnArticulo"
+        And Hago click en "RestarUnArticulo"
         Then Verifico que el campo "CartelCantidadMinima" contenga el texto "La cantidad mínima en el pedido de compra para el producto"
 
     Scenario:TC_SHOPPING_CART_042	Validar que se pueda sumar (+) 1 ud. al artículo añadido al carrito desde la ficha del producto
@@ -229,40 +234,39 @@ Feature: itauCarrito
         And Hago click en "EliminarProducto"
         Then Verifico que el campo "CartelCarritoVacio" contenga el texto "No hay más artículos en tu carrito"
 
-
-
     Scenario:TC_SHOPPING_CART_054	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
         When Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
+        And Hago click en "BarraBuscadora"
+        And Hago click en "BarraBuscadora"
+        And Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoDosMismoProvedor"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
-
-
 
     Scenario:TC_SHOPPING_CART_055	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
         When Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
+        And Hago click en "BarraBuscadora"
+        And Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoDosMismoProvedor"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
-
-    Scenario:C_SHOPPING_CART_063	Validar propiedades de la página de carrito al añadir dos artículos del mismo proveedor (+Contiene sub casos)
 
     Scenario:TC_SHOPPING_CART_065	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
         When Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"
+        And Hago click en "BarraBuscadora"
+        And Hago click en "BarraBuscadora"
         When Lleno el campo "BarraBuscadora" con "Tienda Movil"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"
-        Then Verifico que el campo "CartelProvedoresDiferentes" contenga el tecxto "Ups! Lo sentimos"
+        Then Verifico que el campo "CartelProvedoresDiferentes" contenga el texto "Ups! Lo sentimos"
 
-    Scenario:TC_SHOPPING_CART_068	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
+    Scenario:TC_SHOPPING_CART_065	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
         When Lleno el campo "BarraBuscadora" con "VISUAR"
         And Hago click en "Buscar"
         And Hago click en "ProductoUnoMismoProvedor"

@@ -270,5 +270,29 @@
     "total": {
         "identificador": "xpath",
         "valor": "//div[@class='cart-summary-totals']//span[@class='value']"
+    },
+    "Electrodomesticos": {
+        "identificador": "xpath",
+        "valor": "//span[@class='vsm--title']//a[contains(., 'electrodomésticos')]"
+    },
+    "Hogar": {
+        "identificador": "xpath",
+        "valor": "//span[@class='vsm--title']//a[contains(., 'hogar')]"
+    },
+    "CarritoVacio": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'No hay más artículos en tu carrito')]"
+    },
+    "VerificaciónDosProductosEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'2 artículos')]"
+    },
+    "VerificaciónUnProductosEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'1 artículo')]"
+    },
+    "VerificaciónTresProductosEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'3 artículos')]"
     }
 }
