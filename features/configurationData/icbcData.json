@@ -11,6 +11,10 @@
   "NroTarjetaDebito": "4066520617031158",
 
   "ProductoAutomation": "https://icbcmall-uat.aper.cloud/donaciones/104067060-automation-product-123123.html",
+  "ProductoAutomation2": "https://icbcmall-uat.aper.cloud/donaciones/104067064-automation-product2-123124.html",
+  "ProductoAutomation3": "https://icbcmall-uat.aper.cloud/donaciones/104067065-automation-product3-123125.html",
+  "ProductoDistintoProveedor": "https://icbcmall-uat.aper.cloud/tiempo-libre/103906615-termo-coleman-38lt-76501321548.html",
+  "UrlCarrito": "https://icbcmall-uat.aper.cloud/pedido?ipa",
   "TituloProductoAutomation": "AUTOMATION PRODUCT",
   "ProductoBusqueda": "TERMO COLEMAN 3,8LT",
   "ProductoAleatorio": "TERMO",

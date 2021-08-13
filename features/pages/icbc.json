@@ -179,7 +179,7 @@
         "identificador": "xpath",
         "valor": "//li//div//span[@class='ajax_cart_quantity ajax_cart-qties-span center-block']"
     },
-    "EliminarProductoCarrito": {
+    "EliminarProductoCarritoDesplegado": {
         "identificador": "xpath",
         "valor": "//a[@title='eliminar este producto de mi carrito']"
     },
@@ -235,8 +235,132 @@
         "identificador": "id",
         "valor": "order_step"
     },
-    "PrimerProductoCarrito": {
+    "ProductosCarritoDesplegado": {
         "identificador": "xpath",
-        "valor": "//dl[@class='products']//dt[@class='first_item']/a"
+        "valor": "//dl[@class='products']//a[@class='cart-images']"
+    },
+    "Cantidad": {
+        "identificador": "id",
+        "valor": "quantity_wanted"
+    },
+    "BtnComprarCarrito": {
+        "identificador": "id",
+        "valor": "button_order_cart"
+    },
+    "CarritoDesplegado": {
+        "identificador": "xpath",
+        "valor": "//div[@class='shopping_cart']"
+    },
+    "ProductosEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//td[@class='cart_description cart_description9']//p//a"
+    },
+    "NombreProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//table[@id='cart_summary']//p[@class='product-name']//a"
+    },
+    "NombreSegundoProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "(//table[@id='cart_summary']//p[@class='product-name']//a)[2]"
+    },
+    "ReferenciaProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//small[@class='cart_ref']"
+    },
+    "ReferenciaSegundoProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "(//small[@class='cart_ref'])[2]"
+    },
+    "PrecioProducto": {
+        "identificador": "id",
+        "valor": "pesos_0"
+    },
+    "NombreProducto": {
+        "identificador": "xpath",
+        "valor": "//div//h1[@itemprop='name']"
+    },
+    "ReferenciaProducto": {
+        "identificador": "xpath",
+        "valor": "//span[@itemprop='sku']"
+    },
+    "PrecioPrimerProductoEnCarritoDesplegado": {
+        "identificador": "xpath",
+        "valor": "//dl[@class='products']//dt[@class='first_item']//span[@class='price']"
+    },
+    "PrecioSegundoProductoEnCarritoDesplegado": {
+        "identificador": "xpath",
+        "valor": "//dl[@class='products']//dt[@class='last_item']//span[@class='price']"
+    },
+    "ImagenProducto": {
+        "identificador": "xpath",
+        "valor": "//div[@class='zoomPad']//img"
+    },
+    "ImagenProductoEnCarritoDesplegado": {
+        "identificador": "xpath",
+        "valor": "//dl[@class='products']//a"
+    },
+    "ImagenProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//td[@class='cart_product']//a//img"
+    },
+    "ImagenSegundoProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "(//td[@class='cart_product']//a//img)[2]"
+    },
+    "PrecioTotalCompra": {
+        "identificador": "id",
+        "valor": "total_price"
+    },
+    "SubTotalProductoCompra": {
+        "identificador": "id",
+        "valor": "total_product"
+    },
+    "SubTotalPrimerProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "(//td[@class='cart_total']//span)[1]"
+    },
+    "SubTotalSegundoProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "(//td[@class='cart_total']//span)[2]"
+    },
+    "PrecioTotalProductoEnCarritoDesplegado": {
+        "identificador": "xpath",
+        "valor": "//div[@class='cart-prices']//div[@class='cart-prices-line last-line']//span"
+    },
+    "PrecioTotalProductoEnCarrito": {
+        "identificador": "id",
+        "valor": "total_price"
+    },
+    "AñadirCantidadArticulo": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Añadir']"
+    },
+    "SustraerCantidadArticulo": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Sustraer']"
+    },
+    "CantidadArticuloAgregadosEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//td[@data-title='Cantidad']//div//input[@type='hidden']"
+    },
+    "CantidadArticuloEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//td[@data-title='Cantidad']//div//input[@type='text']"
+    },
+    "TotalAPagarEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//td[@class='price' and @id='total_price_container']"
+    },
+    "CartelErrorStock": {
+        "identificador": "xpath",
+        "valor": "//p[@class='fancybox-error']"
+    },
+    "EliminarProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Eliminar']"
+    },
+    "CartelErrorDistintoProveedor": {
+        "identificador": "id",
+        "valor": "msj-supplier"
     }
-}
+    }
