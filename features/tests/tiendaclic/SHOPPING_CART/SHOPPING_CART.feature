@@ -217,8 +217,8 @@ Feature: SHOPPING CART
         Then Verifico que el campo "CartelDosProductosDiferenteProvedor" contenga el texto " Has iniciado el proceso de compra con el proveedor "
 
     #ABRIR Y CERRAR LA PAGINA
-    Scenario: TC_SHOPPING_CART_038	Validar que se pueda seleccionar un artículo de la página e ingresar a la ficha del producto
-    Scenario: TC_SHOPPING_CART_060	Validar propiedades de la página de carrito al añadir dos artículos del mismo proveedor (+Contiene sub casos)
-    Scenario: TC_SHOPPING_CART_063	Validar que los artículos permanezcan en el carrito al cerrar el navegador y volver a abrir la tienda
-    Scenario: TC_SHOPPING_CART_064	Validar que los artículos añadidos permanezcan en el carrito al abrir la tienda desde una ventana diferente
-    Scenario: TC_SHOPPING_CART_065	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
+    #Scenario: TC_SHOPPING_CART_038	Validar que se pueda seleccionar un artículo de la página e ingresar a la ficha del producto
+    #Scenario: TC_SHOPPING_CART_060	Validar propiedades de la página de carrito al añadir dos artículos del mismo proveedor (+Contiene sub casos)
+    #Scenario: TC_SHOPPING_CART_063	Validar que los artículos permanezcan en el carrito al cerrar el navegador y volver a abrir la tienda
+    #Scenario: TC_SHOPPING_CART_064	Validar que los artículos añadidos permanezcan en el carrito al abrir la tienda desde una ventana diferente
+    #Scenario: TC_SHOPPING_CART_065	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
