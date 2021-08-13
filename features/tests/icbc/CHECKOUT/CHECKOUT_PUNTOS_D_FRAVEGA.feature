@@ -18,6 +18,7 @@ Feature: CHECKOUT_PUNTOS_D_FRAVEGA
 #        And Hago click en "PrimerProducto"
 #        And Hago click en "50puntos50pesos"
 #        And Hago click en "Comprar"
+#Then Verifico que el elemento "PasosDeCompra" este habilitado
 #        And Hago click en "AceptoCondiciones"
 #        And Hago click en "IrACaja"
 #        And Hago click en "TarjetaDebito"
@@ -36,6 +37,7 @@ Feature: CHECKOUT_PUNTOS_D_FRAVEGA
 #        And Hago click en "PrimerProducto"
 #        And Hago click en "25puntos75pesos"
 #        And Hago click en "Comprar"
+#Then Verifico que el elemento "PasosDeCompra" este habilitado
 #        And Hago click en "AceptoCondiciones"
 #        And Hago click en "IrACaja"
 #        And Hago click en "TarjetaDebito"

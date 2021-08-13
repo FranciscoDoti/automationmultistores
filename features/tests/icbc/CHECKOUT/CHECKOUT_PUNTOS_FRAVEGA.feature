@@ -18,6 +18,7 @@ Feature: CHECKOUT_PUNTOS_FRAVEGA
 #        And Hago click en "PrimerProducto"
 #        And Hago click en "SoloPuntos"
 #        And Hago click en "Comprar"
+#Then Verifico que el elemento "PasosDeCompra" este habilitado
 #        And Hago click en "AceptoCondiciones"
 #        And Hago click en "IrACaja"
 #        And Hago click en "PagarConPuntos"
