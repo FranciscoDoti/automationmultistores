@@ -15,5 +15,8 @@
     "DepartamentoDireccion": "3",
     "RucDireccion": "0101",
     "CedulaIdentidadDireccion": "47682222",
-    "TelefonoDireccion": "1547682222"
+    "TelefonoDireccion": "1547682222",
+    "ProductoCorrecto": "Licuadora",
+    "ProductoEscritoIncompleto": "cafet"
+    
 }

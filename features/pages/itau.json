@@ -190,6 +190,85 @@
     "NoSoyRobot": {
         "identificador": "xpath",
         "valor": "//div[@class='recaptcha-checkbox-border']"
+    },
+    "BarraBuscadora": {
+        "identificador": "xpath",
+        "valor": "//input[@class='form-control'][@name='s']"
+    },
+    "Buscar": {
+        "identificador": "xpath",
+        "valor": "//div[@class='input-group-append']//button[@class='btn btn-primary']"
+    },
+    "CartelErrorBusqueda": {
+        "identificador": "xpath",
+        "valor": "//section[@id='content']//h4"
+    },
+    "ProductoEncontradoCorrecto": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ProductList-grid']//article//a[contains(text(),'Licuadora')]"
+    },
+    "ListaAutocomplete": {
+        "identificador": "xpath",
+        "valor": "//div[@class='autocomplete-suggestions ']"
+    },
+    "Carrito": {
+        "identificador": "xpath",
+        "valor": "//span[contains(text(),'Carrito')]"
+    },
+    "ProductoEnCarrito": {
+        "identificador": "xpath",
+        "valor": "//a[@class='h5 product-line__title mb-0']"
+    },
+    "SumarUnArticulo": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn js-touchspin bootstrap-touchspin-up ']"
+    },
+    "RestarUnArticulo": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn js-touchspin bootstrap-touchspin-down ']"
+    },
+    "CartelCantidadMinima": {
+        "identificador": "xpath",
+        "valor": "//article[@class='alert alert-danger']"
+    },
+    "FichaProducto": {
+        "identificador": "xpath",
+        "valor": "//*[@id='js-product-list']/div/article[1]/div/div"
+    },
+    "AñadirDesdeFicha": {
+        "identificador": "xpath",
+        "valor": "//div[@class='product-add-to-cart col-12 col-md-6 p-0']"
+    },
+    "AgregarUnArticuloDesdeFicha": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn js-touchspin bootstrap-touchspin-up ']"
+    },
+    "ProductoUnoMismoProvedor": {
+        "identificador": "xpath",
+        "valor": "//section[@id='products']//article[1]//button[@data-button-action='add-to-cart']"
+    },
+    "ProductoDosMismoProvedor": {
+        "identificador": "xpath",
+        "valor": "//section[@id='products']//article[2]//button[@data-button-action='add-to-cart']"
+    },
+    "ProvedoresDiferentes": {
+        "identificador": "xpath",
+        "valor": "//div[@class='modal-header']//h1"
+    },
+    "Subcategoria": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='CdSecondaryDropdown-subItems-container']//a[contains(text(),'informática')]"
+    },
+    "": {
+        "identificador": "xpath",
+        "valor": ""
+    },
+    "subtotal": {
+        "identificador": "xpath",
+        "valor": "//div[@id='cart-subtotal-products']/span[@class='value']"
+    },
+    "total": {
+        "identificador": "xpath",
+        "valor": "//div[@class='cart-summary-totals']//span[@class='value']"
     }
-    
 }

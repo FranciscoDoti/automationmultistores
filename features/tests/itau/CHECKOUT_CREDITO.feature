@@ -8,7 +8,6 @@ Feature: itauComprasCredito
         And Lleno el campo "Usuario" con "lqaautomation2021@gmail.com"
         And Lleno el campo "Contraseña" con "Prueba01."
         And Hago click en "IniciarSesion"
-        And Hago click en "NoSoyRobot"
         And Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
         And Hago click en "AgregarAlCarrito"
