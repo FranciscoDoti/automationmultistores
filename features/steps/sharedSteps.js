@@ -9,6 +9,8 @@ const { Actions } = require('selenium-webdriver');
 const { By, Key, until, WebElement } = require('selenium-webdriver');
 var driver = getDriver();
 const regex = new RegExp(`<elementContains>`);
+let newDriver = require('selenium-webdriver');
+const config = require(`${process.cwd()}/config.json`);
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
@@ -222,7 +224,6 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
 
 });
 
-
 Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
     var textoElemento = await obtenerTexto(this.page, elementKey);
     var textoEnVariable = await this.data.get(nombreVariable);
@@ -237,9 +238,14 @@ Then(/^Verifico que el elemento "(.*)" no exista$/, async function (elementKey) 
 
 });
 
+Then(/^Verifico que el elemento "(.*)" exista$/, async function (elementKey) {
+    var respuesta = await buscarElemento(this.page, elementKey);
+    await assert(respuesta != undefined, `Se busco que el elemento ${elementKey} existiera, pero este no fue encontrado`)
+
+});
+
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
     await assertText(this.page, elementKey, texto);
-
 });
 
 Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (elementKey) {
