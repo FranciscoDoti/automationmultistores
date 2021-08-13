@@ -15,7 +15,7 @@ function ThisWorld({ attach, parameters }) {
   this.envir = parameters.ambiente;
   console.log(`Ejecutando las pruebas en el ambiente: ${this.envir}`);
   this.page = '';
-  this.config= '';
+  this.config = '';
   this.argv = argv;
   setDefaultTimeout('90000');
   this.driver = getDriver();
@@ -62,6 +62,6 @@ async function testRailUpload() {
 }
 
 process.once('beforeExit', async () => {
-   await console.log('Comienza subida de reporte a TestRail')
+  await console.log('Comienza subida de reporte a TestRail')
   testRailUpload();
 });
