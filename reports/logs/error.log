@@ -106,3 +106,17 @@
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-12"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-12"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-12"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo localizar el elemento UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo scrollear hasta el elemento: UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"hubo un error al escribir en el elemento UltimaOpcionDesplegable. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
+{"message":"no se pudo scrollear hasta el elemento: UltimaOpcionDesplegable","level":"error","timestamp":"2021-08-13"}
+{"message":"hubo un error al escribir en el elemento UltimaOpcionDesplegable. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-13"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
