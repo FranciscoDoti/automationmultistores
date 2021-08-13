@@ -217,7 +217,7 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
 });
 
 
-Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
+Then(/^Verifico que el elemento "(.*)" contiene el texto alojado en la variable "(.*)"$/, async function (elementKey, nombreVariable) {
     var textoElemento = await obtenerTexto(this.page, elementKey);
     var textoEnVariable = await this.data.get(nombreVariable);
     await assert(textoElemento == textoEnVariable, `Texto del elemento: ${textoElemento}
