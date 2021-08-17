@@ -33,7 +33,7 @@ Feature: SHOPPING CART
     Scenario: TC_SHOPPING_CART_058	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo del mismo proveedor
 
     #CUENTAS
-    @PRUEBA
+
     Scenario: TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
         * Navego al producto qa automation
         * Hago click en "Comprar"
@@ -41,7 +41,7 @@ Feature: SHOPPING CART
         * Obtengo el texto del elemento "Precio total" y lo guardo en la variable "Monto"
         * Hago click en "Agregar unidad"
         * Verifico que el valor de "Monto" se haya multiplicado
-    @PRUEBA
+
     Scenario: TC_SHOPPING_CART_028	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
         * Navego al producto qa automation
         * Hago click en "Comprar"
@@ -51,7 +51,7 @@ Feature: SHOPPING CART
         * Hago click en "Agregar unidad"
         * Verifico que el valor de "Monto" se haya triplicado
 
-    @PRUEBA
+
     Scenario: TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
         * Navego al producto qa automation
         * Lleno el campo "Agregar cantidad" con "2"
