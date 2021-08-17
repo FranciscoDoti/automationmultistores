@@ -174,5 +174,29 @@
   "Agregar cantidad": {
     "identificador": "xpath",
     "valor": "//input[@id='quantity_wanted']"
+  },
+  "EliminarProductoCarrito": {
+    "identificador": "xpath",
+    "valor": "//a[@class='ajax_cart_block_remove_link']"
+  },
+  "CartelCarritoVacio": {
+    "identificador": "xpath",
+    "valor": "//p[contains(.,'Su carrito está vacío.')]"
+  },
+  "Carrito": {
+    "identificador": "xpath",
+    "valor": "//a[@title='Ver mi carrito de compra']"
+  },
+  "CambiarCantidad": {
+    "identificador": "xpath",
+    "valor": "//input[@type='number']"
+  },
+  "CartelCantidadNula": {
+    "identificador": "xpath",
+    "valor": "//p[@class='fancybox-error']"
+  },
+  "CartelDosProductosDiferenteProvedor": {
+    "identificador": "xpath",
+    "valor": "//div[contains(.,' Has iniciado el proceso de compra con el proveedor ')][@id='msj-supplier']"
   }
 }

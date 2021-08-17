@@ -18,7 +18,7 @@
     "itauDireccion": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
     "itauLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "itauSEARCH": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/SEARCH.feature -f json:reports/cucumber_report.json --retry 1",
-    "itauSHOPPINGCART":"cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/SHOPPINGCART.feature -f json:reports/cucumber_report.json --retry 1",
+    "itauSHOPPING_CART":"cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/SHOPPINGCART.feature -f json:reports/cucumber_report.json --retry 1",
     "itauPrueba":"cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/Prueba.feature -f json:reports/cucumber_report.json --retry 1",
     "itauCheckoutValidaciones": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaCHECKOUT_PUNTOSCREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/CHECKOUT/CHECKOUT_PUNTOSCREDITO.feature -f json:reports/cucumber_report.json --retry 1 ",
@@ -42,6 +42,7 @@
     "tiendaclicCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicSEARCH": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/SEARCH/search.feature -f json:reports/cucumber_report.json --retry 1",
+    "tiendaclicSHOPPING_CART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
