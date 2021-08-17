@@ -141,7 +141,7 @@
     },
     "SinRegistroTarjeta": {
         "identificador": "xpath",
-        "valor": "//label[contains(text(),'Sin registro de tarjeta de crédito')]"
+        "valor": "//label[contains(text(),'Pagar sin registro de tarjeta')]"
     },
     "Pagar": {
         "identificador": "xpath",
