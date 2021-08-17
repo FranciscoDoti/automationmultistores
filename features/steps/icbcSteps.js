@@ -50,7 +50,7 @@ When(/^Validar que el "(.*)" no tenga productos agregados$/, async function (ele
                 var element = await buscarElemento(this.page, elementCarrito);
                 await element.click();
                 await this.driver.sleep(2000);
-                var eliminarProductoXpath = await buscarElemento(this.page, 'EliminarProductoCarrito');
+                var eliminarProductoXpath = await buscarElemento(this.page, 'EliminarProductoCarritoDesplegado');
                 await eliminarProductoXpath.click();
                 await this.driver.sleep(6000);
                 console.log("Se eliminó producto del carrito.");
@@ -98,4 +98,171 @@ Then(/^Verifico que el elemento "(.*)" no esté presente$/, async function (elem
     } else {
         await assert.fail('El elemento ' + elementKey + ' está presente, no debería estarlo.');
     }
+});
+
+When(/^Verificar que el elemento "(.*)" del carrito contenga el producto "(.*)" yendo a buscar la config$/, async function (elementKey, datoJson) {
+
+    var textoAValidar = this.config[datoJson];
+    let productos = [];
+
+    const element = await this.driver.wait(until.elementsLocated(By.xpath(this.page[elementKey].valor)), 5000);
+    log.info('Se ubican productos del Carrito.');
+
+    for (let e of element) {
+        var textoWebElement = await e.getAttribute('href');
+        productos.push(textoWebElement);
+    }
+    log.info('Se obtiene: ' + productos.length + ' productos.');
+    for (let i = 0; i <= productos.length; i++) {
+        await assert(productos.includes(textoAValidar), `error`);
+
+    }
+    log.info('Se valida que se encuentre: ' + textoAValidar + ' en los productos del carrito.');
+
+})
+
+When('valido las propiedades de campo clave', async function () {
+    var element = await this.driver.wait(until.elementLocated(By.xpath("//input[@id='passwd']")), 7000);
+    var atributo = await element.getAttribute('type');
+    await assert(atributo == 'password', 'Se busco que el atributo del input sea password pero se encontro: ' + atributo);
+});
+
+When(/^Obtengo el atributo "(.*)" del elemento "(.*)" y lo guardo en la variable "(.*)"$/, async function (atributo, elementKey, nombreVariable) {
+    var webElement = await buscarElemento(this.page, elementKey);
+
+    if (atributo == 'Imagen') {
+        var atributoWebElement = await webElement.getAttribute('src');
+    } else if (atributo == 'Titulo') {
+        var atributoWebElement = await webElement.getAttribute('title');
+    } else if (atributo == 'ALT') {
+        var atributoWebElement = await webElement.getAttribute('alt');
+    } else if (atributo == 'Valor') {
+        var atributoWebElement = await webElement.getAttribute('value');
+    }
+    await this.data.set(nombreVariable, atributoWebElement);
+    var textoEnVariable = await this.data.get(nombreVariable);
+    await log.info(' se guardó el texto ' + textoEnVariable + ' en la variable ' + nombreVariable);
+});
+
+Then(/^Verifico que el elemento "(.*)" contiene el atributo "(.*)" alojado en la variable "(.*)"$/, async function (elementKey, atributo, nombreVariable) {
+
+    var webElement = await buscarElemento(this.page, elementKey);
+    if (atributo == 'Imagen') {
+        var atributoWebElement = await webElement.getAttribute('src');
+    } else if (atributo == 'Titulo') {
+        var atributoWebElement = await webElement.getAttribute('title');
+    } else if (atributo == 'ALT') {
+        var atributoWebElement = await webElement.getAttribute('alt');
+    } else if (atributo == 'Valor') {
+        var atributoWebElement = await webElement.getAttribute('value');
+    }
+    var textoEnVariable = await this.data.get(nombreVariable);
+    await assert(atributoWebElement == textoEnVariable, `Texto del elemento: ${atributoWebElement}
+      .Texto guardado en variable: ${textoEnVariable}`);
+});
+
+Then(/^Verifico que el elemento "(.*)" incluya el texto alojado en la variable "(.*)"$/, async function (elementKey, nombreVariable) {
+    var textoElemento = await obtenerTexto(this.page, elementKey);
+    //Se convierte en minusculas
+    var txtElementoLowerCase = await textoElemento.toLowerCase();
+
+    //Se convierte en minusculas
+    var textoEnVariable = await this.data.get(nombreVariable);
+    var txtVariableLowerCase = await textoEnVariable.toLowerCase();
+
+    await assert(txtElementoLowerCase.includes(txtVariableLowerCase), `Texto del elemento: ${textoElemento}
+          .Texto guardado en variable: ${textoEnVariable}`);
+
+});
+
+Then(/^Verifico que la variable "(.*)" contenga el texto "(.*)"$/, async function (nombreVariable, texto) {
+
+    var textoEnVariable = await this.data.get(nombreVariable);
+    await assert(texto == textoEnVariable, `Texto esperado del elemento: ${texto}
+      .Texto guardado en variable: ${textoEnVariable}`);
+});
+
+Then(/^Verifico que el elemento "(.*)" contenga cifra "(.*)" que la alojada en la variable "(.*)"$/, async function (elementKey, operacion, nombreVariable) {
+    //Conversion en int de variable almacenada
+    var textoEnVariable = await this.data.get(nombreVariable);
+    var variableInt = textoEnVariable.replace(/\$/g, '');
+    let a = variableInt.replace(/\./g, '');
+    var variableAlmacenada = parseFloat(a);
+
+    //Conversion en int del elemento obtenido
+    var textoElemento = await obtenerTexto(this.page, elementKey);
+    var resultadoTxtObtenido = textoElemento.replace(/\$/g, '');
+    let b = resultadoTxtObtenido.replace(/\./g, '');
+    var numeroObtenido = parseFloat(b);
+
+    //Operacion aritmetica
+    if (operacion == 'mayor') {
+
+        await assert(numeroObtenido > variableAlmacenada, `Texto del elemento: ${numeroObtenido}
+      .Texto guardado en variable: ${variableAlmacenada}`);
+        log.info(`Se validó correctamente el resultado, número almacenado en variable es: ${variableAlmacenada} y el número obtenido es: ${numeroObtenido}`);
+
+    } else if (operacion == 'menor') {
+
+        await assert(numeroObtenido < variableAlmacenada, `Texto del elemento: ${numeroObtenido}
+      .Texto guardado en variable: ${variableAlmacenada}`);
+        log.info(`Se validó correctamente el resultado, número almacenado en variable es: ${variableAlmacenada} y el número obtenido es: ${numeroObtenido}`);
+    }
+
+});
+
+Then(/^Verifico que el elemento "(.*)" contiene el número alojado en la variable "(.*)" "(.*)" por "(.*)"$/, async function (elementKey, nombreVariable, operacion, numero) {
+
+    //Conversion en int de variable almacenada
+    var textoEnVariable = await this.data.get(nombreVariable);
+    var variableInt = textoEnVariable.replace(/\$/g, '');
+    let a = variableInt.replace(/\,/g, '.');
+    var variableAlmacenada = parseFloat(a);
+
+    //Conversion en int del elemento obtenido
+    var textoElemento = await obtenerTexto(this.page, elementKey);
+    var resultadoTxtObtenido = textoElemento.replace(/\$/g, '');
+    let b = resultadoTxtObtenido.replace(/\,/g, '.');
+    var numeroObtenido = parseFloat(b);
+
+    //Operacion aritmetica
+    if (operacion == 'multiplicado') {
+        var resultado = variableAlmacenada * numero;
+    } else if (operacion == 'dividido') {
+        var resultado = variableAlmacenada / numero;
+    }
+    await assert(resultado == numeroObtenido, `Texto del elemento: ${resultado}
+      .Texto guardado en variable: ${variableAlmacenada}`);
+    log.info(`Se validó correctamente el resultado, número almacenado en variable es: ${numeroObtenido} y el número obtenido es: ${resultado}`);
+});
+
+Then(/^Verifico que el elemento "(.*)" contiene la "(.*)" de las variables "(.*)" y "(.*)"$/, async function (elementKey, operacion, nombreVariableUno, nombreVariableDos) {
+
+    //Conversion en int de primera variable almacenada
+    var textoEnVariableUno = await this.data.get(nombreVariableUno);
+    var variableIntUno = textoEnVariableUno.replace(/\$/g, '');
+    let a = variableIntUno.replace(/\,/g, '.');
+    var variableAlmacenadaUno = parseFloat(a);
+
+    //Conversion en int de segunda variable almacenada
+    var textoEnVariableDos = await this.data.get(nombreVariableDos);
+    var variableIntDos = textoEnVariableDos.replace(/\$/g, '');
+    let b = variableIntDos.replace(/\,/g, '.');
+    var variableAlmacenadaDos = parseFloat(b);
+
+    //Conversion en int del elemento obtenido
+    var textoElemento = await obtenerTexto(this.page, elementKey);
+    var resultadoTxtObtenido = textoElemento.replace(/\$/g, '');
+    let c = resultadoTxtObtenido.replace(/\,/g, '.');
+    var numeroObtenido = parseFloat(c);
+
+    //Operacion aritmetica
+    if (operacion == 'suma') {
+        var resultado = variableAlmacenadaUno + variableAlmacenadaDos;
+    } else if (operacion == 'resta') {
+        var resultado = variableAlmacenadaUno - variableAlmacenadaDos;
+    }
+    await assert(resultado == numeroObtenido, `Texto del elemento: ${resultado}
+      .Texto guardado en primera variable: ${variableAlmacenadaUno} y en segunda: ${variableAlmacenadaDos}`);
+    log.info(`Se validó correctamente el resultado, número almacenado en variable es: ${numeroObtenido} y el número obtenido es: ${resultado}`);
 });

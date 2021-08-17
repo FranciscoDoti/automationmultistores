@@ -71,6 +71,7 @@ Feature: CHECKOUT_CREDITO
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "SoloPesos"
         And Hago click en "Comprar"
+        Then Verifico que el elemento "PasosDeCompra" este habilitado
         And Hago click en "AceptoCondiciones"
         And Hago click en "IrACaja"
         And Hago click en "TarjetaCredito"

@@ -9,6 +9,8 @@ const { Actions } = require('selenium-webdriver');
 const { By, Key, until, WebElement } = require('selenium-webdriver');
 var driver = getDriver();
 const regex = new RegExp(`<elementContains>`);
+let newDriver = require('selenium-webdriver');
+const config = require(`${process.cwd()}/config.json`);
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
@@ -45,6 +47,12 @@ Given(/^Leo los datos de "(.*)"$/, async function (json) {
 When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
 });
+
+When('Hago doble click en {string}', async function (elementKey) {
+    const element = await buscarElemento(this.page, elementKey);
+    const actions = driver.actions({ async: true });
+    await actions.doubleClick(element).perform();
+})
 
 When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.get(url);
@@ -217,7 +225,7 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
 });
 
 
-Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
+Then(/^Verifico que el elemento "(.*)" contiene el texto alojado en la variable "(.*)"$/, async function (elementKey, nombreVariable) {
     var textoElemento = await obtenerTexto(this.page, elementKey);
     var textoEnVariable = await this.data.get(nombreVariable);
     await assert(textoElemento == textoEnVariable, `Texto del elemento: ${textoElemento}
@@ -231,9 +239,14 @@ Then(/^Verifico que el elemento "(.*)" no exista$/, async function (elementKey) 
 
 });
 
+Then(/^Verifico que el elemento "(.*)" exista$/, async function (elementKey) {
+    var respuesta = await buscarElemento(this.page, elementKey);
+    await assert(respuesta != undefined, `Se busco que el elemento ${elementKey} existiera, pero este no fue encontrado`)
+
+});
+
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
     await assertText(this.page, elementKey, texto);
-
 });
 
 Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (elementKey) {
@@ -264,10 +277,10 @@ Then(/^Verifico que el elemento "(.*)" este habilitado$/, async function (elemen
 
 });
 
-Then('Valido que el campo {string} sea de propiedad {string}', async function(elementKey, type){
+Then('Valido que el campo {string} sea de propiedad {string}', async function (elementKey, type) {
     const element = await buscarElemento(this.page, elementKey);
     const atributo = await element.getAttribute('type');
-    switch(type){
+    switch (type) {
         case "texto":
             await assert(atributo == 'text', `Se buscó que el elemento fuera de tipo texto, pero se encontró ${atributo}`);
             break;
@@ -282,27 +295,27 @@ Then('Valido que el campo {string} sea de propiedad {string}', async function(el
     }
 });
 
-Then('Verifico que los elementos {string} contengan el texto {string}', async function(elementKey, contains){
+Then('Verifico que los elementos {string} contengan el texto {string}', async function (elementKey, contains) {
 
     const element = await this.driver.wait(until.elementsLocated(By.xpath(this.page[elementKey].valor)), 5000);
     await this.driver.sleep(1000);
     let error = 0;
-    for(let i=0; i<=element.length; i++){
+    for (let i = 0; i <= element.length; i++) {
         const text = await element[i].getText();
         const verificacion = await text.toLowerCase();
-        try{
+        try {
             await assert(verificacion.includes(contains), `error`);
-        }catch{
+        } catch {
             error++;
         }
-        if(error>=3){
+        if (error >= 3) {
             await assert.fail(`Se encontro que el texto capturado en mas de 3 ocasiones no contenia el texto ${contains}`);
         }
-    
+
     }
 });
 
-Then('Verifico que se haya redirigido a la pagina que contenga {string}', async function(web){
+Then('Verifico que se haya redirigido a la pagina que contenga {string}', async function (web) {
     await this.driver.sleep(2000);
     const url = await this.driver.getCurrentUrl();
     await assert(url.includes(web), `error`);
