@@ -1,4 +1,4 @@
-giconst { Given, When, Then } = require('cucumber');
+const { Given, When, Then } = require('cucumber');
 const { clickElement, llenarCampo, assertText, obtenerTexto, buscarElemento } = require('../support/functions');
 const { getDriver } = require(`${process.cwd()}/driver.js`);
 const { assert } = require('chai');
