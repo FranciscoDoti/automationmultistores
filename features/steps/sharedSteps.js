@@ -48,6 +48,12 @@ When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
 });
 
+When('Hago doble click en {string}', async function (elementKey) {
+    const element = await buscarElemento(this.page, elementKey);
+    const actions = driver.actions({ async: true });
+    await actions.doubleClick(element).perform();
+})
+
 When(/^Abro la siguiente Url "(.*)"$/, async function (url) {
     await this.driver.get(url);
     await log.info(' abriendo la siguiente url: ' + url);
@@ -218,7 +224,8 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
 
 });
 
-Then(/^Verifico que el elemento "(.)" contiene el texto alojado en la variable "(.)"$/, async function (elementKey, nombreVariable) {
+
+Then(/^Verifico que el elemento "(.*)" contiene el texto alojado en la variable "(.*)"$/, async function (elementKey, nombreVariable) {
     var textoElemento = await obtenerTexto(this.page, elementKey);
     var textoEnVariable = await this.data.get(nombreVariable);
     await assert(textoElemento == textoEnVariable, `Texto del elemento: ${textoElemento}

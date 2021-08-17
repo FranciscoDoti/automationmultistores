@@ -16,6 +16,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "50puntos50pesos"
         And Hago click en "Comprar"
+        Then Verifico que el elemento "PasosDeCompra" este habilitado
         And Hago click en "AceptoCondiciones"
         And Hago click en "IrACaja"
         And Hago click en "TarjetaCredito"
@@ -34,6 +35,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "50puntos50pesos"
         And Hago click en "Comprar"
+        Then Verifico que el elemento "PasosDeCompra" este habilitado
         And Hago click en "AceptoCondiciones"
         And Hago click en "IrACaja"
         And Hago click en "TarjetaCredito"
@@ -55,6 +57,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
     #    And Hago click en "PrimerProducto"
     #    And Hago click en "50puntos50pesos"
     #    And Hago click en "Comprar"
+    #Then Verifico que el elemento "PasosDeCompra" este habilitado
     #    And Hago click en "AceptoCondiciones"
     #    And Hago click en "IrACaja"
     #    And Hago click en "TarjetaCredito"
@@ -73,6 +76,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "25puntos75pesos"
         And Hago click en "Comprar"
+        Then Verifico que el elemento "PasosDeCompra" este habilitado
         And Hago click en "AceptoCondiciones"
         And Hago click en "IrACaja"
         And Hago click en "TarjetaCredito"
@@ -91,6 +95,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
     When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "25puntos75pesos"
         And Hago click en "Comprar"
+        Then Verifico que el elemento "PasosDeCompra" este habilitado
         And Hago click en "AceptoCondiciones"
         And Hago click en "IrACaja"
         And Hago click en "TarjetaCredito"
@@ -112,6 +117,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
 #   And Hago click en "PrimerProducto"
 #   And Hago click en "25puntos75pesos"
 #   And Hago click en "Comprar"
+#Then Verifico que el elemento "PasosDeCompra" este habilitado
 #   And Hago click en "AceptoCondiciones"
 #   And Hago click en "IrACaja"
 #   And Hago click en "TarjetaCredito"
