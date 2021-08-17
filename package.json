@@ -32,6 +32,8 @@
     "icbcCHECKOUT_PUNTOS_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcSEARCH_BUSQUEDA": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/SEARCH/SEARCH_BUSQUEDA.feature -f json:reports/cucumber_report.json --retry 1",
+    "icbcSHOPPING_CART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "invexLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "invexCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
