@@ -61,7 +61,7 @@ Feature: CHECKOUT_VALIDACIONES
         Then Se compara el valor del atributo "maxlength" de el elemento "WebPayInputCVV" con el valor "3"
         Then Se compara el valor del atributo "type" de el elemento "WebPayInputCVV" con el valor "password"
 
-    @PRUEBA
+    
     Scenario: TC_CHECKOUT_124 Realizar una compra abonando con tarjeta prepaga
         When Abro la siguiente Url "linkProductoAutomatizacion" yendo a buscar la config
         And Hago click en "AñadirProductoAlCarrito"

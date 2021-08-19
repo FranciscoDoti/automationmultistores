@@ -14,7 +14,7 @@ Feature: LOGIN
         And Hago click en "LoginAcceder"
         Then Verifico que el campo "SpanCuenta" contenga el texto "NombreUsuario" de la config
 
-    #PRUEBA
+    
     Scenario: TC_LOGIN_005 Validar que no me permita iniciar sesión si ingreso con e-mail correcto y contraseña incorrecta.
         When Lleno el campo "Usuario" con "usuarioValido" yendo a buscar la config
         And Lleno el campo "Contraseña" con "asd123"

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js -f json:reports/cucumber_report.json",
+    "biceLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json",
     "supervielleCHECKOUT_CREDITO_FRAVEGA": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/supervielle/CHECKOUT/CHECKOUT_CREDITO_FRAVEGA.feature -f json:reports/cucumber_report.json",
     "supervielleCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/supervielle/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json",
     "supervielleCHECKOUT_CUPON": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/supervielle/CHECKOUT/CHECKOUT_CUPON.feature -f json:reports/cucumber_report.json",

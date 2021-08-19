@@ -49,18 +49,6 @@ async function buscarElemento(json, element, text, reintentos) {
                             nroReintento++;
                         }
                         break;
-
-                    case "css":
-                        try{
-                            var webElement = await driver.wait(until.elementLocated(By.css(json[element].valor)), 5000, 5000, 5000);
-                            var elementoEncontrado = true;
-                            await log.info('Se localizó el elemento ' + element + ' exitosamente');
-                            break;
-                        }catch{
-                            log.error(`no se pudo localizar el elemento ${element}`);
-                            nroReintento++;
-                        }
-                        break; 
                     default:
                         log.error(`El identificador ${json[element].identificador} es invalido o esta incompleto. Revisar json de locators`);
                         var error = true;

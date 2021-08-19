@@ -11,7 +11,7 @@
   "codSeguridadTarjetaDebito1": "123",
   "nroDocumentoTarjetaDebito1": "39169244",
 
-  "nroTarjetaCredito1": "1507990000004905",
+  "nroTarjetaCredito1": "4507990000000010",
   "nombreApellidoTarjetaCredito1": "JUANA SUAREZ",
   "vencimientoTarjetaCredito1": "1223",
   "codSeguridadTarjetaCredito1": "123",
@@ -58,5 +58,12 @@
   "direccion.NroAgregado": "3433",
   "direccion.DptoAgregado": "14",
 
-  "estadoExitoso1": "¡Listo!"
+  "estadoExitoso1": "¡Listo!",
+
+  "stringABuscar": "Parlante",
+  "stringCortaABuscar": "Par",
+
+  "linkProductoAutomatizacion1": "https://supervielle-uat.aper.com/categorias/24617-automation-product-1234567890.html",
+  "linkProductoAutomatizacion2": "https://supervielle-uat.aper.com/categorias/24618-automation-product2-1234567899.html",
+  "linkProductoAutomatizacion3": "https://supervielle-uat.aper.com/categorias/24619-automation-product3-1234567898.html"
 }
