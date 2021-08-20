@@ -1,7 +1,7 @@
 {
   "NombreCuenta": {
     "identificador": "xpath",
-    "valor": "//span[contains(text(),'Silvia Gabriela Becerra')]"
+    "valor": "//span[contains(text(),'Maria Elena Achaval')]"
   },
   "MiCuenta": {
     "identificador": "xpath",
@@ -85,7 +85,7 @@
   },
   "Tecno": {
     "identificador": "xpath",
-    "valor": "//header/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+    "valor": "//li/a[contains(text(),'Tecno')]"
   },
   "Producto": {
     "identificador": "xpath",
