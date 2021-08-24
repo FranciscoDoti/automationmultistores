@@ -17,6 +17,10 @@ Feature: SHOPPING CART INVEX
 #QUE SI HAY PALABRAS COMO SCENARIO VACIAS Y DEMAS, NO SE VA A PODER EJECUTAR. VER QUE EL XPATH ESTA AGREGADO EN LA INVEX.JSON
 #DENTRO DE LA CARPETA PAGES.
 
+##DATOS DE LA PAGINA: https://invex-dev.aper.cloud/
+##USER: apersqatesting@gmail.com    PASSWORD: Prueba01
+##PRODUCTO AUTOMATION: https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html
+
 
 #EJEMPLO:
 
