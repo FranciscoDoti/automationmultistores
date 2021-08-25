@@ -1,7 +1,7 @@
 {
     "IniciaSesion": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]"
+        "valor": "(//a[@class='login'])[1]"
     },
     "Usuario": {
         "identificador": "xpath",

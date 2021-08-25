@@ -54,7 +54,7 @@ Feature: SHOPPING_CART
         And Hago click en "MiCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
-    @PRUEBA
+    
     Scenario: TC_SHOPPING_CART_012 Validar que se pueda agregar un artículo al carrito desde una subcategoría aleatoria
         When Hago click en "IniciaSesion"
         And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config
@@ -226,7 +226,7 @@ Feature: SHOPPING_CART
         And Hago click en "AñadirUnidadItem1"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "3"
 
-    
+    @PRUEBA
     Scenario: TC_SHOPPING_CART_030 Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
         When Hago click en "IniciaSesion"
         And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config
@@ -244,7 +244,7 @@ Feature: SHOPPING_CART
         And Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "3"
         Then Verifico que el elemento "SubTotalCarrito" contiene el número alojado en la variable "MontoSubTotal" "multiplicado" por "3"
 
-    @PRUEBA
+    
     Scenario: TC_SHOPPING_CART_031 Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
         When Hago click en "IniciaSesion"
         And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config

@@ -22,33 +22,6 @@ When(/^Hago click en un producto con precio mayor a "(.*)"$/, async function (pr
     await vectorDePreciosDeProductos[i - 1].click();
 });
 
-Then(/^Verifico que el elemento "(.*)" contiene el número alojado en la variable "(.*)" "(.*)" por "(.*)"$/, async function (elementKey, nombreVariable, operacion, numero) {
-
-    //Conversion en int de variable almacenada
-    var textoEnVariable = await this.data.get(nombreVariable);
-    var variableInt = textoEnVariable.replace(/\./g, '').replace(/\$/g, '');
-    let a = variableInt.replace(/\,/g, '.');
-    var variableAlmacenada = parseFloat(a);
-
-    //Conversion en int del elemento obtenido
-    var textoElemento = await obtenerTexto(this.page, elementKey);
-    var resultadoTxtObtenido = textoElemento.replace(/\./g, '').replace(/\$/g, '');
-    let b = resultadoTxtObtenido.replace(/\,/g, '.');
-    var numeroObtenido = parseFloat(b);
-
-    //Operacion aritmetica
-    if (operacion == 'multiplicado') {
-        var resultado = variableAlmacenada * numero;
-    } else if (operacion == 'dividido') {
-        var resultado = variableAlmacenada / numero;
-    }
-    await assert(resultado == numeroObtenido, `Texto del elemento: ${resultado}
-      .Resultado esperado: ${numeroObtenido}
-      .Texto guardado en variable: ${variableAlmacenada}`
-      );
-    log.info(`Se validó correctamente el resultado, número almacenado en variable es: ${numeroObtenido} y el número obtenido es: ${resultado}`);
-});
-
 Then(/^Verifico que el monto en el elemento "(.*)" es la suma de los montos en los elementos "(.*)" y "(.*)"$/, async function (resultado, monto1, monto2) {
 
     //Conversion en int del elemento obtenido
