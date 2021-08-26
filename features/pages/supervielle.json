@@ -1,7 +1,7 @@
 {
     "IniciaSesion": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/a[1]"
+        "valor": "(//a[@class='login'])[1]"
     },
     "Usuario": {
         "identificador": "xpath",
@@ -95,18 +95,47 @@
         "identificador": "xpath",
         "valor": "//option[contains(text(),'Chaco')]"
     },
+    "HomeLink": {
+        "identificador": "xpath",
+        "valor": "//div[@id='header_logo']/a[@title='Tienda Supervielle']"
+    },
     "Categorias": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+        "valor": "//ul[@class='sf-menu clearfix menu-content nav-justified pull-left sf-js-enabled sf-arrows']"
     },
     "Tecno": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/ul[1]/li[2]/a[1]"
+        "valor": "//a[@class='macro-cat sf-with-ul'][.='tecno']"
     },
     "ProductoTecno": {
         "identificador": "xpath",
         "valor": "//body/div[@id='page']/div[3]/div[2]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/a[1]"
     },
+    "PrimerProductoInicio": {
+        "identificador": "xpath",
+        "valor": "(//div[@class='Carousel-slide tns-item tns-slide-active']//a)[1]"
+    },
+    "PrimerProductoCategoria": {
+        "identificador": "xpath",
+        "valor": "(//div[@class='Card-container']/a)[1]",
+        "nota": "Este xpath trae el primer producto de cualquier categoria"
+    },
+    "PrimerCategoria": {
+        "identificador": "xpath",
+        "valor": "(//a[@class='cat-sub-child']/ancestor::li[@class='cat-sub-item']/parent::ul/parent::li[@class='cat-menu-item']/a)[1]",
+        "nota": "Este xpath trae la primer categoria que tenga tanto subcategoria como sub-subcategoria"
+    },
+    "PrimerSubCategoria": {
+        "identificador": "xpath",
+        "valor": "(//li[@class='cat-menu-item sfHover']//a[@class='cat-sub-child']/ancestor::li[@class='cat-sub-item']/a)[1]",
+        "nota": "Este xpath trae la primer subcategoria de la categoria sobre la que se tiene el mouse"
+    },
+    "PrimerSubSubCategoria": {
+        "identificador": "xpath",
+        "valor": "(//li[@class='cat-menu-item sfHover']//a[@class='cat-sub-child'])[1]",
+        "nota": "Este xpath trae la primer sub-subcategoria de la categoria sobre la que se tiene el mouse"
+    },
+    
     "AgregarAlCarrito": {
         "identificador": "xpath",
         "valor": "//span[contains(text(),'Agregar al carrito')]"
@@ -118,6 +147,30 @@
     "Comprar": {
         "identificador": "xpath",
         "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/form[1]/p[1]/button[1]"
+    },
+    "AñadirUnidadItem1": {
+        "identificador": "xpath",
+        "valor": "(//a[@title='Añadir'])[1]"
+    },
+    "SustraerUnidadItem1": {
+        "identificador": "xpath",
+        "valor": "(//a[@title='Sustraer'])[1]"
+    },
+    "EliminarItem1": {
+        "identificador": "xpath",
+        "valor": "(//a[@title='Eliminar'])[1]"
+    },
+    "SubTotalCarrito": {
+        "identificador": "id",
+        "valor": "subtotal_price"
+    },
+    "CostoEnvioCarrito": {
+        "identificador": "id",
+        "valor": "total_shipping"
+    },
+    "MontoTotalCarrito": {
+        "identificador": "id",
+        "valor": "total_price"
     },
     "Cupon": {
         "identificador": "xpath",
@@ -137,11 +190,29 @@
     },
     "CantidadProductosEnCarrito": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/a[1]/span[1]"
+        "valor": "(//a[@class='cart-link']/span[contains(@class,'ajax_cart_quantity')])[1]",
+        "nota": "Es el numero de items que aparece al lado de icono del carrito"
+    },
+    "DesplegableCarritoDisplay": {
+        "identificador": "xpath",
+        "valor": "(//div[@class='cart_block block exclusive'][not (contains(@style,'display: none'))])[1]",
+        "nota": "Este xpath localiza la lista desplegable Solamente cuando esta el mouse encima"
+    },
+    "EliminarProducto1CarritoDesdeDesplegable": {
+        "identificador": "xpath",
+        "valor": "//a[@class='ajax_cart_block_remove_link']"
+    },
+    "ProductoEnDesplegableCarrito": {
+        "identificador": "xpath",
+        "valor": "(//dt[@class='first_item']/a/img)[1]"
     },
     "EliminarProductoCarrito": {
         "identificador": "xpath",
         "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/dl[1]/dt[1]/span[1]/a[1]"
+    },
+    "AlertCarritoVacio": {
+        "identificador": "xpath",
+        "valor": "//p[@class='alert alert-warning']"
     },
     "FinalizarCompra": {
         "identificador": "xpath",
@@ -235,13 +306,17 @@
         "identificador": "xpath",
         "valor": "//body/div[@id='page']/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/span[1]"
     },
+    "InputBusqueda": {
+        "identificador": "xpath",
+        "valor": "(//input[@name='search_query'])[1]"
+    },
     "Buscar": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/form[1]/input[4]"
+        "valor": "(//button[@name='submit_search'])[1]"
     },
-    "Lupita": {
+    "H1Busqueda": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/nav[1]/div[1]/div[1]/div[2]/div[1]/form[1]/button[1]"
+        "valor": "//h1[@class='page-heading product-listing']"
     },
     "TarjetaDebitoTokenizada": {
         "identificador": "xpath",
@@ -257,6 +332,41 @@
     },
     "CerrarSesion": {
         "identificador": "xpath",
-        "valor": "//header/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/div[2]/a[1]"
+        "valor": "(//a[@class='logout'])[1]"
+    },
+    "ProductosTotalesBusqueda": {
+        "identificador": "xpath",
+        "valor": "//p[@class='CardBody-name']"
+    },
+    "ProductosQueContienenParlante": {
+        "identificador": "xpath",
+        "valor": "//p[@class='CardBody-name'][contains(.,'parlante')]",
+        "nota": "Debido a las imposibilidades de la arquitectura del framework, si se cambia el valor buscado de este xpath se debera tambien cambiar la variable que contiene el texto a buscar en el caso"
+    },
+    "ListaBusquedasSugeridas": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ac_results']"
+    },
+    "ListaBusquedasSugeridasDisplay": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ac_results'][not (contains(@style,'display: none'))]"
+    },
+    "CantidadBusquedasSugeridas": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ac_results']//li"
+    },
+    "CantidadBusquedasSugeridasQueContienenPar": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ac_results']//li[contains(.,'par') or contains(.,'Par') or contains(.,'PAR')]"
+    },
+    "BusquedaSugerida1": {
+        "identificador": "xpath",
+        "valor": "(//div[@class='ac_results']//li)[1]"
+    },
+    "BusquedaSugerida1Display": {
+        "identificador": "xpath",
+        "valor": "(//div[@class='ac_results']//li)[1][contains(@class,'ac_over')]",
+        "nota": "Es el mismo elemento anterior, pero contiene la clase que se activa al hacerle hover"
     }
+    
 }
