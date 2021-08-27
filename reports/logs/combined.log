@@ -2116,3 +2116,592 @@
 {"message":"hubo un error al escribir en el elemento UltimaOpcionDesplegable. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-13"}
 {"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-13"}
 {"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-13"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_001 Validar una búsqueda exitosa","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Cafetera en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-23"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-23"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento ProductoEncontradoCorrecto exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se extrajo el textoCafetera De Filtro Daewoo Blanca 1,25 Lts Cm6316w del elemento = ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_002 Validar propiedades del campo de búsquedas al ingresar caracteres especiales","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto %$ en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-23"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-23"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: CartelBusquedaInexistente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento CartelBusquedaInexistente exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se extrajo el texto¿No encontraste lo que buscabas? del elemento = CartelBusquedaInexistente","level":"info","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_003 Validar propiedades del campo de búsquedas al dejar el campo vacío","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-23"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-23"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: CartelBusquedaInexistente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento CartelBusquedaInexistente exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se extrajo el texto¿No encontraste lo que buscabas? del elemento = CartelBusquedaInexistente","level":"info","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_004 Validar que al presionar el botón Buscar (ícono lupa) se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Cafetera en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-23"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-23"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-23"}
+{"message":"busco el elemento de vuelta para ver si se le pudo hacer click o no","level":"info","timestamp":"2021-08-23"}
+{"message":"El elemento sigue estando. Muy probablemente, hubo un error y no se le hizo click. Tomar esto como una advertencia, es probable que el proceso haya fallado en este paso. Mientras el proceso va a continuar","level":"warn","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento ProductoEncontradoCorrecto exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se extrajo el textoCafetera De Filtro Daewoo Blanca 1,25 Lts Cm6316w del elemento = ProductoEncontradoCorrecto","level":"info","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005 Validar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Cafetera en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-23"}
+{"message":"hubo un error al escribir en el elemento Buscar. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_005 Validar que al presionar la tecla Enter se realice la búsqueda correspondiente","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Cafetera en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: Buscar","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento Buscar exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Se presiona tecla ENTER","level":"info","timestamp":"2021-08-23"}
+{"message":"hubo un error al escribir en el elemento Buscar. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_006 Validar que las opciones de autocompletar coincidan con el texto ingresado en el campo de búsquedas","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Caf en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: PrimerResultadoAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento PrimerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento PrimerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: PrimerResultadoAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento PrimerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento PrimerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_007 Validar que se despliegue el listado de búsquedas sugeridas al escribir en el campo de búsquedas","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Caf en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: ListaAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento ListaAutocomplete exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: passed","level":"info","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_009 Validar que se pueda seleccionar un artículo aleatorio del listado de búsquedas sugeridas","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Caf en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: TercerResultadoAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: TercerResultadoAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-23"}
+{"message":"Empezando a ejecutar: TC_SEARCH_009 Validar que se pueda seleccionar un artículo aleatorio del listado de búsquedas sugeridas","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se hizo click en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Se localizó el elemento BarraBuscadora exitosamente","level":"info","timestamp":"2021-08-23"}
+{"message":"se escribio el texto Caf en el elemento BarraBuscadora","level":"info","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: TercerResultadoAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"Localizando elemento: TercerResultadoAutocomplete","level":"info","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"no se pudo localizar el elemento TercerResultadoAutocomplete","level":"error","timestamp":"2021-08-23"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-23"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-23"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_154 Realizar una compra con 25% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_154 Realizar una compra con 25% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_155 Realizar una compra con 50% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_155 Realizar una compra con 50% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_156 Realizar una compra solo con tarjeta de credito","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_156 Realizar una compra solo con tarjeta de credito","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_157 Realizar una compra solo con puntos","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_157 Realizar una compra solo con puntos","level":"info","timestamp":"2021-08-24"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-24"}
+{"message":"Abriendo un chrome en modo server en la siguiente url : https://zalenium.aper.cloud/wd/hub","level":"info","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_154 Realizar una compra con 25% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: 25Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento 25Puntos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento 25Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarATarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NombreApellido exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto JUANA SUAREZ en el elemento NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Vencimiento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 1222 en el elemento Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CodSeguridad exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 123 en el elemento CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ChekCuota exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Cuota1 exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AceptoTerminos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AceptoTerminos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-25"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CanjearYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_154 Realizar una compra con 25% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: 25Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento 25Puntos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento 25Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarATarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NombreApellido exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto JUANA SUAREZ en el elemento NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Vencimiento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 1222 en el elemento Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CodSeguridad exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 123 en el elemento CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ChekCuota exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Cuota1 exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AceptoTerminos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AceptoTerminos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-25"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CanjearYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_155 Realizar una compra con 50% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: 50Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento 50Puntos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento 50Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento Canjear","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento Canjear","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento Canjear","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento Canjear","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_155 Realizar una compra con 50% puntos y tarjeta de credito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: 50Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento 50Puntos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento 50Puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarATarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NombreApellido exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto JUANA SUAREZ en el elemento NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Vencimiento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 1222 en el elemento Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CodSeguridad exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 123 en el elemento CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ChekCuota exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Cuota1 exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AceptoTerminos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AceptoTerminos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-25"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CanjearYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_156 Realizar una compra solo con tarjeta de credito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: SoloCredito","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento SoloCredito exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento SoloCredito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarATarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NombreApellido exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto JUANA SUAREZ en el elemento NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Vencimiento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 1222 en el elemento Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CodSeguridad exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 123 en el elemento CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ChekCuota exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Cuota1 exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AceptoTerminos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AceptoTerminos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-25"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CanjearYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_156 Realizar una compra solo con tarjeta de credito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: SoloCredito","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento SoloCredito exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento SoloCredito","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarATarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarATarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 4507990000004905 en el elemento NroTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NombreApellido exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto JUANA SUAREZ en el elemento NombreApellido","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Vencimiento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 1222 en el elemento Vencimiento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CodSeguridad exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 123 en el elemento CodSeguridad","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento NroDocumento exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se escribio el texto 39169244 en el elemento NroDocumento","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ChekCuota exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ChekCuota","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Cuota1 exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Cuota1","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AceptoTerminos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AceptoTerminos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por segunda vez...","level":"info","timestamp":"2021-08-25"}
+{"message":" error al hacer click. reintentando por tercera vez...","level":"info","timestamp":"2021-08-25"}
+{"message":"hubo un error al hacer click. Reintentando con el executeScript...","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento CanjearYFinalizar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento CanjearYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: CartelExitoEnvio","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento CartelExitoEnvio","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_157 Realizar una compra solo con puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: SoloPuntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento SoloPuntos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento SoloPuntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"Empezando a ejecutar: TC_CHECKOUT_157 Realizar una compra solo con puntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Categorias exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Categorias","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Tecno exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Tecno","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Producto exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Producto","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: SoloPuntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento SoloPuntos exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento SoloPuntos","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Canjear exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Canjear","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento Continuar exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento Continuar","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento ContinuarAlPago exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento ContinuarAlPago","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Se localizó el elemento AgregarTarjeta exitosamente","level":"info","timestamp":"2021-08-25"}
+{"message":"se hizo click en el elemento AgregarTarjeta","level":"info","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"Localizando elemento: ContinuarYFinalizar","level":"info","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"no se pudo localizar el elemento ContinuarYFinalizar","level":"error","timestamp":"2021-08-25"}
+{"message":"Resultado del escenario: failed","level":"error","timestamp":"2021-08-25"}
+{"message":"cerrando el navegador.","level":"info","timestamp":"2021-08-25"}

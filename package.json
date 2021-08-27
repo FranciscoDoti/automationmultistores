@@ -25,6 +25,7 @@
     "galiciaCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaMYACCOUNT_DIRECCION": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/MYACCOUNT/MYACCOUNT_DIRECCION.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaMYACCOUNT_DATOS": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/MYACCOUNT/MYACCOUNT_DATOS.feature -f json:reports/cucumber_report.json --retry 1",
+    "galiciaSEARCH": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/SEARCH/SEARCH.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
