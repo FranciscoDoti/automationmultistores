@@ -21,65 +21,53 @@ Feature: SHOPPING CART INVEX
 ##USER: apersqatesting@gmail.com    PASSWORD: Prueba01
 ##PRODUCTO AUTOMATION: https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html
 
-
+## ELEMENTS NAMES: seleccionar cantidad, eliminar del carrito,boton numero carrito, carrito numero, agregar al carrito, producto busqueda, barra busqueda
+# Producto deporte, Categorias tecnologia, Categorias, Producto
 #EJEMPLO:
 
 Scenario: TC_SHOPPING_CART_010 Validar que se pueda agregar un artículo al carrito desde la página de inicio
 
 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
-Scenario: 
+Scenario: TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
+Scenario: TC_SHOPPING_CART_015	Validar que se pueda agregar un artículo aleatorio al carrito
+Scenario: TC_SHOPPING_CART_016	Validar que el ícono de carrito (núm) se actualice al agregar un artículo aleatorio
+Scenario: TC_SHOPPING_CART_018	Validar que al presionar el botón de carrito se despliegue una lista con el artículo añadido
+Scenario: TC_SHOPPING_CART_022	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo aleatorio
+Scenario: TC_SHOPPING_CART_024	Validar que se pueda sumar (+) 1 ud. al artículo añadido en la página de carrito
+Scenario: TC_SHOPPING_CART_025	Validar que el ícono de carrito (núm) se actualice al agregar 1ud. al artículo añadido en la página de carrito
 
+Scenario: TC_SHOPPING_CART_013	Validar que se pueda agregar un artículo al carrito desde una subsubcategoría aleatoria
+Scenario: TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
+Scenario: TC_SHOPPING_CART_027	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
 
+Scenario: TC_SHOPPING_CART_028	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
+Scenario: TC_SHOPPING_CART_029	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido en la página de carrito
 
-TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
+Scenario: TC_SHOPPING_CART_030	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
+Scenario: TC_SHOPPING_CART_031	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
 
-#TC_SHOPPING_CART_013	Validar que se pueda agregar un artículo al carrito desde una subsubcategoría aleatoria
+Scenario: TC_SHOPPING_CART_032	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
+Scenario: TC_SHOPPING_CART_033	Validar que el ícono de carrito (núm) se actualice al eliminar 1ud. al artículo añadido en la página de carrito
 
-TC_SHOPPING_CART_015	Validar que se pueda agregar un artículo aleatorio al carrito
-TC_SHOPPING_CART_016	Validar que el ícono de carrito (núm) se actualice al agregar un artículo aleatorio
+Scenario: TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
+Scenario: TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
 
-TC_SHOPPING_CART_018	Validar que al presionar el botón de carrito se despliegue una lista con el artículo añadido
+Scenario: TC_SHOPPING_CART_037	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la página de carrito
+Scenario: TC_SHOPPING_CART_041	Validar que se puedan sumar (+) 2 uds. al artículo añadido al carrito desde la ficha del producto
+Scenario: TC_SHOPPING_CART_042	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido desde la ficha del producto
+Scenario: TC_SHOPPING_CART_043	Validar que se pueda restar (-) 1 ud. al artículo añadido al carrito desde la ficha del producto
+Scenario: TC_SHOPPING_CART_044	Validar que el ícono de carrito (núm) se actualice al restar 1ud. al artículo añadido desde la ficha del producto
+Scenario: TC_SHOPPING_CART_047	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la ficha del producto
+Scenario: TC_SHOPPING_CART_048	Validar que se pueda eliminar el artículo aleatorio añadido al carrito desde la página de carrito
+Scenario: TC_SHOPPING_CART_050	Validar que el ícono de carrito (núm) se actualice al eliminar el artículo añadido en la página de carrito
 
-TC_SHOPPING_CART_022	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo aleatorio
+Scenario: TC_SHOPPING_CART_051	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
+Scenario: TC_SHOPPING_CART_052	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
+Scenario: TC_SHOPPING_CART_054	Validar que al presionar el botón de carrito se despliegue la lista con dos artículos del mismo proveedor
+Scenario: TC_SHOPPING_CART_058	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo del mismo proveedor
 
-TC_SHOPPING_CART_024	Validar que se pueda sumar (+) 1 ud. al artículo añadido en la página de carrito
+Scenario: TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
 
-TC_SHOPPING_CART_025	Validar que el ícono de carrito (núm) se actualice al agregar 1ud. al artículo añadido en la página de carrito
-
-#TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
-#TC_SHOPPING_CART_027	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
-TC_SHOPPING_CART_028	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
-TC_SHOPPING_CART_029	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido en la página de carrito
-#TC_SHOPPING_CART_030	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
-#TC_SHOPPING_CART_031	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
-TC_SHOPPING_CART_032	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
-TC_SHOPPING_CART_033	Validar que el ícono de carrito (núm) se actualice al eliminar 1ud. al artículo añadido en la página de carrito
-#TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
-#TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
-TC_SHOPPING_CART_037	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la página de carrito
-
-TC_SHOPPING_CART_041	Validar que se puedan sumar (+) 2 uds. al artículo añadido al carrito desde la ficha del producto
-TC_SHOPPING_CART_042	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido desde la ficha del producto
-TC_SHOPPING_CART_043	Validar que se pueda restar (-) 1 ud. al artículo añadido al carrito desde la ficha del producto
-TC_SHOPPING_CART_044	Validar que el ícono de carrito (núm) se actualice al restar 1ud. al artículo añadido desde la ficha del producto
-TC_SHOPPING_CART_047	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la ficha del producto
-TC_SHOPPING_CART_048	Validar que se pueda eliminar el artículo aleatorio añadido al carrito desde la página de carrito
-TC_SHOPPING_CART_050	Validar que el ícono de carrito (núm) se actualice al eliminar el artículo añadido en la página de carrito
-#TC_SHOPPING_CART_051	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
-#TC_SHOPPING_CART_052	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
-#TC_SHOPPING_CART_054	Validar que al presionar el botón de carrito se despliegue la lista con dos artículos del mismo proveedor
-#TC_SHOPPING_CART_058	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo del mismo proveedor
-
-TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
 
 #TC_SHOPPING_CART_063	Validar que los artículos permanezcan en el carrito al cerrar el navegador y volver a abrir la tienda
 #TC_SHOPPING_CART_064	Validar que los artículos añadidos permanezcan en el carrito al abrir la tienda desde una ventana diferente

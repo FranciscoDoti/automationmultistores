@@ -142,9 +142,49 @@
     "OcultarContraseña": {
         "identificador": "xpath",
         "valor": "//button[@data-action='show-password']"
+    },
+    "Producto": {
+        "identificador": "xpath",
+        "valor": "//div[@id='tns1-item0']"
+    },
+    "Categorias": {
+        "identificador": "xpath",
+        "valor": "//span[text()='Categorías']"
+    },
+    "Categorias tecnologia": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='CdDropdownContent']//a[text()='Tecnología']"
+    },
+    "Producto deporte": {
+        "identificador": "xpath",
+        "valor": "//a[@xpath='1']"
+    },
+    "barra busqueda": {
+        "identificador": "xpath",
+        "valor": "//input[@name='s']"
+    },
+    "producto busqueda": {
+        "identificador": "xpath",
+        "valor": "//div[@id='js-product-list']//article[1]/div/img"
+    },
+    "agregar al carrito": {
+        "identificador": "xpath",
+        "valor": "//button[@data-button-action='add-to-cart']"
+    },
+    "carrito numero": {
+        "identificador": "xpath",
+        "valor": "//span[contains(@class, 'cart-products-count')]"
+    },
+    "boton numero carrito": {
+        "identificador": "xpath",
+        "valor": "//div[@id='_desktop_cart']//a"
+    },
+    "eliminar del carrito": {
+        "identificador": "xpath",
+        "valor": "//i[text()='delete']"
+    },
+    "seleccionar cantidad": {
+        "identificador": "xpath",
+        "valor": "//input[@name='product-quantity-spin']"
     }
-
-
-    
-
 }
