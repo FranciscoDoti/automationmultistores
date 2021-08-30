@@ -153,7 +153,7 @@
     },
     "Categorias tecnologia": {
         "identificador": "xpath",
-        "valor": "//ul[@class='CdDropdownContent']//a[text()='Tecnología']"
+        "valor": "//li[child::a[text()='Tecnología']]"
     },
     "Producto deporte": {
         "identificador": "xpath",
@@ -165,7 +165,7 @@
     },
     "producto busqueda": {
         "identificador": "xpath",
-        "valor": "//div[@id='js-product-list']//article[1]/div/img"
+        "valor": "//div[@id='js-product-list']//article[1]/div"
     },
     "agregar al carrito": {
         "identificador": "xpath",

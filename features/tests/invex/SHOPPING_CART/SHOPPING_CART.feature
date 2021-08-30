@@ -5,7 +5,9 @@ Feature: SHOPPING CART INVEX
         When Leo los datos de "invex"
         And Paso el mouse por encima de "IniciarSesion"
         * Hago click en "IniciarSesion"
-
+        When Lleno el campo "Email" con "usuarioValido" yendo a buscar la config
+        When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
+        And Hago click en "Login"
 #TAREA 1: AGREGAR A TODOS LOS CASOS LA PALABRA SCENARIO ANTES, LOS QUE TIENEN EL # ESTAN COMENDADOS, AGREGASELO IGUAL PERO DESPUES
 #DEL #
 
@@ -24,12 +26,27 @@ Feature: SHOPPING CART INVEX
 ## ELEMENTS NAMES: seleccionar cantidad, eliminar del carrito,boton numero carrito, carrito numero, agregar al carrito, producto busqueda, barra busqueda
 # Producto deporte, Categorias tecnologia, Categorias, Producto
 #EJEMPLO:
-
+#sin iniciar sesion
 Scenario: TC_SHOPPING_CART_010 Validar que se pueda agregar un artículo al carrito desde la página de inicio
+    * Hago click en "Producto"
+    * Hago click en "agregar al carrito"
+    Then Verifico que el texto del elemento "carrito numero" sea igual a "1"
 
-
+@PRUEBA
 Scenario: TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
+    * Paso el mouse por encima de "Categorias"
+    * Hago click en "Categorias tecnologia"
+    * Hago click en "producto busqueda"
+    * Hago click en "agregar al carrito"
+    Then Verifico que el campo "carrito numero" contenga el texto "1"
+
 Scenario: TC_SHOPPING_CART_015	Validar que se pueda agregar un artículo aleatorio al carrito
+    * Lleno el campo "barra busqueda" con "licuadora"
+    * Presiona tecla ENTER en elemento "barra busqueda"
+    * Hago click en "producto busqueda"
+    * Hago click en "agregar al carrito"
+    Then Verifico que el campo "carrito numero" contenga el texto "1"
+
 Scenario: TC_SHOPPING_CART_016	Validar que el ícono de carrito (núm) se actualice al agregar un artículo aleatorio
 Scenario: TC_SHOPPING_CART_018	Validar que al presionar el botón de carrito se despliegue una lista con el artículo añadido
 Scenario: TC_SHOPPING_CART_022	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo aleatorio
