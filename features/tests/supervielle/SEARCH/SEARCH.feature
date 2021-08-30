@@ -44,19 +44,19 @@ Feature: SEARCH
         Then Verifico que exista el elemento "AgregarAlCarrito"
 
     #REVISAR
-    Scenario: TC_SEARCH_010 Validar que se pueda navegar con el teclado por el listado de búsquedas sugeridas
-        When Lleno el campo "InputBusqueda" con "stringABuscar" yendo a buscar la config
-        And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
-        And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
-        And Verifico que exista el elemento "BusquedaSugerida1Display"
-        And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
-        And Se envia tecla "ARROW_UP" al input "InputBusqueda"
-        Then Verifico que exista el elemento "BusquedaSugerida1Display"
+    #Scenario: TC_SEARCH_010 Validar que se pueda navegar con el teclado por el listado de búsquedas sugeridas
+    #    When Lleno el campo "InputBusqueda" con "stringABuscar" yendo a buscar la config
+    #    And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
+    #    And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
+    #    And Verifico que exista el elemento "BusquedaSugerida1Display"
+    #    And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
+    #    And Se envia tecla "ARROW_UP" al input "InputBusqueda"
+    #    Then Verifico que exista el elemento "BusquedaSugerida1Display"
 
     #REVISAR
-    Scenario: TC_SEARCH_011 Validar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas
-        When Lleno el campo "InputBusqueda" con "stringABuscar" yendo a buscar la config
-        And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
-        And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
-        And Se envia tecla "ENTER" al input "BusquedaSugerida1Display"
-        Then Verifico que exista el elemento "AgregarAlCarrito"
+    #Scenario: TC_SEARCH_011 Validar que se pueda seleccionar con el teclado un artículo aleatorio del listado de búsquedas sugeridas
+    #    When Lleno el campo "InputBusqueda" con "stringABuscar" yendo a buscar la config
+    #    And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
+    #    And Se envia tecla "ARROW_DOWN" al input "InputBusqueda"
+    #    And Se envia tecla "ENTER" al input "BusquedaSugerida1Display"
+    #    Then Verifico que exista el elemento "AgregarAlCarrito"
