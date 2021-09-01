@@ -74,9 +74,9 @@ Feature: CHECKOUT_CREDITO
         And Hago click en "TresCuotas"
         And Hago click en "Pagar"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
-
+    
     Scenario: TC_CHECKOUT_004 Realizar una compra con tarjeta de crédito en 6 cuotas
-        When Hago click en "Categorias"
+        When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecno"
         And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
@@ -93,6 +93,7 @@ Feature: CHECKOUT_CREDITO
             | NroDocumento   | nroDocumentoTarjetaCredito1   |
         And Hago click en "Siguiente"
         And Hago click en "SeisCuotas"
+        And bice captcha sleep
         And Hago click en "Pagar"
         Then Verifico que el campo "EstadoDeCompraExitosa" contenga el texto "¡Listo!"
 

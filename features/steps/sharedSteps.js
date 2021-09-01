@@ -14,7 +14,7 @@ const config = require(`${process.cwd()}/config.json`);
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
-    await this.driver.manage().deleteAllCookies();
+    // await this.driver.manage().deleteAllCookies();
 
     try {
         await this.driver.get(urls[this.envir][web]);

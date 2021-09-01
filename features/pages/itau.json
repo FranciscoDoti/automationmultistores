@@ -5,7 +5,7 @@
     },
     "Acceder": {
         "identificador": "xpath",
-        "valor": "//span[contains(text(),'Acceder')]"
+        "valor": "//button[@id='submit-login'][contains(text(),'Acceder')]"
     },
     "Usuario": {
         "identificador": "xpath",
@@ -141,7 +141,7 @@
     },
     "SinRegistroTarjeta": {
         "identificador": "xpath",
-        "valor": "//label[contains(text(),'Sin registro de tarjeta de crédito')]"
+        "valor": "//label[contains(text(),'Pagar sin registro de tarjeta')]"
     },
     "Pagar": {
         "identificador": "xpath",
