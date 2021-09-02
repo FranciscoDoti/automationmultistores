@@ -221,6 +221,7 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
         await llenarCampo(this.page, elementKey, Key.ENTER)
         log.info('se presiona ENTER en el elemento: ' + elementKey)
     }
+    await this.driver.sleep(1500);
 
 });
 
@@ -235,7 +236,7 @@ Then(/^Verifico que el elemento "(.*)" contiene el texto alojado en la variable 
 
 Then(/^Verifico que el elemento "(.*)" no exista$/, async function (elementKey) {
     var respuesta = await buscarElemento(this.page, elementKey);
-    await assert(respuesta == 'ELEMENT_NOT_FOUND', `respuesta = ${respuesta}`);
+    await assert(respuesta == 'ELEMENT_NOT_FOUND', `Se logro encontrar el elemento ${elementKey}`);
 
 });
 
@@ -320,4 +321,11 @@ Then('Verifico que se haya redirigido a la pagina que contenga {string}', async 
     const url = await this.driver.getCurrentUrl();
     await assert(url.includes(web), `error`);
 
+});
+
+Then('Verifico que el valor del campo {string} sea igual a {string}', async function (elementKey, validation) {
+
+    let element = await buscarElemento(this.page, elementKey);
+    let value = await element.getAttribute('value');
+    await assert(value == validation, `Se busco que el valor de la propiedad fuera igual a ${validation}, pero se encontro ${value}`)
 });

@@ -87,5 +87,9 @@ Then(/^Valido propiedades del campo "(.*)"$/, async function (nombreCampo) {
         await assert.fail('No está contemplado validar las propiedades del elemento: ' + nombreCampo);
     }
 
+});
+
+When('Navego al producto de automation invex', async function () {
+    await this.driver.get('https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html');
 })
 
