@@ -46,6 +46,7 @@ Given(/^Leo los datos de "(.*)"$/, async function (json) {
 
 When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
+    await this.driver.sleep(2000);
 });
 
 When('Hago doble click en {string}', async function (elementKey) {

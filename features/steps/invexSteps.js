@@ -91,5 +91,25 @@ Then(/^Valido propiedades del campo "(.*)"$/, async function (nombreCampo) {
 
 When('Navego al producto de automation invex', async function () {
     await this.driver.get('https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html');
+});
+
+When('Clickeo en sumar cantidad', async function () {
+    await this.driver.sleep(15000);
+    try {
+        var element = await this.driver.wait(until.elementLocated(By.xpath("//span[child::button[contains(@class,'up')]]")), 30000);
+    } catch {
+        throw error(`element was not found`);
+    }
+    await this.driver.sleep(5000);
+    await element.click();
+
+
+    /*
+    await this.driver.sleep(3000);
+    await element.clear();
+    await element.sendKeys(int);
+    await this.driver.sleep(500);
+    await element.sendKeys(Key.ENTER);
+*/
 })
 

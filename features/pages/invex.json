@@ -186,5 +186,17 @@
     "seleccionar cantidad": {
         "identificador": "xpath",
         "valor": "//input[@name='product-quantity-spin']"
+    },
+    "sumar unidad": {
+        "identificador": "xpath",
+        "valor": "//span[child::button[contains(@class,'up')]]"
+    },
+    "restar": {
+        "identificador": "xpath",
+        "valor": "//span[child::button[contains(@class,'down')]"
+    },
+    "subcategoria Smartphones": {
+        "identificador": "xpath",
+        "valor": "//li[@class='CdSecondaryDropdown-subItem']//a[text()='Smartphones']"
     }
 }

@@ -61,28 +61,49 @@ Feature: SHOPPING CART INVEX
         * Hago click en "eliminar del carrito"
         Then Verifico que el elemento "carrito numero" no exista
 
-    ## ELEMENTS NAMES: seleccionar cantidad, eliminar del carrito,boton numero carrito, carrito numero, agregar al carrito, producto busqueda, barra busqueda
-    # Producto deporte, Categorias tecnologia, Categorias, Producto
-    @PRUEBA
     Scenario: TC_SHOPPING_CART_024	Validar que se pueda sumar (+) 1 ud. al artículo añadido en la página de carrito
         * Navego al producto de automation invex
         * Hago click en "agregar al carrito"
-        * Lleno el campo "seleccionar cantidad" con "2"
-        * Presiona tecla ENTER en elemento "seleccionar cantidad"
+        * Clickeo en sumar cantidad
         Then Verifico que el valor del campo "seleccionar cantidad" sea igual a "2"
 
     Scenario: TC_SHOPPING_CART_025	Validar que el ícono de carrito (núm) se actualice al agregar 1ud. al artículo añadido en la página de carrito
+        * Navego al producto de automation invex
+        * Hago click en "agregar al carrito"
+        * Clickeo en sumar cantidad
+        Then Verifico que el campo "carrito numero" contenga el texto "2"
 
     Scenario: TC_SHOPPING_CART_013	Validar que se pueda agregar un artículo al carrito desde una subsubcategoría aleatoria
+        * Paso el mouse por encima de "Categorias"
+        * Paso el mouse por encima de "Categorias tecnologia"
+        * Hago click en "subcategoria Smartphones"
+        * Hago click en "producto busqueda"
+        * Hago click en "agregar al carrito"
+        Then Verifico que el campo "carrito numero" contenga el texto "1"
+
     Scenario: TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
     Scenario: TC_SHOPPING_CART_027	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
 
     Scenario: TC_SHOPPING_CART_028	Validar que se puedan sumar (+) 2 uds. al artículo añadido en la página de carrito
+        * Navego al producto de automation invex
+        * Hago click en "agregar al carrito"
+        * Clickeo en sumar cantidad
+        * Clickeo en sumar cantidad
+        Then Verifico que el valor del campo "seleccionar cantidad" sea igual a "3"
+
     Scenario: TC_SHOPPING_CART_029	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido en la página de carrito
+        * Navego al producto de automation invex
+        * Hago click en "agregar al carrito"
+        * Clickeo en sumar cantidad
+        * Clickeo en sumar cantidad
+        Then Verifico que el campo "carrito numero" contenga el texto "3"
 
     Scenario: TC_SHOPPING_CART_030	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
     Scenario: TC_SHOPPING_CART_031	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
 
+    ## ELEMENTS NAMES: seleccionar cantidad, eliminar del carrito,boton numero carrito, carrito numero, agregar al carrito, producto busqueda, barra busqueda
+    # Producto deporte, Categorias tecnologia, Categorias, Producto
+    @PRUEBA
     Scenario: TC_SHOPPING_CART_032	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
     Scenario: TC_SHOPPING_CART_033	Validar que el ícono de carrito (núm) se actualice al eliminar 1ud. al artículo añadido en la página de carrito
 
