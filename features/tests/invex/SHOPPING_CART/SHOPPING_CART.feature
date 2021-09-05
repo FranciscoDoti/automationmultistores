@@ -101,15 +101,20 @@ Feature: SHOPPING CART INVEX
     Scenario: TC_SHOPPING_CART_030	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
     Scenario: TC_SHOPPING_CART_031	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
 
-    ## ELEMENTS NAMES: seleccionar cantidad, eliminar del carrito,boton numero carrito, carrito numero, agregar al carrito, producto busqueda, barra busqueda
-    # Producto deporte, Categorias tecnologia, Categorias, Producto
-    @PRUEBA
     Scenario: TC_SHOPPING_CART_032	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
-    Scenario: TC_SHOPPING_CART_033	Validar que el ícono de carrito (núm) se actualice al eliminar 1ud. al artículo añadido en la página de carrito
+        * Navego al producto de automation invex
+        * Hago click en "agregar al carrito"
+        * Clickeo en sumar cantidad
+        Then Verifico que el valor del campo "seleccionar cantidad" sea igual a "2"
+        And Clickeo en restar cantidad
+        Then Verifico que el valor del campo "seleccionar cantidad" sea igual a "1"
 
     Scenario: TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
     Scenario: TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
 
+    ## ELEMENTS NAMES: seleccionar cantidad, eliminar del carrito,boton numero carrito, carrito numero, agregar al carrito, producto busqueda, barra busqueda
+    # Producto deporte, Categorias tecnologia, Categorias, Producto
+    @PRUEBA
     Scenario: TC_SHOPPING_CART_037	Intentar restar (-) 1 ud. del artículo cuando el contador esté en 1 ud. desde la página de carrito
     Scenario: TC_SHOPPING_CART_041	Validar que se puedan sumar (+) 2 uds. al artículo añadido al carrito desde la ficha del producto
     Scenario: TC_SHOPPING_CART_042	Validar que el ícono de carrito (núm) se actualice al agregar 2uds. al artículo añadido desde la ficha del producto

@@ -103,13 +103,16 @@ When('Clickeo en sumar cantidad', async function () {
     await this.driver.sleep(5000);
     await element.click();
 
+});
 
-    /*
-    await this.driver.sleep(3000);
-    await element.clear();
-    await element.sendKeys(int);
-    await this.driver.sleep(500);
-    await element.sendKeys(Key.ENTER);
-*/
+When('Clickeo en restar cantidad', async function () {
+    await this.driver.sleep(10000);
+    try {
+        var element = await this.driver.wait(until.elementLocated(By.xpath("//span[child::button[contains(@class,'down')]]")), 10000);
+    } catch {
+        throw error(`element was not found`);
+    }
+    await this.driver.sleep(1000);
+    await element.click();
 })
 

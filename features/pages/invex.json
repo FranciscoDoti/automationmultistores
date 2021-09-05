@@ -191,9 +191,9 @@
         "identificador": "xpath",
         "valor": "//span[child::button[contains(@class,'up')]]"
     },
-    "restar": {
+    "restar unidad": {
         "identificador": "xpath",
-        "valor": "//span[child::button[contains(@class,'down')]"
+        "valor": "//span[child::button[contains(@class,'down')]]"
     },
     "subcategoria Smartphones": {
         "identificador": "xpath",
