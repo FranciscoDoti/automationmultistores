@@ -198,5 +198,17 @@
     "subcategoria Smartphones": {
         "identificador": "xpath",
         "valor": "//li[@class='CdSecondaryDropdown-subItem']//a[text()='Smartphones']"
+    },
+    "verificacion compra minima": {
+        "identificador": "xpath",
+        "valor": "//li[contains(text(),'La cantidad mínima en el pedido de compra')]"
+    },
+    "seleccionar cantidad ficha producto": {
+        "identificador": "xpath",
+        "valor": "//input[@id='quantity_wanted']"
+    },
+    "carrito vacio": {
+        "identificador": "xpath",
+        "valor": "//span[text()='No hay más artículos en su carrito']"
     }
 }

@@ -248,6 +248,7 @@ Then(/^Verifico que el elemento "(.*)" exista$/, async function (elementKey) {
 });
 
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
+    await this.driver.sleep(1000);
     await assertText(this.page, elementKey, texto);
 });
 
@@ -329,4 +330,12 @@ Then('Verifico que el valor del campo {string} sea igual a {string}', async func
     let element = await buscarElemento(this.page, elementKey);
     let value = await element.getAttribute('value');
     await assert(value == validation, `Se busco que el valor de la propiedad fuera igual a ${validation}, pero se encontro ${value}`)
+});
+
+
+
+
+When('Wait {int}', async function (num) {
+    var pause = num * 1000;
+    await this.driver.sleep(pause);
 });

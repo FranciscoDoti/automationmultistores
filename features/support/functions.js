@@ -189,6 +189,8 @@ async function llenarCampo(json, element, texto) {
             await driver.sleep(1500);
             if (texto != Key.ENTER) {
                 try {
+                    await webElement.click();
+                    await this.driver.sleep(500);
                     await webElement.clear();
                 } catch { log.info('No se borro el campo de texto') };
             } else {
