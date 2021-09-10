@@ -48,11 +48,6 @@ Given(/^Lleno el campo CVC con "(.*)" yendo a buscar la config$/, async function
 
 })
 
-Given('Retroceder en la página', async function () {
-    await this.driver.navigate().back();
-    console.log('Se presiona botón de retroceder en el navegador.');
-})
-
 Then(/^Valido propiedades del campo "(.*)"$/, async function (nombreCampo) {
     if (nombreCampo == 'Codigo') {
 

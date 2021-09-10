@@ -362,5 +362,9 @@
     "CartelErrorDistintoProveedor": {
         "identificador": "id",
         "valor": "msj-supplier"
+    },
+    "UsuarioLogueado": {
+        "identificador": "xpath",
+        "valor": "//a[@class='user_name']"
     }
     }
