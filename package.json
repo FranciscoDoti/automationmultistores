@@ -14,6 +14,7 @@
     "supervielleLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/supervielle/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json",
     "supervielleMY_ACCOUNT_DIRECCION": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/supervielle/MY_ACCOUNT/MY_ACCOUNT_DIRECCION.feature -f json:reports/cucumber_report.json",
     "supervielleSHOPPING_CART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/supervielle/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json",
+    
     "itauCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "itauSHOPPINGCART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/SHOPPINGCART.feature -f json:reports/cucumber_report.json --retry 1",
     "itauDireccion": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/direccion.feature -f json:reports/cucumber_report.json --retry 1",
@@ -22,11 +23,13 @@
     "itauSHOPPINGCART":"cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/SHOPPINGCART.feature -f json:reports/cucumber_report.json --retry 1",
     "itauPrueba":"cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/Prueba.feature -f json:reports/cucumber_report.json --retry 1",
     "itauCheckoutValidaciones": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/itau/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    
     "galiciaCHECKOUT_PUNTOSCREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/CHECKOUT/CHECKOUT_PUNTOSCREDITO.feature -f json:reports/cucumber_report.json --retry 1 ",
     "galiciaCHECKOUT_EXPERIENCIA": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/CHECKOUT/CHECKOUT_EXPERIENCIA.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaMYACCOUNT_DIRECCION": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/MYACCOUNT/MYACCOUNT_DIRECCION.feature -f json:reports/cucumber_report.json --retry 1",
     "galiciaMYACCOUNT_DATOS": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/galicia/MYACCOUNT/MYACCOUNT_DATOS.feature -f json:reports/cucumber_report.json --retry 1",
+    
     "icbcCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_PUNTOS_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
@@ -34,15 +37,22 @@
     "icbcCHECKOUT_PUNTOS": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_PUNTOS.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "icbcLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/icbc/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
+    
     "invexLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "invexCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "invexCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "invexCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
+    
     "tiendaclicLogin": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicSEARCH": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/SEARCH/search.feature -f json:reports/cucumber_report.json --retry 1",
+
+    "scotiaLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/scotia/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
+    "scotiaCHECKOUT_CHEQUE": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/scotia/CHECKOUT/CHECKOUT_CHEQUE.feature -f json:reports/cucumber_report.json --retry 1",
+    "scotiaCHECKOUT_TRANSFERENCIA": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/scotia/CHECKOUT/CHECKOUT_TRANSFERENCIA.feature -f json:reports/cucumber_report.json --retry 1",
+   
     "generarReporte": "node reportGenerator"
   },
   "author": "",

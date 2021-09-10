@@ -216,7 +216,8 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
     if (element == 'ELEMENT_NOT_FOUND') {
         await assert.fail('no se pudo localizar el elemento')
     } else {
-        await llenarCampo(this.page, elementKey, Key.ENTER)
+        //await llenarCampo(this.page, elementKey, Key.ENTER)
+        await element.sendKeys(Key.ENTER);
         log.info('se presiona ENTER en el elemento: ' + elementKey)
     }
 
@@ -314,3 +315,9 @@ Then('Verifico que se haya redirigido a la pagina que contenga {string}', async 
     await assert(url.includes(web), `error`);
 
 });
+
+Given('Retroceder en la página', async function () {
+    await this.driver.navigate().back();
+    console.log('Se presiona botón de retroceder en el navegador.');
+})
+

@@ -1,0 +1,106 @@
+{
+    "Acceder": {
+        "identificador": "id",
+        "valor": "myuser-account-url"
+    },
+    "Usuario": {
+        "identificador": "xpath",
+        "valor": "//input[@type='email']"
+    },
+    "Contraseña": {
+        "identificador": "xpath",
+        "valor": "//input[@type='password']"
+    },
+    "IniciarSesion": {
+        "identificador": "id",
+        "valor": "submit-login"
+    },
+    "UsuarioLogueado": {
+        "identificador": "xpath",
+        "valor": "//a[@title='Ver mi cuenta de cliente']//span"
+    },
+    "FormularioInicioSesion": {
+        "identificador": "id",
+        "valor": "login-form"
+    },
+    "ErrorCampoContraseña": {
+        "identificador": "xpath",
+        "valor": "//div[./div/input[contains(@name, 'password')]]/div//ul//li[2]"
+    },
+    "ErrorCampoUsuario": {
+        "identificador": "xpath",
+        "valor": "//div[./input[contains(@name, 'email')]]/div//ul//li[2]"
+    },
+    "CartelErrorAutenticacion": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='ps-alert-error alert alert-danger']//li[2]"
+    },
+    "OcultarContraseña": {
+        "identificador": "xpath",
+        "valor": "//button[@data-action='show-password']"
+    },
+    "CerrarSesión": {
+        "identificador": "xpath",
+        "valor": "//div[@class='text-center']//a[contains(.,'Cerrar sesión')]"
+    },
+    "AñadirAlCarrito": {
+        "identificador": "xpath",
+        "valor": "//div[@class='product-add-to-cart']//button[@data-button-action='add-to-cart']"
+    },
+    "Comprar": {
+        "identificador": "xpath",
+        "valor": "//div//a[@href='https://scotiabank-uat.aper.cloud/pedido']"
+    },
+    "Continuar": {
+        "identificador": "xpath",
+        "valor": "//button[@name='confirm-addresses']"
+    },
+    "ConfirmarMetodoEnvio": {
+        "identificador": "xpath",
+        "valor": "//button[@name='confirmDeliveryOption']"
+    },
+    "Transferencia": {
+        "identificador": "xpath",
+        "valor": "//label[contains(.,'Pago por transferencia bancaria')]"
+    },
+    "Cheque": {
+        "identificador": "xpath",
+        "valor": "//label[contains(.,'Pagar con cheque')]"
+    },
+    "TyC": {
+        "identificador": "xpath",
+        "valor": "//div//input[@id='conditions_to_approve[terms-and-conditions]']"
+    },
+    "Pagar": {
+        "identificador": "xpath",
+        "valor": "//button[@type='submit' and contains (.,'Pagar')]"
+    },
+    "CartelConfirmacionPedido": {
+        "identificador": "id",
+        "valor": "content-hook_order_confirmation"
+    },
+    "ReferenciaPedido": {
+        "identificador": "xpath",
+        "valor": "//div[@id='order-details']//ul//li"
+    },
+    "ContadorCarrito": {
+        "identificador": "xpath",
+        "valor": "//span[@id='shopping-cart-icon']//span"
+    },
+    "EliminarProductoCarrito": {
+        "identificador": "xpath",
+        "valor": "//a[@data-link-action='delete-from-cart']//i"
+    },
+    "EnvioBASEONE": {
+        "identificador": "xpath",
+        "valor": "(//div//div[label[contains(.,'BASEONE')]]//label)[2]"
+    },
+    "CambiarDireccionFacturacion": {
+        "identificador": "xpath",
+        "valor": "//a[@data-link-action='different-invoice-address']"
+    },
+    "SegundaDireccion": {
+        "identificador": "xpath",
+        "valor": "(//label//div[@class='custom-control custom-radio'])[4]"
+    }
+}
