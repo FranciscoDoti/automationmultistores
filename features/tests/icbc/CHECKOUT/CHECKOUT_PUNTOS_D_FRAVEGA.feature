@@ -10,6 +10,7 @@ Feature: CHECKOUT_PUNTOS_D_FRAVEGA
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario2" yendo a buscar la config
         When Validar que el "Carrito" no tenga productos agregados
 
 #    Scenario: TC_CHECKOUT_090_Realizar una compra de un artículo Frávega abonando con puntos y tarjeta de débito: Abonando con 50% Puntos y Tarjeta de débito.

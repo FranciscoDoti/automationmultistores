@@ -18,6 +18,7 @@ Feature: LOGIN
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
 
     Scenario: TC_LOGIN_005_Intentar realizar ingreso con e-mail correcto y contraseña incorrecta.
         When Lleno el campo "Usuario" con "usuarioValido" yendo a buscar la config
@@ -52,6 +53,7 @@ Feature: LOGIN
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
         And Hago click en "NombreUsuario"
         And Hago click en "CerrarSesion"
         Then Verifico que el campo "VerificoCierreSesion" contenga el texto "Ingresar"
