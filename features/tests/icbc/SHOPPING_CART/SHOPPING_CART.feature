@@ -947,7 +947,7 @@ Feature: SHOPPING_CART
                 When Abro la siguiente Url "ProductoAutomation2" yendo a buscar la config
                 And Hago click en "Comprar"
                 Then Verifico que el elemento "PasosDeCompra" este habilitado
-@PRUEBA
+
         Scenario: TC_SHOPPING_CART_065_Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla.
                 And Hago click en "Ingresar"
                 And Me muevo a la ventana de Login
