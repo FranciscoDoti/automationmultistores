@@ -1,0 +1,24 @@
+{
+    "NombreUsuario": "Automation User",
+    
+    "usuarioValido": "apersqatesting@gmail.com",
+    "passwordValido": "Aper00!!",
+    "usuarioIncorrecto": "aperholaqatesting@gmail.com",
+
+    "linkProductoAutomatizacion": "https://bice-uat.aper.cloud/inicio/6029-automation-product-123123.html",
+
+    "NroTarjetaCreditoValida": "4051885600446623",
+    "FechaVencimientoTarjetaCreditoValida": "1224",
+    "CVVTarjetaCreditoValida": "123",
+
+    "FechaVencimientoTarjetaCreditoInvalida": "1210",
+
+    "NroTarjetaCreditoRechazada": "5186059559590568",
+    
+    "NroTarjetaDebitoValida": "4051884239937763",
+
+    "NroTarjetaDebitoRechazada": "5186008541233829",
+
+    "TransbankRUT": "11.111.111-1",
+    "TransbankClave": "123"
+}
