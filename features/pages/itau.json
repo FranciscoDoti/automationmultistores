@@ -5,7 +5,7 @@
     },
     "Acceder": {
         "identificador": "xpath",
-        "valor": "//span[contains(text(),'Acceder')]"
+        "valor": "//button[@id='submit-login'][contains(text(),'Acceder')]"
     },
     "Usuario": {
         "identificador": "xpath",
@@ -141,7 +141,7 @@
     },
     "SinRegistroTarjeta": {
         "identificador": "xpath",
-        "valor": "//label[contains(text(),'Sin registro de tarjeta de crédito')]"
+        "valor": "//label[contains(text(),'Pagar sin registro de tarjeta')]"
     },
     "Pagar": {
         "identificador": "xpath",
@@ -209,7 +209,7 @@
     },
     "ListaAutocomplete": {
         "identificador": "xpath",
-        "valor": "//div[@class='autocomplete-suggestions ']"
+        "valor": "//div[@class='media-body'][1]"
     },
     "Carrito": {
         "identificador": "xpath",
@@ -257,7 +257,7 @@
     },
     "Subcategoria": {
         "identificador": "xpath",
-        "valor": "//ul[@class='CdSecondaryDropdown-subItems-container']//a[contains(text(),'informática')]"
+        "valor": "//li/a[contains(text(),'informática')]"
     },
     "": {
         "identificador": "xpath",
@@ -294,5 +294,21 @@
     "VerificaciónTresProductosEnCarrito": {
         "identificador": "xpath",
         "valor": "//span[contains(text(),'3 artículos')]"
+    },
+    "ProductoCorrectoPorBusqueda": {
+        "identificador": "xpath",
+        "valor": "//div[@class='ProductList-grid']//article[1]//a[contains(text(),'Juguera')]"
+    },
+    "SubSubCategoria": {
+        "identificador": "xpath",
+        "valor": "//li/a[contains(text(),'accesorios')]"
+    },
+    "RestarUnArticuloDesdeFicha": {
+        "identificador": "xpath",
+        "valor": "//button[@class='btn js-touchspin bootstrap-touchspin-down ']"
+    },
+    "UltimaOpcionDesplegable": {
+        "identificador": "xpath",
+        "valor": "//div[@class='media autocomplete-suggestion'][5]"
     }
 }

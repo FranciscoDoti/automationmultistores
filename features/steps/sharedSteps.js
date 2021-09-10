@@ -9,10 +9,12 @@ const { Actions } = require('selenium-webdriver');
 const { By, Key, until, WebElement } = require('selenium-webdriver');
 var driver = getDriver();
 const regex = new RegExp(`<elementContains>`);
+let newDriver = require('selenium-webdriver');
+const config = require(`${process.cwd()}/config.json`);
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
-    await this.driver.manage().deleteAllCookies();
+    // await this.driver.manage().deleteAllCookies();
 
     try {
         await this.driver.get(urls[this.envir][web]);
@@ -238,9 +240,14 @@ Then(/^Verifico que el elemento "(.*)" no exista$/, async function (elementKey) 
 
 });
 
+Then(/^Verifico que el elemento "(.*)" exista$/, async function (elementKey) {
+    var respuesta = await buscarElemento(this.page, elementKey);
+    await assert(respuesta != undefined, `Se busco que el elemento ${elementKey} existiera, pero este no fue encontrado`)
+
+});
+
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
     await assertText(this.page, elementKey, texto);
-
 });
 
 Then(/^Verifico que el elemento "(.*)" este deshabilitado$/, async function (elementKey) {

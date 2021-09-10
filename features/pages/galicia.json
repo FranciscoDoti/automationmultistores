@@ -1,7 +1,7 @@
 {
   "NombreCuenta": {
     "identificador": "xpath",
-    "valor": "//span[contains(text(),'Silvia Gabriela Becerra')]"
+    "valor": "//span[contains(text(),'Maria Elena Achaval')]"
   },
   "MiCuenta": {
     "identificador": "xpath",
@@ -85,7 +85,7 @@
   },
   "Tecno": {
     "identificador": "xpath",
-    "valor": "//header/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+    "valor": "//li/a[contains(text(),'Tecno')]"
   },
   "Producto": {
     "identificador": "xpath",
@@ -290,5 +290,33 @@
   "TotalAPagar": {
     "identificador": "xpath",
     "valor": "//div[@class='cart-summary-line cart-total']/span[@class='value']"
+  },
+  "BarraBuscadora": {
+    "identificador": "xpath",
+    "valor": "/html/body/main/header/nav/div/div[1]/div[2]/div/form/div/input"
+  },
+  "Buscar": {
+    "identificador": "xpath",
+    "valor": "//div[@class='col-md-5']//span[contains(text(),'Buscar')]"
+  },
+  "ProductoEncontradoCorrecto": {
+    "identificador": "xpath",
+    "valor": "//article[1]//a[contains(text(),'Cafetera')]"
+  },
+  "CartelBusquedaInexistente": {
+    "identificador": "xpath",
+    "valor": "//h1[contains(text(),'¿No encontraste lo que buscabas?')]"
+  },
+  "PrimerResultadoAutocomplete": {
+    "identificador": "xpath",
+    "valor": "//div[@class='media autocomplete-suggestion'][1]//div[contains(text(),'Cafe')]"
+  },
+  "ListaAutocomplete": {
+    "identificador": "xpath",
+    "valor": "//div[@class='autocomplete-suggestions '][1]"
+  },
+  "TercerResultadoAutocomplete": {
+    "identificador": "xpath",
+    "valor": "//div[@class='media autocomplete-suggestion'][3]//div[contains(text(),'Cafe')]"
   }
 }
