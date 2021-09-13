@@ -114,6 +114,11 @@ When(/^Hago click que contenga "(.*)" "(.*)" yendo a buscar la config$/, async f
         log.error(`no se pudo hacer click en el elemento ${elementKey}`);
         await assert.fail('error al clickear sobre el elemento, por favor, revisar locators');
     }
+});
+
+When('Refresco la pagina', async function () {
+    await this.driver.navigate().refresh();
+    await this.driver.sleep(2000);
 })
 
 When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {

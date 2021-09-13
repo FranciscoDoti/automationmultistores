@@ -38,7 +38,7 @@
     "invexCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "invexCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",
     "invexCHECKOUT_VALIDACIONES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/CHECKOUT/CHECKOUT_VALIDACIONES.feature -f json:reports/cucumber_report.json --retry 1",
-    "invexSHOPPING_CART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json --retry 1",
+    "invexSHOPPING_CART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/invex/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json --retry 2",
     "tiendaclicLogin": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json --retry 1",
     "tiendaclicCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/tiendaclic/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json --retry 1",

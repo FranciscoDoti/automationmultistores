@@ -145,7 +145,7 @@
     },
     "Producto": {
         "identificador": "xpath",
-        "valor": "//div[@id='tns1-item0']"
+        "valor": "//*[@id='tns5']/div[5]/div/a"
     },
     "Categorias": {
         "identificador": "xpath",
@@ -210,5 +210,9 @@
     "carrito vacio": {
         "identificador": "xpath",
         "valor": "//span[text()='No hay más artículos en su carrito']"
+    },
+    "Total": {
+        "identificador": "xpath",
+        "valor": "//span[preceding-sibling::span[text()='Total']]"
     }
 }
