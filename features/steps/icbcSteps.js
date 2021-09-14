@@ -215,13 +215,13 @@ Then(/^Verifico que el elemento "(.*)" contiene el número alojado en la variabl
 
     //Conversion en int de variable almacenada
     var textoEnVariable = await this.data.get(nombreVariable);
-    var variableInt = textoEnVariable.replace(/\$/g, '');
+    var variableInt = textoEnVariable.replace(/\./g, '').replace(/\$/g, '');
     let a = variableInt.replace(/\,/g, '.');
     var variableAlmacenada = parseFloat(a);
 
     //Conversion en int del elemento obtenido
     var textoElemento = await obtenerTexto(this.page, elementKey);
-    var resultadoTxtObtenido = textoElemento.replace(/\$/g, '');
+    var resultadoTxtObtenido = textoElemento.replace(/\./g, '').replace(/\$/g, '');
     let b = resultadoTxtObtenido.replace(/\,/g, '.');
     var numeroObtenido = parseFloat(b);
 
@@ -232,7 +232,9 @@ Then(/^Verifico que el elemento "(.*)" contiene el número alojado en la variabl
         var resultado = variableAlmacenada / numero;
     }
     await assert(resultado == numeroObtenido, `Texto del elemento: ${resultado}
-      .Texto guardado en variable: ${variableAlmacenada}`);
+      .Resultado esperado: ${numeroObtenido}
+      .Texto guardado en variable: ${variableAlmacenada}`
+      );
     log.info(`Se validó correctamente el resultado, número almacenado en variable es: ${numeroObtenido} y el número obtenido es: ${resultado}`);
 });
 

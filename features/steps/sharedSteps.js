@@ -14,7 +14,7 @@ const config = require(`${process.cwd()}/config.json`);
 
 Given(/^Abro la pagina "(.*)"$/, async function (web) {
 
-    await this.driver.manage().deleteAllCookies();
+    // await this.driver.manage().deleteAllCookies();
 
     try {
         await this.driver.get(urls[this.envir][web]);
@@ -224,7 +224,8 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
     if (element == 'ELEMENT_NOT_FOUND') {
         await assert.fail('no se pudo localizar el elemento')
     } else {
-        await llenarCampo(this.page, elementKey, Key.ENTER)
+        //await llenarCampo(this.page, elementKey, Key.ENTER)
+        await element.sendKeys(Key.ENTER);
         log.info('se presiona ENTER en el elemento: ' + elementKey)
     }
     await this.driver.sleep(1500);
@@ -337,10 +338,12 @@ Then('Verifico que el valor del campo {string} sea igual a {string}', async func
     await assert(value == validation, `Se busco que el valor de la propiedad fuera igual a ${validation}, pero se encontro ${value}`)
 });
 
-
-
-
 When('Wait {int}', async function (num) {
     var pause = num * 1000;
     await this.driver.sleep(pause);
 });
+Given('Retroceder en la página', async function () {
+    await this.driver.navigate().back();
+    console.log('Se presiona botón de retroceder en el navegador.');
+})
+

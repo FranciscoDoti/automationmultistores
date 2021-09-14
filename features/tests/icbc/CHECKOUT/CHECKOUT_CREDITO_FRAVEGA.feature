@@ -10,6 +10,7 @@ Feature: CREDITO_FRAVEGA
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
         When Validar que el "Carrito" no tenga productos agregados
 
    # Scenario: TC_CHECKOUT_010_Realizar una compra de un artículo de Frávega con tarjeta de crédito en x cuotas sin interés.
