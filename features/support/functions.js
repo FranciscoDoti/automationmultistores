@@ -187,15 +187,11 @@ async function llenarCampo(json, element, texto) {
     if (webElement != 'ELEMENT_NOT_FOUND') {
         try {
             await driver.sleep(1500);
-            if (texto != Key.ENTER) {
-                try {
-                    await webElement.click();
-                    await this.driver.sleep(500);
-                    await webElement.clear();
-                } catch { log.info('No se borro el campo de texto') };
-            } else {
-                log.info('Se presiona tecla ENTER');
-            }
+
+            try {
+                await webElement.clear();
+            } catch { log.info('No se borro el campo de texto') };
+
             await webElement.sendKeys(texto);
             await log.info('se escribio el texto ' + texto + ' en el elemento ' + element);
         } catch (error) {
@@ -236,6 +232,15 @@ async function assertText(json, element, texto) {
     }
 
 }
+
+
+
+
+
+
+
+
+
 
 
 module.exports = {
