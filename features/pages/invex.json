@@ -214,5 +214,9 @@
     "Total": {
         "identificador": "xpath",
         "valor": "//span[preceding-sibling::span[text()='Total']]"
+    },
+    "Solo productos de un proveedor": {
+        "identificador": "xpath",
+        "valor": "//div[@class='modal-body']//p"
     }
 }

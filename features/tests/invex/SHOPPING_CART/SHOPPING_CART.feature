@@ -20,7 +20,7 @@ Feature: SHOPPING CART INVEX
         Then Verifico que el campo "carrito numero" contenga el texto "1"
 
 
-    @PRUEBA
+
     Scenario: TC_SHOPPING_CART_011	Validar que se pueda agregar un artículo al carrito desde una categoría aleatoria
         * Ingreso a la categoria de tecnologia de invex
         * Hago click en "producto busqueda"
@@ -186,13 +186,19 @@ Feature: SHOPPING CART INVEX
         * Refresco la pagina
         Then Verifico que el campo de carrito invex este vacio
 
-#    Scenario: TC_SHOPPING_CART_051	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
+    #    Scenario: TC_SHOPPING_CART_051	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
 
 
-#   Scenario: TC_SHOPPING_CART_052	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
-#    Scenario: TC_SHOPPING_CART_058	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo del mismo proveedor
+    #   Scenario: TC_SHOPPING_CART_052	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
+    #    Scenario: TC_SHOPPING_CART_058	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo del mismo proveedor
 
-#    Scenario: TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
+    @PRUEBA
+    Scenario: TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
+        * Navego al producto de automation invex
+        * Hago click en "agregar al carrito"
+        * Navego al producto de automation invex proveedor dos
+        * Hago click en "agregar al carrito"
+        Then Verifico que el campo "Solo productos de un proveedor" contenga el texto "vendedores diferentes no está disponible"
 
 
 #TC_SHOPPING_CART_063	Validar que los artículos permanezcan en el carrito al cerrar el navegador y volver a abrir la tienda

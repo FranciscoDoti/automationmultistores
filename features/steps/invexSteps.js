@@ -93,6 +93,10 @@ When('Navego al producto de automation invex', async function () {
     await this.driver.get('https://invex-dev.aper.cloud/inicio/7561-automation-product-123123.html');
 });
 
+When('Navego al producto de automation invex proveedor dos', async function () {
+    await this.driver.get('https://invex-dev.aper.cloud/inicio/7594-automation-product-123124.html');
+})
+
 When('Clickeo en sumar cantidad', async function () {
     await this.driver.sleep(15000);
     try {

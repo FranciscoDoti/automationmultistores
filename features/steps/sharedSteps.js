@@ -253,7 +253,7 @@ Then(/^Verifico que el elemento "(.*)" exista$/, async function (elementKey) {
 });
 
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
-    await this.driver.sleep(1000);
+    await this.driver.sleep(5000);
     await assertText(this.page, elementKey, texto);
 });
 
