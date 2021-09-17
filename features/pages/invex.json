@@ -142,9 +142,81 @@
     "OcultarContraseña": {
         "identificador": "xpath",
         "valor": "//button[@data-action='show-password']"
+    },
+    "Producto": {
+        "identificador": "xpath",
+        "valor": "//*[@id='tns5']/div[5]/div/a"
+    },
+    "Categorias": {
+        "identificador": "xpath",
+        "valor": "//span[text()='Categorías']"
+    },
+    "Categorias tecnologia": {
+        "identificador": "xpath",
+        "valor": "//li[child::a[text()='Tecnología']]"
+    },
+    "Producto deporte": {
+        "identificador": "xpath",
+        "valor": "//a[@xpath='1']"
+    },
+    "barra busqueda": {
+        "identificador": "xpath",
+        "valor": "//input[@name='s']"
+    },
+    "producto busqueda": {
+        "identificador": "xpath",
+        "valor": "//div[@id='js-product-list']//article[1]/div"
+    },
+    "agregar al carrito": {
+        "identificador": "xpath",
+        "valor": "//button[@data-button-action='add-to-cart']"
+    },
+    "carrito numero": {
+        "identificador": "xpath",
+        "valor": "//span[contains(@class, 'cart-products-count')]"
+    },
+    "boton numero carrito": {
+        "identificador": "xpath",
+        "valor": "//div[@id='_desktop_cart']//a"
+    },
+    "eliminar del carrito": {
+        "identificador": "xpath",
+        "valor": "//i[text()='delete']"
+    },
+    "seleccionar cantidad": {
+        "identificador": "xpath",
+        "valor": "//input[@name='product-quantity-spin']"
+    },
+    "sumar unidad": {
+        "identificador": "xpath",
+        "valor": "//span[child::button[contains(@class,'up')]]"
+    },
+    "restar unidad": {
+        "identificador": "xpath",
+        "valor": "//span[child::button[contains(@class,'down')]]"
+    },
+    "subcategoria Smartphones": {
+        "identificador": "xpath",
+        "valor": "//li[@class='CdSecondaryDropdown-subItem']//a[text()='Smartphones']"
+    },
+    "verificacion compra minima": {
+        "identificador": "xpath",
+        "valor": "//li[contains(text(),'La cantidad mínima en el pedido de compra')]"
+    },
+    "seleccionar cantidad ficha producto": {
+        "identificador": "xpath",
+        "valor": "//input[@id='quantity_wanted']"
+    },
+    "carrito vacio": {
+        "identificador": "xpath",
+        "valor": "//span[text()='No hay más artículos en su carrito']"
+    },
+    "Total": {
+        "identificador": "xpath",
+        "valor": "//span[preceding-sibling::span[text()='Total']]"
+    },
+    "Solo productos de un proveedor": {
+        "identificador": "xpath",
+        "valor": "//div[@class='modal-body']//p"
     }
-
-
-    
-
 }
