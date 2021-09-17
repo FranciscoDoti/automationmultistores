@@ -300,11 +300,11 @@
     },
     "subtotal": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//div[@id='cart-subtotal-products']//span[@class='value']"
     },
     "total": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//div[@class='cart-summary-line cart-total']//span[@class='value']"
     },
     "VerificaciónTresProductosEnCarrito": {
         "identificador": "xpath",
@@ -328,7 +328,7 @@
     },
     "AñadirDesdeFicha": {
         "identificador": "xpath",
-        "valor": "//div[@class='row productDetailRow']//button[@data-button-action='add-to-cart']"
+        "valor": "//div[child::div[@class='add col']]"
     },
     "RestarUnArticuloDesdeFicha": {
         "identificador": "xpath",
@@ -336,19 +336,20 @@
     },
     "ProductoUnoMismoProvedor": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//article[1]"
     },
     "ProductoDosMismoProvedor": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//article[2]"
     },
     "CartelProvedoresDiferentes": {
         "identificador": "xpath",
-        "valor": ""
+        "valor": "//h1[contains(.,'Ups! Lo sentimos')]"
     },
     "Carrito": {
         "identificador": "xpath",
         "valor": "//span[contains(.,'Carrito')]"
+        
     }
     
     

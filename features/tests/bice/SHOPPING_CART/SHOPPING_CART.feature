@@ -11,7 +11,7 @@ Feature: SHOPPING_CART
         And Hago click en "LoginAcceder"
 
 
-   # Scenario: TC_SHOPPING_CART_009 Validar que al ingresar al carrito sin artículos añadidos aparezca un mensaje de alerta
+    # Scenario: TC_SHOPPING_CART_009 Validar que al ingresar al carrito sin artículos añadidos aparezca un mensaje de alerta
 
     #Scenario: TC_SHOPPING_CART_010 Validar que se pueda agregar un artículo al carrito desde la página de inicio
 
@@ -36,7 +36,7 @@ Feature: SHOPPING_CART
         And Hago click en "AgregarAlCarrito"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
-Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carrito desde la ficha de un artículo aleatorio
+    Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carrito desde la ficha de un artículo aleatorio
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
         And Hago click en "AgregarAlCarrito"
@@ -80,10 +80,9 @@ Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carr
         And Hago click en "SumarUnArticulo"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
 
-    Scenario:TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
-        When Paso el mouse por encima de "Categorias"
+     Scenario:TC_SHOPPING_CART_026	Validar que se actualice el importe subtotal al sumar (+) 1 ud. al artículo en la página de carrito
+      When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
@@ -93,7 +92,6 @@ Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carr
     Scenario:TC_SHOPPING_CART_027	Validar que se actualice el importe total al sumar (+) 1 ud. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Obtengo el texto del elemento "total" y lo guardo en la variable "Monto"
@@ -123,24 +121,24 @@ Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carr
     Scenario:TC_SHOPPING_CART_030	Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
+        And Hago doble click en "SumarUnArticulo"
         And Hago doble click en "SumarUnArticulo"
         Then Verifico que el valor de "Submonto" sea el triple
 
     Scenario:TC_SHOPPING_CART_031	Validar que se actualice el importe total al sumar (+) 2 uds. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Obtengo el texto del elemento "total" y lo guardo en la variable "Monto"
         And Hago doble click en "SumarUnArticulo"
+        And Hago doble click en "SumarUnArticulo"
         Then Verifico que el valor de "Monto" sea el triple
 
- Scenario:TC_SHOPPING_CART_032	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
+    Scenario:TC_SHOPPING_CART_032	Validar que se pueda restar (-) 1 ud. al artículo añadido en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
         And Hago click en "AgregarAlCarrito"
@@ -158,11 +156,9 @@ Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carr
         And Hago click en "EliminarProducto"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "0"
 
-
-    Scenario:TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
+Scenario:TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Hago click en "SumarUnArticulo"
@@ -174,7 +170,6 @@ Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carr
     Scenario:TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "ProductoTecno"
         And Hago click en "AgregarAlCarrito"
         And Hago click en "Carrito"
         And Hago click en "SumarUnArticulo"
@@ -253,63 +248,76 @@ Scenario: TC_SHOPPING_CART_014 Validar que se pueda agregar un artículo al carr
     Scenario:TC_SHOPPING_CART_048	Validar que se pueda eliminar el artículo aleatorio añadido al carrito desde la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "AgregarAlCarrito"
-        And Hago click en "Carrito"
-        And Hago click en "EliminarProducto"
-        Then Verifico que el campo "CartelCarritoVacio" contenga el texto "No hay más artículos en su carrito"
-
-   Scenario:TC_SHOPPING_CART_050 Validar que el ícono de carrito (núm) se actualice al eliminar el artículo añadido en la página de carrito
-        When Paso el mouse por encima de "Categorias"
-        And Hago click en "Tecnologia"
-        And Hago click en "FichaProducto"
+        And Hago click en "ProductoTecno"
         And Hago click en "AñadirDesdeFicha"
         And Hago click en "Carrito"
         And Hago click en "EliminarProducto"
-        Then Verifico que el elemento "CantidadProductosEnCarrito" no exista
+        Then Verifico que el campo "CarritoVacio" contenga el texto "No hay más artículos en su carrito"
+
+    Scenario:TC_SHOPPING_CART_050 Validar que el ícono de carrito (núm) se actualice al eliminar el artículo añadido en la página de carrito
+        When Paso el mouse por encima de "Categorias"
+        And Hago click en "Tecnologia"
+        And Hago click en "ProductoTecno"
+        And Hago click en "AñadirDesdeFicha"
+        And Hago click en "Carrito"
+        And Hago click en "EliminarProducto"
+        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "0"
+
 
     Scenario:TC_SHOPPING_CART_051	Validar que se puedan añadir dos artículos aleatorios del mismo proveedor al carrito
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+        When Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoUnoMismoProvedor"
+        And Hago click en "AñadirDesdeFicha"
         And Hago click en "BarraBuscadora"
         And Hago click en "BarraBuscadora"
-        And Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+        And Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoDosMismoProvedor"
+        And Hago click en "AñadirDesdeFicha"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
 
     Scenario:TC_SHOPPING_CART_052	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+        When Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoUnoMismoProvedor"
+        And Hago click en "AñadirDesdeFicha"
         And Hago click en "BarraBuscadora"
-        And Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+        And Hago click en "BarraBuscadora"
+        And Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoDosMismoProvedor"
+        And Hago click en "AñadirDesdeFicha"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
 
-  Scenario:TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+    Scenario:TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
+        When Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoUnoMismoProvedor"
+        And Hago click en "AñadirDesdeFicha"
         And Hago click en "BarraBuscadora"
         And Hago click en "BarraBuscadora"
-        When Lleno el campo "BarraBuscadora" con "Tienda Movil"
-        And Hago click en "Buscar"
-        And Hago click en "ProductoUnoMismoProvedor"
+        And Lleno el campo "BarraBuscadora" con "Studio design"
+        And Hago click en "Lupita"
+        And Hago click en "ProductoDosMismoProvedor"
+        And Hago click en "AñadirDesdeFicha"
         Then Verifico que el campo "CartelProvedoresDiferentes" contenga el texto "Ups! Lo sentimos"
 
     Scenario:TC_SHOPPING_CART_065	Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+        When Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoUnoMismoProvedor"
-        When Lleno el campo "BarraBuscadora" con "VISUAR"
-        And Hago click en "Buscar"
+        And Hago click en "AñadirDesdeFicha"
+        And Hago click en "BarraBuscadora"
+        And Hago click en "BarraBuscadora"
+        And Lleno el campo "BarraBuscadora" con "SONY"
+        And Hago click en "Lupita"
         And Hago click en "ProductoDosMismoProvedor"
-        And Hago click en "MiCuenta"
-        And Hago click en "Salir"
-        And Hago click en "Acceder"
-        And Lleno el campo "Usuario" con "lqaautomation@gmail.com"
-        And Lleno el campo "Contraseña" con "Prueba01."
+        And Hago click en "AñadirDesdeFicha"
+        And Hago click en "SpanCuenta"
+        And Hago click en "CerrarSesion"
         And Hago click en "IniciarSesion"
+        And Lleno el campo "Usuario" con "apersqatesting@gmail.com"
+        And Lleno el campo "Contraseña" con "Aper00!!"
+        And Hago click en "LoginAcceder"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"

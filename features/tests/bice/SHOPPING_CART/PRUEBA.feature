@@ -11,28 +11,24 @@ Feature: SHOPPING_CART
         And Hago click en "LoginAcceder"
 
 
-
-Scenario:TC_SHOPPING_CART_039	Validar que se pueda sumar (+) 1 ud. al artículo añadido al carrito desde la ficha del producto
+    Scenario:TC_SHOPPING_CART_034	Validar que se actualice el importe subtotal al restar (-) 1 ud. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "FichaProducto"
-        And Hago click en "AgregarUnArticuloDesdeFicha"
-        And Hago click en "AñadirDesdeFicha"
-        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Hago click en "SumarUnArticulo"
+        And Obtengo el texto del elemento "subtotal" y lo guardo en la variable "Submonto"
+        And Hago click en "RestarUnArticulo"
+        Then Verifico que el valor de "Submonto" sea la mitad
 
-    Scenario:TC_SHOPPING_CART_040	Validar que el ícono de carrito (núm) se actualice al sumar 1 ud. al artículo desde la ficha del producto
+
+    Scenario:TC_SHOPPING_CART_035	Validar que se actualice el importe total al restar (-) 1 ud. al artículo en la página de carrito
         When Paso el mouse por encima de "Categorias"
         And Hago click en "Tecnologia"
-        And Hago click en "FichaProducto"
-        And Hago click en "AgregarUnArticuloDesdeFicha"
-        And Hago click en "AñadirDesdeFicha"
-        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "2"
+        And Hago click en "AgregarAlCarrito"
+        And Hago click en "Carrito"
+        And Hago click en "SumarUnArticulo"
+        And Obtengo el texto del elemento "total" y lo guardo en la variable "Total"
+        And Hago click en "RestarUnArticulo"
+        Then Verifico que el valor de "Total" sea la mitad
 
-    Scenario:TC_SHOPPING_CART_041	Validar que se puedan sumar (+) 2 uds. al artículo añadido al carrito desde la ficha del producto
-        When Paso el mouse por encima de "Categorias"
-        And Hago click en "Tecnologia"
-        And Hago click en "FichaProducto"
-        And Hago click en "AgregarUnArticuloDesdeFicha"
-        And Hago click en "AgregarUnArticuloDesdeFicha"
-        And Hago click en "AñadirDesdeFicha"
-        Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "3"
