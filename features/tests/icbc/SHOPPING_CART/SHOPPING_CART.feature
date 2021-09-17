@@ -12,6 +12,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -25,6 +26,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Cantidad" con "2"
                 And Hago click en "Comprar"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 Then Verifico que el campo "Carrito" contenga el texto "2"
                 And Hago click en "Carrito"
                 And Hago click en "BtnComprarCarrito"
@@ -42,6 +44,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "UrlCarrito" yendo a buscar la config
                 Then Verifico que el campo "MensajeAlertaBusqueda" contenga el texto "Su carrito está vacío."
@@ -53,6 +56,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -67,6 +71,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -80,6 +85,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -94,6 +100,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el texto del elemento "PrecioProducto" y lo guardo en la variable "PrecioProductoCompra"
@@ -109,6 +116,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el atributo "Titulo" del elemento "ImagenProducto" y lo guardo en la variable "ProductoImagen"
@@ -124,6 +132,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -141,6 +150,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -156,6 +166,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -171,6 +182,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -186,6 +198,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -201,6 +214,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -218,6 +232,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el atributo "Titulo" del elemento "ImagenProducto" y lo guardo en la variable "ProductoImagen"
@@ -233,6 +248,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el texto del elemento "NombreProducto" y lo guardo en la variable "NombreProducto"
@@ -250,6 +266,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -267,6 +284,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -284,6 +302,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -299,6 +318,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -316,6 +336,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -333,6 +354,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -352,6 +374,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -369,6 +392,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -388,6 +412,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -407,6 +432,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Lleno el campo "Cantidad" con "2"
@@ -426,6 +452,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Lleno el campo "Cantidad" con "2"
@@ -443,6 +470,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Lleno el campo "Cantidad" con "2"
@@ -461,6 +489,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Lleno el campo "Cantidad" con "2"
@@ -479,6 +508,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -495,6 +525,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -510,6 +541,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -530,6 +562,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -548,6 +581,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -569,6 +603,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -588,6 +623,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Lleno el campo "Cantidad" con "2"
@@ -607,6 +643,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 Then Verifico que el campo "Breadcumb" contenga el texto "TituloProductoAutomation" yendo a buscar la config
@@ -621,6 +658,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -636,6 +674,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -651,6 +690,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -669,6 +709,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -685,6 +726,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -703,6 +745,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el texto del elemento "PrecioProducto" y lo guardo en la variable "PrecioProductoCompra1"
@@ -723,6 +766,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -742,6 +786,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -763,6 +808,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -785,6 +831,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -805,6 +852,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -825,6 +873,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el atributo "Titulo" del elemento "ImagenProducto" y lo guardo en la variable "ProductoImagen"
@@ -845,6 +894,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el texto del elemento "NombreProducto" y lo guardo en la variable "NombreProducto"
@@ -869,6 +919,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 When Obtengo el texto del elemento "PrecioProducto" y lo guardo en la variable "PrecioProductoCompra1"
@@ -888,6 +939,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"
@@ -903,6 +955,7 @@ Feature: SHOPPING_CART
                 When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
                 And Hago click en "IniciarSesion"
                 And Me muevo a la pagina principal
+                Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
                 When Validar que el "Carrito" no tenga productos agregados
                 When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
                 And Hago click en "Comprar"

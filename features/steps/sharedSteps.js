@@ -46,6 +46,7 @@ Given(/^Leo los datos de "(.*)"$/, async function (json) {
 
 When(/^Hago click en "(.*)"$/, async function (elementKey) {
     await clickElement(this.page, elementKey);
+    await this.driver.sleep(2000);
 });
 
 When('Hago doble click en {string}', async function (elementKey) {
@@ -113,6 +114,11 @@ When(/^Hago click que contenga "(.*)" "(.*)" yendo a buscar la config$/, async f
         log.error(`no se pudo hacer click en el elemento ${elementKey}`);
         await assert.fail('error al clickear sobre el elemento, por favor, revisar locators');
     }
+});
+
+When('Refresco la pagina', async function () {
+    await this.driver.navigate().refresh();
+    await this.driver.sleep(2000);
 })
 
 When(/^Paso el mouse por encima de "(.*)"$/, async function (elementKey) {
@@ -218,9 +224,11 @@ When(/^Presiona tecla ENTER en elemento "(.*)"$/, async function (elementKey) {
     if (element == 'ELEMENT_NOT_FOUND') {
         await assert.fail('no se pudo localizar el elemento')
     } else {
-        await llenarCampo(this.page, elementKey, Key.ENTER)
+        //await llenarCampo(this.page, elementKey, Key.ENTER)
+        await element.sendKeys(Key.ENTER);
         log.info('se presiona ENTER en el elemento: ' + elementKey)
     }
+    await this.driver.sleep(1500);
 
 });
 
@@ -235,7 +243,7 @@ Then(/^Verifico que el elemento "(.*)" contiene el texto alojado en la variable 
 
 Then(/^Verifico que el elemento "(.*)" no exista$/, async function (elementKey) {
     var respuesta = await buscarElemento(this.page, elementKey);
-    await assert(respuesta == 'ELEMENT_NOT_FOUND', `respuesta = ${respuesta}`);
+    await assert(respuesta == 'ELEMENT_NOT_FOUND', `Se logro encontrar el elemento ${elementKey}`);
 
 });
 
@@ -246,6 +254,7 @@ Then(/^Verifico que el elemento "(.*)" exista$/, async function (elementKey) {
 });
 
 Then(/^Verifico que el campo "(.*)" contenga el texto "(.*)"$/, async function (elementKey, texto) {
+    await this.driver.sleep(5000);
     await assertText(this.page, elementKey, texto);
 });
 
@@ -321,3 +330,20 @@ Then('Verifico que se haya redirigido a la pagina que contenga {string}', async 
     await assert(url.includes(web), `error`);
 
 });
+
+Then('Verifico que el valor del campo {string} sea igual a {string}', async function (elementKey, validation) {
+
+    let element = await buscarElemento(this.page, elementKey);
+    let value = await element.getAttribute('value');
+    await assert(value == validation, `Se busco que el valor de la propiedad fuera igual a ${validation}, pero se encontro ${value}`)
+});
+
+When('Wait {int}', async function (num) {
+    var pause = num * 1000;
+    await this.driver.sleep(pause);
+});
+Given('Retroceder en la página', async function () {
+    await this.driver.navigate().back();
+    console.log('Se presiona botón de retroceder en el navegador.');
+})
+

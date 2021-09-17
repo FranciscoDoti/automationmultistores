@@ -10,6 +10,7 @@ Feature: CHECKOUT_VALIDACIONES
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
         When Validar que el "Carrito" no tenga productos agregados
         When Abro la siguiente Url "ProductoAutomation" yendo a buscar la config
         And Hago click en "SoloPesos"

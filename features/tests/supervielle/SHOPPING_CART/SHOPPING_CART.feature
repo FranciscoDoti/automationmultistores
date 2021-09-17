@@ -226,7 +226,10 @@ Feature: SHOPPING_CART
         And Hago click en "AñadirUnidadItem1"
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "3"
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> fc501310dadc7d7cee368f526a1ac07bc548c55b
     Scenario: TC_SHOPPING_CART_030 Validar que se actualice el importe subtotal al sumar (+) 2 uds. al artículo en la página de carrito
         When Hago click en "IniciaSesion"
         And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config
@@ -496,6 +499,19 @@ Feature: SHOPPING_CART
         Then Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
 
     
+    Scenario: TC_SHOPPING_CART_062 Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
+        When Hago click en "IniciaSesion"
+        And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config
+        And Lleno el campo "Contraseña" con "passwordUsuario1" yendo a buscar la config
+        And Hago click en "IniciarSesion"
+        When Abro la siguiente Url "linkProductoAutomatizacion1" yendo a buscar la config
+        When Hago click en "AgregarAlCarrito"
+        And Verifico que el campo "CantidadProductosEnCarrito" contenga el texto "1"
+        When Abro la siguiente Url "linkProductoAutomatizacion2" yendo a buscar la config
+        And Hago click en "AgregarAlCarrito"
+        Then Verifico que exista el elemento "DesplegableCarritoDisplay"
+
+
     Scenario: TC_SHOPPING_CART_065 Validar que los artículos añadidos permanezcan en el carrito al cerrar sesión y volver a iniciarla
         When Hago click en "IniciaSesion"
         And Lleno el campo "Usuario" con "usuario1" yendo a buscar la config

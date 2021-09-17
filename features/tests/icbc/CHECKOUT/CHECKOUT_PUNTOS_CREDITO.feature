@@ -10,6 +10,7 @@ Feature: CHECKOUT_PUNTOS_CREDITO
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario" yendo a buscar la config
         When Validar que el "Carrito" no tenga productos agregados
     
     Scenario: TC_CHECKOUT_066_Realizar una compra abonando con puntos y tarjeta de crédito en x cuotas sin interés: Abonando con 50% Puntos y Tarjeta de crédito en x cuotas sin interés.

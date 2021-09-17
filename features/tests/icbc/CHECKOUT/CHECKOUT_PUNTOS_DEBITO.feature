@@ -10,6 +10,7 @@ Feature: CHECKOUT_PUNTOS_DEBITO
         When Lleno el campo "Contraseña" con "passwordValido" yendo a buscar la config
         And Hago click en "IniciarSesion"
         And Me muevo a la pagina principal
+        Then Verifico que el campo "UsuarioLogueado" contenga el texto "NombreUsuario2" yendo a buscar la config
         When Validar que el "Carrito" no tenga productos agregados
 
     Scenario: TC_CHECKOUT_065_Realizar una compra abonando con puntos y tarjeta de débito: Abonando con 50% Puntos y Tarjeta de débito.

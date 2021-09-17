@@ -6,7 +6,9 @@
         "icbc": "https://icbcmall-dev.aper.cloud/",
         "tiendaclic": "https://tiendaclic-dev.aper.cloud/",
         "bice": "https://bice-dev.aper.cloud/",
-        "invex": "https://invex-dev.aper.cloud/"
+        "invex": "https://invex-dev.aper.cloud/",
+        "scotia": "https://scotiabank-dev.aper.cloud/",
+        "valyrio":"https://valyrio-dev.aper.cloud/"
     },
     "UAT": {
         "itau": "https://itaupy-uat.aper.cloud",
@@ -14,7 +16,8 @@
         "galicia": "https://galicia:77bY!EEFdseqRaxwVpTqB2YXbFuWd6f@galicia-uat.aper.cloud/login.html",
         "icbc": "https://icbcmall-uat.aper.cloud/",
         "tiendaclic": "https://tiendaclic-uat.aper.cloud/",
-        "bice": "https://bice-uat.aper.cloud/"
+        "bice": "https://bice-uat.aper.cloud/",
+        "scotia": "https://scotiabank-uat.aper.cloud/"
     },
     "produccion": {
         
