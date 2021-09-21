@@ -6,6 +6,9 @@
   "scripts": {
     "test": "cucumber-js -f json:reports/cucumber_report.json",
     "biceLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json",
+    "biceSEARCH": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/SEARCH/SEARCH.feature -f json:reports/cucumber_report.json",
+    "biceSHOPPING_CART": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/SHOPPING_CART/SHOPPING_CART.feature -f json:reports/cucumber_report.json",
+    "bicePRUEBA": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/SHOPPING_CART/PRUEBA.feature -f json:reports/cucumber_report.json",
     "biceCHECKOUT_CREDITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/CHECKOUT/CHECKOUT_CREDITO.feature -f json:reports/cucumber_report.json",
     "biceCHECKOUT_DEBITO": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/CHECKOUT/CHECKOUT_DEBITO.feature -f json:reports/cucumber_report.json",
     "biceCHECKOUT_DOLARES": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/bice/CHECKOUT/CHECKOUT_DOLARES.feature -f json:reports/cucumber_report.json",
