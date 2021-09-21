@@ -233,16 +233,6 @@ async function assertText(json, element, texto) {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 module.exports = {
     clickElement,
     llenarCampo,
