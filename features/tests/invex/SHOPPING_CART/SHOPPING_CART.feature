@@ -192,7 +192,6 @@ Feature: SHOPPING CART INVEX
     #   Scenario: TC_SHOPPING_CART_052	Validar que el ícono de carrito (núm) se actualice al añadir dos artículos aleatorios del mismo proveedor
     #    Scenario: TC_SHOPPING_CART_058	Validar que el ícono de carrito (núm) se actualice al eliminar un artículo del mismo proveedor
 
-    @PRUEBA
     Scenario: TC_SHOPPING_CART_062	Validar que se abra un modal de alerta al intentar agregar dos artículos de diferentes proveedores al carrito
         * Navego al producto de automation invex
         * Hago click en "agregar al carrito"

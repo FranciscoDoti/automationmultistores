@@ -1,0 +1,54 @@
+{
+    "IniciaSesion": {
+        "identificador": "xpath",
+        "valor": "//span[text()='Iniciar sesión']"
+    },
+    "Email": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'email')]"
+    },
+    "Clave": {
+        "identificador": "xpath",
+        "valor": "//input[contains(@id,'password')]"
+    },
+    "Inicio sesion": {
+        "identificador": "xpath",
+        "valor": "//button[@id='submit-login']"
+    },
+    "Error inicio de sesion": {
+        "identificador": "xpath",
+        "valor": "//ul[@class='ps-alert-error alert alert-danger']"
+    },
+    "Olvide clave": {
+        "identificador": "xpath",
+        "valor": "//a[contains(text(),'¿Olvidó su contraseña?')]"
+    },
+    "Registrarme": {
+        "identificador": "xpath",
+        "valor": "//div[@class='no-account']"
+    },
+    "olvidoClaveValidacion": {
+        "identificador": "xpath",
+        "valor": "//h1[contains(.,'¿Olvidó su contraseña?')]"
+    },
+    "Datos personales": {
+        "identificador": "xpath",
+        "valor": "//h1[contains(.,'Crear una cuenta')]"
+    },
+    "Mi cuenta": {
+        "identificador": "xpath",
+        "valor": "//h1[contains(.,'Su cuenta')]"
+    },
+    "Campo requerido": {
+        "identificador": "xpath",
+        "valor": "//li[text()='Campo requerido']"
+    },
+    "Nueva cuenta correo": {
+        "identificador": "xpath",
+        "valor": "//a[contains(.,'¿No tiene una cuenta?')]"
+    },
+    "Crear cuenta": {
+        "identificador": "xpath",
+        "valor": "//h1[contains(.,'Crear una cuenta')]"
+    }
+}

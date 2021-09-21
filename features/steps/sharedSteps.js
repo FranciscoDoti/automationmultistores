@@ -299,6 +299,9 @@ Then('Valido que el campo {string} sea de propiedad {string}', async function (e
         case "password":
             await assert(atributo == 'password', `Se buscó que el elemento fuera de tipo password, pero se encontró ${atributo}`);
             break;
+        case "email":
+            await assert(atributo == 'email', `Se buscó que el elemento fuera de tipo email, pero se encontró ${atributo}`)
+            break;
         default:
             log.error(`no se encontro ninguna opcion de validacion para la propiedad ${type}, por favor revisar el parametro enviado`);
     }
