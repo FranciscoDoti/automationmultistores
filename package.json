@@ -60,6 +60,7 @@
     "scotiaLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/scotia/LOGIN/LOGIN.feature -f json:reports/cucumber_report.json --retry 1",
     "scotiaCHECKOUT_CHEQUE": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/scotia/CHECKOUT/CHECKOUT_CHEQUE.feature -f json:reports/cucumber_report.json --retry 1",
     "scotiaCHECKOUT_TRANSFERENCIA": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"UAT\\\"} features/tests/scotia/CHECKOUT/CHECKOUT_TRANSFERENCIA.feature -f json:reports/cucumber_report.json --retry 1",
+    "valyrioLOGIN": "cucumber-js --world-parameters {\\\"ambiente\\\":\\\"dev\\\"} features/tests/valyrio/login.feature -f json:reports/cucumber_report.json --retry 1",
     "generarReporte": "node reportGenerator"
   },
   "author": "",
