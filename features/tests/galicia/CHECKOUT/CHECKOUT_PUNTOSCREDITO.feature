@@ -87,7 +87,7 @@ Feature: CHECKOUT_PUNTOSCREDITO
 #   Given Hago click en "SoloCredito"
 #  And Hago click en "Canjear"
 # And Hago click en "Continuar"
-#Then Verifico que la suma del producto mas el costo de envio es igual al valor total a pagar
+Then Verifico que la suma del producto mas el costo de envio es igual al valor total a pagar
 
 #Scenario: Verificar que al comprar un producto cn 25% puntos en el valor total a pagar figure solo el costo de envio y el precio restante
 #   Given Hago click en "25Puntos"

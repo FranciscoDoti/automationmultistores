@@ -1,0 +1,254 @@
+	
+    <test_case id="ACH_000" exec="N" tag="@TEM1-2049" var_story_nbr="TEM1-1773" var_profile_id="94100012208800000004" var_profile_key="QSWkuvmZYudntcoiGwpdxQJxpjscOoNi" var_bank_nbr="3941" var_card_type="Visa" description="ACH Funding File Validation Bank 3941">
+		<Service name="Authorization">
+			<request_fields>
+				<field name="profile_id" value="$var_profile_id"></field>
+				<field name="profile_key" value="$var_profile_key"></field>
+				<field name="transaction_type" value="D"></field>
+				<field name="card_number" value="fun(var_card_type,card_number)"></field>
+				<field name="transaction_amount" value="fun(var_card_type,transaction_amount)"></field>
+				<field name="card_exp_date" value="fun(var_card_type,exp_date)"></field>
+				<field name="currency_code" value="fun(var_card_type,currency_code)"></field>
+				<field name="cvv2" value="fun(var_card_type,cvv2)"></field>
+			</request_fields>
+			<expected_results>
+				<field name="avs_result" validator="EqualValidator">0</field>
+				<field name="cvv2_result" validator="NotNullValidator"></field>
+				<field name="auth_response_text" validator="ContainsValidator">Approval</field>
+				<field name="error_code" validator="EqualValidator">000</field>
+				<field name="auth_code" validator="NotNullValidator"></field>
+				<field name="transaction_id" validator="NotNullValidator"></field>
+			</expected_results>
+		</Service>
+		<db_validate table="TC33_TRIDENT" name="auth_transaction_validation">
+			<condition>
+				<field name="trident_transaction_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id"></field>
+				<field name="transaction_date">${DATE(dd-MMM-yyyy,0)}</field>
+			</condition>
+			<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" validator="EqualValidator" value="trim(profile_id,12)"></field>
+			<field name="authorized_amount" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="transaction_amount" validator="EqualValidator"></field>
+			<field name="expiration_date_incoming" validator="EqualValidator">fun(var_card_type,rsp_exp_date)</field>
+			<field name="authorization_code" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="auth_code" validator="EqualValidator"></field>
+			<field name="avs_result" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="avs_result" validator="EqualValidator"></field>
+			<field name="currency_code" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="currency_code" validator="EqualValidator"></field>
+			<field name="auth_response_text" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="auth_response_text" validator="EqualValidator"></field>
+			<field name="trident_transaction_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id" validator="EqualValidator"></field>
+		</db_validate>
+		<Service name="Batch_Closing">
+			<request_fields>
+				<field name="profile_id" value="$var_profile_id"></field>
+				<field name="profile_key" value="$var_profile_key"></field>
+				<field name="transaction_type" value="Z"></field>
+				<field name="card_number" value="fun(var_card_type,card_number)"></field>
+				<field name="transaction_amount" value="fun(var_card_type,transaction_amount)"></field>
+				<field name="card_exp_date" value="fun(var_card_type,exp_date)"></field>
+				<field name="currency_code" value="fun(var_card_type,currency_code)"></field>
+				<field name="cvv2" value="fun(var_card_type,cvv2)"></field>
+			</request_fields>
+			<expected_results>
+				<field name="auth_response_text" validator="NotNullValidator"></field>
+				<field name="error_code" validator="EqualValidator">000</field>
+				<field name="transaction_id" validator="NotNullValidator"></field>
+			</expected_results>
+		</Service>
+		<db_validate table="trident_capture_api" name="getting_batchNbr">
+			<condition>
+				<field name="trident_tran_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id"></field>
+			</condition>
+			<field name="batch_number" validator="NotNullValidator"></field>
+		</db_validate>
+		<db_validate table="MBS_BATCHES" name="batch_closing_validation">
+			<condition>
+				<field name="terminal_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id"></field>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_number" ref_name="$id" ref_tag="dbValidate,getting_batchNbr" ref_type="resp" field_name="batch_number"></field>
+				<field name="merchant_batch_date">${DATE(dd-MMM-yyyy,0)}</field>
+			</condition>
+			<field name="sales_count" validator="NotNullValidator"></field>
+			<field name="bank_number" validator="EqualValidator">$var_bank_nbr</field>
+			<field name="batch_id" validator="NotNullValidator"></field>
+			<field name="sales_amount" validator="NotNullValidator"></field>
+			<field name="credits_amount" validator="NotNullValidator"></field>
+			<field name="total_count" validator="NotNullValidator"></field>
+			<field name="batch_number" validator="NotNullValidator"></field>
+			<field name="net_amount" validator="NotNullValidator"></field>
+		</db_validate>
+		<db_update table="MIF" name="update_suspended_days">
+			<condition>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+			</condition>
+			<field name="mes_amex_suspended_days">0</field>
+			<field name="suspended_days">0</field>
+		</db_update>
+		<db_update table="MBS_BATCHES" name="updating load file id">
+			<condition>
+				<field name="terminal_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id"></field>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_number" ref_name="$id" ref_tag="dbValidate,getting_batchNbr" ref_type="resp" field_name="batch_number"></field>
+				<field name="merchant_batch_date">${DATE(dd-MMM-yyyy,0)}</field>
+			</condition>
+			<field name="load_filename">null</field>
+			<field name="load_file_id">0</field>
+		</db_update>
+		<TEMEvent name="settlement_record_extraction">
+			<field name="command">com.mes.startup.BatchExtractionEvent execute $var_bank_nbr 0 N FN</field>
+		</TEMEvent>
+		<db_update table="daily_detail_file_dt" name="updating ACH Flag">
+			<condition>
+				<field name="transaction_date">${DATE(dd-MMM-yyyy,0)}</field>
+				<field name="merchant_account_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="trident_tran_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id"></field>
+				<field name="bank_number">$var_bank_nbr</field>
+			</condition>
+			<field name="ach_flag">Y</field>
+		</db_update>
+		<TEMEvent name="ACH_record_extraction type 1">
+			<field name="command">com.mes.startup.DailyDetailFileProcessEvent execute 1 PROD FN</field>
+		</TEMEvent>
+		<TEMEvent name="ACH_record_extraction type 2">
+			<field name="command">com.mes.startup.DailyDetailFileProcessEvent execute 2 PROD FN</field>
+		</TEMEvent>
+		<db_validate table="daily_detail_file_dt" name="validating_file_load_in_daily_detail">
+			<condition>
+				<field name="transaction_date">${DATE(dd-MMM-yyyy,0)}</field>
+				<field name="merchant_account_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="trident_tran_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id"></field>
+				<field name="bank_number">$var_bank_nbr</field>
+			</condition>
+			<field name="transaction_amount" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="transaction_amount" validator="EqualValidator"></field>
+			<field name="batch_number" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id" validator="EqualValidator"></field>
+			<!--<field name="ic_expense" validator="NotNullValidator"></field>-->
+			<field name="load_file_id" validator="NotNullValidator"></field>
+			<field name="load_filename" validator="NotNullValidator"></field>
+		</db_validate>
+		<db_validate table="#{var_card_type}_settlement" name="validating_#{var_card_type}_settlement">
+			<condition>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+				<field name="trident_tran_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id"></field>
+			</condition>
+			<field name="transaction_amount" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="transaction_amount" validator="EqualValidator"></field>
+			<field name="transaction_date" validator="EqualValidator">${DATE(dd-MMM-yy,0)}</field>
+			<field name="trident_tran_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id" validator="EqualValidator"></field>
+			<field name="bank_number" validator="EqualValidator">$var_bank_nbr</field>
+			<field name="funding_amount" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="transaction_amount" validator="EqualValidator"></field>
+			<field name="rec_id" validator="NotNullValidator"></field>
+			<field name="batch_number" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_number" validator="EqualValidator"></field>
+		</db_validate>
+		<db_update table="#{var_card_type}_settlement" name="updating_records_for_#{var_card_type}_settlement_file_generation">
+			<condition>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+			</condition>
+			<field name="test_flag">N</field>
+			<field name="output_filename">null</field>
+			<field name="output_file_id">0</field>
+		</db_update>
+		<TEMEvent name="settlement_file_creation">
+			<field name="command">fun(var_card_type,settlement_$var_bank_nbr)</field>
+		</TEMEvent>
+		<db_validate table="#{var_card_type}_settlement" name="validating_#{var_card_type}_settlement_after_file_generation">
+			<condition>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+			</condition>
+			<field name="output_filename" validator="NotNullValidator"></field>
+			<field name="test_flag" validator="EqualValidator">N</field>
+			<field name="output_file_id" validator="NotNullValidator"></field>
+			<field name="reference_number" validator="NotNullValidator"></field>
+		</db_validate>
+		<file_validate name="validating_#{var_card_type}_settlement_file">
+			<dependentFile>
+				<field name="file_name" ref_name="$id" ref_tag="dbValidate,validating_#{var_card_type}_settlement_after_file_generation" ref_type="resp" field_name="output_filename"/>
+			</dependentFile>
+			<dependentTable table="#{var_card_type}_settlement">
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+				<field name="trident_tran_id" ref_name="$id" ref_tag="Service,Authorization" ref_type="resp" field_name="transaction_id"></field>
+			</dependentTable>
+			<dependentFileDefTable table="flat_file_def">
+				<field name="def_type">fun(var_card_type,file_def_types)</field>
+			</dependentFileDefTable>
+		</file_validate> <!--- ACA FALLA -->
+		<db_validate table="ach_trident_statement" name="validating_ACH_file_in_trident_statement">
+			<condition>
+				<field name="load_filename" ref_name="$id" ref_tag="dbValidate,validating_file_load_in_daily_detail" ref_type="resp" field_name="load_filename"></field>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="load_file_id" ref_name="$id" ref_tag="dbValidate,validating_file_load_in_daily_detail" ref_type="resp" field_name="load_file_id"></field>
+				<field name="rec_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+			</condition>
+			<field name="entry_description" validator="NotNullValidator"></field>
+			<field name="rec_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id" validator="EqualValidator"></field>
+			<field name="bank_number" validator="EqualValidator">$var_bank_nbr</field>
+		</db_validate>
+		<db_update table="ach_trident_statement" name="updating post_date">
+			<condition>
+				<field name="load_filename" ref_name="$id" ref_tag="dbValidate,validating_file_load_in_daily_detail" ref_type="resp" field_name="load_filename"></field>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="load_file_id" ref_name="$id" ref_tag="dbValidate,validating_file_load_in_daily_detail" ref_type="resp" field_name="load_file_id"></field>
+			</condition>
+			<field name="entry_description">MERCH DEP</field>
+			<field name="post_date" >${DATE(dd-MMM-yyyy,0)}</field>
+		</db_update>
+	</test_case>
+    <test_case id="ACH_001" reuse="N" exec="N" description="ACH Funding File Validation Bank 3941 Event id 234 MERCH DEP" var_origin_node="394100000" var_event_type="2" var_entry_desc="MERCH DEP" var_event_parm="PROD,Y,Y,N,Y" var_cmd_entry_desc="MERCH\ DEP" var_file_def_type="150,151,152,153,154,155">
+		<ParameterizedTestRun id="ACH_000" var_profile_id="94100012208800000004" var_profile_key="QSWkuvmZYudntcoiGwpdxQJxpjscOoNi" var_bank_nbr="3941" var_card_type="Visa"/>
+		<TEMEvent name="ACH_Funding_Extraction">
+			<field name="command">com.mes.startup.AchEvent execute 6,$var_bank_nbr,MERCH\ DEP,PROD,Y,N FN</field>
+		</TEMEvent>
+		<db_update table="ach_trident_detail" name="updating_entry_description">
+		<condition>
+			<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+			<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+		</condition>
+		<field name="post_date">${DATE(dd-MMM-yyyy,0)}</field>
+		<field name="entry_description">$var_entry_desc</field>
+			<field name="origin_node">$var_origin_node</field>
+			<field name="load_filename">null</field>
+			<field name="load_file_id">0</field>
+		</db_update>
+		<db_validate table="ach_trident_detail" name="validating_ACH_file_in_trident_detail">
+			<condition>
+				<field name="post_date">${DATE(dd-MMM-yyyy,0)}</field>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+			</condition>
+			<field name="entry_description" validator="EqualValidator">$var_entry_desc</field>
+			<field name="ach_amount" validator="NotNullValidator"></field>
+			<field name="load_file_id" validator="EqualValidator">0</field>
+			<field name="batch_number" ref_name="$id" ref_tag="dbValidate,getting_batchNbr" ref_type="resp" field_name="batch_number" validator="EqualValidator"></field>
+		</db_validate>
+		<db_update table="mif" name="updating_ach_flag">
+			<condition>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+			</condition>
+			<field name="ach_with_batch_id">Y</field>
+		</db_update>
+		<TEMEvent name="ACH_Funding">
+			<field name="command">com.mes.startup.AchEvent execute $var_event_type,$var_origin_node,$var_cmd_entry_desc,$var_event_parm FY</field>
+		</TEMEvent>
+		<db_validate table="ach_trident_detail" name="validating_ACH_funding_file_in_trident_detail">
+			<condition>
+				<field name="post_date">${DATE(dd-MMM-yyyy,0)}</field>
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+			</condition>
+			<field name="load_filename" validator="NotNullValidator"></field>
+		</db_validate>
+		<file_validate name="validating_ACH_funding_file">
+			<dependentFile>
+				<field name="file_name" ref_name="$id" ref_tag="dbValidate,validating_ACH_funding_file_in_trident_detail" ref_type="resp" field_name="load_filename"/>
+			</dependentFile>
+			<dependentTable table="ach_trident_detail">
+				<field name="merchant_number" ref_name="$id" ref_tag="Service,Authorization" ref_type="req" field_name="profile_id" value="trim(profile_id,12)"></field>
+				<field name="batch_id" ref_name="$id" ref_tag="dbValidate,batch_closing_validation" ref_type="resp" field_name="batch_id"></field>
+			</dependentTable>
+			<dependentFileDefTable table="flat_file_def">
+				<field name="def_type">$var_file_def_type</field>
+			</dependentFileDefTable>
+		</file_validate>
+	</test_case>
+    
+    <test_case id="ACH_005" reuse="N" exec="N" tag="@TEM1-2057" description="ACH Funding File Validation Bank 3941 Event id 234 AMEX DEP" var_bank_nbr="3941" var_card_type="Amex" var_profile_id="fun(var_bank_nbr,profile_id)" var_profile_key="fun(var_bank_nbr,profile_key)">
+		<ParameterizedTestRun id="ACH_001" var_origin_node="394100000" var_entry_desc="AMEX DEP" var_cmd_entry_desc="AMEX\ DEP" var_event_type="2" var_event_parm="PROD,Y,N" var_file_def_type="150,151,152,153,154,155"/>
+	</test_case>

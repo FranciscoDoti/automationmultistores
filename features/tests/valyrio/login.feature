@@ -49,6 +49,6 @@ Feature: Login
     Scenario: validar propiedades campo clave
         When Valido que el campo "Clave" sea de propiedad "password"
 
-    @PRUEBA
+    
     Scenario: validar propiedades campo email
         When Valido que el campo "Email" sea de propiedad "email"

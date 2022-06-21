@@ -371,5 +371,13 @@
         "identificador": "xpath",
         "valor": "(//div[@class='ac_results']//li)[1][contains(@class,'ac_over')]",
         "nota": "Es el mismo elemento anterior, pero contiene la clase que se activa al hacerle hover"
-    }
+    },
+      "NombreElement": { 
+        "identificador": "xpath",  
+        "valor": " INSERTAR_LOCATOR " 
+      },
+        "cartelito": { 
+          "identificador": "xpath",  
+          "valor": " INSERTAR_LOCATOR " 
+        }
 }

@@ -12,7 +12,6 @@ Then('Verifico que la suma del producto mas el costo de envio es igual al valor 
 
     var ElementCostoEnvio = await buscarElemento(this.page, 'CostoEnvio');
     var ElementTotalAPagar = await buscarElemento(this.page, 'TotalAPagar');
-
     var textoPrecioProducto = await ElementPrecioProducto.getText();
     var textoCostoEnvio = await ElementCostoEnvio.getText();
     var textoTotalAPagar = await ElementTotalAPagar.getText();

@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch ListExample1",
+            "request": "launch",
+            "mainClass": "ListExample1",
+            "projectName": "automationmultistores_377cf579"
+        },
+        {
+            "type": "java",
+            "name": "Launch probandoCosas",
+            "request": "launch",
+            "mainClass": "probandoCosas",
+            "projectName": "automationmultistores_377cf579"
+        },
+        {
             "type": "node",
             "request": "launch",
             "console": "integratedTerminal",

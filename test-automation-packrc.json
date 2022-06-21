@@ -17,9 +17,9 @@
       "upload_results": true,
       "suite_name": "supervielleComprasCredito",
       "user": {
-        "host": "https://apertests.testrail.io/",
+        "host": "https://franmistestempresa.testrail.io/",
         "user": "franciscodotitexeira@gmail.com",
-        "password": "a7MM5EBZRR921OO3aMTH-4iLUsxi6jmuhFer/bIJL"
+        "password": "0gQ6bRLAVqF6HnPEijtH-Wt2uAaJ3rihdGo51KSXA"
       }
     },
     "grids": {
